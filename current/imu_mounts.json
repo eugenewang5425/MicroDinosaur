@@ -1,0 +1,87 @@
+{
+  "model_sha256": "0a4f86aefea24e0d5260c837849a16164ec83cc2d364f58e6c03947de95ce286",
+  "modeled_imu_count": 2,
+  "purchased_imu_count": 2,
+  "physical_installation_verified": false,
+  "firmware_or_synchronization_implemented": false,
+  "head": {
+    "model": "JY61P enhanced nominal envelope based on standard drawing",
+    "parent": "BODY_jaw_soft",
+    "carrier": "Rex_Camera_Pi_Carrier",
+    "frame": "FRAME_JY61P_HEAD_SENSOR",
+    "reference_board_center_mm": [
+      35,
+      0,
+      260.8
+    ],
+    "T_parent_sensor_nominal_m": [
+      [
+        1.9470722634196136e-07,
+        2.3314633779136784e-07,
+        1.000000238418579,
+        0.031018799170851707
+      ],
+      [
+        -3.054824324272634e-16,
+        1.0000001192092896,
+        -2.3314636621307727e-07,
+        -1.785483405569721e-08
+      ],
+      [
+        -1.000000238418579,
+        4.6185271048142934e-14,
+        1.9470724055281607e-07,
+        -0.04400099813938141
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "T_world_sensor_reference_m": [
+      [
+        1.0,
+        -5.75224419208098e-08,
+        -3.178649876645068e-08,
+        0.034999996423721313
+      ],
+      [
+        5.75224419208098e-08,
+        1.0,
+        -1.1200023588143863e-14,
+        1.7763568394002505e-15
+      ],
+      [
+        3.178651297730539e-08,
+        -4.263255736934243e-14,
+        1.0,
+        0.26080000400543213
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "frame_is_actual_sensor_die": false,
+    "axis_convention": "Provisional PCB X=head forward Y=head left Z=up at reference. Real package axis mapping/offset must be calibrated.",
+    "role": "Head rotation/camera rigid-frame reference; not body balance IMU",
+    "connection_plan": "Local Pi I2C proposed; exact pins/voltage/address/latency NOT approved"
+  },
+  "body": {
+    "model": "JY61P nominal envelope unchanged",
+    "reference_board_center_mm": [
+      -23.2,
+      0,
+      145.5
+    ],
+    "pose_rotated_z_from_v04_deg": 180,
+    "role": "Body attitude feedback to F411",
+    "calibrated_T_parent_sensor": null,
+    "connection_plan": "F411 I2C proposed; not implemented or wiring approved"
+  },
+  "warning": "CAD extrinsics are not time synchronization or calibrated hardware extrinsics. Do not default-connect two same-address I2C modules on one bus."
+}

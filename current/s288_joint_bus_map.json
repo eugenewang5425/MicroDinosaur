@@ -1,0 +1,447 @@
+[
+  {
+    "joint": "CTRL_left_hip_yaw",
+    "target_actuator": "Unitree YS-342026-S288",
+    "bus": "A",
+    "id": 0,
+    "baseline_axis_point_mm": [
+      -39.000000804662704,
+      17.500000074505806,
+      112.18199878931046
+    ],
+    "baseline_parent": "AXIS_left_hip_yaw",
+    "mechanical_interface_adapted": true,
+    "hardware_enabled": false,
+    "adaptation_status": "Installed CAD interface; physical fit and full motion range not released",
+    "full_range_motion_release": false,
+    "current_axis_point_mm": [
+      -59.00000035762787,
+      17.500000074505806,
+      112.18199878931046
+    ],
+    "current_axis_source_model_sha256": "0a4f86aefea24e0d5260c837849a16164ec83cc2d364f58e6c03947de95ce286",
+    "baseline_axis_is_historical_not_current": true
+  },
+  {
+    "joint": "CTRL_left_hip_roll",
+    "target_actuator": "Unitree YS-342026-S288",
+    "bus": "A",
+    "id": 1,
+    "baseline_axis_point_mm": [
+      -22.50000275671482,
+      17.499998211860657,
+      99.68200325965881
+    ],
+    "baseline_parent": "AXIS_left_hip_roll",
+    "mechanical_interface_adapted": true,
+    "hardware_enabled": false,
+    "adaptation_status": "Installed CAD interface; physical fit and full motion range not released",
+    "full_range_motion_release": false,
+    "current_axis_point_mm": [
+      -42.500004172325134,
+      17.499998211860657,
+      99.68200325965881
+    ],
+    "current_axis_source_model_sha256": "0a4f86aefea24e0d5260c837849a16164ec83cc2d364f58e6c03947de95ce286",
+    "baseline_axis_is_historical_not_current": true
+  },
+  {
+    "joint": "CTRL_left_hip_pitch",
+    "target_actuator": "Unitree YS-342026-S288",
+    "bus": "A",
+    "id": 2,
+    "baseline_axis_point_mm": [
+      -41.00000113248825,
+      42.404867708683014,
+      97.50311076641083
+    ],
+    "baseline_parent": "AXIS_left_hip_pitch",
+    "mechanical_interface_adapted": true,
+    "hardware_enabled": false,
+    "adaptation_status": "Installed CAD interface; physical fit and full motion range not released",
+    "full_range_motion_release": false,
+    "current_axis_point_mm": [
+      -61.00000441074371,
+      42.404867708683014,
+      97.50311076641083
+    ],
+    "current_axis_source_model_sha256": "0a4f86aefea24e0d5260c837849a16164ec83cc2d364f58e6c03947de95ce286",
+    "baseline_axis_is_historical_not_current": true
+  },
+  {
+    "joint": "CTRL_left_knee",
+    "target_actuator": "Unitree YS-342026-S288",
+    "bus": "A",
+    "id": 3,
+    "baseline_axis_point_mm": [
+      -63.3651539683342,
+      35.32170504331589,
+      62.437038868665695
+    ],
+    "baseline_parent": "AXIS_left_knee",
+    "mechanical_interface_adapted": true,
+    "hardware_enabled": false,
+    "adaptation_status": "Installed CAD interface; physical fit and full motion range not released",
+    "full_range_motion_release": false,
+    "current_axis_point_mm": [
+      -83.36515724658966,
+      35.32170504331589,
+      62.437038868665695
+    ],
+    "current_axis_source_model_sha256": "0a4f86aefea24e0d5260c837849a16164ec83cc2d364f58e6c03947de95ce286",
+    "baseline_axis_is_historical_not_current": true
+  },
+  {
+    "joint": "CTRL_left_ankle",
+    "target_actuator": "Unitree YS-342026-S288",
+    "bus": "A",
+    "id": 4,
+    "baseline_axis_point_mm": [
+      -44.983841478824615,
+      57.93140083551407,
+      22.55059778690338
+    ],
+    "baseline_parent": "AXIS_left_ankle",
+    "mechanical_interface_adapted": true,
+    "hardware_enabled": false,
+    "adaptation_status": "Installed CAD interface; physical fit and full motion range not released",
+    "full_range_motion_release": false,
+    "current_axis_point_mm": [
+      -64.98384475708008,
+      57.93140083551407,
+      22.55059778690338
+    ],
+    "current_axis_source_model_sha256": "0a4f86aefea24e0d5260c837849a16164ec83cc2d364f58e6c03947de95ce286",
+    "baseline_axis_is_historical_not_current": true
+  },
+  {
+    "joint": "CTRL_right_hip_yaw",
+    "target_actuator": "Unitree YS-342026-S288",
+    "bus": "A",
+    "id": 5,
+    "baseline_axis_point_mm": [
+      -39.000000804662704,
+      -17.500003799796104,
+      112.18199878931046
+    ],
+    "baseline_parent": "AXIS_right_hip_yaw",
+    "mechanical_interface_adapted": true,
+    "hardware_enabled": false,
+    "adaptation_status": "Installed CAD interface; physical fit and full motion range not released",
+    "full_range_motion_release": false,
+    "current_axis_point_mm": [
+      -58.99999663233757,
+      -17.500003799796104,
+      112.18199878931046
+    ],
+    "current_axis_source_model_sha256": "0a4f86aefea24e0d5260c837849a16164ec83cc2d364f58e6c03947de95ce286",
+    "baseline_axis_is_historical_not_current": true
+  },
+  {
+    "joint": "CTRL_right_hip_roll",
+    "target_actuator": "Unitree YS-342026-S288",
+    "bus": "A",
+    "id": 6,
+    "baseline_axis_point_mm": [
+      -22.50000275671482,
+      -17.500005662441254,
+      99.68200325965881
+    ],
+    "baseline_parent": "AXIS_right_hip_roll",
+    "mechanical_interface_adapted": true,
+    "hardware_enabled": false,
+    "adaptation_status": "Installed CAD interface; physical fit and full motion range not released",
+    "full_range_motion_release": false,
+    "current_axis_point_mm": [
+      -42.49999672174454,
+      -17.500005662441254,
+      99.68200325965881
+    ],
+    "current_axis_source_model_sha256": "0a4f86aefea24e0d5260c837849a16164ec83cc2d364f58e6c03947de95ce286",
+    "baseline_axis_is_historical_not_current": true
+  },
+  {
+    "joint": "CTRL_right_hip_pitch",
+    "target_actuator": "Unitree YS-342026-S288",
+    "bus": "A",
+    "id": 7,
+    "baseline_axis_point_mm": [
+      -41.00000485777855,
+      -42.404867708683014,
+      97.50311076641083
+    ],
+    "baseline_parent": "AXIS_right_hip_pitch",
+    "mechanical_interface_adapted": true,
+    "hardware_enabled": false,
+    "adaptation_status": "Installed CAD interface; physical fit and full motion range not released",
+    "full_range_motion_release": false,
+    "current_axis_point_mm": [
+      -61.000000685453415,
+      -42.404867708683014,
+      97.50311076641083
+    ],
+    "current_axis_source_model_sha256": "0a4f86aefea24e0d5260c837849a16164ec83cc2d364f58e6c03947de95ce286",
+    "baseline_axis_is_historical_not_current": true
+  },
+  {
+    "joint": "CTRL_right_knee",
+    "target_actuator": "Unitree YS-342026-S288",
+    "bus": "A",
+    "id": 8,
+    "baseline_axis_point_mm": [
+      -63.365161418914795,
+      -35.32170131802559,
+      62.437038868665695
+    ],
+    "baseline_parent": "AXIS_right_knee",
+    "mechanical_interface_adapted": true,
+    "hardware_enabled": false,
+    "adaptation_status": "Installed CAD interface; physical fit and full motion range not released",
+    "full_range_motion_release": false,
+    "current_axis_point_mm": [
+      -83.36515724658966,
+      -35.32170131802559,
+      62.437038868665695
+    ],
+    "current_axis_source_model_sha256": "0a4f86aefea24e0d5260c837849a16164ec83cc2d364f58e6c03947de95ce286",
+    "baseline_axis_is_historical_not_current": true
+  },
+  {
+    "joint": "CTRL_right_ankle",
+    "target_actuator": "Unitree YS-342026-S288",
+    "bus": "A",
+    "id": 9,
+    "baseline_axis_point_mm": [
+      -44.98384892940521,
+      -57.931408286094666,
+      22.55060151219368
+    ],
+    "baseline_parent": "AXIS_right_ankle",
+    "mechanical_interface_adapted": true,
+    "hardware_enabled": false,
+    "adaptation_status": "Installed CAD interface; physical fit and full motion range not released",
+    "full_range_motion_release": false,
+    "current_axis_point_mm": [
+      -64.98384475708008,
+      -57.931408286094666,
+      22.55060151219368
+    ],
+    "current_axis_source_model_sha256": "0a4f86aefea24e0d5260c837849a16164ec83cc2d364f58e6c03947de95ce286",
+    "baseline_axis_is_historical_not_current": true
+  },
+  {
+    "joint": "CTRL_neck_pitch",
+    "target_actuator": "Unitree YS-342026-S288",
+    "bus": "B",
+    "id": 0,
+    "baseline_axis_point_mm": [
+      26.000000536441803,
+      14.499999582767487,
+      149.60350096225739
+    ],
+    "baseline_parent": "AXIS_neck_pitch",
+    "mechanical_interface_adapted": true,
+    "hardware_enabled": false,
+    "adaptation_status": "Installed CAD interface; physical fit and full motion range not released",
+    "full_range_motion_release": false,
+    "current_axis_point_mm": [
+      26.000000536441803,
+      14.499999582767487,
+      149.60350096225739
+    ],
+    "current_axis_source_model_sha256": "0a4f86aefea24e0d5260c837849a16164ec83cc2d364f58e6c03947de95ce286",
+    "baseline_axis_is_historical_not_current": true
+  },
+  {
+    "joint": "CTRL_head_pitch",
+    "target_actuator": "Unitree YS-342026-S288",
+    "bus": "B",
+    "id": 1,
+    "baseline_axis_point_mm": [
+      8.898995816707611,
+      14.500001445412636,
+      196.58812880516052
+    ],
+    "baseline_parent": "AXIS_head_pitch",
+    "mechanical_interface_adapted": true,
+    "hardware_enabled": false,
+    "adaptation_status": "Installed CAD interface; physical fit and full motion range not released",
+    "full_range_motion_release": false,
+    "current_axis_point_mm": [
+      8.898995816707611,
+      14.500001445412636,
+      196.58812880516052
+    ],
+    "current_axis_source_model_sha256": "0a4f86aefea24e0d5260c837849a16164ec83cc2d364f58e6c03947de95ce286",
+    "baseline_axis_is_historical_not_current": true
+  },
+  {
+    "joint": "CTRL_head_yaw",
+    "target_actuator": "Unitree YS-342026-S288",
+    "bus": "B",
+    "id": 2,
+    "baseline_axis_point_mm": [
+      8.898996748030186,
+      5.740905528739404e-06,
+      215.28123319149017
+    ],
+    "baseline_parent": "AXIS_head_yaw",
+    "mechanical_interface_adapted": true,
+    "hardware_enabled": false,
+    "adaptation_status": "Installed CAD interface; physical fit and full motion range not released",
+    "full_range_motion_release": false,
+    "current_axis_point_mm": [
+      8.898996748030186,
+      5.740905528739404e-06,
+      215.28123319149017
+    ],
+    "current_axis_source_model_sha256": "0a4f86aefea24e0d5260c837849a16164ec83cc2d364f58e6c03947de95ce286",
+    "baseline_axis_is_historical_not_current": true
+  },
+  {
+    "joint": "CTRL_head_roll",
+    "target_actuator": "Unitree YS-342026-S288",
+    "bus": "B",
+    "id": 3,
+    "baseline_axis_point_mm": [
+      -9.000997990369797,
+      8.091875614013588e-06,
+      229.78122532367706
+    ],
+    "baseline_parent": "AXIS_head_roll",
+    "mechanical_interface_adapted": true,
+    "hardware_enabled": false,
+    "adaptation_status": "Installed CAD interface; physical fit and full motion range not released",
+    "full_range_motion_release": false,
+    "current_axis_point_mm": [
+      -9.000997990369797,
+      8.091875614013588e-06,
+      229.78122532367706
+    ],
+    "current_axis_source_model_sha256": "0a4f86aefea24e0d5260c837849a16164ec83cc2d364f58e6c03947de95ce286",
+    "baseline_axis_is_historical_not_current": true
+  },
+  {
+    "joint": "DCTL_Jaw_Hinge",
+    "target_actuator": "Unitree YS-342026-S288",
+    "bus": "B",
+    "id": 4,
+    "baseline_axis_point_mm": [
+      8.998994715511799,
+      -8.881784197001252e-13,
+      232.78126120567322
+    ],
+    "baseline_parent": "BODY_jaw_soft",
+    "mechanical_interface_adapted": true,
+    "hardware_enabled": false,
+    "adaptation_status": "Installed CAD interface; physical fit and full motion range not released",
+    "full_range_motion_release": false,
+    "current_axis_point_mm": [
+      8.998994715511799,
+      -8.881784197001252e-13,
+      232.78126120567322
+    ],
+    "current_axis_source_model_sha256": "0a4f86aefea24e0d5260c837849a16164ec83cc2d364f58e6c03947de95ce286",
+    "baseline_axis_is_historical_not_current": true
+  },
+  {
+    "joint": "DCTL_Tail_Yaw",
+    "target_actuator": "Unitree YS-342026-S288",
+    "bus": "B",
+    "id": 5,
+    "baseline_axis_point_mm": [
+      -100.00000149011612,
+      0.0,
+      150.00000596046448
+    ],
+    "baseline_parent": "FRAME_trunk_base",
+    "mechanical_interface_adapted": true,
+    "hardware_enabled": false,
+    "adaptation_status": "Installed CAD interface; physical fit and full motion range not released",
+    "full_range_motion_release": false,
+    "current_axis_point_mm": [
+      -175.00001192092896,
+      0.0,
+      150.00000596046448
+    ],
+    "current_axis_source_model_sha256": "0a4f86aefea24e0d5260c837849a16164ec83cc2d364f58e6c03947de95ce286",
+    "baseline_axis_is_historical_not_current": true
+  },
+  {
+    "joint": "DCTL_Tail_Pitch",
+    "target_actuator": "Unitree YS-342026-S288",
+    "bus": "B",
+    "id": 6,
+    "baseline_axis_point_mm": [
+      -116.00000411272049,
+      0.0,
+      177.0000010728836
+    ],
+    "baseline_parent": "DCTL_Tail_Yaw",
+    "mechanical_interface_adapted": true,
+    "hardware_enabled": false,
+    "adaptation_status": "Installed CAD interface; physical fit and full motion range not released",
+    "full_range_motion_release": false,
+    "current_axis_point_mm": [
+      -191.00001454353333,
+      0.0,
+      177.0000010728836
+    ],
+    "current_axis_source_model_sha256": "0a4f86aefea24e0d5260c837849a16164ec83cc2d364f58e6c03947de95ce286",
+    "baseline_axis_is_historical_not_current": true
+  },
+  {
+    "joint": "DCTL_Arm_L",
+    "target_actuator": "Unitree YS-342026-S288",
+    "bus": "B",
+    "id": 7,
+    "baseline_axis_point_mm": [
+      47.00000211596489,
+      53.00000309944153,
+      157.00000524520874
+    ],
+    "baseline_parent": "FRAME_trunk_base",
+    "mechanical_interface_adapted": true,
+    "hardware_enabled": false,
+    "adaptation_status": "Installed CAD interface; physical fit and full motion range not released",
+    "full_range_motion_release": false,
+    "current_axis_point_mm": [
+      12.000001966953278,
+      53.00000309944153,
+      149.60350096225739
+    ],
+    "current_axis_source_model_sha256": "0a4f86aefea24e0d5260c837849a16164ec83cc2d364f58e6c03947de95ce286",
+    "baseline_axis_is_historical_not_current": true,
+    "case_world_y_rotation_deg_from_v02": 90,
+    "encoder_reindex_required": true,
+    "encoder_offset_verified": false,
+    "output_reference_orientation_retained": true
+  },
+  {
+    "joint": "DCTL_Arm_R",
+    "target_actuator": "Unitree YS-342026-S288",
+    "bus": "B",
+    "id": 8,
+    "baseline_axis_point_mm": [
+      47.00000211596489,
+      -53.00000309944153,
+      157.00000524520874
+    ],
+    "baseline_parent": "FRAME_trunk_base",
+    "mechanical_interface_adapted": true,
+    "hardware_enabled": false,
+    "adaptation_status": "Installed CAD interface; physical fit and full motion range not released",
+    "full_range_motion_release": false,
+    "current_axis_point_mm": [
+      12.000001966953278,
+      -53.00000309944153,
+      149.60350096225739
+    ],
+    "current_axis_source_model_sha256": "0a4f86aefea24e0d5260c837849a16164ec83cc2d364f58e6c03947de95ce286",
+    "baseline_axis_is_historical_not_current": true,
+    "case_world_y_rotation_deg_from_v02": 90,
+    "encoder_reindex_required": true,
+    "encoder_offset_verified": false,
+    "output_reference_orientation_retained": true
+  }
+]

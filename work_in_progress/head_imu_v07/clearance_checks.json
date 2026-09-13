@@ -1,0 +1,60 @@
+{
+  "delta_sha256": "22b46caaf1cb50207ebb048451ea246842a6ad6e35248551da4e25cf58b3d687",
+  "delta_meshes_sha256": "8a7865fedbeed3c7f988ec9485f4de99875fc0fa0cb6e18068d389b5c622cf47",
+  "gaps": [
+    {
+      "part": "JY61P_HEAD_PCB_ENVELOPE",
+      "other": "Rex_Skull_Shell",
+      "gap_mm": 3.4253717982508483
+    },
+    {
+      "part": "JY61P_HEAD_CAP_ENVELOPE",
+      "other": "Rex_Skull_Shell",
+      "gap_mm": 2.274248606229582
+    },
+    {
+      "part": "JY61P_HEAD_EDGE_CLIP_-1",
+      "other": "Rex_Skull_Shell",
+      "gap_mm": 1.8277564916422573
+    },
+    {
+      "part": "JY61P_HEAD_M2x6_-1",
+      "other": "Rex_Skull_Shell",
+      "gap_mm": 0.6340187666553381
+    },
+    {
+      "part": "JY61P_HEAD_M2_NUT_-1",
+      "other": "Rex_Skull_Shell",
+      "gap_mm": 5.822160849062269
+    },
+    {
+      "part": "JY61P_HEAD_EDGE_CLIP_1",
+      "other": "Rex_Skull_Shell",
+      "gap_mm": 1.807031549355552
+    },
+    {
+      "part": "JY61P_HEAD_M2x6_1",
+      "other": "Rex_Skull_Shell",
+      "gap_mm": 0.6157083117436134
+    },
+    {
+      "part": "JY61P_HEAD_M2_NUT_1",
+      "other": "Rex_Skull_Shell",
+      "gap_mm": 5.796086707716274
+    },
+    {
+      "part": "carrier_added_material_only",
+      "other": "Rex_Skull_Shell",
+      "gap_mm": 2.956282115641909
+    },
+    {
+      "part": "carrier_added_material_only",
+      "other": "V10_PI_ZERO_2W_PCB",
+      "gap_mm": 1.3999725647922199
+    }
+  ],
+  "board_removal_samples": 41,
+  "board_removal_lift_mm": 20,
+  "board_removal_hits": [],
+  "headers_not_installed_or_verified": true
+}

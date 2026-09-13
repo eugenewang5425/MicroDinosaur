@@ -1,0 +1,25 @@
+{
+  "before_sha256": "9e64649ee3db3e8390203291e22c3b40d51cc4230c5ec0a7837cefd9673c64e6",
+  "after_sha256": "0a4f86aefea24e0d5260c837849a16164ec83cc2d364f58e6c03947de95ce286",
+  "only_scene_metadata_changed": true,
+  "removed_scene_properties": {
+    "reference_mass_kg": "1.2177223935436097",
+    "reference_stance_margin_mm": "8.43527034283824",
+    "auxiliary_servo_count": "4",
+    "v08_static_fit_closed": "True",
+    "SC09_registration": "actual negative-Y 20T output shaft, not case rear; 1.75 mm nominal overlap, physical spline fit untested",
+    "v09_interfaces_closed": "True",
+    "v09_motion_interfaces_corrected": "True",
+    "v10_battery": "6 V commercial pack; assumed32x48x54mm, not selected; do not purchase from envelope",
+    "v10_fallback": "original source NP-F outline only; not current official RK3566 electrical design",
+    "v11_open_service": "True",
+    "v12_rear_hips": "True",
+    "v13_status": "CAD review only; both battery envelopes awaiting physical part identification and discharge qualification",
+    "nominal_shell_wall_mm": "3.0",
+    "wire_corridor_diameter_mm": "7.0",
+    "camera_corridor_diameter_mm": "12.0",
+    "sampled_neck_module_min_gap_mm": "-1.0",
+    "obsolete_geometry_removed": "202"
+  },
+  "geometry_and_render_unchanged": true
+}

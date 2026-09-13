@@ -1,0 +1,13 @@
+{
+  "current_model": "D:\\项目\\竞赛\\DuckReplica\\current\\MicroDinosaur_v1.blender",
+  "sha256": "0a4f86aefea24e0d5260c837849a16164ec83cc2d364f58e6c03947de95ce286",
+  "backup": "D:\\项目\\竞赛\\DuckReplica\\exports\\retired_before_head_imu_v07_20260913",
+  "screenshots": "D:\\项目\\竞赛\\DuckReplica\\versions\\screenshots\\20260913_07_头部JY61P标准尺寸安装",
+  "old_screenshots_hash_verified": 100,
+  "new_screenshots": 8,
+  "all_screenshots": 108,
+  "fastener_schedule_before_rows": 220,
+  "fastener_schedule_rows": 222,
+  "source_blueprint_sha256": "16bc3a0c14ee2c6e4c587d992ec4eb1320338bed4b6a1e1520135f899f2e5434",
+  "candidate_is_not_second_current": true
+}

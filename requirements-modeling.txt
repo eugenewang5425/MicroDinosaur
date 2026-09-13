@@ -1,0 +1,4 @@
+# Only for the original v07 geometry / collision recipes; not for the viewer.
+# Versions verified in the local v07 environment on 2026-09-13.
+numpy==2.5.2
+manifold3d==3.5.2

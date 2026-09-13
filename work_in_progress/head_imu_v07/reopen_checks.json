@@ -1,0 +1,175 @@
+{
+  "file": "D:\\项目\\竞赛\\DuckReplica\\work_in_progress\\head_imu_v07\\MicroDinosaur_v1.blender",
+  "sha256": "0a4f86aefea24e0d5260c837849a16164ec83cc2d364f58e6c03947de95ce286",
+  "failures": [],
+  "objects": 755,
+  "mesh_datablocks": 663,
+  "mass_rows": 672,
+  "drivers": [
+    {
+      "owner": "CTRL_head_pitch",
+      "expression": "a * 0.017453292519943295",
+      "valid": true
+    },
+    {
+      "owner": "CTRL_head_roll",
+      "expression": "a * 0.017453292519943295",
+      "valid": true
+    },
+    {
+      "owner": "CTRL_head_yaw",
+      "expression": "a * 0.017453292519943295",
+      "valid": true
+    },
+    {
+      "owner": "CTRL_left_ankle",
+      "expression": "a * 0.017453292519943295",
+      "valid": true
+    },
+    {
+      "owner": "CTRL_left_hip_pitch",
+      "expression": "a * 0.017453292519943295",
+      "valid": true
+    },
+    {
+      "owner": "CTRL_left_hip_roll",
+      "expression": "a * 0.017453292519943295",
+      "valid": true
+    },
+    {
+      "owner": "CTRL_left_hip_yaw",
+      "expression": "a * 0.017453292519943295",
+      "valid": true
+    },
+    {
+      "owner": "CTRL_left_knee",
+      "expression": "a * 0.017453292519943295",
+      "valid": true
+    },
+    {
+      "owner": "CTRL_neck_pitch",
+      "expression": "a * 0.017453292519943295",
+      "valid": true
+    },
+    {
+      "owner": "CTRL_right_ankle",
+      "expression": "a * 0.017453292519943295",
+      "valid": true
+    },
+    {
+      "owner": "CTRL_right_hip_pitch",
+      "expression": "a * 0.017453292519943295",
+      "valid": true
+    },
+    {
+      "owner": "CTRL_right_hip_roll",
+      "expression": "a * 0.017453292519943295",
+      "valid": true
+    },
+    {
+      "owner": "CTRL_right_hip_yaw",
+      "expression": "a * 0.017453292519943295",
+      "valid": true
+    },
+    {
+      "owner": "CTRL_right_knee",
+      "expression": "a * 0.017453292519943295",
+      "valid": true
+    },
+    {
+      "owner": "DCTL_Arm_L",
+      "expression": "a*0.017453292519943295",
+      "valid": true
+    },
+    {
+      "owner": "DCTL_Arm_R",
+      "expression": "a*0.017453292519943295",
+      "valid": true
+    },
+    {
+      "owner": "DCTL_Jaw_Hinge",
+      "expression": "(a if neck >= 20 else 0)*0.017453292519943295",
+      "valid": true
+    },
+    {
+      "owner": "DCTL_Tail_Pitch",
+      "expression": "a*0.017453292519943295",
+      "valid": true
+    },
+    {
+      "owner": "DCTL_Tail_Yaw",
+      "expression": "a*0.017453292519943295",
+      "valid": true
+    }
+  ],
+  "hidden": [],
+  "orphans": [],
+  "unchanged_objects": 742,
+  "max_matrix_error_m": 0.0,
+  "pose_count": 1605,
+  "max_pose_matrix_error_mm": 0.0,
+  "mass_estimate_g": 1098.2143864853317,
+  "head_imu_frame_head_local_m": [
+    [
+      1.9470722634196136e-07,
+      2.3314633779136784e-07,
+      1.000000238418579,
+      0.031018799170851707
+    ],
+    [
+      -3.054824324272634e-16,
+      1.0000001192092896,
+      -2.3314636621307727e-07,
+      -1.785483405569721e-08
+    ],
+    [
+      -1.000000238418579,
+      4.6185271048142934e-14,
+      1.9470724055281607e-07,
+      -0.04400099813938141
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "head_imu_reference_world_m": [
+    [
+      1.0,
+      -5.75224419208098e-08,
+      -3.178649876645068e-08,
+      0.034999996423721313
+    ],
+    [
+      5.75224419208098e-08,
+      1.0,
+      -1.1200023588143863e-14,
+      1.7763568394002505e-15
+    ],
+    [
+      3.178651297730539e-08,
+      -4.263255736934243e-14,
+      1.0,
+      0.26080000400543213
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "source_blueprint_sha256": "16bc3a0c14ee2c6e4c587d992ec4eb1320338bed4b6a1e1520135f899f2e5434",
+  "hardware_enable": false,
+  "hardware_enabled": false,
+  "electrical_release": false,
+  "manufacturing_release": false,
+  "continuous_collision_release": false,
+  "full_motion_range_release": false,
+  "gait_release": false,
+  "valid_com": false,
+  "strength_release": false,
+  "print_release": false
+}

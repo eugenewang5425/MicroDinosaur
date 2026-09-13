@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "model_sha256": "0a4f86aefea24e0d5260c837849a16164ec83cc2d364f58e6c03947de95ce286",
+  "objects": 755,
+  "meshes": 663,
+  "mass_rows": 672,
+  "fastener_interfaces": 222,
+  "nominal_imu_modules": 2,
+  "drivers": 19,
+  "total_estimate_g": 1098.2143864853324,
+  "historical_screenshots_preserved": 100,
+  "total_screenshots": 108,
+  "head_only_local_rollback_available": true,
+  "hardware_or_manufacturing_release": false
+}

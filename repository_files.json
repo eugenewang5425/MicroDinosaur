@@ -1,0 +1,270 @@
+{
+  "schema_version": 1,
+  "repository": "eugenewang5425/MicroDinosaur",
+  "visibility": "private",
+  "scope": "Latest MicroDinosaur v1 head JY61P v07 modeling files only",
+  "model_path": "current/MicroDinosaur_v1.blender",
+  "model_sha256": "0a4f86aefea24e0d5260c837849a16164ec83cc2d364f58e6c03947de95ce286",
+  "model_storage": "Git LFS",
+  "excluded_local_only": [
+    "retired models and frozen before-state inputs",
+    "duplicate candidate assemblies",
+    "historical screenshots and user reference images",
+    "procurement proposals and unrelated documents",
+    "downloaded software and virtual environments",
+    "raw upstream geometry and legacy modeling scripts"
+  ],
+  "note": "Inventory excludes itself. JSON evidence preserves original bytes and source/archive paths. Those local-only paths are not required by the current portable verifier.",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 159,
+      "sha256": "e10599f7d7e0bade32e14676cebae36527710ef779a8a7460484e7d423f51b70"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 2235,
+      "sha256": "cc850f9746b7b668f02e37a7ca6199c673d6ebf2ae8c6dfc6ed6c4457a0cedee"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 6465,
+      "sha256": "b9657694d1d94753f76ae2e072d84a03510ed9eb07894310a5e2069a91dac465"
+    },
+    {
+      "path": "CURRENT_DESIGN.md",
+      "bytes": 9639,
+      "sha256": "705ec4bf1d7fea5a7f9aadcf0d4c9ea88cd9a9ed445c56957e571d45f1901f9e"
+    },
+    {
+      "path": "HEAD_IMU_V07_REVIEW.md",
+      "bytes": 7838,
+      "sha256": "8d4320b923d665745b6ceabd12c0ef96ed56c8ec98b2901449eca3dc4fe6c4c1"
+    },
+    {
+      "path": "NOTICE.md",
+      "bytes": 2217,
+      "sha256": "122f38da0c8463d97acb925f4c5f6409234a24ebb8ff05f7f1b116b0d408dd61"
+    },
+    {
+      "path": "OPEN_MICRODINOSAUR_CURRENT.bat",
+      "bytes": 1059,
+      "sha256": "18174a505d2c828fe4bde20edf912bc97e82d6964a699c351493e983cab4940a"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3614,
+      "sha256": "84982b4d93bc6c89f1a118bf28240f1d9ed71784d6066e4afa4235675592c8fa"
+    },
+    {
+      "path": "blender_controls.py",
+      "bytes": 11624,
+      "sha256": "9fb3f0694d1fa145748b9f5af7d4bcaadfb0f1965917d013c056d9d81cae58e7"
+    },
+    {
+      "path": "current/MicroDinosaur_v1.blender",
+      "bytes": 79049057,
+      "sha256": "0a4f86aefea24e0d5260c837849a16164ec83cc2d364f58e6c03947de95ce286"
+    },
+    {
+      "path": "current/battery_design_target.json",
+      "bytes": 2683,
+      "sha256": "c67f117d48649126c17dd2d2eba31ca91066c474a8a353d6890ea98ab2a12056"
+    },
+    {
+      "path": "current/delivery_status.json",
+      "bytes": 4011,
+      "sha256": "968afe11936f6dbe78cf7c032d91aa6bad5d177eb00e26239df171ce1ac01368"
+    },
+    {
+      "path": "current/fastener_interface_schedule.csv",
+      "bytes": 41907,
+      "sha256": "156c8dd0541350066435f56490854bc87535cb985537b4e9ab6565be0ff25802"
+    },
+    {
+      "path": "current/imu_mounts.json",
+      "bytes": 2464,
+      "sha256": "76de3f2f948603a7ce9bea6c3b712308800a5ad9f466927318adfd9ac9d3368b"
+    },
+    {
+      "path": "current/mass_estimate.json",
+      "bytes": 395491,
+      "sha256": "b82fa979b57421822ec2eb9e85e7610b983806f2b7da6a3f1c114c90dc2ea8db"
+    },
+    {
+      "path": "current/model_manifest.json",
+      "bytes": 340894,
+      "sha256": "c0f7c86e4f078b8fda66b464339ff3f917212e301002e6b74d2a79a7a1a38d2c"
+    },
+    {
+      "path": "current/parts_mass_estimate.csv",
+      "bytes": 183627,
+      "sha256": "3f05af0cfc66c4fd4dd1e736b80a0bddf406c244bcf08893867a095b62b9110d"
+    },
+    {
+      "path": "current/previews/assembly_three_quarter.png",
+      "bytes": 1702652,
+      "sha256": "8a76cfc001ce867b57faff10bda015a389230dc502dc9a952cf82f9e5f51a09e"
+    },
+    {
+      "path": "current/previews/head_imu_bottom.png",
+      "bytes": 1697149,
+      "sha256": "be2978e3511e510aab353b6127a350f08e87012616e26e399136277c59cfd9d0"
+    },
+    {
+      "path": "current/previews/head_imu_closed.png",
+      "bytes": 1665201,
+      "sha256": "edc87b8d1ad9b722a5472532b77911fa835da25587563a7ecb1f580c2c465df8"
+    },
+    {
+      "path": "current/previews/head_imu_mount.png",
+      "bytes": 1821681,
+      "sha256": "2a32b8c67e971f454a105e8b1f4030ec4b1bb1fbc6e9f7184e81be17a832f80f"
+    },
+    {
+      "path": "current/previews/head_imu_open.png",
+      "bytes": 1866895,
+      "sha256": "d8e045bf42973311c6f3da0014aacf1fb58418d15b313fcedbd41d39dfff84e0"
+    },
+    {
+      "path": "current/previews/head_imu_top.png",
+      "bytes": 1720471,
+      "sha256": "43098313820ea074fa75ecbf15890df7d79c0b72c2734956ff3c9fb645dc6a01"
+    },
+    {
+      "path": "current/previews/manifest.json",
+      "bytes": 1345,
+      "sha256": "82d4cd0f91a3997921ebab519f5ffe29f57cba0c1133716687613ffa312bd4c2"
+    },
+    {
+      "path": "current/s288_joint_bus_map.json",
+      "bytes": 15319,
+      "sha256": "aaef2ba0848225ceeb4f648f57410c0b5b13a4fd53c98a27c2c5f9202781645f"
+    },
+    {
+      "path": "requirements-modeling.txt",
+      "bytes": 173,
+      "sha256": "edbc7a533f38cd34b5380706b4f2e574352e45d8328cc840bee4d1789c637702"
+    },
+    {
+      "path": "scripts/head_imu_v07/README.md",
+      "bytes": 3322,
+      "sha256": "633e35a0ebe8db68c4fc482781c0c6aeb009b44cfecab1aa8e9a0ed69e250f33"
+    },
+    {
+      "path": "scripts/head_imu_v07/head_imu_v07_blender.py",
+      "bytes": 14222,
+      "sha256": "46a94e8f381f888325d601234a35c582a52904b9028c1c2bef7a94bfbe36732f"
+    },
+    {
+      "path": "scripts/head_imu_v07/head_imu_v07_check.py",
+      "bytes": 2268,
+      "sha256": "46f11df281afc7d2ba95b784234b06cd58b8821c43095b5040021286afe36e97"
+    },
+    {
+      "path": "scripts/head_imu_v07/head_imu_v07_geometry.py",
+      "bytes": 4373,
+      "sha256": "0218658b315fc9c31eb9496d4cefd06a73c2e725eadaaa998d6b703e7d9bb733"
+    },
+    {
+      "path": "scripts/head_imu_v07/head_imu_v07_motion.py",
+      "bytes": 4068,
+      "sha256": "12ecdb2c7b3beb89bc66f802177433aba09c8bdd4181223e6ae9276dd3f544e4"
+    },
+    {
+      "path": "scripts/head_imu_v07/head_imu_v07_scene_metadata.py",
+      "bytes": 4136,
+      "sha256": "296a1ac4c27eab67caf6a6aa11b1b5de02db7d4d1cb8a244c65c67ce1345bbde"
+    },
+    {
+      "path": "scripts/head_imu_v07/head_imu_v07_snapshot.py",
+      "bytes": 3721,
+      "sha256": "2821457a71b524a68a7ba7f7a1efdf758b54245eff4f0fc362e8995d90c0ad53"
+    },
+    {
+      "path": "scripts/head_imu_v07/publish_head_imu_v07.py",
+      "bytes": 10850,
+      "sha256": "1fd2ff7743258f7596cf176380c889f404d877aec8e4ba227f5e555046588066"
+    },
+    {
+      "path": "scripts/head_imu_v07/reference_pose.py",
+      "bytes": 359,
+      "sha256": "61a0b310e5746a234346d43264ce50eb072f9cf7ac2820e5d4881c3fa6d63bb0"
+    },
+    {
+      "path": "scripts/verify_current.py",
+      "bytes": 12541,
+      "sha256": "e2b8a53e2e318586d4467a3adc8ed9fc57d4b8d0c2e479648ddc13500206d388"
+    },
+    {
+      "path": "source/microduck_rl/LICENSE",
+      "bytes": 11351,
+      "sha256": "2d3fd9ffffa70a4307498ec630b14a6b4731e010f8ddda92686eaf65733c2dfe"
+    },
+    {
+      "path": "source/microduck_rl/MODEL_LICENSE_NOTE.md",
+      "bytes": 961,
+      "sha256": "bfb6283d067f175407eb8026218a5eaf3438a6f8b0ba3577627fd320e6efce50"
+    },
+    {
+      "path": "work_in_progress/head_imu_v07/clearance_checks.json",
+      "bytes": 1608,
+      "sha256": "06ace40e489b5fe71604f31b00050523669132c65a1c717edc996b45a4895d7a"
+    },
+    {
+      "path": "work_in_progress/head_imu_v07/current_reopen_checks.json",
+      "bytes": 4128,
+      "sha256": "bb320817ca009e4d4071fec14ccdda4a81f4a09c029334f78d75f63e57474b2e"
+    },
+    {
+      "path": "work_in_progress/head_imu_v07/delivery_audit.json",
+      "bytes": 457,
+      "sha256": "f566abcf763aab9255eb68275cef7d82e7efb92e9cc26f39434963f34ec2cc98"
+    },
+    {
+      "path": "work_in_progress/head_imu_v07/delta.json",
+      "bytes": 4369,
+      "sha256": "22b46caaf1cb50207ebb048451ea246842a6ad6e35248551da4e25cf58b3d687"
+    },
+    {
+      "path": "work_in_progress/head_imu_v07/delta_meshes.npz",
+      "bytes": 106262,
+      "sha256": "8a7865fedbeed3c7f988ec9485f4de99875fc0fa0cb6e18068d389b5c622cf47"
+    },
+    {
+      "path": "work_in_progress/head_imu_v07/head_checks.json",
+      "bytes": 576,
+      "sha256": "f55a4e479536cb4ca9bf6a53c3f3e0b3cc8d4d396ae49ef06e905ca63827ef0e"
+    },
+    {
+      "path": "work_in_progress/head_imu_v07/legs_checks.json",
+      "bytes": 565,
+      "sha256": "dbdc3911b13395b4137c4e4a1db0104cb8806020b92d767ca8980a3e0cf67d83"
+    },
+    {
+      "path": "work_in_progress/head_imu_v07/publication.json",
+      "bytes": 698,
+      "sha256": "21d203b3222dcebb5ff77cd58d8eef317602a525e003fa27ef8d9735b0fe0cbf"
+    },
+    {
+      "path": "work_in_progress/head_imu_v07/regression_checks.json",
+      "bytes": 582,
+      "sha256": "e0b4d36ac1cefdfc7e684e0c000f8431aa35c70bfde464619eaa61eb67efaab1"
+    },
+    {
+      "path": "work_in_progress/head_imu_v07/reopen_checks.json",
+      "bytes": 4151,
+      "sha256": "77c303827f089f9a06eead686a84f3d344e08df0a85d657c2e05f7e5b0c8df4a"
+    },
+    {
+      "path": "work_in_progress/head_imu_v07/scene_metadata_cleanup.json",
+      "bytes": 1307,
+      "sha256": "a2bdc6a237b838e46ac08bc4372be0da959687362716e8469b6b91217378cfd5"
+    },
+    {
+      "path": "work_in_progress/head_imu_v07/static_checks.json",
+      "bytes": 2437,
+      "sha256": "6792944b665ed71549a21a03f9491780cdb97dd61c68e41de0882390990b5a0c"
+    }
+  ]
+}

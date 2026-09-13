@@ -1,0 +1,216 @@
+{
+  "source_sha256": "656665835b6ea6c170a2648cca2630ce6dbc186811fbceea633f3260b9ebceb4",
+  "parent": "BODY_jaw_soft",
+  "replaced": [
+    "Rex_Camera_Pi_Carrier"
+  ],
+  "added": [
+    "JY61P_HEAD_PCB_ENVELOPE",
+    "JY61P_HEAD_CAP_ENVELOPE",
+    "JY61P_HEAD_EDGE_CLIP_-1",
+    "JY61P_HEAD_M2x6_-1",
+    "JY61P_HEAD_M2_NUT_-1",
+    "JY61P_HEAD_EDGE_CLIP_1",
+    "JY61P_HEAD_M2x6_1",
+    "JY61P_HEAD_M2_NUT_1"
+  ],
+  "reserves": {
+    "RESERVE_JY61P_HEAD_HEADER_-1": {
+      "center_mm": [
+        23.0,
+        0.0,
+        263.6
+      ],
+      "size_mm": [
+        10,
+        16,
+        4
+      ],
+      "role": "NONPHYSICAL target for bent header plus mating plug above PCB; exact SKU and solder side not verified"
+    },
+    "RESERVE_JY61P_HEAD_HEADER_1": {
+      "center_mm": [
+        47.0,
+        0.0,
+        263.6
+      ],
+      "size_mm": [
+        10,
+        16,
+        4
+      ],
+      "role": "NONPHYSICAL target for bent header plus mating plug above PCB; exact SKU and solder side not verified"
+    },
+    "RESERVE_JY61P_HEAD_CABLE_TO_PI": {
+      "center_mm": [
+        26,
+        -12,
+        252
+      ],
+      "size_mm": [
+        8,
+        5,
+        7
+      ],
+      "role": "NONPHYSICAL slack/strain relief planning only; actual harness not installed"
+    }
+  },
+  "nominal_board_mm": [
+    15.24,
+    15.24,
+    2.8
+  ],
+  "board_bottom_center_mm": [
+    35,
+    0,
+    260
+  ],
+  "pin_pitch_mm": 2.54,
+  "pin_row_spacing_mm": 12.7,
+  "pcb_thickness_assumed_mm": 1.6,
+  "header_hole_diameter_assumed_mm": 1,
+  "shield_envelope_assumed_mm": [
+    11.6,
+    13,
+    1.2
+  ],
+  "actual_enhanced_revision_fit_verified": false,
+  "drawing_url": "https://cdn.shopify.com/s/files/1/0673/6848/5000/files/WitMotion-JY61P-Drawing.pdf?v=1782304757",
+  "parts": {
+    "Rex_Camera_Pi_Carrier": {
+      "volume_mm3": 7549.538014868517,
+      "bounds_mm": [
+        [
+          25.25,
+          -43.91672897338867,
+          224.48126220703125
+        ],
+        [
+          66.0,
+          43.733978271484375,
+          269.0943603515625
+        ]
+      ]
+    },
+    "JY61P_HEAD_PCB_ENVELOPE": {
+      "volume_mm3": 356.57554265625345,
+      "bounds_mm": [
+        [
+          27.38,
+          -7.62,
+          260.0
+        ],
+        [
+          42.62,
+          7.62,
+          261.6
+        ]
+      ]
+    },
+    "JY61P_HEAD_CAP_ENVELOPE": {
+      "volume_mm3": 180.96000000000834,
+      "bounds_mm": [
+        [
+          29.2,
+          -6.5,
+          261.59999999999997
+        ],
+        [
+          40.8,
+          6.5,
+          262.8
+        ]
+      ]
+    },
+    "JY61P_HEAD_EDGE_CLIP_-1": {
+      "volume_mm3": 31.30599594999675,
+      "bounds_mm": [
+        [
+          32.25,
+          -12.4,
+          261.59999999999997
+        ],
+        [
+          37.75,
+          -6.9,
+          262.79999999999995
+        ]
+      ]
+    },
+    "JY61P_HEAD_M2x6_-1": {
+      "volume_mm3": 32.36631883242207,
+      "bounds_mm": [
+        [
+          33.1,
+          -12.4,
+          256.8
+        ],
+        [
+          36.9,
+          -8.6,
+          264.0
+        ]
+      ]
+    },
+    "JY61P_HEAD_M2_NUT_-1": {
+      "volume_mm3": 11.961892132925168,
+      "bounds_mm": [
+        [
+          32.97927405783631,
+          -12.25,
+          257.2
+        ],
+        [
+          37.02072594216369,
+          -8.75,
+          258.8
+        ]
+      ]
+    },
+    "JY61P_HEAD_EDGE_CLIP_1": {
+      "volume_mm3": 31.305995949996706,
+      "bounds_mm": [
+        [
+          32.25,
+          6.9,
+          261.59999999999997
+        ],
+        [
+          37.75,
+          12.4,
+          262.79999999999995
+        ]
+      ]
+    },
+    "JY61P_HEAD_M2x6_1": {
+      "volume_mm3": 32.36631883242206,
+      "bounds_mm": [
+        [
+          33.1,
+          8.6,
+          256.8
+        ],
+        [
+          36.9,
+          12.4,
+          264.0
+        ]
+      ]
+    },
+    "JY61P_HEAD_M2_NUT_1": {
+      "volume_mm3": 11.961892132925207,
+      "bounds_mm": [
+        [
+          32.97927405783631,
+          8.75,
+          257.2
+        ],
+        [
+          37.02072594216369,
+          12.25,
+          258.8
+        ]
+      ]
+    }
+  }
+}

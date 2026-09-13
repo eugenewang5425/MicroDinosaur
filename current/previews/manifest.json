@@ -1,0 +1,37 @@
+{
+  "version": "20260913_07",
+  "model_sha256": "0a4f86aefea24e0d5260c837849a16164ec83cc2d364f58e6c03947de95ce286",
+  "screenshots": [
+    {
+      "file": "head_imu_open.png",
+      "label": "头内位置_去顶壳",
+      "image_sha256": "d8e045bf42973311c6f3da0014aacf1fb58418d15b313fcedbd41d39dfff84e0"
+    },
+    {
+      "file": "head_imu_mount.png",
+      "label": "IMU固定座_局部",
+      "image_sha256": "2a32b8c67e971f454a105e8b1f4030ec4b1bb1fbc6e9f7184e81be17a832f80f"
+    },
+    {
+      "file": "head_imu_top.png",
+      "label": "板边夹_俯视",
+      "image_sha256": "43098313820ea074fa75ecbf15890df7d79c0b72c2734956ff3c9fb645dc6a01"
+    },
+    {
+      "file": "head_imu_bottom.png",
+      "label": "底部螺母槽",
+      "image_sha256": "be2978e3511e510aab353b6127a350f08e87012616e26e399136277c59cfd9d0"
+    },
+    {
+      "file": "head_imu_closed.png",
+      "label": "头壳外形不变",
+      "image_sha256": "edc87b8d1ad9b722a5472532b77911fa835da25587563a7ecb1f580c2c465df8"
+    },
+    {
+      "file": "assembly_three_quarter.png",
+      "label": "整机斜视",
+      "image_sha256": "8a76cfc001ce867b57faff10bda015a389230dc502dc9a952cf82f9e5f51a09e"
+    }
+  ],
+  "old_previews_moved_to": "D:\\项目\\竞赛\\DuckReplica\\exports\\retired_before_head_imu_v07_20260913\\previews"
+}
