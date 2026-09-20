@@ -1,0 +1,19 @@
+test_bounds_stale_release_and_reset (test_head_attitude.HeadTests.test_bounds_stale_release_and_reset) ... ok
+test_cad_fk_and_jacobian_match_random_physical_poses (test_head_attitude.HeadTests.test_cad_fk_and_jacobian_match_random_physical_poses) ... ok
+test_disabled_head_control_matches_previous_body_loop (test_head_attitude.HeadTests.test_disabled_head_control_matches_previous_body_loop) ... ok
+test_negative_feedback_reduces_a_tilted_static_head_error (test_head_attitude.HeadTests.test_negative_feedback_reduces_a_tilted_static_head_error) ... ok
+test_rotation_error_across_wrap_and_half_turn (test_head_attitude.HeadTests.test_rotation_error_across_wrap_and_half_turn) ... ok
+test_scoring_truth_cannot_change_head_commands_and_reset_repeats (test_head_attitude.HeadTests.test_scoring_truth_cannot_change_head_commands_and_reset_repeats) ... ok
+test_acceleration_rejected_and_bias_not_learned_from_motion (test_imu_heading.HeadingTests.test_acceleration_rejected_and_bias_not_learned_from_motion) ... ok
+test_delayed_plant_converges_without_unbounded_commands (test_imu_heading.HeadingTests.test_delayed_plant_converges_without_unbounded_commands) ... ok
+test_full_3d_rotation_crosses_wrap_with_tilt_and_calibrated_bias (test_imu_heading.HeadingTests.test_full_3d_rotation_crosses_wrap_with_tilt_and_calibrated_bias) ... ok
+test_moving_calibration_is_rejected (test_imu_heading.HeadingTests.test_moving_calibration_is_rejected) ... ok
+test_poisoned_scoring_yaw_cannot_change_imu_feedback (test_imu_heading.HeadingTests.test_poisoned_scoring_yaw_cannot_change_imu_feedback) ... ok
+test_reference_follows_user_intent_not_correction (test_imu_heading.HeadingTests.test_reference_follows_user_intent_not_correction) ... ok
+test_sensor_observer_is_read_only_and_trial_reset_repeats (test_imu_heading.HeadingTests.test_sensor_observer_is_read_only_and_trial_reset_repeats) ... ok
+test_timestamps_and_reinitialization_do_not_accumulate_history (test_imu_heading.HeadingTests.test_timestamps_and_reinitialization_do_not_accumulate_history) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 32.456s
+
+OK

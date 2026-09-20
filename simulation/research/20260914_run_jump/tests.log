@@ -1,0 +1,14 @@
+test_commands_have_observable_preparation_launch_and_recovery (__main__.RunJumpTests.test_commands_have_observable_preparation_launch_and_recovery) ... ok
+test_cpu_flight_rejects_floor_grazing_and_marks_falling_separately (__main__.RunJumpTests.test_cpu_flight_rejects_floor_grazing_and_marks_falling_separately) ... ok
+test_flight_requires_upright_launch_window_and_real_no_support (__main__.RunJumpTests.test_flight_requires_upright_launch_window_and_real_no_support) ... ok
+test_hop_state_does_not_pay_falling_or_repeat_a_frontier (__main__.RunJumpTests.test_hop_state_does_not_pay_falling_or_repeat_a_frontier) ... ok
+test_run_accelerates_and_requests_stop (__main__.RunJumpTests.test_run_accelerates_and_requests_stop) ... ok
+test_specialists_preserve_physics_and_do_not_train_stairs (__main__.RunJumpTests.test_specialists_preserve_physics_and_do_not_train_stairs) ... ok
+test_takeoff_uses_whole_robot_com_not_relative_trunk_motion (__main__.RunJumpTests.test_takeoff_uses_whole_robot_com_not_relative_trunk_motion) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.041s
+
+OK
+[mdp] Patches 1-2 active: NaN-safe reward/advantage
+[mdp] Patch 4 active: ONNX export filters passive_* joints

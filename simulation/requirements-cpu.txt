@@ -1,0 +1,4 @@
+# Versions used for the frozen plant and the verified CPU head-control demo.
+numpy==2.4.1
+mujoco==3.10.0
+onnxruntime==1.24.4

@@ -1,0 +1,625 @@
+{
+  "task": "Mjlab-Velocity-Flat-MicroDinosaur",
+  "xml": "D:\\microduck_rl\\src\\mjlab_microduck\\robot\\microdinosaur_v07\\robot_microdinosaur_v07.xml",
+  "mass_kg": 1.0982148,
+  "physics_dt": 0.005,
+  "policy_dt": 0.02,
+  "action_names": [
+    "left_hip_yaw",
+    "left_hip_roll",
+    "left_hip_pitch",
+    "left_knee",
+    "left_ankle",
+    "neck_pitch",
+    "head_pitch",
+    "head_yaw",
+    "head_roll",
+    "jaw_hinge",
+    "right_hip_yaw",
+    "right_hip_roll",
+    "right_hip_pitch",
+    "right_knee",
+    "right_ankle",
+    "tail_yaw",
+    "tail_pitch",
+    "arm_l",
+    "arm_r"
+  ],
+  "action_scale": 1.0,
+  "action_offset": [
+    [
+      0.0,
+      -0.08730000257492065,
+      -0.4578999876976013,
+      -0.004900000058114529,
+      0.453000009059906,
+      0.3490999937057495,
+      0.3490999937057495,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.08730000257492065,
+      0.4578999876976013,
+      0.004900000058114529,
+      -0.453000009059906,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "action_filter": {
+    "alpha_new": 0.9,
+    "max_delta_rad": 0.6
+  },
+  "observations": {
+    "actor": {
+      "base_ang_vel": {
+        "delay_lags": [
+          0,
+          1
+        ],
+        "delay_step_seconds": 0.02,
+        "function": "mjlab_microduck.tasks.mdp.base_ang_vel_imu_misaligned"
+      },
+      "projected_gravity": {
+        "delay_lags": [
+          0,
+          1
+        ],
+        "delay_step_seconds": 0.02,
+        "function": "mjlab_microduck.tasks.mdp.projected_gravity_imu_misaligned"
+      },
+      "joint_pos": {
+        "delay_lags": [
+          1,
+          2
+        ],
+        "delay_step_seconds": 0.02,
+        "function": "mjlab.envs.mdp.observations.joint_pos_rel"
+      },
+      "joint_vel": {
+        "delay_lags": [
+          1,
+          1
+        ],
+        "delay_step_seconds": 0.02,
+        "function": "mjlab.envs.mdp.observations.joint_vel_rel"
+      },
+      "actions": {
+        "delay_lags": [
+          0,
+          0
+        ],
+        "delay_step_seconds": 0.02,
+        "function": "mjlab.envs.mdp.observations.last_action"
+      },
+      "command": {
+        "delay_lags": [
+          0,
+          0
+        ],
+        "delay_step_seconds": 0.02,
+        "function": "mjlab.envs.mdp.observations.generated_commands"
+      },
+      "head_command": {
+        "delay_lags": [
+          0,
+          0
+        ],
+        "delay_step_seconds": 0.02,
+        "function": "mjlab.envs.mdp.observations.generated_commands"
+      },
+      "body_command": {
+        "delay_lags": [
+          0,
+          0
+        ],
+        "delay_step_seconds": 0.02,
+        "function": "mjlab.envs.mdp.observations.generated_commands"
+      },
+      "arm_command": {
+        "delay_lags": [
+          0,
+          0
+        ],
+        "delay_step_seconds": 0.02,
+        "function": "mjlab.envs.mdp.observations.generated_commands"
+      },
+      "tail_command": {
+        "delay_lags": [
+          0,
+          0
+        ],
+        "delay_step_seconds": 0.02,
+        "function": "mjlab.envs.mdp.observations.generated_commands"
+      },
+      "jaw_command": {
+        "delay_lags": [
+          0,
+          0
+        ],
+        "delay_step_seconds": 0.02,
+        "function": "mjlab.envs.mdp.observations.generated_commands"
+      }
+    },
+    "critic": {
+      "base_lin_vel": {
+        "delay_lags": [
+          0,
+          0
+        ],
+        "delay_step_seconds": 0.02,
+        "function": "mjlab.envs.mdp.observations.base_lin_vel"
+      },
+      "base_ang_vel": {
+        "delay_lags": [
+          1,
+          2
+        ],
+        "delay_step_seconds": 0.02,
+        "function": "mjlab.envs.mdp.observations.builtin_sensor"
+      },
+      "projected_gravity": {
+        "delay_lags": [
+          0,
+          0
+        ],
+        "delay_step_seconds": 0.02,
+        "function": "mjlab.envs.mdp.observations.projected_gravity"
+      },
+      "joint_pos": {
+        "delay_lags": [
+          1,
+          2
+        ],
+        "delay_step_seconds": 0.02,
+        "function": "mjlab.envs.mdp.observations.joint_pos_rel"
+      },
+      "joint_vel": {
+        "delay_lags": [
+          1,
+          2
+        ],
+        "delay_step_seconds": 0.02,
+        "function": "mjlab.envs.mdp.observations.joint_vel_rel"
+      },
+      "actions": {
+        "delay_lags": [
+          0,
+          0
+        ],
+        "delay_step_seconds": 0.02,
+        "function": "mjlab.envs.mdp.observations.last_action"
+      },
+      "command": {
+        "delay_lags": [
+          0,
+          0
+        ],
+        "delay_step_seconds": 0.02,
+        "function": "mjlab.envs.mdp.observations.generated_commands"
+      },
+      "foot_height": {
+        "delay_lags": [
+          0,
+          0
+        ],
+        "delay_step_seconds": 0.02,
+        "function": "mjlab_microduck.tasks.mdp.foot_height_safe"
+      },
+      "foot_air_time": {
+        "delay_lags": [
+          0,
+          0
+        ],
+        "delay_step_seconds": 0.02,
+        "function": "mjlab_microduck.tasks.mdp.foot_air_time_safe"
+      },
+      "foot_contact": {
+        "delay_lags": [
+          0,
+          0
+        ],
+        "delay_step_seconds": 0.02,
+        "function": "mjlab.tasks.velocity.mdp.observations.foot_contact"
+      },
+      "foot_contact_forces": {
+        "delay_lags": [
+          0,
+          0
+        ],
+        "delay_step_seconds": 0.02,
+        "function": "mjlab_microduck.tasks.mdp.foot_contact_forces_safe"
+      },
+      "head_command": {
+        "delay_lags": [
+          0,
+          0
+        ],
+        "delay_step_seconds": 0.02,
+        "function": "mjlab.envs.mdp.observations.generated_commands"
+      },
+      "body_command": {
+        "delay_lags": [
+          0,
+          0
+        ],
+        "delay_step_seconds": 0.02,
+        "function": "mjlab.envs.mdp.observations.generated_commands"
+      },
+      "arm_command": {
+        "delay_lags": [
+          0,
+          0
+        ],
+        "delay_step_seconds": 0.02,
+        "function": "mjlab.envs.mdp.observations.generated_commands"
+      },
+      "tail_command": {
+        "delay_lags": [
+          0,
+          0
+        ],
+        "delay_step_seconds": 0.02,
+        "function": "mjlab.envs.mdp.observations.generated_commands"
+      },
+      "jaw_command": {
+        "delay_lags": [
+          0,
+          0
+        ],
+        "delay_step_seconds": 0.02,
+        "function": "mjlab.envs.mdp.observations.generated_commands"
+      }
+    }
+  },
+  "disabled_events_for_nominal_capture": [
+    "reset_base",
+    "reset_robot_joints",
+    "push_robot",
+    "encoder_bias",
+    "base_com",
+    "expand_bam_friction_fields",
+    "reset_action_history",
+    "randomize_com",
+    "randomize_head_com",
+    "randomize_mass_inertia",
+    "randomize_action_scale",
+    "randomize_servo_gains",
+    "randomize_servo_effort",
+    "randomize_joint_friction",
+    "randomize_armature"
+  ],
+  "joints": [
+    {
+      "name": "robot/left_hip_yaw",
+      "armature": 0.002,
+      "frictionloss": 0.01,
+      "damping": 0.053,
+      "range": [
+        -0.436332,
+        0.523599
+      ]
+    },
+    {
+      "name": "robot/left_hip_roll",
+      "armature": 0.002,
+      "frictionloss": 0.01,
+      "damping": 0.053,
+      "range": [
+        -0.383972,
+        0.383972
+      ]
+    },
+    {
+      "name": "robot/left_hip_pitch",
+      "armature": 0.002,
+      "frictionloss": 0.01,
+      "damping": 0.053,
+      "range": [
+        -1.570796,
+        1.570796
+      ]
+    },
+    {
+      "name": "robot/left_knee",
+      "armature": 0.002,
+      "frictionloss": 0.01,
+      "damping": 0.053,
+      "range": [
+        -1.570796,
+        1.570796
+      ]
+    },
+    {
+      "name": "robot/left_ankle",
+      "armature": 0.002,
+      "frictionloss": 0.01,
+      "damping": 0.053,
+      "range": [
+        -1.570796,
+        1.570796
+      ]
+    },
+    {
+      "name": "robot/neck_pitch",
+      "armature": 0.002,
+      "frictionloss": 0.01,
+      "damping": 0.053,
+      "range": [
+        -1.570796,
+        1.047198
+      ]
+    },
+    {
+      "name": "robot/head_pitch",
+      "armature": 0.002,
+      "frictionloss": 0.01,
+      "damping": 0.053,
+      "range": [
+        -1.570796,
+        1.570796
+      ]
+    },
+    {
+      "name": "robot/head_yaw",
+      "armature": 0.002,
+      "frictionloss": 0.01,
+      "damping": 0.053,
+      "range": [
+        -2.96706,
+        2.96706
+      ]
+    },
+    {
+      "name": "robot/head_roll",
+      "armature": 0.002,
+      "frictionloss": 0.01,
+      "damping": 0.053,
+      "range": [
+        -0.436332,
+        0.436332
+      ]
+    },
+    {
+      "name": "robot/jaw_hinge",
+      "armature": 0.002,
+      "frictionloss": 0.01,
+      "damping": 0.053,
+      "range": [
+        -0.6,
+        0.6
+      ]
+    },
+    {
+      "name": "robot/right_hip_yaw",
+      "armature": 0.002,
+      "frictionloss": 0.01,
+      "damping": 0.053,
+      "range": [
+        -0.523599,
+        0.436332
+      ]
+    },
+    {
+      "name": "robot/right_hip_roll",
+      "armature": 0.002,
+      "frictionloss": 0.01,
+      "damping": 0.053,
+      "range": [
+        -0.383972,
+        0.383972
+      ]
+    },
+    {
+      "name": "robot/right_hip_pitch",
+      "armature": 0.002,
+      "frictionloss": 0.01,
+      "damping": 0.053,
+      "range": [
+        -1.570796,
+        1.570796
+      ]
+    },
+    {
+      "name": "robot/right_knee",
+      "armature": 0.002,
+      "frictionloss": 0.01,
+      "damping": 0.053,
+      "range": [
+        -1.570796,
+        1.570796
+      ]
+    },
+    {
+      "name": "robot/right_ankle",
+      "armature": 0.002,
+      "frictionloss": 0.01,
+      "damping": 0.053,
+      "range": [
+        -1.570796,
+        1.570796
+      ]
+    },
+    {
+      "name": "robot/tail_yaw",
+      "armature": 0.002,
+      "frictionloss": 0.01,
+      "damping": 0.01,
+      "range": [
+        -0.7,
+        0.7
+      ]
+    },
+    {
+      "name": "robot/tail_pitch",
+      "armature": 0.002,
+      "frictionloss": 0.01,
+      "damping": 0.01,
+      "range": [
+        -0.9,
+        1.75
+      ]
+    },
+    {
+      "name": "robot/arm_l",
+      "armature": 0.002,
+      "frictionloss": 0.01,
+      "damping": 0.01,
+      "range": [
+        -1.2,
+        1.2
+      ]
+    },
+    {
+      "name": "robot/arm_r",
+      "armature": 0.002,
+      "frictionloss": 0.01,
+      "damping": 0.01,
+      "range": [
+        -1.2,
+        1.2
+      ]
+    }
+  ],
+  "bodies": [
+    {
+      "name": "terrain",
+      "mass": 0.0
+    },
+    {
+      "name": "robot/trunk_base",
+      "mass": 0.441927
+    },
+    {
+      "name": "robot/yaw2roll",
+      "mass": 0.0286746
+    },
+    {
+      "name": "robot/hip_l",
+      "mass": 0.0101985
+    },
+    {
+      "name": "robot/upper_leg_left",
+      "mass": 0.0613312
+    },
+    {
+      "name": "robot/leg",
+      "mass": 0.0307657
+    },
+    {
+      "name": "robot/ankle_left",
+      "mass": 0.0306957
+    },
+    {
+      "name": "robot/neck",
+      "mass": 0.0450584
+    },
+    {
+      "name": "robot/neck_pitch",
+      "mass": 0.0117368
+    },
+    {
+      "name": "robot/yaw_roll_motion",
+      "mass": 0.0341399
+    },
+    {
+      "name": "robot/jaw_soft",
+      "mass": 0.139712
+    },
+    {
+      "name": "robot/jaw_hinge",
+      "mass": 0.0124905
+    },
+    {
+      "name": "robot/bearing_roll",
+      "mass": 0.0286746
+    },
+    {
+      "name": "robot/hip_l_2",
+      "mass": 0.0101984
+    },
+    {
+      "name": "robot/upper_leg_right",
+      "mass": 0.0613288
+    },
+    {
+      "name": "robot/leg_2",
+      "mass": 0.0307657
+    },
+    {
+      "name": "robot/ankle_right",
+      "mass": 0.0306956
+    },
+    {
+      "name": "robot/tail_yaw",
+      "mass": 0.0280374
+    },
+    {
+      "name": "robot/tail_pitch",
+      "mass": 0.0530817
+    },
+    {
+      "name": "robot/arm_l",
+      "mass": 0.00435119
+    },
+    {
+      "name": "robot/arm_r",
+      "mass": 0.00435111
+    }
+  ],
+  "geoms": [
+    {
+      "name": "terrain",
+      "condim": 3,
+      "priority": 0,
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ]
+    },
+    {
+      "name": "",
+      "condim": 3,
+      "priority": 0,
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ]
+    },
+    {
+      "name": "robot/left_foot_collision",
+      "condim": 6,
+      "priority": 1,
+      "friction": [
+        1.0,
+        0.01,
+        1e-06
+      ]
+    },
+    {
+      "name": "",
+      "condim": 3,
+      "priority": 0,
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ]
+    },
+    {
+      "name": "robot/right_foot_collision",
+      "condim": 6,
+      "priority": 1,
+      "friction": [
+        1.0,
+        0.01,
+        1e-06
+      ]
+    }
+  ]
+}

@@ -23,4 +23,11 @@
 - Portable Blender 4.5.9 LTS is unmodified and remains local under `tools/`; it and its installation files are not uploaded in this repository.
 - Official Windows archive SHA256 recorded at setup: `41da973b9bf95bb312cbeff4d1982feb13259b43c821686b9bafea4dfe5477cf`.
 
-The local-only `source/manifest.json` records source URLs, revisions, byte counts and SHA256 values for retrieved upstream files. Only current-model attribution and license files are included in the GitHub upload; legacy outputs, raw source models and user reference files remain local.
+The local-only `source/manifest.json` records source URLs, revisions, byte counts and SHA256 values for retrieved upstream files. User reference files and retired CAD assemblies remain local.
+
+## Training snapshot added on 2026-09-20
+
+- `simulation/training/` includes the local training implementation based on `pollen-robotics/microduck_rl`; its pinned upstream base and original source hashes are recorded in `simulation/SOURCE_SNAPSHOT.json`.
+- The upstream Apache-2.0 code license is preserved in `simulation/training/LICENSE`. Mesh assets in `simulation/training_assets.zip` retain their original model-license boundaries; inclusion here does not relicense those meshes as Apache-2.0.
+- The archive retains models required by the current source registry, including compatibility variants. They are not additional current CAD designs. The current CAD and its model notice remain the authoritative mechanical source.
+- Selected policies, reports, and videos show simulation work only. Original upstream work and local modifications must not be represented as a wholly original robot or training framework.

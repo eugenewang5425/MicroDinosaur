@@ -1,0 +1,231 @@
+<mujoco model="microdinosaur_gc">
+  <compiler angle="radian" meshdir="assets/"/>
+
+  <default>
+    <default class="microduck">
+      <joint armature="0.005" frictionloss="0.1"/>
+      <general biastype="affine" gainprm="50" biasprm="0 -50 1"/>
+      <default class="visual">
+        <geom type="mesh" contype="0" conaffinity="0" group="2"/>
+      </default>
+      <default class="collision">
+        <geom group="3"/>
+      </default>
+    </default>
+    <default class="chosen_actuator">
+      <joint armature="0.0018" damping="0.053" frictionloss="0.0048"/>
+      <geom contype="0" conaffinity="0"/>
+      <general ctrlrange="-10 10" forcerange="-0.96 0.96" biastype="affine" gainprm="0.55" biasprm="0 -0.55"/>
+    </default>
+    <default class="tail_actuator">
+      <joint armature="0.002" damping="0.01" frictionloss="0.01"/>
+      <geom contype="0" conaffinity="0"/>
+      <general ctrlrange="-3.15 3.15" forcerange="-0.226 0.226" biastype="affine" gainprm="2" biasprm="0 -2 -0.06"/>
+    </default>
+    <default class="self_collision_only">
+      <geom contype="2" conaffinity="2" group="3"/>
+    </default>
+  </default>
+
+  <asset>
+    <material name="microdinosaur_gc_material" rgba="0.72 0.55 0.42 1"/>
+    <mesh name="microdinosaur_gc_trunk_base" content_type="model/stl" file="microdinosaur_gc_trunk_base.stl"/>
+    <mesh name="microdinosaur_gc_trunk_base_collision" content_type="model/stl" file="microdinosaur_gc_trunk_base_collision.stl"/>
+    <mesh name="microdinosaur_gc_yaw2roll" content_type="model/stl" file="microdinosaur_gc_yaw2roll.stl"/>
+    <mesh name="microdinosaur_gc_hip_l" content_type="model/stl" file="microdinosaur_gc_hip_l.stl"/>
+    <mesh name="microdinosaur_gc_hip_l_collision" content_type="model/stl" file="microdinosaur_gc_hip_l_collision.stl"/>
+    <mesh name="microdinosaur_gc_upper_leg_left" content_type="model/stl" file="microdinosaur_gc_upper_leg_left.stl"/>
+    <mesh name="microdinosaur_gc_upper_leg_left_collision" content_type="model/stl" file="microdinosaur_gc_upper_leg_left_collision.stl"/>
+    <mesh name="microdinosaur_gc_leg" content_type="model/stl" file="microdinosaur_gc_leg.stl"/>
+    <mesh name="microdinosaur_gc_leg_collision" content_type="model/stl" file="microdinosaur_gc_leg_collision.stl"/>
+    <mesh name="microdinosaur_gc_ankle_left" content_type="model/stl" file="microdinosaur_gc_ankle_left.stl"/>
+    <mesh name="microdinosaur_gc_ankle_left_foot" content_type="model/stl" file="microdinosaur_gc_ankle_left_foot.stl"/>
+    <mesh name="microdinosaur_gc_neck" content_type="model/stl" file="microdinosaur_gc_neck.stl"/>
+    <mesh name="microdinosaur_gc_neck_pitch" content_type="model/stl" file="microdinosaur_gc_neck_pitch.stl"/>
+    <mesh name="microdinosaur_gc_yaw_roll_motion" content_type="model/stl" file="microdinosaur_gc_yaw_roll_motion.stl"/>
+    <mesh name="microdinosaur_gc_jaw_soft" content_type="model/stl" file="microdinosaur_gc_jaw_soft.stl"/>
+    <mesh name="microdinosaur_gc_jaw_soft_collision" content_type="model/stl" file="microdinosaur_gc_jaw_soft_collision.stl"/>
+    <mesh name="microdinosaur_gc_bearing_roll" content_type="model/stl" file="microdinosaur_gc_bearing_roll.stl"/>
+    <mesh name="microdinosaur_gc_hip_l_2" content_type="model/stl" file="microdinosaur_gc_hip_l_2.stl"/>
+    <mesh name="microdinosaur_gc_hip_l_2_collision" content_type="model/stl" file="microdinosaur_gc_hip_l_2_collision.stl"/>
+    <mesh name="microdinosaur_gc_upper_leg_right" content_type="model/stl" file="microdinosaur_gc_upper_leg_right.stl"/>
+    <mesh name="microdinosaur_gc_upper_leg_right_collision" content_type="model/stl" file="microdinosaur_gc_upper_leg_right_collision.stl"/>
+    <mesh name="microdinosaur_gc_leg_2" content_type="model/stl" file="microdinosaur_gc_leg_2.stl"/>
+    <mesh name="microdinosaur_gc_leg_2_collision" content_type="model/stl" file="microdinosaur_gc_leg_2_collision.stl"/>
+    <mesh name="microdinosaur_gc_ankle_right" content_type="model/stl" file="microdinosaur_gc_ankle_right.stl"/>
+    <mesh name="microdinosaur_gc_ankle_right_foot" content_type="model/stl" file="microdinosaur_gc_ankle_right_foot.stl"/>
+    <mesh name="microdinosaur_gc_tail_yaw" content_type="model/stl" file="microdinosaur_gc_tail_yaw.stl"/>
+    <mesh name="microdinosaur_gc_tail_yaw_collision" content_type="model/stl" file="microdinosaur_gc_tail_yaw_collision.stl"/>
+    <mesh name="microdinosaur_gc_tail_pitch" content_type="model/stl" file="microdinosaur_gc_tail_pitch.stl"/>
+    <mesh name="microdinosaur_gc_tail_pitch_collision" content_type="model/stl" file="microdinosaur_gc_tail_pitch_collision.stl"/>
+    <mesh name="microdinosaur_gc_arm_l" content_type="model/stl" file="microdinosaur_gc_arm_l.stl"/>
+    <mesh name="microdinosaur_gc_arm_l_collision" content_type="model/stl" file="microdinosaur_gc_arm_l_collision.stl"/>
+    <mesh name="microdinosaur_gc_arm_r" content_type="model/stl" file="microdinosaur_gc_arm_r.stl"/>
+    <mesh name="microdinosaur_gc_arm_r_collision" content_type="model/stl" file="microdinosaur_gc_arm_r_collision.stl"/>
+    <mesh name="microdinosaur_gc_jaw_hinge" content_type="model/stl" file="microdinosaur_gc_jaw_hinge.stl"/>
+    <mesh name="microdinosaur_gc_jaw_hinge_collision" content_type="model/stl" file="microdinosaur_gc_jaw_hinge_collision.stl"/>
+  </asset>
+
+  <asset>
+  <texture type="skybox" name="sky" builtin="gradient" rgb1="0.32 0.46 0.66"
+           rgb2="0.03 0.05 0.08" width="256" height="1536"/>
+  <texture type="2d" name="grid" builtin="checker" mark="edge"
+           rgb1="0.24 0.32 0.42" rgb2="0.13 0.19 0.27" markrgb="0.72 0.76 0.8"
+           width="300" height="300"/>
+  <material name="gridmat" texture="grid" texuniform="true" texrepeat="8 8"
+            reflectance="0.12"/>
+</asset>
+<worldbody><geom name="check_floor" type="plane" size="25 25 0.05" pos="0 0 0" material="gridmat"/><light pos="0 0 3" dir="0 0 -1" directional="true" diffuse="0.7 0.7 0.7" ambient="0.35 0.35 0.35" specular="0.1 0.1 0.1"/>
+    <body name="trunk_base" childclass="microduck" pos="0 0 0.117182">
+      <inertial pos="-0.086277 0 0.039837" quat="0 0.753019 0 0.657998" mass="0.442287" diaginertia="0.00126645 0.001233 0.000295547"/>
+      <joint name="trunk_base_freejoint" type="free" armature="0" frictionloss="0"/>
+      <geom class="visual" material="microdinosaur_gc_material" mesh="microdinosaur_gc_trunk_base"/>
+      <geom name="trunk_base_collision" class="collision" type="mesh" material="microdinosaur_gc_material" mesh="microdinosaur_gc_trunk_base_collision"/>
+      <site name="imu" pos="0 0 0.03" group="3"/>
+      <site name="head_camera" pos="0.0155 -9.1e-05 -0.07234" quat="0.707107 0 0 -0.707107" group="3"/>
+      <camera name="head_camera" pos="0.0155 -9.1e-05 -0.07234" quat="0.707107 0 0 -0.707107"/>
+      <body name="yaw2roll" pos="-0.059 0.0175 -0.005" quat="0 -0.707107 -0.707107 0">
+        <inertial pos="0 0.000994 0.016892" mass="0.0230406" diaginertia="4e-06 3e-06 2e-06"/>
+        <joint name="left_hip_yaw" class="chosen_actuator" pos="0 0 0" axis="0 0 1" range="-0.436332 0.523599"/>
+        <geom class="visual" material="microdinosaur_gc_material" mesh="microdinosaur_gc_yaw2roll"/>
+        <body name="hip_l" pos="0 0.0165 0.0125" quat="-0.707107 0.707107 0 0">
+          <inertial pos="0.014815 0 -0.0083" mass="0.00618934" diaginertia="1e-06 1e-06 1e-06"/>
+          <joint name="left_hip_roll" class="chosen_actuator" pos="0 0 0" axis="0 0 1" range="-0.383972 0.383972"/>
+          <geom class="visual" material="microdinosaur_gc_material" mesh="microdinosaur_gc_hip_l"/>
+          <geom name="hip_l_collision" class="collision" type="mesh" material="microdinosaur_gc_material" mesh="microdinosaur_gc_hip_l_collision"/>
+          <body name="upper_leg_left" pos="0.025 0 -0.0185" quat="0.5 -0.5 0.5 -0.5">
+            <inertial pos="0.006766 0.022884 0.013453" quat="0.594394 0.383009 -0.594394 0.383009" mass="0.0482067" diaginertia="2e-05 1.88151e-05 8.18493e-06"/>
+            <joint name="left_hip_pitch" class="chosen_actuator" pos="0 0 0" axis="0 0 1" range="-1.5708 1.5708"/>
+            <geom class="visual" material="microdinosaur_gc_material" mesh="microdinosaur_gc_upper_leg_left"/>
+            <geom name="upper_leg_left_collision" class="collision" type="mesh" material="microdinosaur_gc_material" mesh="microdinosaur_gc_upper_leg_left_collision"/>
+            <body name="leg" pos="0.022 0.035777 -0.004" quat="0 -0.707107 -0.707107 0">
+              <inertial pos="0 0.031894 -0.009535" quat="0.83147 0.55557 0 0" mass="0.0215844" diaginertia="5e-06 4.41421e-06 1.58579e-06"/>
+              <joint name="left_knee" class="chosen_actuator" pos="0 0 0" axis="0 0 1" range="-1.5708 1.5708"/>
+              <geom class="visual" material="microdinosaur_gc_material" mesh="microdinosaur_gc_leg"/>
+              <geom name="leg_collision" class="collision" type="mesh" material="microdinosaur_gc_material" mesh="microdinosaur_gc_leg_collision"/>
+              <body name="ankle_left" pos="0 0.042 -0.026" quat="0 1 0 0">
+                <inertial pos="-0.006574 -0.014097 -0.014654" quat="0.5 0.5 0.5 0.5" mass="0.0264265" diaginertia="1e-05 7e-06 5e-06"/>
+                <joint name="left_ankle" class="chosen_actuator" pos="0 0 0" axis="0 0 1" range="-1.5708 1.5708"/>
+                <geom class="visual" material="microdinosaur_gc_material" mesh="microdinosaur_gc_ankle_left"/>
+                <geom name="left_foot_collision" class="collision" type="mesh" condim="6" friction="1 0.01 1e-06" material="microdinosaur_gc_material" mesh="microdinosaur_gc_ankle_left_foot"/>
+                <site name="left_foot" pos="-0.007 -0.013875 -0.014423" group="3"/>
+              </body>
+            </body>
+          </body>
+        </body>
+      </body>
+      <body name="neck" pos="0.026 0.0145 0.032421" quat="0 0 0.707107 -0.707107">
+        <inertial pos="0 -0.025 0.014167" quat="0.707107 0.707107 0 0" mass="0.0368414" diaginertia="1.7e-05 1.6e-05 3e-06"/>
+        <joint name="neck_pitch" class="chosen_actuator" pos="0 0 0" axis="0 0 1" range="-1.5708 1.0472"/>
+        <geom class="visual" material="microdinosaur_gc_material" mesh="microdinosaur_gc_neck"/>
+        <body name="neck_pitch" pos="0 -0.05 0" quat="0 1 0 0">
+          <inertial pos="0 0.011664 -0.0145" mass="0.00572" diaginertia="1e-06 1e-06 1e-06"/>
+          <joint name="head_pitch" class="chosen_actuator" pos="0 0 0" axis="0 0 1" range="-1.5708 1.5708"/>
+          <geom class="visual" material="microdinosaur_gc_material" mesh="microdinosaur_gc_neck_pitch"/>
+          <body name="yaw_roll_motion" pos="0 0.018693 -0.0145" quat="0 0 0.707107 0.707107">
+            <inertial pos="-0.000167 -0.00501 0.017806" quat="0 0.707107 0 0.707107" mass="0.0486" diaginertia="1e-05 8e-06 7e-06"/>
+            <joint name="head_yaw" class="chosen_actuator" pos="0 0 0" axis="0 0 1" range="-2.96706 2.96706"/>
+            <geom class="visual" material="microdinosaur_gc_material" mesh="microdinosaur_gc_yaw_roll_motion"/>
+            <body name="jaw_soft" pos="-0.0179 0 0.0145" quat="0.707107 0 -0.707107 0">
+              <inertial pos="0.004605 0.0012 -0.032476" quat="0.999586 0.019442 -0.0203905 -0.00582436" mass="0.188766" diaginertia="0.000321296 0.000254146 0.000149558"/>
+              <joint name="head_roll" class="chosen_actuator" pos="0 0 0" axis="0 0 1" range="-0.436332 0.436332"/>
+              <geom class="visual" material="microdinosaur_gc_material" mesh="microdinosaur_gc_jaw_soft"/>
+              <geom name="jaw_soft_collision" class="collision" type="mesh" material="microdinosaur_gc_material" mesh="microdinosaur_gc_jaw_soft_collision"/>
+              <body name="jaw_hinge" pos="0.003 0 -0.018" quat="0.707107 -0.707107 0 0">
+                <inertial pos="-0.01203 0.027111 -0.004911" quat="0.978171 -0.0810279 -0.0375616 0.18763" mass="0.0109578" diaginertia="1.88518e-05 1.34006e-05 5.74766e-06"/>
+                <joint name="jaw_hinge" class="chosen_actuator" pos="0 0 0" axis="0 0 1" range="-0.6 0.6"/>
+                <geom class="visual" material="microdinosaur_gc_material" mesh="microdinosaur_gc_jaw_hinge"/>
+                <geom name="jaw_hinge_collision" class="collision" type="mesh" material="microdinosaur_gc_material" mesh="microdinosaur_gc_jaw_hinge_collision"/>
+              </body>
+            </body>
+          </body>
+        </body>
+      </body>
+      <body name="bearing_roll" pos="-0.059 -0.0175 -0.005" quat="0 -0.707107 -0.707107 0">
+        <inertial pos="0 0.000994 0.016892" mass="0.0230406" diaginertia="4e-06 3e-06 2e-06"/>
+        <joint name="right_hip_yaw" class="chosen_actuator" pos="0 0 0" axis="0 0 1" range="-0.523599 0.436332"/>
+        <geom class="visual" material="microdinosaur_gc_material" mesh="microdinosaur_gc_bearing_roll"/>
+        <body name="hip_l_2" pos="0 0.0165 0.0125" quat="0 0 0.707107 0.707107">
+          <inertial pos="0.014815 0 -0.0083" mass="0.00618934" diaginertia="1e-06 1e-06 1e-06"/>
+          <joint name="right_hip_roll" class="chosen_actuator" pos="0 0 0" axis="0 0 1" range="-0.383972 0.383972"/>
+          <geom class="visual" material="microdinosaur_gc_material" mesh="microdinosaur_gc_hip_l_2"/>
+          <geom name="hip_l_2_collision" class="collision" type="mesh" material="microdinosaur_gc_material" mesh="microdinosaur_gc_hip_l_2_collision"/>
+          <body name="upper_leg_right" pos="0.025 0 -0.0185" quat="-0.5 0.5 -0.5 0.5">
+            <inertial pos="-0.006766 0.022884 0.013453" quat="0.383009 0.594394 -0.383009 0.594394" mass="0.0482067" diaginertia="2e-05 1.88151e-05 8.18493e-06"/>
+            <joint name="right_hip_pitch" class="chosen_actuator" pos="0 0 0" axis="0 0 1" range="-1.5708 1.5708"/>
+            <geom class="visual" material="microdinosaur_gc_material" mesh="microdinosaur_gc_upper_leg_right"/>
+            <geom name="upper_leg_right_collision" class="collision" type="mesh" material="microdinosaur_gc_material" mesh="microdinosaur_gc_upper_leg_right_collision"/>
+            <body name="leg_2" pos="-0.022 0.035777 -0.004" quat="0 -1 0 0">
+              <inertial pos="-0.031894 0 -0.009535" quat="0.587938 0.392847 0.392847 0.587938" mass="0.0215844" diaginertia="5e-06 4.41421e-06 1.58579e-06"/>
+              <joint name="right_knee" class="chosen_actuator" pos="0 0 0" axis="0 0 1" range="-1.5708 1.5708"/>
+              <geom class="visual" material="microdinosaur_gc_material" mesh="microdinosaur_gc_leg_2"/>
+              <geom name="leg_2_collision" class="collision" type="mesh" material="microdinosaur_gc_material" mesh="microdinosaur_gc_leg_2_collision"/>
+              <body name="ankle_right" pos="-0.042 0 -0.026" quat="0 0.707107 0.707107 0">
+                <inertial pos="0.006574 -0.014097 -0.014655" quat="0.5 0.5 0.5 0.5" mass="0.0264263" diaginertia="1e-05 7e-06 5e-06"/>
+                <joint name="right_ankle" class="chosen_actuator" pos="0 0 0" axis="0 0 1" range="-1.5708 1.5708"/>
+                <geom class="visual" material="microdinosaur_gc_material" mesh="microdinosaur_gc_ankle_right"/>
+                <geom name="right_foot_collision" class="collision" type="mesh" condim="6" friction="1 0.01 1e-06" material="microdinosaur_gc_material" mesh="microdinosaur_gc_ankle_right_foot"/>
+                <site name="right_foot" pos="0.007 -0.013875 -0.014423" group="3"/>
+              </body>
+            </body>
+          </body>
+        </body>
+      </body>
+      <body name="tail_yaw" pos="-0.175 0 0.032818">
+        <inertial pos="-0.023164 -0.00037 0.022763" quat="0.344336 0.617602 0.617602 0.344336" mass="0.0253216" diaginertia="6e-06 5.61803e-06 3.38197e-06"/>
+        <joint name="tail_yaw" class="tail_actuator" pos="0 0 0" axis="0 0 1" range="-0.7 0.7"/>
+        <geom class="visual" material="microdinosaur_gc_material" mesh="microdinosaur_gc_tail_yaw"/>
+        <geom name="tail_yaw_collision" class="collision" type="mesh" material="microdinosaur_gc_material" mesh="microdinosaur_gc_tail_yaw_collision"/>
+        <body name="tail_pitch" pos="-0.016 0 0.027" quat="0.707107 -0.707107 0 0">
+          <inertial pos="-0.074906 0 0" quat="0.5 0.5 0.5 0.5" mass="0.0398438" diaginertia="8.1e-05 7.9e-05 4e-06"/>
+          <joint name="tail_pitch" class="tail_actuator" pos="0 0 0" axis="0 0 1" range="-0.9 1.75"/>
+          <geom class="visual" material="microdinosaur_gc_material" mesh="microdinosaur_gc_tail_pitch"/>
+          <geom name="tail_pitch_collision" class="collision" type="mesh" material="microdinosaur_gc_material" mesh="microdinosaur_gc_tail_pitch_collision"/>
+        </body>
+      </body>
+      <body name="arm_l" pos="0.012 0.053 0.032421" quat="0.707107 -0.707107 0 0">
+        <inertial pos="0.011581 0.0084 0.003182" quat="0.5 0.5 -0.5 0.5" mass="0.00281035" diaginertia="2e-06 1e-06 1e-06"/>
+        <joint name="arm_l" class="tail_actuator" pos="0 0 0" axis="0 0 1" range="-1.2 1.2"/>
+        <geom class="visual" material="microdinosaur_gc_material" mesh="microdinosaur_gc_arm_l"/>
+        <geom name="arm_l_collision" class="collision" type="mesh" material="microdinosaur_gc_material" mesh="microdinosaur_gc_arm_l_collision"/>
+      </body>
+      <body name="arm_r" pos="0.012 -0.053 0.032421" quat="0.707107 -0.707107 0 0">
+        <inertial pos="0.011581 0.0084 -0.003182" quat="0.5 0.5 -0.5 0.5" mass="0.00281027" diaginertia="2e-06 1e-06 1e-06"/>
+        <joint name="arm_r" class="tail_actuator" pos="0 0 0" axis="0 0 1" range="-1.2 1.2"/>
+        <geom class="visual" material="microdinosaur_gc_material" mesh="microdinosaur_gc_arm_r"/>
+        <geom name="arm_r_collision" class="collision" type="mesh" material="microdinosaur_gc_material" mesh="microdinosaur_gc_arm_r_collision"/>
+      </body>
+    </body>
+  </worldbody>
+
+  <actuator>
+    <general name="left_hip_yaw" joint="left_hip_yaw" ctrllimited="false" forcerange="-0.6 0.6" biastype="affine" gainprm="7" biasprm="0 -7 -0.8"/>
+    <general name="left_hip_roll" joint="left_hip_roll" ctrllimited="false" forcerange="-0.6 0.6" biastype="affine" gainprm="7" biasprm="0 -7 -0.8"/>
+    <general name="left_hip_pitch" joint="left_hip_pitch" ctrllimited="false" forcerange="-0.6 0.6" biastype="affine" gainprm="7" biasprm="0 -7 -0.8"/>
+    <general name="left_knee" joint="left_knee" ctrllimited="false" forcerange="-0.6 0.6" biastype="affine" gainprm="7" biasprm="0 -7 -0.8"/>
+    <general name="left_ankle" joint="left_ankle" ctrllimited="false" forcerange="-0.6 0.6" biastype="affine" gainprm="7" biasprm="0 -7 -0.8"/>
+    <general name="neck_pitch" joint="neck_pitch" ctrllimited="false" forcerange="-0.6 0.6" biastype="affine" gainprm="7" biasprm="0 -7 -0.8"/>
+    <general name="head_pitch" joint="head_pitch" ctrllimited="false" forcerange="-0.6 0.6" biastype="affine" gainprm="7" biasprm="0 -7 -0.8"/>
+    <general name="head_yaw" joint="head_yaw" ctrllimited="false" forcerange="-0.6 0.6" biastype="affine" gainprm="7" biasprm="0 -7 -0.8"/>
+    <general name="head_roll" joint="head_roll" ctrllimited="false" forcerange="-0.6 0.6" biastype="affine" gainprm="7" biasprm="0 -7 -0.8"/>
+    <general name="jaw_hinge" joint="jaw_hinge" ctrllimited="false" forcerange="-0.6 0.6" biastype="affine" gainprm="7" biasprm="0 -7 -0.8"/>
+    <general name="right_hip_yaw" joint="right_hip_yaw" ctrllimited="false" forcerange="-0.6 0.6" biastype="affine" gainprm="7" biasprm="0 -7 -0.8"/>
+    <general name="right_hip_roll" joint="right_hip_roll" ctrllimited="false" forcerange="-0.6 0.6" biastype="affine" gainprm="7" biasprm="0 -7 -0.8"/>
+    <general name="right_hip_pitch" joint="right_hip_pitch" ctrllimited="false" forcerange="-0.6 0.6" biastype="affine" gainprm="7" biasprm="0 -7 -0.8"/>
+    <general name="right_knee" joint="right_knee" ctrllimited="false" forcerange="-0.6 0.6" biastype="affine" gainprm="7" biasprm="0 -7 -0.8"/>
+    <general name="right_ankle" joint="right_ankle" ctrllimited="false" forcerange="-0.6 0.6" biastype="affine" gainprm="7" biasprm="0 -7 -0.8"/>
+    <general name="tail_yaw" joint="tail_yaw" ctrllimited="false" forcerange="-0.6 0.6" biastype="affine" gainprm="7" biasprm="0 -7 -0.8"/>
+    <general name="tail_pitch" joint="tail_pitch" ctrllimited="false" forcerange="-0.6 0.6" biastype="affine" gainprm="7" biasprm="0 -7 -0.8"/>
+    <general name="arm_l" joint="arm_l" ctrllimited="false" forcerange="-0.6 0.6" biastype="affine" gainprm="7" biasprm="0 -7 -0.8"/>
+    <general name="arm_r" joint="arm_r" ctrllimited="false" forcerange="-0.6 0.6" biastype="affine" gainprm="7" biasprm="0 -7 -0.8"/>
+  </actuator>
+
+  <sensor>
+    <framequat objtype="site" objname="imu" name="orientation" noise="0.001"/>
+    <gyro site="imu" name="angular-velocity" noise="0.005"/>
+    <gyro site="imu" name="imu_ang_vel"/>
+    <velocimeter site="imu" name="imu_lin_vel"/>
+    <accelerometer site="imu" name="imu_accel"/>
+    <subtreeangmom body="trunk_base" name="root_angmom"/>
+  </sensor>
+</mujoco>

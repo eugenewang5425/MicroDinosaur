@@ -1,0 +1,674 @@
+{
+  "attempts": 73,
+  "completed": 73,
+  "rejected": 0,
+  "falls": 0,
+  "groups": {
+    "head_mass_110pct__v7__straight__imu": {
+      "attempts": 1,
+      "completed": 1,
+      "rejected": 0,
+      "falls": 0,
+      "mean": {
+        "camera_heading_error_rms_deg": 1.1207718351266347,
+        "camera_heading_detrended_rms_deg": 0.5996009892613463,
+        "camera_yaw_rate_error_rms_deg_s": 9.315738722193126,
+        "camera_pitch_rms_deg": 1.0007304540452182,
+        "camera_roll_rms_deg": 4.235648026644363,
+        "body_vx_mean_m_s": 0.2458290661066624,
+        "heading_error_rms_deg": 2.0945185840433087,
+        "head_joint_torque_peak_nm": 0.5628357765812522,
+        "head_joint_torque_saturation_fraction": 0.0,
+        "camera_relative_lateral_p90_range_mm": 3.197088048510651
+      }
+    },
+    "head_mass_110pct__v7__straight__off": {
+      "attempts": 1,
+      "completed": 1,
+      "rejected": 0,
+      "falls": 0,
+      "mean": {
+        "camera_heading_error_rms_deg": 3.0218907848528884,
+        "camera_heading_detrended_rms_deg": 1.3924578060203874,
+        "camera_yaw_rate_error_rms_deg_s": 20.574496076834084,
+        "camera_pitch_rms_deg": 2.5546252490730876,
+        "camera_roll_rms_deg": 5.333020794004246,
+        "body_vx_mean_m_s": 0.24571826352919074,
+        "heading_error_rms_deg": 1.8086406569686377,
+        "head_joint_torque_peak_nm": 0.6,
+        "head_joint_torque_saturation_fraction": 0.002534722222222222,
+        "camera_relative_lateral_p90_range_mm": 5.093126879674845
+      }
+    },
+    "imu_40_60ms__v7__straight__imu": {
+      "attempts": 1,
+      "completed": 1,
+      "rejected": 0,
+      "falls": 0,
+      "mean": {
+        "camera_heading_error_rms_deg": 2.3260760907072635,
+        "camera_heading_detrended_rms_deg": 1.5803636681510578,
+        "camera_yaw_rate_error_rms_deg_s": 22.622595278691193,
+        "camera_pitch_rms_deg": 1.5371917633768764,
+        "camera_roll_rms_deg": 5.559446902259055,
+        "body_vx_mean_m_s": 0.22972791852921814,
+        "heading_error_rms_deg": 1.216732324525997,
+        "head_joint_torque_peak_nm": 0.5862420017479768,
+        "head_joint_torque_saturation_fraction": 0.0,
+        "camera_relative_lateral_p90_range_mm": 5.656898392004695
+      }
+    },
+    "imu_40_60ms__v7__straight__off": {
+      "attempts": 1,
+      "completed": 1,
+      "rejected": 0,
+      "falls": 0,
+      "mean": {
+        "camera_heading_error_rms_deg": 2.9470359573189695,
+        "camera_heading_detrended_rms_deg": 2.7730479394116627,
+        "camera_yaw_rate_error_rms_deg_s": 19.615825324032283,
+        "camera_pitch_rms_deg": 2.753533756407533,
+        "camera_roll_rms_deg": 5.537466473735418,
+        "body_vx_mean_m_s": 0.23053993830075334,
+        "heading_error_rms_deg": 5.060817531263428,
+        "head_joint_torque_peak_nm": 0.6,
+        "head_joint_torque_saturation_fraction": 0.002673611111111111,
+        "camera_relative_lateral_p90_range_mm": 5.820135041396926
+      }
+    },
+    "imu_outage_200ms__v7__straight__imu": {
+      "attempts": 1,
+      "completed": 1,
+      "rejected": 0,
+      "falls": 0,
+      "mean": {
+        "camera_heading_error_rms_deg": 2.3299956315640378,
+        "camera_heading_detrended_rms_deg": 0.6756239196349935,
+        "camera_yaw_rate_error_rms_deg_s": 9.444562664974205,
+        "camera_pitch_rms_deg": 1.2664897465433131,
+        "camera_roll_rms_deg": 5.431717593267027,
+        "body_vx_mean_m_s": 0.23001653139151235,
+        "heading_error_rms_deg": 0.9631902728422548,
+        "head_joint_torque_peak_nm": 0.5717663410446254,
+        "head_joint_torque_saturation_fraction": 0.0,
+        "camera_relative_lateral_p90_range_mm": 4.136052614296395
+      }
+    },
+    "imu_outage_200ms__v7__straight__off": {
+      "attempts": 1,
+      "completed": 1,
+      "rejected": 0,
+      "falls": 0,
+      "mean": {
+        "camera_heading_error_rms_deg": 5.159593466904414,
+        "camera_heading_detrended_rms_deg": 1.437407485420462,
+        "camera_yaw_rate_error_rms_deg_s": 19.894788457738706,
+        "camera_pitch_rms_deg": 2.740272949962782,
+        "camera_roll_rms_deg": 5.552112290326031,
+        "body_vx_mean_m_s": 0.23088796544436482,
+        "heading_error_rms_deg": 1.365247272116523,
+        "head_joint_torque_peak_nm": 0.6,
+        "head_joint_torque_saturation_fraction": 0.0024652777777777776,
+        "camera_relative_lateral_p90_range_mm": 5.263524395120041
+      }
+    },
+    "imu_residual_0p5deg_s__v7__straight__imu": {
+      "attempts": 1,
+      "completed": 1,
+      "rejected": 0,
+      "falls": 0,
+      "mean": {
+        "camera_heading_error_rms_deg": 2.564738589389416,
+        "camera_heading_detrended_rms_deg": 0.6217273724550131,
+        "camera_yaw_rate_error_rms_deg_s": 9.28382191794595,
+        "camera_pitch_rms_deg": 0.9330802516671796,
+        "camera_roll_rms_deg": 4.458267606424228,
+        "body_vx_mean_m_s": 0.2291646186318634,
+        "heading_error_rms_deg": 3.163489867775117,
+        "head_joint_torque_peak_nm": 0.5709216950645304,
+        "head_joint_torque_saturation_fraction": 0.0,
+        "camera_relative_lateral_p90_range_mm": 2.436189070573794
+      }
+    },
+    "imu_residual_0p5deg_s__v7__straight__off": {
+      "attempts": 1,
+      "completed": 1,
+      "rejected": 0,
+      "falls": 0,
+      "mean": {
+        "camera_heading_error_rms_deg": 2.987160463124027,
+        "camera_heading_detrended_rms_deg": 1.8489769785654657,
+        "camera_yaw_rate_error_rms_deg_s": 19.670611352494475,
+        "camera_pitch_rms_deg": 2.773262531925773,
+        "camera_roll_rms_deg": 5.540787893098516,
+        "body_vx_mean_m_s": 0.23072808100005507,
+        "heading_error_rms_deg": 3.3892976911317123,
+        "head_joint_torque_peak_nm": 0.6,
+        "head_joint_torque_saturation_fraction": 0.0026041666666666665,
+        "camera_relative_lateral_p90_range_mm": 5.256527505713418
+      }
+    },
+    "motor_15ms__v7__straight__imu": {
+      "attempts": 1,
+      "completed": 1,
+      "rejected": 0,
+      "falls": 0,
+      "mean": {
+        "camera_heading_error_rms_deg": 0.6890176181946683,
+        "camera_heading_detrended_rms_deg": 0.6133130057555455,
+        "camera_yaw_rate_error_rms_deg_s": 8.889534625313713,
+        "camera_pitch_rms_deg": 1.3616016497426364,
+        "camera_roll_rms_deg": 5.048800003742668,
+        "body_vx_mean_m_s": 0.22817952010463222,
+        "heading_error_rms_deg": 2.1100431629339744,
+        "head_joint_torque_peak_nm": 0.5357076245046398,
+        "head_joint_torque_saturation_fraction": 0.0,
+        "camera_relative_lateral_p90_range_mm": 3.4293315423957877
+      }
+    },
+    "motor_15ms__v7__straight__off": {
+      "attempts": 1,
+      "completed": 1,
+      "rejected": 0,
+      "falls": 0,
+      "mean": {
+        "camera_heading_error_rms_deg": 3.0555480803665964,
+        "camera_heading_detrended_rms_deg": 1.449101912862959,
+        "camera_yaw_rate_error_rms_deg_s": 18.796224655535475,
+        "camera_pitch_rms_deg": 2.6844352660695363,
+        "camera_roll_rms_deg": 5.8712052545274,
+        "body_vx_mean_m_s": 0.22911984926574608,
+        "heading_error_rms_deg": 1.472040034896721,
+        "head_joint_torque_peak_nm": 0.6,
+        "head_joint_torque_saturation_fraction": 0.0027083333333333334,
+        "camera_relative_lateral_p90_range_mm": 5.29877849970792
+      }
+    },
+    "motor_5ms__v7__straight__imu": {
+      "attempts": 1,
+      "completed": 1,
+      "rejected": 0,
+      "falls": 0,
+      "mean": {
+        "camera_heading_error_rms_deg": 1.2001261466587678,
+        "camera_heading_detrended_rms_deg": 0.91441292091498,
+        "camera_yaw_rate_error_rms_deg_s": 10.84222709008919,
+        "camera_pitch_rms_deg": 1.1102462081759938,
+        "camera_roll_rms_deg": 4.366540870579314,
+        "body_vx_mean_m_s": 0.22464245542874964,
+        "heading_error_rms_deg": 2.8834672010844082,
+        "head_joint_torque_peak_nm": 0.5621295549731293,
+        "head_joint_torque_saturation_fraction": 0.0,
+        "camera_relative_lateral_p90_range_mm": 6.682665057175017
+      }
+    },
+    "motor_5ms__v7__straight__off": {
+      "attempts": 1,
+      "completed": 1,
+      "rejected": 0,
+      "falls": 0,
+      "mean": {
+        "camera_heading_error_rms_deg": 5.229313426589087,
+        "camera_heading_detrended_rms_deg": 2.858424941294306,
+        "camera_yaw_rate_error_rms_deg_s": 22.024003146960876,
+        "camera_pitch_rms_deg": 2.656488709925267,
+        "camera_roll_rms_deg": 5.240768206752769,
+        "body_vx_mean_m_s": 0.2227012873588554,
+        "heading_error_rms_deg": 2.544500883263393,
+        "head_joint_torque_peak_nm": 0.6,
+        "head_joint_torque_saturation_fraction": 0.003611111111111111,
+        "camera_relative_lateral_p90_range_mm": 5.814065214152887
+      }
+    },
+    "nominal__s42_no_neck__left_then_hold__imu": {
+      "attempts": 3,
+      "completed": 3,
+      "rejected": 0,
+      "falls": 0,
+      "mean": {
+        "camera_heading_error_rms_deg": 0.8177776761524501,
+        "camera_heading_detrended_rms_deg": 0.6792537652272514,
+        "camera_yaw_rate_error_rms_deg_s": 11.12005105126388,
+        "camera_pitch_rms_deg": 1.6663594083395104,
+        "camera_roll_rms_deg": 3.971878501166889,
+        "body_vx_mean_m_s": 0.20172478920457393,
+        "heading_error_rms_deg": 5.039953042128865,
+        "head_joint_torque_peak_nm": 0.5603144679692106,
+        "head_joint_torque_saturation_fraction": 0.0,
+        "camera_relative_lateral_p90_range_mm": 8.347279652748
+      }
+    },
+    "nominal__s42_no_neck__left_then_hold__off": {
+      "attempts": 3,
+      "completed": 3,
+      "rejected": 0,
+      "falls": 0,
+      "mean": {
+        "camera_heading_error_rms_deg": 2.1856901517057516,
+        "camera_heading_detrended_rms_deg": 1.9639317673173027,
+        "camera_yaw_rate_error_rms_deg_s": 26.47261670162959,
+        "camera_pitch_rms_deg": 3.1771968158564463,
+        "camera_roll_rms_deg": 3.909522368426765,
+        "body_vx_mean_m_s": 0.2042540768851214,
+        "heading_error_rms_deg": 4.497141615101332,
+        "head_joint_torque_peak_nm": 0.6,
+        "head_joint_torque_saturation_fraction": 0.003263888888888889,
+        "camera_relative_lateral_p90_range_mm": 6.264133397005846
+      }
+    },
+    "nominal__s42_no_neck__right_then_hold__imu": {
+      "attempts": 3,
+      "completed": 3,
+      "rejected": 0,
+      "falls": 0,
+      "mean": {
+        "camera_heading_error_rms_deg": 0.928441776925481,
+        "camera_heading_detrended_rms_deg": 0.8008905507188974,
+        "camera_yaw_rate_error_rms_deg_s": 12.242558849417138,
+        "camera_pitch_rms_deg": 1.9683859680451616,
+        "camera_roll_rms_deg": 4.005976302678715,
+        "body_vx_mean_m_s": 0.2025167470255261,
+        "heading_error_rms_deg": 3.0433472410089117,
+        "head_joint_torque_peak_nm": 0.5597636425581984,
+        "head_joint_torque_saturation_fraction": 0.0,
+        "camera_relative_lateral_p90_range_mm": 5.272130206561659
+      }
+    },
+    "nominal__s42_no_neck__right_then_hold__off": {
+      "attempts": 3,
+      "completed": 3,
+      "rejected": 0,
+      "falls": 0,
+      "mean": {
+        "camera_heading_error_rms_deg": 2.3046919766003238,
+        "camera_heading_detrended_rms_deg": 2.0904454247179185,
+        "camera_yaw_rate_error_rms_deg_s": 27.443695452185125,
+        "camera_pitch_rms_deg": 3.256956357802513,
+        "camera_roll_rms_deg": 3.854280374329557,
+        "body_vx_mean_m_s": 0.2045263563127421,
+        "heading_error_rms_deg": 2.7687429714273506,
+        "head_joint_torque_peak_nm": 0.6,
+        "head_joint_torque_saturation_fraction": 0.0036111111111111114,
+        "camera_relative_lateral_p90_range_mm": 7.075514249991522
+      }
+    },
+    "nominal__s42_no_neck__stand__imu": {
+      "attempts": 3,
+      "completed": 3,
+      "rejected": 0,
+      "falls": 0,
+      "mean": {
+        "camera_heading_error_rms_deg": 0.21661419790956074,
+        "camera_heading_detrended_rms_deg": 0.14814314451330474,
+        "camera_yaw_rate_error_rms_deg_s": 2.281603492812795,
+        "camera_pitch_rms_deg": 1.9173865548628248,
+        "camera_roll_rms_deg": 0.4067263700355745,
+        "body_vx_mean_m_s": 0.0003956595065379679,
+        "heading_error_rms_deg": 4.016974462910147,
+        "head_joint_torque_peak_nm": 0.22744878158522522,
+        "head_joint_torque_saturation_fraction": 0.0,
+        "camera_relative_lateral_p90_range_mm": 1.6891765559193892
+      }
+    },
+    "nominal__s42_no_neck__stand__off": {
+      "attempts": 3,
+      "completed": 3,
+      "rejected": 0,
+      "falls": 0,
+      "mean": {
+        "camera_heading_error_rms_deg": 1.4371223240618534,
+        "camera_heading_detrended_rms_deg": 0.3895559469578433,
+        "camera_yaw_rate_error_rms_deg_s": 1.6037628720479136,
+        "camera_pitch_rms_deg": 4.571936056583691,
+        "camera_roll_rms_deg": 0.4214313228808008,
+        "body_vx_mean_m_s": 0.00038790174377739906,
+        "heading_error_rms_deg": 4.109464037667759,
+        "head_joint_torque_peak_nm": 0.25017048442846374,
+        "head_joint_torque_saturation_fraction": 0.0,
+        "camera_relative_lateral_p90_range_mm": 0.486082003679204
+      }
+    },
+    "nominal__s42_no_neck__straight__filter_only": {
+      "attempts": 3,
+      "completed": 3,
+      "rejected": 0,
+      "falls": 0,
+      "mean": {
+        "camera_heading_error_rms_deg": 2.8455649602793236,
+        "camera_heading_detrended_rms_deg": 2.021648420079137,
+        "camera_yaw_rate_error_rms_deg_s": 14.231307631310045,
+        "camera_pitch_rms_deg": 3.0594253256463677,
+        "camera_roll_rms_deg": 5.073375979268528,
+        "body_vx_mean_m_s": 0.27039452513656553,
+        "heading_error_rms_deg": 6.621563199577818,
+        "head_joint_torque_peak_nm": 0.47322182504868143,
+        "head_joint_torque_saturation_fraction": 0.0,
+        "camera_relative_lateral_p90_range_mm": 4.724641083963871
+      }
+    },
+    "nominal__s42_no_neck__straight__imu": {
+      "attempts": 3,
+      "completed": 3,
+      "rejected": 0,
+      "falls": 0,
+      "mean": {
+        "camera_heading_error_rms_deg": 0.8949897476848873,
+        "camera_heading_detrended_rms_deg": 0.7216852907466915,
+        "camera_yaw_rate_error_rms_deg_s": 12.08530301978221,
+        "camera_pitch_rms_deg": 2.29365861892595,
+        "camera_roll_rms_deg": 4.333512739349828,
+        "body_vx_mean_m_s": 0.27018961529673585,
+        "heading_error_rms_deg": 6.547424724311628,
+        "head_joint_torque_peak_nm": 0.5822760044231412,
+        "head_joint_torque_saturation_fraction": 0.0,
+        "camera_relative_lateral_p90_range_mm": 6.471219074540415
+      }
+    },
+    "nominal__s42_no_neck__straight__off": {
+      "attempts": 3,
+      "completed": 3,
+      "rejected": 0,
+      "falls": 0,
+      "mean": {
+        "camera_heading_error_rms_deg": 2.5070720898609373,
+        "camera_heading_detrended_rms_deg": 2.1200577493840314,
+        "camera_yaw_rate_error_rms_deg_s": 30.3838693539498,
+        "camera_pitch_rms_deg": 3.0990509694756767,
+        "camera_roll_rms_deg": 4.6849434319513446,
+        "body_vx_mean_m_s": 0.27237529855254466,
+        "heading_error_rms_deg": 5.86591931500741,
+        "head_joint_torque_peak_nm": 0.6,
+        "head_joint_torque_saturation_fraction": 0.007743055555555556,
+        "camera_relative_lateral_p90_range_mm": 5.424503364316657
+      }
+    },
+    "nominal__v7__left_then_hold__imu": {
+      "attempts": 3,
+      "completed": 3,
+      "rejected": 0,
+      "falls": 0,
+      "mean": {
+        "camera_heading_error_rms_deg": 0.7974276936441856,
+        "camera_heading_detrended_rms_deg": 0.702937074860225,
+        "camera_yaw_rate_error_rms_deg_s": 7.518936899560695,
+        "camera_pitch_rms_deg": 0.6824087019056703,
+        "camera_roll_rms_deg": 3.707722017160794,
+        "body_vx_mean_m_s": 0.16682935093027226,
+        "heading_error_rms_deg": 1.9055961966335602,
+        "head_joint_torque_peak_nm": 0.38066361546558003,
+        "head_joint_torque_saturation_fraction": 0.0,
+        "camera_relative_lateral_p90_range_mm": 4.604864851315222
+      }
+    },
+    "nominal__v7__left_then_hold__off": {
+      "attempts": 3,
+      "completed": 3,
+      "rejected": 0,
+      "falls": 0,
+      "mean": {
+        "camera_heading_error_rms_deg": 3.916524795769597,
+        "camera_heading_detrended_rms_deg": 2.629901266165961,
+        "camera_yaw_rate_error_rms_deg_s": 19.579205163505424,
+        "camera_pitch_rms_deg": 2.9754063669831683,
+        "camera_roll_rms_deg": 4.405920761928364,
+        "body_vx_mean_m_s": 0.16729467397557005,
+        "heading_error_rms_deg": 1.6666011390609967,
+        "head_joint_torque_peak_nm": 0.6,
+        "head_joint_torque_saturation_fraction": 4.6296296296296294e-05,
+        "camera_relative_lateral_p90_range_mm": 6.800243397466278
+      }
+    },
+    "nominal__v7__right_then_hold__imu": {
+      "attempts": 3,
+      "completed": 3,
+      "rejected": 0,
+      "falls": 0,
+      "mean": {
+        "camera_heading_error_rms_deg": 1.0248633089779007,
+        "camera_heading_detrended_rms_deg": 0.801259013274341,
+        "camera_yaw_rate_error_rms_deg_s": 8.30074299008467,
+        "camera_pitch_rms_deg": 0.9004766685822783,
+        "camera_roll_rms_deg": 3.7564986479361964,
+        "body_vx_mean_m_s": 0.1650510142768471,
+        "heading_error_rms_deg": 2.5256932022673433,
+        "head_joint_torque_peak_nm": 0.3880117145370095,
+        "head_joint_torque_saturation_fraction": 0.0,
+        "camera_relative_lateral_p90_range_mm": 5.751724267442924
+      }
+    },
+    "nominal__v7__right_then_hold__off": {
+      "attempts": 3,
+      "completed": 3,
+      "rejected": 0,
+      "falls": 0,
+      "mean": {
+        "camera_heading_error_rms_deg": 5.02929523920442,
+        "camera_heading_detrended_rms_deg": 3.305110726070476,
+        "camera_yaw_rate_error_rms_deg_s": 20.590147380947133,
+        "camera_pitch_rms_deg": 3.3358542172632757,
+        "camera_roll_rms_deg": 4.289043184279184,
+        "body_vx_mean_m_s": 0.1644581502944705,
+        "heading_error_rms_deg": 2.3968713014085923,
+        "head_joint_torque_peak_nm": 0.5842555383257259,
+        "head_joint_torque_saturation_fraction": 1.1574074074074073e-05,
+        "camera_relative_lateral_p90_range_mm": 5.1648520356086465
+      }
+    },
+    "nominal__v7__stand__imu": {
+      "attempts": 3,
+      "completed": 3,
+      "rejected": 0,
+      "falls": 0,
+      "mean": {
+        "camera_heading_error_rms_deg": 0.4942880757162069,
+        "camera_heading_detrended_rms_deg": 0.11066094426222729,
+        "camera_yaw_rate_error_rms_deg_s": 1.4628667705288543,
+        "camera_pitch_rms_deg": 0.5156790453729482,
+        "camera_roll_rms_deg": 1.8917498715202254,
+        "body_vx_mean_m_s": -2.259132168249748e-05,
+        "heading_error_rms_deg": 0.10199101926919962,
+        "head_joint_torque_peak_nm": 0.2529627191431904,
+        "head_joint_torque_saturation_fraction": 0.0,
+        "camera_relative_lateral_p90_range_mm": 0.07695584924839295
+      }
+    },
+    "nominal__v7__stand__off": {
+      "attempts": 3,
+      "completed": 3,
+      "rejected": 0,
+      "falls": 0,
+      "mean": {
+        "camera_heading_error_rms_deg": 1.9029848748050753,
+        "camera_heading_detrended_rms_deg": 0.0018124670395429545,
+        "camera_yaw_rate_error_rms_deg_s": 0.08150375655046138,
+        "camera_pitch_rms_deg": 1.3210708143459604,
+        "camera_roll_rms_deg": 2.79329026337685,
+        "body_vx_mean_m_s": -1.2176133934322063e-05,
+        "heading_error_rms_deg": 0.050588309645195007,
+        "head_joint_torque_peak_nm": 0.011008686452036898,
+        "head_joint_torque_saturation_fraction": 0.0,
+        "camera_relative_lateral_p90_range_mm": 0.0015402615125634466
+      }
+    },
+    "nominal__v7__straight__filter_only": {
+      "attempts": 3,
+      "completed": 3,
+      "rejected": 0,
+      "falls": 0,
+      "mean": {
+        "camera_heading_error_rms_deg": 4.349423153034997,
+        "camera_heading_detrended_rms_deg": 1.428452377346627,
+        "camera_yaw_rate_error_rms_deg_s": 12.230420523570693,
+        "camera_pitch_rms_deg": 2.837915423433873,
+        "camera_roll_rms_deg": 5.385986692074732,
+        "body_vx_mean_m_s": 0.2270366836905232,
+        "heading_error_rms_deg": 0.9517790864587786,
+        "head_joint_torque_peak_nm": 0.4423377493586504,
+        "head_joint_torque_saturation_fraction": 0.0,
+        "camera_relative_lateral_p90_range_mm": 5.261759557423113
+      }
+    },
+    "nominal__v7__straight__imu": {
+      "attempts": 3,
+      "completed": 3,
+      "rejected": 0,
+      "falls": 0,
+      "mean": {
+        "camera_heading_error_rms_deg": 1.372487053972331,
+        "camera_heading_detrended_rms_deg": 0.6169046836434091,
+        "camera_yaw_rate_error_rms_deg_s": 9.136887433301146,
+        "camera_pitch_rms_deg": 0.97013567738197,
+        "camera_roll_rms_deg": 4.4287990745064505,
+        "body_vx_mean_m_s": 0.22959264070639965,
+        "heading_error_rms_deg": 1.135428531556552,
+        "head_joint_torque_peak_nm": 0.5706673073892539,
+        "head_joint_torque_saturation_fraction": 0.0,
+        "camera_relative_lateral_p90_range_mm": 2.6596243519680702
+      }
+    },
+    "nominal__v7__straight__off": {
+      "attempts": 3,
+      "completed": 3,
+      "rejected": 0,
+      "falls": 0,
+      "mean": {
+        "camera_heading_error_rms_deg": 4.567400383157313,
+        "camera_heading_detrended_rms_deg": 1.4669483878572833,
+        "camera_yaw_rate_error_rms_deg_s": 19.807101334526653,
+        "camera_pitch_rms_deg": 2.7515682189936537,
+        "camera_roll_rms_deg": 5.544115811716529,
+        "body_vx_mean_m_s": 0.23082219429884668,
+        "heading_error_rms_deg": 0.9985586865955459,
+        "head_joint_torque_peak_nm": 0.6,
+        "head_joint_torque_saturation_fraction": 0.0025462962962962965,
+        "camera_relative_lateral_p90_range_mm": 5.215534286342148
+      }
+    },
+    "physics_0p625ms__v7__straight__imu": {
+      "attempts": 1,
+      "completed": 1,
+      "rejected": 0,
+      "falls": 0,
+      "mean": {
+        "camera_heading_error_rms_deg": 1.423431651565631,
+        "camera_heading_detrended_rms_deg": 0.6265080891542087,
+        "camera_yaw_rate_error_rms_deg_s": 9.101404468515224,
+        "camera_pitch_rms_deg": 0.9177758117995619,
+        "camera_roll_rms_deg": 4.394703703808863,
+        "body_vx_mean_m_s": 0.23071017385519174,
+        "heading_error_rms_deg": 1.2251176723146078,
+        "head_joint_torque_peak_nm": 0.571767658417139,
+        "head_joint_torque_saturation_fraction": 0.0,
+        "camera_relative_lateral_p90_range_mm": 2.7831602744182775
+      }
+    },
+    "physics_0p625ms__v7__straight__off": {
+      "attempts": 1,
+      "completed": 1,
+      "rejected": 0,
+      "falls": 0,
+      "mean": {
+        "camera_heading_error_rms_deg": 4.09574786732165,
+        "camera_heading_detrended_rms_deg": 1.4577671798720462,
+        "camera_yaw_rate_error_rms_deg_s": 19.560900948674643,
+        "camera_pitch_rms_deg": 2.775735164178201,
+        "camera_roll_rms_deg": 5.504821241381469,
+        "body_vx_mean_m_s": 0.22875801365310078,
+        "heading_error_rms_deg": 0.9292249295932252,
+        "head_joint_torque_peak_nm": 0.6,
+        "head_joint_torque_saturation_fraction": 0.0025,
+        "camera_relative_lateral_p90_range_mm": 5.09039531311555
+      }
+    },
+    "pitch_scan__v7__straight__imu": {
+      "attempts": 1,
+      "completed": 1,
+      "rejected": 0,
+      "falls": 0,
+      "mean": {
+        "camera_heading_error_rms_deg": 1.2837783558658054,
+        "camera_heading_detrended_rms_deg": 0.6236298009513914,
+        "camera_yaw_rate_error_rms_deg_s": 9.250142052160443,
+        "camera_pitch_rms_deg": 2.498464079816697,
+        "camera_roll_rms_deg": 4.469518729263579,
+        "body_vx_mean_m_s": 0.22999827462937106,
+        "heading_error_rms_deg": 0.972638071758996,
+        "head_joint_torque_peak_nm": 0.5712409922826553,
+        "head_joint_torque_saturation_fraction": 0.0,
+        "camera_relative_lateral_p90_range_mm": 2.542626212755799
+      }
+    },
+    "position_40ms__v7__straight__imu": {
+      "attempts": 1,
+      "completed": 1,
+      "rejected": 0,
+      "falls": 0,
+      "mean": {
+        "camera_heading_error_rms_deg": 0.8065537841589199,
+        "camera_heading_detrended_rms_deg": 0.5141974270245123,
+        "camera_yaw_rate_error_rms_deg_s": 7.157036439765603,
+        "camera_pitch_rms_deg": 0.9564173795371634,
+        "camera_roll_rms_deg": 4.515467833257653,
+        "body_vx_mean_m_s": 0.22583360528827437,
+        "heading_error_rms_deg": 0.9081445071539757,
+        "head_joint_torque_peak_nm": 0.535941450995548,
+        "head_joint_torque_saturation_fraction": 0.0,
+        "camera_relative_lateral_p90_range_mm": 2.8076001188533364
+      }
+    },
+    "position_40ms__v7__straight__off": {
+      "attempts": 1,
+      "completed": 1,
+      "rejected": 0,
+      "falls": 0,
+      "mean": {
+        "camera_heading_error_rms_deg": 2.765066088934973,
+        "camera_heading_detrended_rms_deg": 1.1452672828513355,
+        "camera_yaw_rate_error_rms_deg_s": 14.999232200030045,
+        "camera_pitch_rms_deg": 2.5340954881171354,
+        "camera_roll_rms_deg": 5.68260855444741,
+        "body_vx_mean_m_s": 0.22497266802512858,
+        "heading_error_rms_deg": 1.4346021512558051,
+        "head_joint_torque_peak_nm": 0.6,
+        "head_joint_torque_saturation_fraction": 0.0038194444444444443,
+        "camera_relative_lateral_p90_range_mm": 5.328940251468633
+      }
+    },
+    "roll_scan__v7__straight__imu": {
+      "attempts": 1,
+      "completed": 1,
+      "rejected": 0,
+      "falls": 0,
+      "mean": {
+        "camera_heading_error_rms_deg": 1.240077326783487,
+        "camera_heading_detrended_rms_deg": 0.6230969669775223,
+        "camera_yaw_rate_error_rms_deg_s": 9.154284081950012,
+        "camera_pitch_rms_deg": 0.9529237366490344,
+        "camera_roll_rms_deg": 4.36363143870715,
+        "body_vx_mean_m_s": 0.22990385715598488,
+        "heading_error_rms_deg": 1.1410603507644617,
+        "head_joint_torque_peak_nm": 0.571299357776787,
+        "head_joint_torque_saturation_fraction": 0.0,
+        "camera_relative_lateral_p90_range_mm": 3.3225739986963765
+      }
+    },
+    "yaw_scan__v7__straight__imu": {
+      "attempts": 1,
+      "completed": 1,
+      "rejected": 0,
+      "falls": 0,
+      "mean": {
+        "camera_heading_error_rms_deg": 7.106018776673877,
+        "camera_heading_detrended_rms_deg": 4.91842253470626,
+        "camera_yaw_rate_error_rms_deg_s": 10.75429957958347,
+        "camera_pitch_rms_deg": 0.9989710199178841,
+        "camera_roll_rms_deg": 4.353406368714737,
+        "body_vx_mean_m_s": 0.22967010727952508,
+        "heading_error_rms_deg": 1.0058290285455482,
+        "head_joint_torque_peak_nm": 0.5744231419477116,
+        "head_joint_torque_saturation_fraction": 0.0,
+        "camera_relative_lateral_p90_range_mm": 12.206901532618707
+      }
+    }
+  }
+}

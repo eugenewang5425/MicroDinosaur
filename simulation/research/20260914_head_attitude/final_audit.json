@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "formal_completed": 82,
+  "no_falls": true,
+  "original_frozen_audit": "PASS",
+  "runtime_followup": "PASS",
+  "tests_passed": 14,
+  "current_cli_matches_runtime": true,
+  "videos_validated": true,
+  "production_unchanged": true,
+  "extra_source_hashes": {
+    "head_attitude_runtime.py": "a115d3e04216d1e3fada4b2bb83292194208c33ee5a57b54863c8e758e092b8c",
+    "demo_head_attitude.py": "932debbc764cee0bf9fc3b233f6824c5c83b42e1d9914bdb5f21edec7c6f95b0",
+    "verify_head_attitude_runtime.py": "51904dccae04cee710fbaa6a7c4262898b759bef9f491fa8fc31560811ac1c0a",
+    "summarize_head_attitude.py": "36c968c403c77e676fabd4226f8cca4eb8d68301532ad941ea03bd86c849ea8f",
+    "audit_head_attitude.py": "aea6f025747069c2ee9e4ec76add7ed7f4967f0c7b39022f5c045a8fc87c9b7f",
+    "render_head_attitude.py": "f96f8812a006ebf493cffcc84b865ad621d549fdcdce5d856e9c33b17a6f6532",
+    "finalize_head_attitude.py": "707e17f4ef8c565a2e70bbd4da712c892174233667aa89d1f3ee75034f7dd976"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "completed": 9,
+  "falls": 0,
+  "nominal_equivalence": true,
+  "slow_fallback_equivalence": true,
+  "verdicts": {
+    "v7__nominal__filter_only": "All nominal metrics and trajectory unchanged (age threshold only)",
+    "v7__nominal__imu": "All nominal metrics and trajectory unchanged (age threshold only)",
+    "v7__slow__imu": "Head IMU correction disabled; trajectory equals filter-only fallback",
+    "s42_no_neck__nominal__filter_only": "All nominal metrics and trajectory unchanged (age threshold only)",
+    "s42_no_neck__nominal__imu": "All nominal metrics and trajectory unchanged (age threshold only)",
+    "s42_no_neck__slow__imu": "Head IMU correction disabled; trajectory equals filter-only fallback"
+  }
+}

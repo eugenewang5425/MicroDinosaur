@@ -1,0 +1,39 @@
+{
+  "robot_mass_kg": 1.0982147999999998,
+  "actuator_count": 19,
+  "xml_sha256": "e33fa22db6eb35c9f6d9d076267ae46e4bd7916cc83a63cf2b82ee63ed2e721c",
+  "plant_sha256": "02b4bde647eee347105916e49a9d1992689c2bed0894a2d0dc84c28501d164a2",
+  "standing": [
+    {
+      "seed": 0,
+      "hold_s": 3.0,
+      "tilt_deg": 0.7710008673575786,
+      "root_height_m": 0.11378841380658569,
+      "nonfoot_contacts": [],
+      "peak_torque_nm": 0.08358505250170715,
+      "finite": true
+    },
+    {
+      "seed": 1,
+      "hold_s": 3.0,
+      "tilt_deg": 0.812257494098741,
+      "root_height_m": 0.11374856202761907,
+      "nonfoot_contacts": [],
+      "peak_torque_nm": 0.08478636871932849,
+      "finite": true
+    },
+    {
+      "seed": 2,
+      "hold_s": 3.0,
+      "tilt_deg": 0.8727680097636725,
+      "root_height_m": 0.11367726321648815,
+      "nonfoot_contacts": [],
+      "peak_torque_nm": 0.08639742708703085,
+      "finite": true
+    }
+  ],
+  "ready": true,
+  "old_jump_probe": "Three prior 2cm crouch extensions had zero flight; no proof all learned hops are impossible",
+  "no_hardware_validation": true,
+  "production_sha_before": "0804114efd1e457ec2c297d709c0464fd0c2bfe251cbb36db7de74543857b0e3"
+}

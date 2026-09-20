@@ -1,0 +1,3822 @@
+{
+  "snapshot_date": "2026-09-20",
+  "upstream": "https://github.com/pollen-robotics/microduck_rl",
+  "upstream_base_commit": "2b581c641406a48346e696212930ea881c222c52",
+  "source_worktree_was_dirty": true,
+  "note": "Source hashes are before the explicitly documented portability edits. Historical results are not a new training run. No physical hardware deployment.",
+  "asset_members": [
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur/assets/microdinosaur_ankle_left.stl",
+      "bytes": 8765884,
+      "sha256": "7d26c09760873ee67e736a222db6aad11cb0718f7d3c23e07a2308e7c534b9b8"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur/assets/microdinosaur_ankle_left_foot.stl",
+      "bytes": 1034284,
+      "sha256": "8cbd76442d7414f9554dafd44f82a7268b891039c97b2588088b2eca41e24c5f"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur/assets/microdinosaur_ankle_right.stl",
+      "bytes": 2232584,
+      "sha256": "bd4e79581cbf4d81a92e8d2c9238352ffd4bbcc2d1742ef31361a355617c5ea5"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur/assets/microdinosaur_ankle_right_foot.stl",
+      "bytes": 1036584,
+      "sha256": "a112215d73133c155815d10fb39d09bd6076779f8afd40530d27f16a097c1c53"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur/assets/microdinosaur_arm_l.stl",
+      "bytes": 5030184,
+      "sha256": "6dff85bd0dfe2c2f10078bc22d69ca2c0fc8e15d817ef150bf276d328381d2ca"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur/assets/microdinosaur_arm_r.stl",
+      "bytes": 5022884,
+      "sha256": "877a33be8e41fd48e3b11a547d853add178ee34f450b6b4f215b1633ecb50324"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur/assets/microdinosaur_bearing_roll.stl",
+      "bytes": 2720284,
+      "sha256": "bad4d2fa5cc57380274cfe51be0f2007d3951a228dc148766685261f8188e270"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur/assets/microdinosaur_hip_l.stl",
+      "bytes": 2687284,
+      "sha256": "1e3df47a58a3e6d62cd980d3c1f4ecdb8cf29a920f372986aba7d9f5035286e7"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur/assets/microdinosaur_hip_l_2.stl",
+      "bytes": 2680984,
+      "sha256": "90c07d625e3c871e44fb34c3308fca4744e064af6ef8ec4fdffa615aa89390a4"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur/assets/microdinosaur_jaw_hinge.stl",
+      "bytes": 1214384,
+      "sha256": "48bb68201ed5b347ed86cebcc6413a210fc8a690b031a7b4d7786f47efa8da8d"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur/assets/microdinosaur_jaw_soft.stl",
+      "bytes": 7757184,
+      "sha256": "91b788f7623251288fd4e26c888eb6b89a444709503c8073d9a1026430794b41"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur/assets/microdinosaur_leg.stl",
+      "bytes": 1713184,
+      "sha256": "5b358aa559c774d77d4326368794cac522c39f12b77fddeda84ee49ff5d6cc1f"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur/assets/microdinosaur_leg_2.stl",
+      "bytes": 1679884,
+      "sha256": "5b3b6c29fd19b06c85ef594e163def73e5bd60a9ebc43d294e62f2c52b20103d"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur/assets/microdinosaur_neck.stl",
+      "bytes": 2253484,
+      "sha256": "f56a42829fed4acd9efebb06d1fa656340b99efe2ed81c27b7cd860f2940003b"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur/assets/microdinosaur_neck_pitch.stl",
+      "bytes": 2564084,
+      "sha256": "95154872a9a8c999c1f85e4f8724eecacbe5c5d465058b5feab796ecac7d0ad0"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur/assets/microdinosaur_tail_pitch.stl",
+      "bytes": 1194684,
+      "sha256": "b250232534b15cb84e4e31dafb8a1ac26ca6e6358f4adbb81ce3f401182135ae"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur/assets/microdinosaur_tail_yaw.stl",
+      "bytes": 1302184,
+      "sha256": "d6276268b0d9e16cbf489e79d1fa0e947f8c6e4e2d07a2c39413d69676fde75a"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur/assets/microdinosaur_trunk_base.stl",
+      "bytes": 8133284,
+      "sha256": "609e91a0deb3337aae1ae93e773d969d5dde2faac66fcede4277c4e218d55577"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur/assets/microdinosaur_upper_leg_left.stl",
+      "bytes": 5982684,
+      "sha256": "338d7799a2cf8da3d88da398793ac061a242f2efb6d16c3dea95b325dd99067a"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur/assets/microdinosaur_upper_leg_right.stl",
+      "bytes": 5433484,
+      "sha256": "f5f81b693abda46c7748d706eb1715db7d22de2a73a0ea60b739cd6735fe93c3"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur/assets/microdinosaur_yaw2roll.stl",
+      "bytes": 2713484,
+      "sha256": "3771c8a22eebaa4d39c050e3bd91114f1777ca1c29ca87a377d679fd89f5b534"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur/assets/microdinosaur_yaw_roll_motion.stl",
+      "bytes": 3491684,
+      "sha256": "17d625db6d884cdb7c68225ea6f65f66aaef3c0c4be084dbb3aff915a5c771cc"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_gc/assets/microdinosaur_gc_ankle_left.stl",
+      "bytes": 8765884,
+      "sha256": "7d26c09760873ee67e736a222db6aad11cb0718f7d3c23e07a2308e7c534b9b8"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_gc/assets/microdinosaur_gc_ankle_left_foot.stl",
+      "bytes": 1034284,
+      "sha256": "8cbd76442d7414f9554dafd44f82a7268b891039c97b2588088b2eca41e24c5f"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_gc/assets/microdinosaur_gc_ankle_right.stl",
+      "bytes": 2232584,
+      "sha256": "bd4e79581cbf4d81a92e8d2c9238352ffd4bbcc2d1742ef31361a355617c5ea5"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_gc/assets/microdinosaur_gc_ankle_right_foot.stl",
+      "bytes": 1036584,
+      "sha256": "a112215d73133c155815d10fb39d09bd6076779f8afd40530d27f16a097c1c53"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_gc/assets/microdinosaur_gc_arm_l.stl",
+      "bytes": 5030184,
+      "sha256": "6dff85bd0dfe2c2f10078bc22d69ca2c0fc8e15d817ef150bf276d328381d2ca"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_gc/assets/microdinosaur_gc_arm_l_collision.stl",
+      "bytes": 125084,
+      "sha256": "13b18998a50a2499a158db578291b02c05aeeffc1b0b4e4fa9720af44b9e477a"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_gc/assets/microdinosaur_gc_arm_r.stl",
+      "bytes": 5022884,
+      "sha256": "877a33be8e41fd48e3b11a547d853add178ee34f450b6b4f215b1633ecb50324"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_gc/assets/microdinosaur_gc_arm_r_collision.stl",
+      "bytes": 125084,
+      "sha256": "40dc73ec1ccd066f4f85d2159c57d1dac716490c7437fe8ee6aa66eacf50fb98"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_gc/assets/microdinosaur_gc_bearing_roll.stl",
+      "bytes": 2720284,
+      "sha256": "bad4d2fa5cc57380274cfe51be0f2007d3951a228dc148766685261f8188e270"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_gc/assets/microdinosaur_gc_hip_l.stl",
+      "bytes": 2687284,
+      "sha256": "1e3df47a58a3e6d62cd980d3c1f4ecdb8cf29a920f372986aba7d9f5035286e7"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_gc/assets/microdinosaur_gc_hip_l_2.stl",
+      "bytes": 2680984,
+      "sha256": "90c07d625e3c871e44fb34c3308fca4744e064af6ef8ec4fdffa615aa89390a4"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_gc/assets/microdinosaur_gc_hip_l_2_collision.stl",
+      "bytes": 125084,
+      "sha256": "f62d8643ab859773ce370a6f1685fb0a8cec7572b19fbd91b62c7a98b74a82be"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_gc/assets/microdinosaur_gc_hip_l_collision.stl",
+      "bytes": 125084,
+      "sha256": "b8306907910c509924d48518670b24e902a35a1daa08329cd9f63b10a42874d5"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_gc/assets/microdinosaur_gc_jaw_hinge.stl",
+      "bytes": 1214384,
+      "sha256": "48bb68201ed5b347ed86cebcc6413a210fc8a690b031a7b4d7786f47efa8da8d"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_gc/assets/microdinosaur_gc_jaw_hinge_collision.stl",
+      "bytes": 180684,
+      "sha256": "fb8f4350ffa674070be40684794285766f49111fc577b7cffa8fd921c7f5f1b3"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_gc/assets/microdinosaur_gc_jaw_soft.stl",
+      "bytes": 7757184,
+      "sha256": "91b788f7623251288fd4e26c888eb6b89a444709503c8073d9a1026430794b41"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_gc/assets/microdinosaur_gc_jaw_soft_collision.stl",
+      "bytes": 250084,
+      "sha256": "394b1778a44b35aa29f0afd0a26b1a6b025a8ddf322fc212589817a62618251d"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_gc/assets/microdinosaur_gc_leg.stl",
+      "bytes": 1713184,
+      "sha256": "5b358aa559c774d77d4326368794cac522c39f12b77fddeda84ee49ff5d6cc1f"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_gc/assets/microdinosaur_gc_leg_2.stl",
+      "bytes": 1679884,
+      "sha256": "5b3b6c29fd19b06c85ef594e163def73e5bd60a9ebc43d294e62f2c52b20103d"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_gc/assets/microdinosaur_gc_leg_2_collision.stl",
+      "bytes": 125084,
+      "sha256": "ca946982f9bdde9dd13a4b52b794b93c1380c6a583dedae1355d682afb72c789"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_gc/assets/microdinosaur_gc_leg_collision.stl",
+      "bytes": 125084,
+      "sha256": "e520cd6634e57e19b387025c0b64b5df0b7903ba3eb2b25b9390dee244e6c862"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_gc/assets/microdinosaur_gc_neck.stl",
+      "bytes": 2253484,
+      "sha256": "f56a42829fed4acd9efebb06d1fa656340b99efe2ed81c27b7cd860f2940003b"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_gc/assets/microdinosaur_gc_neck_pitch.stl",
+      "bytes": 2564084,
+      "sha256": "95154872a9a8c999c1f85e4f8724eecacbe5c5d465058b5feab796ecac7d0ad0"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_gc/assets/microdinosaur_gc_tail_pitch.stl",
+      "bytes": 1194684,
+      "sha256": "b250232534b15cb84e4e31dafb8a1ac26ca6e6358f4adbb81ce3f401182135ae"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_gc/assets/microdinosaur_gc_tail_pitch_collision.stl",
+      "bytes": 125084,
+      "sha256": "e7b4d01680f3e616a2018ee66a75d498c2b0a4f6220ff63b8ab164e9f3037c15"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_gc/assets/microdinosaur_gc_tail_yaw.stl",
+      "bytes": 1302184,
+      "sha256": "d6276268b0d9e16cbf489e79d1fa0e947f8c6e4e2d07a2c39413d69676fde75a"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_gc/assets/microdinosaur_gc_tail_yaw_collision.stl",
+      "bytes": 125084,
+      "sha256": "79ec08b02d430c6de6115f2eb490df8321a67f02c27843c2518dfaf4bb90626b"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_gc/assets/microdinosaur_gc_trunk_base.stl",
+      "bytes": 8133284,
+      "sha256": "609e91a0deb3337aae1ae93e773d969d5dde2faac66fcede4277c4e218d55577"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_gc/assets/microdinosaur_gc_trunk_base_collision.stl",
+      "bytes": 125684,
+      "sha256": "2d4e1df3765e3864a0cb88847ba8816c30fa1a6f26598f1f3020b360481501f5"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_gc/assets/microdinosaur_gc_upper_leg_left.stl",
+      "bytes": 5982684,
+      "sha256": "338d7799a2cf8da3d88da398793ac061a242f2efb6d16c3dea95b325dd99067a"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_gc/assets/microdinosaur_gc_upper_leg_left_collision.stl",
+      "bytes": 250084,
+      "sha256": "100fdb7c8ced93bb74841e0a1c1c8ebe724b070d555dca6fc0aebaaa82baa2da"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_gc/assets/microdinosaur_gc_upper_leg_right.stl",
+      "bytes": 5433484,
+      "sha256": "f5f81b693abda46c7748d706eb1715db7d22de2a73a0ea60b739cd6735fe93c3"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_gc/assets/microdinosaur_gc_upper_leg_right_collision.stl",
+      "bytes": 250084,
+      "sha256": "54117ce444299de5aaa7a8fcc367f6ca8c9c182393dc71f2d1ca07fb0fe29f3d"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_gc/assets/microdinosaur_gc_yaw2roll.stl",
+      "bytes": 2713484,
+      "sha256": "3771c8a22eebaa4d39c050e3bd91114f1777ca1c29ca87a377d679fd89f5b534"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_gc/assets/microdinosaur_gc_yaw_roll_motion.stl",
+      "bytes": 3491684,
+      "sha256": "17d625db6d884cdb7c68225ea6f65f66aaef3c0c4be084dbb3aff915a5c771cc"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_p1/assets/microdinosaur_p1_ankle_left.stl",
+      "bytes": 8765884,
+      "sha256": "7d26c09760873ee67e736a222db6aad11cb0718f7d3c23e07a2308e7c534b9b8"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_p1/assets/microdinosaur_p1_ankle_left_foot.stl",
+      "bytes": 1034284,
+      "sha256": "8cbd76442d7414f9554dafd44f82a7268b891039c97b2588088b2eca41e24c5f"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_p1/assets/microdinosaur_p1_ankle_right.stl",
+      "bytes": 2232584,
+      "sha256": "bd4e79581cbf4d81a92e8d2c9238352ffd4bbcc2d1742ef31361a355617c5ea5"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_p1/assets/microdinosaur_p1_ankle_right_foot.stl",
+      "bytes": 1036584,
+      "sha256": "a112215d73133c155815d10fb39d09bd6076779f8afd40530d27f16a097c1c53"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_p1/assets/microdinosaur_p1_arm_l.stl",
+      "bytes": 5030184,
+      "sha256": "6dff85bd0dfe2c2f10078bc22d69ca2c0fc8e15d817ef150bf276d328381d2ca"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_p1/assets/microdinosaur_p1_arm_r.stl",
+      "bytes": 5022884,
+      "sha256": "877a33be8e41fd48e3b11a547d853add178ee34f450b6b4f215b1633ecb50324"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_p1/assets/microdinosaur_p1_bearing_roll.stl",
+      "bytes": 2720284,
+      "sha256": "bad4d2fa5cc57380274cfe51be0f2007d3951a228dc148766685261f8188e270"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_p1/assets/microdinosaur_p1_hip_l.stl",
+      "bytes": 2687284,
+      "sha256": "1e3df47a58a3e6d62cd980d3c1f4ecdb8cf29a920f372986aba7d9f5035286e7"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_p1/assets/microdinosaur_p1_hip_l_2.stl",
+      "bytes": 2680984,
+      "sha256": "90c07d625e3c871e44fb34c3308fca4744e064af6ef8ec4fdffa615aa89390a4"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_p1/assets/microdinosaur_p1_jaw_hinge.stl",
+      "bytes": 1214384,
+      "sha256": "48bb68201ed5b347ed86cebcc6413a210fc8a690b031a7b4d7786f47efa8da8d"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_p1/assets/microdinosaur_p1_jaw_soft.stl",
+      "bytes": 7757184,
+      "sha256": "91b788f7623251288fd4e26c888eb6b89a444709503c8073d9a1026430794b41"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_p1/assets/microdinosaur_p1_leg.stl",
+      "bytes": 1713184,
+      "sha256": "5b358aa559c774d77d4326368794cac522c39f12b77fddeda84ee49ff5d6cc1f"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_p1/assets/microdinosaur_p1_leg_2.stl",
+      "bytes": 1679884,
+      "sha256": "5b3b6c29fd19b06c85ef594e163def73e5bd60a9ebc43d294e62f2c52b20103d"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_p1/assets/microdinosaur_p1_neck.stl",
+      "bytes": 2253484,
+      "sha256": "f56a42829fed4acd9efebb06d1fa656340b99efe2ed81c27b7cd860f2940003b"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_p1/assets/microdinosaur_p1_neck_pitch.stl",
+      "bytes": 2564084,
+      "sha256": "95154872a9a8c999c1f85e4f8724eecacbe5c5d465058b5feab796ecac7d0ad0"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_p1/assets/microdinosaur_p1_tail_pitch.stl",
+      "bytes": 1194684,
+      "sha256": "b250232534b15cb84e4e31dafb8a1ac26ca6e6358f4adbb81ce3f401182135ae"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_p1/assets/microdinosaur_p1_tail_yaw.stl",
+      "bytes": 1302184,
+      "sha256": "d6276268b0d9e16cbf489e79d1fa0e947f8c6e4e2d07a2c39413d69676fde75a"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_p1/assets/microdinosaur_p1_trunk_base.stl",
+      "bytes": 8133284,
+      "sha256": "609e91a0deb3337aae1ae93e773d969d5dde2faac66fcede4277c4e218d55577"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_p1/assets/microdinosaur_p1_upper_leg_left.stl",
+      "bytes": 5982684,
+      "sha256": "338d7799a2cf8da3d88da398793ac061a242f2efb6d16c3dea95b325dd99067a"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_p1/assets/microdinosaur_p1_upper_leg_right.stl",
+      "bytes": 5433484,
+      "sha256": "f5f81b693abda46c7748d706eb1715db7d22de2a73a0ea60b739cd6735fe93c3"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_p1/assets/microdinosaur_p1_yaw2roll.stl",
+      "bytes": 2713484,
+      "sha256": "3771c8a22eebaa4d39c050e3bd91114f1777ca1c29ca87a377d679fd89f5b534"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_p1/assets/microdinosaur_p1_yaw_roll_motion.stl",
+      "bytes": 3491684,
+      "sha256": "17d625db6d884cdb7c68225ea6f65f66aaef3c0c4be084dbb3aff915a5c771cc"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_v07/assets/microdinosaur_v07_ankle_left.stl",
+      "bytes": 8765884,
+      "sha256": "7d26c09760873ee67e736a222db6aad11cb0718f7d3c23e07a2308e7c534b9b8"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_v07/assets/microdinosaur_v07_ankle_left_foot.stl",
+      "bytes": 1034284,
+      "sha256": "8cbd76442d7414f9554dafd44f82a7268b891039c97b2588088b2eca41e24c5f"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_v07/assets/microdinosaur_v07_ankle_right.stl",
+      "bytes": 2232584,
+      "sha256": "bd4e79581cbf4d81a92e8d2c9238352ffd4bbcc2d1742ef31361a355617c5ea5"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_v07/assets/microdinosaur_v07_ankle_right_foot.stl",
+      "bytes": 1036584,
+      "sha256": "a112215d73133c155815d10fb39d09bd6076779f8afd40530d27f16a097c1c53"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_v07/assets/microdinosaur_v07_arm_l.stl",
+      "bytes": 5030184,
+      "sha256": "6dff85bd0dfe2c2f10078bc22d69ca2c0fc8e15d817ef150bf276d328381d2ca"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_v07/assets/microdinosaur_v07_arm_r.stl",
+      "bytes": 5022884,
+      "sha256": "877a33be8e41fd48e3b11a547d853add178ee34f450b6b4f215b1633ecb50324"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_v07/assets/microdinosaur_v07_bearing_roll.stl",
+      "bytes": 2720284,
+      "sha256": "bad4d2fa5cc57380274cfe51be0f2007d3951a228dc148766685261f8188e270"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_v07/assets/microdinosaur_v07_hip_l.stl",
+      "bytes": 2687284,
+      "sha256": "1e3df47a58a3e6d62cd980d3c1f4ecdb8cf29a920f372986aba7d9f5035286e7"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_v07/assets/microdinosaur_v07_hip_l_2.stl",
+      "bytes": 2680984,
+      "sha256": "90c07d625e3c871e44fb34c3308fca4744e064af6ef8ec4fdffa615aa89390a4"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_v07/assets/microdinosaur_v07_jaw_hinge.stl",
+      "bytes": 1214384,
+      "sha256": "48bb68201ed5b347ed86cebcc6413a210fc8a690b031a7b4d7786f47efa8da8d"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_v07/assets/microdinosaur_v07_jaw_soft.stl",
+      "bytes": 8104884,
+      "sha256": "6b378333445f681ae0e5c913c3d28167ac76a4cf4edc4ad071c24288b5336582"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_v07/assets/microdinosaur_v07_leg.stl",
+      "bytes": 1713184,
+      "sha256": "5b358aa559c774d77d4326368794cac522c39f12b77fddeda84ee49ff5d6cc1f"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_v07/assets/microdinosaur_v07_leg_2.stl",
+      "bytes": 1679884,
+      "sha256": "5b3b6c29fd19b06c85ef594e163def73e5bd60a9ebc43d294e62f2c52b20103d"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_v07/assets/microdinosaur_v07_neck.stl",
+      "bytes": 2253484,
+      "sha256": "f56a42829fed4acd9efebb06d1fa656340b99efe2ed81c27b7cd860f2940003b"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_v07/assets/microdinosaur_v07_neck_pitch.stl",
+      "bytes": 2564084,
+      "sha256": "95154872a9a8c999c1f85e4f8724eecacbe5c5d465058b5feab796ecac7d0ad0"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_v07/assets/microdinosaur_v07_tail_pitch.stl",
+      "bytes": 1194684,
+      "sha256": "b250232534b15cb84e4e31dafb8a1ac26ca6e6358f4adbb81ce3f401182135ae"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_v07/assets/microdinosaur_v07_tail_yaw.stl",
+      "bytes": 1302184,
+      "sha256": "d6276268b0d9e16cbf489e79d1fa0e947f8c6e4e2d07a2c39413d69676fde75a"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_v07/assets/microdinosaur_v07_trunk_base.stl",
+      "bytes": 8133284,
+      "sha256": "609e91a0deb3337aae1ae93e773d969d5dde2faac66fcede4277c4e218d55577"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_v07/assets/microdinosaur_v07_upper_leg_left.stl",
+      "bytes": 5982684,
+      "sha256": "338d7799a2cf8da3d88da398793ac061a242f2efb6d16c3dea95b325dd99067a"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_v07/assets/microdinosaur_v07_upper_leg_right.stl",
+      "bytes": 5433484,
+      "sha256": "f5f81b693abda46c7748d706eb1715db7d22de2a73a0ea60b739cd6735fe93c3"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_v07/assets/microdinosaur_v07_yaw2roll.stl",
+      "bytes": 2713484,
+      "sha256": "3771c8a22eebaa4d39c050e3bd91114f1777ca1c29ca87a377d679fd89f5b534"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microdinosaur_v07/assets/microdinosaur_v07_yaw_roll_motion.stl",
+      "bytes": 3491684,
+      "sha256": "17d625db6d884cdb7c68225ea6f65f66aaef3c0c4be084dbb3aff915a5c771cc"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microduck/assets/ankle_l_v1.stl",
+      "bytes": 235984,
+      "sha256": "cf4407956caf05b2e9bb2c75764fa365d217f44efb5d365ed18ccfa62db3436f"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microduck/assets/ankle_left.stl",
+      "bytes": 248984,
+      "sha256": "2ec1bd89205b407efebaa9a8898ad9fea741389d87b80ecc5c96b21d1668119e"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microduck/assets/ankle_r_v1.stl",
+      "bytes": 235784,
+      "sha256": "0ddd5d3135cde74bddbfbaf6469f50ac02ba44681b796853a052bf0d23751d1d"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microduck/assets/ankle_right.stl",
+      "bytes": 248884,
+      "sha256": "f83f388ae00787415e76b8ecaab769f08f25b8c4e90c1937ff0fc4d68d81722e"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microduck/assets/banana_pcb_locker.stl",
+      "bytes": 69484,
+      "sha256": "42ddde9d01bf5d91f88b99847017f14d97d2537ee27383c6d41dd8bf30a51134"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microduck/assets/bearing_roll.stl",
+      "bytes": 121084,
+      "sha256": "b5603a64b2d965ad75ea847767b5798130852e12a658fde7b5068fc457e2adcc"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microduck/assets/bottom_head_shell.stl",
+      "bytes": 1048584,
+      "sha256": "1820f7cf96646b0fc0c431f07da87b91b13111bfa9857ab1bf2b1fc3388f8da2"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microduck/assets/elec_rpi_robot_hat_pcb.stl",
+      "bytes": 942884,
+      "sha256": "1a61582759d82b5b4df9b7d11099bf1bb3944fc77e6b74d3237adf24dd5d03d7"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microduck/assets/face_part.stl",
+      "bytes": 570684,
+      "sha256": "d0e89a173e7bdc8038c4d413f458140d8f42f1a2f098f67a887c2388eff31718"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microduck/assets/foot_left.stl",
+      "bytes": 996184,
+      "sha256": "a1f5d43456d0f522bd60870153795f1e8112c1adf9b8b4373b59608d9545c044"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microduck/assets/foot_right.stl",
+      "bytes": 997684,
+      "sha256": "54f97fa1f0e0e611d31329df9f3c3b17ffcca2d695c579d1d32cbe99e8a6c7ef"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microduck/assets/hip_l.stl",
+      "bytes": 1048584,
+      "sha256": "e175896932d76dc7648cf939aa39cb7b1d188b783d91745adb9a4cec65e9052c"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microduck/assets/jaw.stl",
+      "bytes": 495984,
+      "sha256": "45cdbd319a4583095d8daa0db07dee726522a743d59acb82d27d82ded500a1cf"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microduck/assets/jaw_soft.stl",
+      "bytes": 336384,
+      "sha256": "2d2ade4e86df4b37ce313bb9b96023109dd04bab39dba08b154e76d332fbce2e"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microduck/assets/left_shell.stl",
+      "bytes": 1048584,
+      "sha256": "2abde8e2b79c9b011cdb11957c67ab4287b45d7301affd4235ab81141118e331"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microduck/assets/leg.stl",
+      "bytes": 738884,
+      "sha256": "9a91cc1ae31ecd9e0c1ba93f3bb2ad8a12e29bff24ec27d1ac66c0c3037d9fcf"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microduck/assets/lens.stl",
+      "bytes": 93684,
+      "sha256": "b1c717432ff7666398de58adec6a1b7e03a7e45aa155dbfe27a6152ef19663e5"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microduck/assets/m12_lens_holder.stl",
+      "bytes": 549684,
+      "sha256": "031d5ffaf6247328cf6d020f6b6695ffb3f8d3f22cf923b85811351d89ecfd7c"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microduck/assets/motor_support.stl",
+      "bytes": 180884,
+      "sha256": "ce0aa5bef82c7474512d302568c341b9769b3005e0bdb91a19c2eaaba6dad480"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microduck/assets/neck.stl",
+      "bytes": 73484,
+      "sha256": "b6e86b886153be8a8a776c1cb219c074ee9e89c8bd431117662a2d9e504d7cb5"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microduck/assets/neck_pitch.stl",
+      "bytes": 356084,
+      "sha256": "a685ce65348ae4d0d49417c69a7a8871f8bbd54a6e3419362be9c334abd5d2ae"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microduck/assets/noenoeil.stl",
+      "bytes": 49284,
+      "sha256": "e1167b3d5ad7fbbe6e63296bcd0c6b61556611e6bc1367b15ecfd27e3abb72f5"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microduck/assets/np_f970.stl",
+      "bytes": 1048584,
+      "sha256": "0e55a48281331b3b7b1a363d2e93b6012f37c52045b6dc922a149ca7c1b38388"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microduck/assets/pcb__raspberry_pi_zero_2_w.stl",
+      "bytes": 1048584,
+      "sha256": "802cc66fc5447c67fc642d1339e55160df10f2ad04a65efd130e35fb7b2d3c90"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microduck/assets/power_support.stl",
+      "bytes": 641684,
+      "sha256": "ee45e397d3f3422f34940a4b61156c3c11c7e8c2b240451ce5f9ddd1622a130e"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microduck/assets/right_shell.stl",
+      "bytes": 1048584,
+      "sha256": "3efba3e193cc6aa49d49a9c92cdded0504917397c9e2c5b8fe002a958e2f2d2b"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microduck/assets/rim.stl",
+      "bytes": 115284,
+      "sha256": "b3c9cc8ea50a1406d289060dc007894e009471f15b59baf443a5545bfc242c6f"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microduck/assets/roller_blade.stl",
+      "bytes": 1048484,
+      "sha256": "cbdc755394d5046640db6045dd241921654ec17a313db9de8e851c14b918472f"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microduck/assets/seeed_bearing__configuration__22x16x4.stl",
+      "bytes": 1048584,
+      "sha256": "295ee68ed9766c91fe06d3a2a49d39f7c2f56cc943395d293afdeb013123435e"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microduck/assets/seeed_bearing__configuration_default.stl",
+      "bytes": 1048584,
+      "sha256": "e815f3483a2e7b80844f3c0938a47e53db38b12faed9b2d364414c19e4322da4"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microduck/assets/soft_mouth_top.stl",
+      "bytes": 393584,
+      "sha256": "3c2b52b0b6e2ce944a1e1b5a0838e1216be1ad3a34c8cdf91be186e634aec57b"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microduck/assets/sole_left.stl",
+      "bytes": 789484,
+      "sha256": "e028c8b09fecd4cb354d042bf7fd95a1a1bc2d524d760d62137fa8d74093fc23"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microduck/assets/sole_right.stl",
+      "bytes": 795184,
+      "sha256": "3f5068872f3add10eb967327651445bdfca635f5a8a01befa0ef05e462b72b4c"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microduck/assets/speaker.stl",
+      "bytes": 684,
+      "sha256": "75a35f9bcf94cd8e52f99b3fd6ae667b48f52503f9075ee2f699eebe8e7b3ddf"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microduck/assets/tire.stl",
+      "bytes": 352884,
+      "sha256": "8aa460566e99afcccccd5c0507c883d3f6d1901e28ddd492cf0c7edc41067b54"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microduck/assets/top_head_shell.stl",
+      "bytes": 806084,
+      "sha256": "6d01f396f514c9d2185cf6b8250b1d8382ac3fa0702eb525bcb284f706196291"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microduck/assets/trunk_base.stl",
+      "bytes": 184984,
+      "sha256": "aa4f853ae555a8b765e585ce4519c0bbff325ce298ec15a1437792c52a0beac1"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microduck/assets/upper_leg_left.stl",
+      "bytes": 612584,
+      "sha256": "8cb1c12dfa6d366a318bb1ec16f585427b9a185afeb7738d0a6f41f5db46a07d"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microduck/assets/upper_leg_right.stl",
+      "bytes": 612584,
+      "sha256": "5caf996cc3e151b01f393cdc6a6a6a940c1d86179d8b7c7f5f85cf1f1ac2fb63"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microduck/assets/upper_leg_rigidity_plate.stl",
+      "bytes": 180084,
+      "sha256": "231b3e5f1e24d146d735dc158cbcfec0c95a0d0ca8c500f61f04d15d0b665652"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microduck/assets/xl330.stl",
+      "bytes": 206384,
+      "sha256": "96238ed0d020ce0009cf1a5aa4b6926176c800840318ee65e4375be2298d2744"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microduck/assets/yaw2roll.stl",
+      "bytes": 620284,
+      "sha256": "6c8f193ec7cb40be0f48eeb5fba81bce2c87f12e1aab3f77f1bc4981386e1495"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/microduck/assets/yaw_roll_motion.stl",
+      "bytes": 290784,
+      "sha256": "b0c9902dee19f06cdb7fa930292e0e1c91e2dc59baa971211495b58ff76c3c60"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/xl330_test_bench/assets/arm.stl",
+      "bytes": 151284,
+      "sha256": "2b5adeff9acddca7ca3f14ca502687bdccb0d5718ca5eee5ea8e0b7b92fe460e"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/xl330_test_bench/assets/axis.stl",
+      "bytes": 14484,
+      "sha256": "435cdf37cd5cfd9cc7ce1202fcf075aebabffbf6cf1249a8e8d3a93d6350b244"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/xl330_test_bench/assets/bench_holder.stl",
+      "bytes": 60284,
+      "sha256": "3a46df8b07b5b7eda4a0f68642cc90e4a557cb3f8678e49a2508b9225a26cba1"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/xl330_test_bench/assets/part_1.stl",
+      "bytes": 151284,
+      "sha256": "2b5adeff9acddca7ca3f14ca502687bdccb0d5718ca5eee5ea8e0b7b92fe460e"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/xl330_test_bench/assets/part_2.stl",
+      "bytes": 28884,
+      "sha256": "6f57229eb624849885294536527402ebd6a2e4933e086ad80eda1604d3fbec0c"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/xl330_test_bench/assets/part_3.stl",
+      "bytes": 60284,
+      "sha256": "3a46df8b07b5b7eda4a0f68642cc90e4a557cb3f8678e49a2508b9225a26cba1"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/xl330_test_bench/assets/part_4.stl",
+      "bytes": 28884,
+      "sha256": "4e5b08e92d99bb9fa2d0f4b00f9c1f25b98092f1594e9735c38caef76a4475a7"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/xl330_test_bench/assets/part_5.stl",
+      "bytes": 14484,
+      "sha256": "435cdf37cd5cfd9cc7ce1202fcf075aebabffbf6cf1249a8e8d3a93d6350b244"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/xl330_test_bench/assets/spacer.stl",
+      "bytes": 28884,
+      "sha256": "6f57229eb624849885294536527402ebd6a2e4933e086ad80eda1604d3fbec0c"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/xl330_test_bench/assets/weight.stl",
+      "bytes": 28884,
+      "sha256": "4e5b08e92d99bb9fa2d0f4b00f9c1f25b98092f1594e9735c38caef76a4475a7"
+    },
+    {
+      "path": "src/mjlab_microduck/robot/xl330_test_bench/assets/xl330.stl",
+      "bytes": 206384,
+      "sha256": "c9f6bf7dd9d8b307a4174b40ff12517b3ea470e5535319a5b7dcce4ba52cdfe1"
+    }
+  ],
+  "files": [
+    {
+      "path": "simulation/training/src/mjlab_microduck/__init__.py",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/action_filter.py",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\action_filter.py",
+      "bytes": 5458,
+      "sha256": "98f2a0be902dafae983e30d8a980e0a38489ce255246c22ea927bc1306801801"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/actuator/__init__.py",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\actuator\\__init__.py",
+      "bytes": 341,
+      "sha256": "ca6997ac5651021c4982c1396851a0f229e4c550f0da1a9612197aa27fff1536"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/actuator/friction_dr_bam.py",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\actuator\\friction_dr_bam.py",
+      "bytes": 5172,
+      "sha256": "68f0db7a925504265dfa52f1968a8eb7030bf6f8eef9a14494c94cf2e980a9c7"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/calibrated_head_action.py",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\calibrated_head_action.py",
+      "bytes": 3947,
+      "sha256": "12ddfb65963a493496f9a646980eeb044c5494c444885bf11a033f7fb73f8359"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/corrective_ppo.py",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\corrective_ppo.py",
+      "bytes": 5369,
+      "sha256": "034f899feafb81d5347cc92351ede7f02cc1c4ec29f1052370aff2bdfcfeb054"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/demonstration_ppo.py",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\demonstration_ppo.py",
+      "bytes": 2744,
+      "sha256": "147eb4279d53eb273033a45020054944f55ae03102f65965fead21eaef8bbb54"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/export.py",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\export.py",
+      "bytes": 12651,
+      "sha256": "7276b414e233c9a4ea8967375399f2a908a97269fe0fedb53512cac1cfb4e17b"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/head_attitude_torch.py",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\head_attitude_torch.py",
+      "bytes": 5625,
+      "sha256": "d23b1d321f2d0a013e9037875d9bd6313cff235a70e7b5dbbb574cd39944683d"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/head_imu_action.py",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\head_imu_action.py",
+      "bytes": 7740,
+      "sha256": "05251297af059637aaa3b4c38aecd18021ac3c7c8181ddccbc27a462334658c8"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/hf_jobs.py",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\hf_jobs.py",
+      "bytes": 20695,
+      "sha256": "cd63627fbe78c78d4e2ae4495d89d000d63d6434963a61d90b4adc6b93bf45d8"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/imu_owned_head.py",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\imu_owned_head.py",
+      "bytes": 1623,
+      "sha256": "b7c1acae88fd41ef5f489d3bc6c6299d6430aaf3b71efb31082808b1fc32d639"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/publish/__init__.py",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\publish\\__init__.py",
+      "bytes": 335,
+      "sha256": "44c5c513d041104bc3ebea903554dce200ab3080ce06b4ceb62f23df3949d650"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/publish/cli.py",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\publish\\cli.py",
+      "bytes": 9593,
+      "sha256": "322a6aab3df8dd6882e88b79093b5c7cce6070a316d6980e0d45496f30428d77"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/publish/manifest.py",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\publish\\manifest.py",
+      "bytes": 16403,
+      "sha256": "9d136d9cc2b51a066b394790e366f93dd55b82c43c5a74a93ac528b0e4805770"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/retention_ppo.py",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\retention_ppo.py",
+      "bytes": 3695,
+      "sha256": "18d26c7a03e39674e7dacaa743656c4f22c4f6e5bf70d9e299196017727996bd"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/robot/__init__.py",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\robot\\__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/robot/microdinosaur/_check_scene.xml",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\robot\\microdinosaur\\_check_scene.xml",
+      "bytes": 17333,
+      "sha256": "3e72becf4d0271e961d440b1448a65ab4dcd014ad48a029a1183f189d58f91a5"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/robot/microdinosaur/densities.json",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\robot\\microdinosaur\\densities.json",
+      "bytes": 4121,
+      "sha256": "f6e99db05dffd20374e8e3f9a8e908aea6861133a45d2922c82ac5af8ae26f89"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/robot/microdinosaur/robot_microdinosaur.xml",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\robot\\microdinosaur\\robot_microdinosaur.xml",
+      "bytes": 13346,
+      "sha256": "d106e7f3a5287f2bf022729680af86f92ad0799247f8ad0de1177429547a4a83"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/robot/microdinosaur_constants.py",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\robot\\microdinosaur_constants.py",
+      "bytes": 9336,
+      "sha256": "1f69ccc24c444ec49921ff6666a8eebffd2d789c85962f1a75b9ffd113c8cb60"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/robot/microdinosaur_gc/_check_scene.xml",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\robot\\microdinosaur_gc\\_check_scene.xml",
+      "bytes": 21048,
+      "sha256": "d0eee4c6149fccb2b1d24463a1ea4c63f0df02fd6910a8354b0e177e0874b40a"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/robot/microdinosaur_gc/robot_microdinosaur_gc.xml",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\robot\\microdinosaur_gc\\robot_microdinosaur_gc.xml",
+      "bytes": 16162,
+      "sha256": "4c8db6d986dc6fcc8a5727bdb7c82d917f0aa90696b37e7ae93839afaff5fa2b"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/robot/microdinosaur_p1/robot_microdinosaur_p1.xml",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\robot\\microdinosaur_p1\\robot_microdinosaur_p1.xml",
+      "bytes": 13565,
+      "sha256": "3b8ab0ac0795d9c48af5bbabe7e63fd2a881b31292486ad9380ec3e16a729a04"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/robot/microdinosaur_v07/_check_scene.xml",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\robot\\microdinosaur_v07\\_check_scene.xml",
+      "bytes": 17982,
+      "sha256": "dc7cbd760999830647801858c421a947561f21bedc8b96f27baf43e401ea2699"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/robot/microdinosaur_v07/mass_provenance.json",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\robot\\microdinosaur_v07\\mass_provenance.json",
+      "bytes": 27761,
+      "sha256": "bb67f022948116cba4cfb9b579f14a544df02da89890dbdb6d86525884dd97a3"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/robot/microdinosaur_v07/robot_microdinosaur_v07.xml",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\robot\\microdinosaur_v07\\robot_microdinosaur_v07.xml",
+      "bytes": 13913,
+      "sha256": "e33fa22db6eb35c9f6d9d076267ae46e4bd7916cc83a63cf2b82ee63ed2e721c"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/robot/microduck/add_backlash.py",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\robot\\microduck\\add_backlash.py",
+      "bytes": 6006,
+      "sha256": "c101d197d0b29f34da3704575ff91cdeae966077fcad9d7e97f811fe22709b4b"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/robot/microduck/additional.xml",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\robot\\microduck\\additional.xml",
+      "bytes": 624,
+      "sha256": "8b9d0aae3f63f1928cd1efee63e6cc3e409e73d0c538a4a1fd71f56739d1d8ed"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/robot/microduck/allcollisions_contacts.xml",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\robot\\microduck\\allcollisions_contacts.xml",
+      "bytes": 586,
+      "sha256": "e7bb9de005276ec43b9f2ab4ca8cfeeb78c84ea5b98bf2df2591344c4cdcb677"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/robot/microduck/apartment.xml",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\robot\\microduck\\apartment.xml",
+      "bytes": 21857,
+      "sha256": "5e7edfbf4afbbdd6dc8e03a9ab565e6fbb8c75bd310c0f2dbd822785e745312c"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/robot/microduck/ball.xml",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\robot\\microduck\\ball.xml",
+      "bytes": 721,
+      "sha256": "4d24770bd3383a5be0d5085e10e615ce79c681a349aacee9e867db644631e124"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/robot/microduck/config_mjcf_allcollisions.json",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\robot\\microduck\\config_mjcf_allcollisions.json",
+      "bytes": 1526,
+      "sha256": "14dceae0901f6226b8e951c153aed50a24571c31453ca3da992e0b6dec25bdbe"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/robot/microduck/config_mjcf_groundcontact.json",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\robot\\microduck\\config_mjcf_groundcontact.json",
+      "bytes": 2053,
+      "sha256": "59c3aaf1ae625a321af96cea7090c7c2e60d04509094bc5d9b0349ae99d23d5e"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/robot/microduck/config_mjcf_groundcontact_backlash.json",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\robot\\microduck\\config_mjcf_groundcontact_backlash.json",
+      "bytes": 2190,
+      "sha256": "58743a6e1c03090f05c2d2c5cd9a31699791f80cf3159dfb2a2c515c44be217b"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/robot/microduck/config_mjcf_groundcontact_rollers.json",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\robot\\microduck\\config_mjcf_groundcontact_rollers.json",
+      "bytes": 2140,
+      "sha256": "88826f22450546c71670335e49a31702b42dfb7830d2432a65537e27f4e77c3d"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/robot/microduck/config_mjcf_groundcontact_rollers_backlash.json",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\robot\\microduck\\config_mjcf_groundcontact_rollers_backlash.json",
+      "bytes": 2285,
+      "sha256": "e74d64ffb80454936ed049eba26813e71bdc4d5709290e6702205e3f678bde94"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/robot/microduck/config_mjcf_walk.json",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\robot\\microduck\\config_mjcf_walk.json",
+      "bytes": 1852,
+      "sha256": "b78a42e9ec57bd99a69e3e516930028eedba5b306afd57181b378cce75e0b771"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/robot/microduck/config_mjcf_walk_backlash.json",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\robot\\microduck\\config_mjcf_walk_backlash.json",
+      "bytes": 2014,
+      "sha256": "9b11dcdb1256d502ee78f7f5d1d89037b76c2ac24f6ea5defff7fbb8089b284e"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/robot/microduck/joints_properties.xml",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\robot\\microduck\\joints_properties.xml",
+      "bytes": 1819,
+      "sha256": "025c047a438ce66a9da0ab6ec1d406b2ca41e647eabe51ea5aaed43ae9948361"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/robot/microduck/robot_allcollisions.xml",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\robot\\microduck\\robot_allcollisions.xml",
+      "bytes": 43524,
+      "sha256": "50f2c08459c3b57b74ae36f130287428a9e0956ecf1c43e72b332a8c8f29c93d"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/robot/microduck/robot_groundcontact.xml",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\robot\\microduck\\robot_groundcontact.xml",
+      "bytes": 33338,
+      "sha256": "8dd2985c25f4a5fb5b5fcd02dea92d4fd52a667c1663af677ee1d0e41e3084a5"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/robot/microduck/robot_groundcontact_backlash.xml",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\robot\\microduck\\robot_groundcontact_backlash.xml",
+      "bytes": 35450,
+      "sha256": "f20347a7667785f14c64cfe4c4c1ca837aacb8b0b758af6962e054e3e16fcf34"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/robot/microduck/robot_groundcontact_rollers.xml",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\robot\\microduck\\robot_groundcontact_rollers.xml",
+      "bytes": 36163,
+      "sha256": "990f6d2d14f382efd2eeee6aace46af05c0cf90d08d58836463711038b393ec8"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/robot/microduck/robot_groundcontact_rollers_backlash.xml",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\robot\\microduck\\robot_groundcontact_rollers_backlash.xml",
+      "bytes": 38275,
+      "sha256": "052fe7834aa4868c3d92910d75800110b375b5b9d404294c86582c2120a34e97"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/robot/microduck/robot_walk.xml",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\robot\\microduck\\robot_walk.xml",
+      "bytes": 32451,
+      "sha256": "8b02bb4fb8abb1c3df6702252490874f1c16c3035a84bca451e1e9db3b27f355"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/robot/microduck/robot_walk_backlash.xml",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\robot\\microduck\\robot_walk_backlash.xml",
+      "bytes": 34563,
+      "sha256": "3a1f47ef023809a806b4062e575e367f5b02b04e05e037847a095933f779bf4d"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/robot/microduck/scene.xml",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\robot\\microduck\\scene.xml",
+      "bytes": 2407,
+      "sha256": "eb2e8d28326881d8bf27566fd64ed7a7b85aadc36cba36d112a573e2636ed16c"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/robot/microduck/scene_allcollisions.xml",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\robot\\microduck\\scene_allcollisions.xml",
+      "bytes": 2407,
+      "sha256": "f5dabec37b82929cd8f04d5d86399a707391b62b24bb7b44afa92eb249ad0a10"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/robot/microduck/scene_apartment.xml",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\robot\\microduck\\scene_apartment.xml",
+      "bytes": 2516,
+      "sha256": "f5b796239638fa0cdc561355023dcecca38ab74742b60f156ddf75ec4bc38954"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/robot/microduck/scene_backlash.xml",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\robot\\microduck\\scene_backlash.xml",
+      "bytes": 2635,
+      "sha256": "c7b72d75e90273e42bc51d35116a7ec1cf1c9916231946a5decc88bdc06dc913"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/robot/microduck/scene_ball.xml",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\robot\\microduck\\scene_ball.xml",
+      "bytes": 1267,
+      "sha256": "3bf00371a8e0f3c3d1b31ac50fffced0f74956fe49c2a18ff587db36fc1bdf17"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/robot/microduck/scene_rollers.xml",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\robot\\microduck\\scene_rollers.xml",
+      "bytes": 2501,
+      "sha256": "b39147e95e76b6d3d6cb034be32c0a852cb534f2c6d2b891daffcad1bcb1b7d1"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/robot/microduck/scene_vslam.xml",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\robot\\microduck\\scene_vslam.xml",
+      "bytes": 2517,
+      "sha256": "c1ae0784466b554e852c2914534d3d9a007bbb27fd9c73f0d56304b07cfdd0d0"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/robot/microduck/scene_walk.xml",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\robot\\microduck\\scene_walk.xml",
+      "bytes": 2398,
+      "sha256": "61cc5af86fc56894ad28e6a35634f93d16dda259eedd118e2980b663037efa6d"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/robot/microduck/scene_walk_backlash.xml",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\robot\\microduck\\scene_walk_backlash.xml",
+      "bytes": 2628,
+      "sha256": "28ba490055680336408c8368acdd6927dffce1a178969503b772db283f029bd2"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/robot/microduck/sensors.xml",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\robot\\microduck\\sensors.xml",
+      "bytes": 365,
+      "sha256": "ef2628d8eee75fcfe3a5e7db30cb5bc8f1f23c4f51cf5fd12d252815b4f67b5b"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/robot/microduck/vslam_room.xml",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\robot\\microduck\\vslam_room.xml",
+      "bytes": 4238,
+      "sha256": "1de2da20adf3f9e496af53a0acb1270616abcf184c5fd9b7ed0698c3f20d7325"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/robot/microduck_constants.py",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\robot\\microduck_constants.py",
+      "bytes": 11885,
+      "sha256": "36131bada4de4f0ea0d99a461cd25039d0f0a511f259238ed0647f0c1fc93bb1"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/robot/testbench_constants.py",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\robot\\testbench_constants.py",
+      "bytes": 1844,
+      "sha256": "8e3a7d67e5829be1bbf35c1e9ceab2994e9ae46c662213b2bd70c691f1c690f0"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/robot/xl330_test_bench/config.json",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\robot\\xl330_test_bench\\config.json",
+      "bytes": 526,
+      "sha256": "2ffd59ee61c2bdb5bb5c33fff1e1bf6fba50923f863ca8d6115c6d35f689bcc4"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/robot/xl330_test_bench/joints_properties.xml",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\robot\\xl330_test_bench\\joints_properties.xml",
+      "bytes": 929,
+      "sha256": "6e0f374a16536d1ab79a70990501c368c360c3cd2393736c8ff8945a7843e328"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/robot/xl330_test_bench/scene.xml",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\robot\\xl330_test_bench\\scene.xml",
+      "bytes": 955,
+      "sha256": "18059c2043fce0b11a18d62078ee182da50e4805081371c09f1fab16879769a5"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/robot/xl330_test_bench/xl330_test_bench.xml",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\robot\\xl330_test_bench\\xl330_test_bench.xml",
+      "bytes": 4688,
+      "sha256": "8b323da2fdcd4c78a7ee7c3b821966d1d59ca544c8affb770860ba4cb9bae33e"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/s288_profile.py",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\s288_profile.py",
+      "bytes": 4085,
+      "sha256": "bc6ecf2fee3f2f2c87993c7fbde061e45185cd7c5148372cdd3a076946263332"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/s288_protocol.py",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\s288_protocol.py",
+      "bytes": 956,
+      "sha256": "d6dbe542dc1b002a70623937a1eb14934b191029c3304de72edfe1a61ebe306c"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/sim/__init__.py",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\sim\\__init__.py",
+      "bytes": 342,
+      "sha256": "1c279137cad6cf9146d424f993edaa604874e6171e71f9ddded6cec805dff480"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/sim/body_server.py",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\sim\\body_server.py",
+      "bytes": 27954,
+      "sha256": "32ef5455438130acf7f0a699db72179a6a371c63e7a362750a01f8a7c28adc28"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/sim/camera.py",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\sim\\camera.py",
+      "bytes": 7198,
+      "sha256": "4332ad431ec0dac8d3f50795a09b6bd43c88b7eb8b7d3278fb822096074dcc49"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/sim/tof.py",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\sim\\tof.py",
+      "bytes": 4629,
+      "sha256": "5b5b5cce667cec8dfaf8a450995c6cca080576a3a9f184bbe4e3eb3f3fcc7894"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/tasks/__init__.py",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\tasks\\__init__.py",
+      "bytes": 37333,
+      "sha256": "17cbb21727601a0e44feb194845a9220ce2340227010f9e669db464f3e9b1e5c"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/tasks/backlash.py",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\tasks\\backlash.py",
+      "bytes": 4436,
+      "sha256": "f9e852552c13c15a497f6e8b28ef87633634a7b493e247d80b7cfc47fe4a7e70"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/tasks/mdp.py",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\tasks\\mdp.py",
+      "bytes": 380070,
+      "sha256": "beb5c82970faf3b4d919af43dab87cbb7f58f099406eba969a1156f46ff7a43c"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/tasks/microduck_ball_kick_env_cfg.py",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\tasks\\microduck_ball_kick_env_cfg.py",
+      "bytes": 30314,
+      "sha256": "cdbbc21d99ca98b536b21bbb54ffd1333567b18e1811341ce871054cf01c97cc"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/tasks/microduck_figure8_rollers_env_cfg.py",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\tasks\\microduck_figure8_rollers_env_cfg.py",
+      "bytes": 4280,
+      "sha256": "483a479de0ba9e0c5b48f171be89ab7030caa7f7298e565a456ebac6f30d96d7"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/tasks/microduck_ground_pick_env_cfg.py",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\tasks\\microduck_ground_pick_env_cfg.py",
+      "bytes": 33623,
+      "sha256": "c13bb2f51c2c20a992c346447c1b746e74785cda42eba2c6d88a2ff34303b3b3"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/tasks/microduck_roller_crouch_env_cfg.py",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\tasks\\microduck_roller_crouch_env_cfg.py",
+      "bytes": 19986,
+      "sha256": "8d6b4572f02b78dde42e2c9b3ca914232559497acf89781b7dfab86c4ba62007"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/tasks/microduck_roller_sitstand_env_cfg.py",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\tasks\\microduck_roller_sitstand_env_cfg.py",
+      "bytes": 13504,
+      "sha256": "8dd9733519a28eaa08a12e9d3890f17812dafee86dae69d2eb515f8cf479b88f"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/tasks/microduck_roller_slope_env_cfg.py",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\tasks\\microduck_roller_slope_env_cfg.py",
+      "bytes": 12380,
+      "sha256": "86a7b0b49511e3533f7c01dce1b3a4f671867393b06bfda12e8c0267f2b51e40"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/tasks/microduck_roller_standup_env_cfg.py",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\tasks\\microduck_roller_standup_env_cfg.py",
+      "bytes": 31110,
+      "sha256": "1df803332919541d936d839c23fed5f2d6dbcbd0c53ebdaa8d4500370399ff55"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/tasks/microduck_roulade_env_cfg.py",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\tasks\\microduck_roulade_env_cfg.py",
+      "bytes": 35824,
+      "sha256": "fa65b77c0243601039f20a14f3a1f82f83d5f262f6dca45ab6d716074beab218"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/tasks/microduck_sitstand_env_cfg.py",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\tasks\\microduck_sitstand_env_cfg.py",
+      "bytes": 44826,
+      "sha256": "f2456230b336e617bfa124e8b053c39abd4fc5602c5294fff0108cbce5102cb6"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/tasks/microduck_spin_env_cfg.py",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\tasks\\microduck_spin_env_cfg.py",
+      "bytes": 20341,
+      "sha256": "7d887bee9b38a472088a60892f6e2e3392e1911ce714a19292e9884366459c48"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/tasks/microduck_standup_env_cfg.py",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\tasks\\microduck_standup_env_cfg.py",
+      "bytes": 59751,
+      "sha256": "da4ff31b2e5cb797361b74081dd2538f7ef2ffc37b524da595c9e8a963a9ce57"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/tasks/microduck_stride_rollers_env_cfg.py",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\tasks\\microduck_stride_rollers_env_cfg.py",
+      "bytes": 4354,
+      "sha256": "d317b1e843539e6e45fa4132887f5c86adb3423a5b437da8d253ca1ae2e82a59"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/tasks/microduck_velocity_env_cfg.py",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\tasks\\microduck_velocity_env_cfg.py",
+      "bytes": 62134,
+      "sha256": "a67aa5a605dbcccdb57e4490f81347e54cadc4fa3224f9ceafdf7472f0f5871d"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/tasks/microduck_velocity_rollers_env_cfg.py",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\tasks\\microduck_velocity_rollers_env_cfg.py",
+      "bytes": 30863,
+      "sha256": "c1ea73d3358a52e7f5ef73c7be7d797ea2c10f00d35ea3fbf389674909695e89"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/tasks/microduck_velocity_swizzle_env_cfg.py",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\tasks\\microduck_velocity_swizzle_env_cfg.py",
+      "bytes": 9742,
+      "sha256": "570e77f0865968bbd5985206ad6a2e952ff86dffacc8ad299ca4009a102fd895"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/tasks/microduck_velstand_env_cfg.py",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\tasks\\microduck_velstand_env_cfg.py",
+      "bytes": 22898,
+      "sha256": "9b63ea3c0b7cfc58b2346229b2de7f73e4d0293de45ea598e63faf8682bf18a0"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/tasks/recovery_bounds.py",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\tasks\\recovery_bounds.py",
+      "bytes": 7939,
+      "sha256": "a840c2cec57d5110ff8c3320a1185a32bbd7dc465c5b0ef8f435513ba8a69f93"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/tasks/slope_terrain.py",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\tasks\\slope_terrain.py",
+      "bytes": 5119,
+      "sha256": "62896945251e1f1c088ef3b502ead16d6b96b3b7c8570810bb9d62b70819219b"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/tasks/symmetry.py",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\tasks\\symmetry.py",
+      "bytes": 7517,
+      "sha256": "eec6d62eac0ad647677087cea495fdec1d52ac9da232919c399236b33f1be887"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/tasks/symmetry_microdinosaur.py",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\tasks\\symmetry_microdinosaur.py",
+      "bytes": 7540,
+      "sha256": "117741a3286477b9607d3361094337ee65f6e3736c962387f50eb3d72f359fc3"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/tasks/testbench_env_cfg.py",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\tasks\\testbench_env_cfg.py",
+      "bytes": 9779,
+      "sha256": "fe3dcdb2fad34880483dbed1cd8323d78f15934543c6085c32305a5004f87588"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/train_cli.py",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\train_cli.py",
+      "bytes": 1492,
+      "sha256": "0b5a7f7e6ef7a375ec03521f15a6d850a42f0de7a44ca195eb21f4627442a3a6"
+    },
+    {
+      "path": "simulation/training/src/mjlab_microduck/train_hook.py",
+      "source": "D:\\microduck_rl\\src\\mjlab_microduck\\train_hook.py",
+      "bytes": 2571,
+      "sha256": "183cfa191c463e0a3b561ebc18b217ae24db9cce84db4a3734e3e61bc8f4fa28"
+    },
+    {
+      "path": "simulation/training/scripts/crouch_pose_editor.py",
+      "source": "D:\\microduck_rl\\scripts\\crouch_pose_editor.py",
+      "bytes": 3589,
+      "sha256": "9fc74fdc724e32d8ff3a24341020acc3c3ca37d9298b0611f7b4bdb9ad7ca643"
+    },
+    {
+      "path": "simulation/training/scripts/drive_microdinosaur.py",
+      "source": "D:\\microduck_rl\\scripts\\drive_microdinosaur.py",
+      "bytes": 9303,
+      "sha256": "9931ec7bb95ec2227cd9376b6cb1aa5f22ac66d76ab774ca7af105ffd5abd655"
+    },
+    {
+      "path": "simulation/training/scripts/export.py",
+      "source": "D:\\microduck_rl\\scripts\\export.py",
+      "bytes": 372,
+      "sha256": "b8f77b85a359c649a4d432cd85e47f680b3d19848ac6e5d9036adc68215e9515"
+    },
+    {
+      "path": "simulation/training/scripts/export_at_reward.py",
+      "source": "D:\\microduck_rl\\scripts\\export_at_reward.py",
+      "bytes": 3678,
+      "sha256": "394af8f773ca3eb97cc57064e63956e86dfe16d5a300a20134b6a1faf9ea3872"
+    },
+    {
+      "path": "simulation/training/scripts/hf/README.md",
+      "source": "D:\\microduck_rl\\scripts\\hf\\README.md",
+      "bytes": 3292,
+      "sha256": "ca3edac47a0ba48fb843d16c44b2696f2de7ab3afb1f7ed65a466db58b76d73d"
+    },
+    {
+      "path": "simulation/training/scripts/hf/train_hf.py",
+      "source": "D:\\microduck_rl\\scripts\\hf\\train_hf.py",
+      "bytes": 441,
+      "sha256": "35fda98d5ea6be4c4698c1f87e0944dfcb90d2e6f8e29f8520d298cd38dbf1bd"
+    },
+    {
+      "path": "simulation/training/scripts/hf/uploader.py",
+      "source": "D:\\microduck_rl\\scripts\\hf\\uploader.py",
+      "bytes": 2566,
+      "sha256": "109e700158a46a2a0821142216fcd0a7c3e990702a54d30992e3f9ea213cebf9"
+    },
+    {
+      "path": "simulation/training/scripts/infer_policy.py",
+      "source": "D:\\microduck_rl\\scripts\\infer_policy.py",
+      "bytes": 82345,
+      "sha256": "3168dffb873aea2190971b715143adecf03f1260bf6425240af30824512d35d5"
+    },
+    {
+      "path": "simulation/training/scripts/measure_ground_poses.py",
+      "source": "D:\\microduck_rl\\scripts\\measure_ground_poses.py",
+      "bytes": 5171,
+      "sha256": "ab09b09bbf5374f47fd213f06e51adf6cfbb99c48e0d150e1f16e267367319a5"
+    },
+    {
+      "path": "simulation/training/scripts/measure_roller_sit.py",
+      "source": "D:\\microduck_rl\\scripts\\measure_roller_sit.py",
+      "bytes": 4439,
+      "sha256": "f6eb1540377c49a0fc78cb31cedc21bc3cd1c729e458a43c6a090679c5d48459"
+    },
+    {
+      "path": "simulation/training/scripts/microdinosaur_measure.py",
+      "source": "D:\\microduck_rl\\scripts\\microdinosaur_measure.py",
+      "bytes": 16574,
+      "sha256": "64ad5def2bd52477891a28d25488befa7e9acb896456b0467b3bc5c168ce33d3"
+    },
+    {
+      "path": "simulation/training/scripts/microdinosaur_play.py",
+      "source": "D:\\microduck_rl\\scripts\\microdinosaur_play.py",
+      "bytes": 37035,
+      "sha256": "65d270c3402a659cb9f39beb466287d647efa22c1046e510de5b97ee0c309c62"
+    },
+    {
+      "path": "simulation/training/scripts/microdinosaur_snapshots.py",
+      "source": "D:\\microduck_rl\\scripts\\microdinosaur_snapshots.py",
+      "bytes": 4196,
+      "sha256": "a09a88c2fed22ea868b72a8dc742dd63b826edf87cf4dd98a3dd4673c9660b08"
+    },
+    {
+      "path": "simulation/training/scripts/play_latest.py",
+      "source": "D:\\microduck_rl\\scripts\\play_latest.py",
+      "bytes": 2063,
+      "sha256": "8a9be7a9a809f7c94e77659070445bf9ede97e889961adf493e0563a41463e58"
+    },
+    {
+      "path": "simulation/training/scripts/plot_observations_comparison_plotly.py",
+      "source": "D:\\microduck_rl\\scripts\\plot_observations_comparison_plotly.py",
+      "bytes": 10823,
+      "sha256": "57864bc106f6b803f84562f92ce4d169e72b807a824a022681f0e8e2cfdf29ac"
+    },
+    {
+      "path": "simulation/training/scripts/search_roller_sit.py",
+      "source": "D:\\microduck_rl\\scripts\\search_roller_sit.py",
+      "bytes": 4245,
+      "sha256": "1734063703fd11251df100328ed21ca80ad1c2f3edc7b96cf7bdb764be07273e"
+    },
+    {
+      "path": "simulation/training/scripts/testbench_sim2real.py",
+      "source": "D:\\microduck_rl\\scripts\\testbench_sim2real.py",
+      "bytes": 25005,
+      "sha256": "a8474288217cecf7ff474e0a1394fef0031d5ce9b669b9bb101287a516d7d6dd"
+    },
+    {
+      "path": "simulation/training/scripts/train_roller_batch.py",
+      "source": "D:\\microduck_rl\\scripts\\train_roller_batch.py",
+      "bytes": 4512,
+      "sha256": "60e47d21b1f71c192e626ef51ff53158ade54f1b1f141ea6b89db68243f8187c"
+    },
+    {
+      "path": "simulation/training/scripts/train_supervisor.py",
+      "source": "D:\\microduck_rl\\scripts\\train_supervisor.py",
+      "bytes": 11162,
+      "sha256": "3b5c3af5b97eb1465328be098b829b772d543f7016f9e06af48d4c0ad559669b"
+    },
+    {
+      "path": "simulation/training/scripts/validate_bam_testbench.py",
+      "source": "D:\\microduck_rl\\scripts\\validate_bam_testbench.py",
+      "bytes": 9343,
+      "sha256": "129d5ae07c42d4a56d0e92cf6380d9b17426ddf22224dac557f60fdb455d2d62"
+    },
+    {
+      "path": "simulation/training/scripts/video_collector.py",
+      "source": "D:\\microduck_rl\\scripts\\video_collector.py",
+      "bytes": 1870,
+      "sha256": "20196d5d2da1313fdfb16955dfa6df423508f8ec6fda95c74ca6bc63a84a1efd"
+    },
+    {
+      "path": "simulation/training/scripts/view_slope_terrain.py",
+      "source": "D:\\microduck_rl\\scripts\\view_slope_terrain.py",
+      "bytes": 4223,
+      "sha256": "ca3cfdf1b84fd554b0776a3864b625d617884576a6335f99a3947c2f597ccc5d"
+    },
+    {
+      "path": "simulation/training/scripts/wandb_utils.py",
+      "source": "D:\\microduck_rl\\scripts\\wandb_utils.py",
+      "bytes": 5208,
+      "sha256": "d5260ba0e68d1be90e3031ff1b5fbb4226441138b1dc4234c68c8c9ee71996dd"
+    },
+    {
+      "path": "simulation/training/tests/test_aarch64_cuda_torch.py",
+      "source": "D:\\microduck_rl\\tests\\test_aarch64_cuda_torch.py",
+      "bytes": 6103,
+      "sha256": "3e4675b87c47e06d7898ba8ba18708c4b30d9a2b245c939c1ea13ef984b47633"
+    },
+    {
+      "path": "simulation/training/tests/test_contact_motion.py",
+      "source": "D:\\microduck_rl\\tests\\test_contact_motion.py",
+      "bytes": 3483,
+      "sha256": "14956e3cd03bccfec4644d4a2180ef3efd019fdf107290f7f5a921c8404580e4"
+    },
+    {
+      "path": "simulation/training/tests/test_crouch_glide.py",
+      "source": "D:\\microduck_rl\\tests\\test_crouch_glide.py",
+      "bytes": 3943,
+      "sha256": "9502b7de875d7319d13c62108eeb5e2700e861c307e000252d6b2344d0a4592b"
+    },
+    {
+      "path": "simulation/training/tests/test_descent_speed.py",
+      "source": "D:\\microduck_rl\\tests\\test_descent_speed.py",
+      "bytes": 1309,
+      "sha256": "6957546fdd77b5cd5b025c7d219c99dbfb37ae9d7d94e067587d3f9ba3a6f596"
+    },
+    {
+      "path": "simulation/training/tests/test_ground_pick_cfg.py",
+      "source": "D:\\microduck_rl\\tests\\test_ground_pick_cfg.py",
+      "bytes": 2491,
+      "sha256": "5672d186f35061c23f2b83bf6bb3ddc302d68162608ac3836ea7c4314acc89af"
+    },
+    {
+      "path": "simulation/training/tests/test_ground_pick_pose.py",
+      "source": "D:\\microduck_rl\\tests\\test_ground_pick_pose.py",
+      "bytes": 4751,
+      "sha256": "e2646ff2fb93fad4e1feb9d4dbbf21eb168397d40b83f6433535768ba32c7756"
+    },
+    {
+      "path": "simulation/training/tests/test_head_pose_bias.py",
+      "source": "D:\\microduck_rl\\tests\\test_head_pose_bias.py",
+      "bytes": 6335,
+      "sha256": "f5f3947d8fe82f3e9ead88a879677be7edc979050d9b593b50c3aa40ed29602d"
+    },
+    {
+      "path": "simulation/training/tests/test_hf_jobs_flag.py",
+      "source": "D:\\microduck_rl\\tests\\test_hf_jobs_flag.py",
+      "bytes": 7928,
+      "sha256": "f57b4c12b9802407c8d32ca71c9c71fcec155de212281b0c490d8a74f2d01752"
+    },
+    {
+      "path": "simulation/training/tests/test_independent_squat.py",
+      "source": "D:\\microduck_rl\\tests\\test_independent_squat.py",
+      "bytes": 2501,
+      "sha256": "06717ab83d6d461562bedfc674ad0aea37b726bee91e3325c181e837a1f2fde8"
+    },
+    {
+      "path": "simulation/training/tests/test_infer_policy_bam.py",
+      "source": "D:\\microduck_rl\\tests\\test_infer_policy_bam.py",
+      "bytes": 4304,
+      "sha256": "0f0b70a8c6774d5addfe6ee79bb566e90555844a4b8e0d58c2f307b62988d0cb"
+    },
+    {
+      "path": "simulation/training/tests/test_microdinosaur_reward_state.py",
+      "source": "D:\\microduck_rl\\tests\\test_microdinosaur_reward_state.py",
+      "bytes": 4547,
+      "sha256": "311957d3b0117fe655fb395cdf80a218224f4a515150bc133df9de25733222a3"
+    },
+    {
+      "path": "simulation/training/tests/test_microdinosaur_symmetry_commands.py",
+      "source": "D:\\microduck_rl\\tests\\test_microdinosaur_symmetry_commands.py",
+      "bytes": 1511,
+      "sha256": "0e65dbc2abfea2feaa68e7896499688099ff0ace0c175d03c070dec32aa24084"
+    },
+    {
+      "path": "simulation/training/tests/test_nan_guard.py",
+      "source": "D:\\microduck_rl\\tests\\test_nan_guard.py",
+      "bytes": 1954,
+      "sha256": "70f43c05b49e5aa410a640f8696c2500c5e966bea167e89123309c3bf1d94a50"
+    },
+    {
+      "path": "simulation/training/tests/test_obs_nan_guard.py",
+      "source": "D:\\microduck_rl\\tests\\test_obs_nan_guard.py",
+      "bytes": 4664,
+      "sha256": "c3071e4438b73b08e8056ecb3873b0eb61baed40b1a825d5742adbe4e7eafae1"
+    },
+    {
+      "path": "simulation/training/tests/test_publish_manifest.py",
+      "source": "D:\\microduck_rl\\tests\\test_publish_manifest.py",
+      "bytes": 11198,
+      "sha256": "3a7d25460e32e2545c1f6c861a984d255cf1989982408bccd7badd0d4d3c79fc"
+    },
+    {
+      "path": "simulation/training/tests/test_roller_crouch_cfg.py",
+      "source": "D:\\microduck_rl\\tests\\test_roller_crouch_cfg.py",
+      "bytes": 2348,
+      "sha256": "82b3a5b6d9bd99ddec69a7b3e2d52d0119bf2ad22f05a662c2bf5b1230a5a486"
+    },
+    {
+      "path": "simulation/training/tests/test_roller_sitstand_figure8_cfg.py",
+      "source": "D:\\microduck_rl\\tests\\test_roller_sitstand_figure8_cfg.py",
+      "bytes": 11102,
+      "sha256": "fe42776bff3e78dbcf956e03c5c26ce6ab1acc1c904e1993a269890733a8fba7"
+    },
+    {
+      "path": "simulation/training/tests/test_roller_slope_cfg.py",
+      "source": "D:\\microduck_rl\\tests\\test_roller_slope_cfg.py",
+      "bytes": 4564,
+      "sha256": "328fc11893ca9f03638f52a26f9a689db2eb68013e4cac5ea1d65af77ec622c9"
+    },
+    {
+      "path": "simulation/training/tests/test_roller_standup_cfg.py",
+      "source": "D:\\microduck_rl\\tests\\test_roller_standup_cfg.py",
+      "bytes": 28845,
+      "sha256": "15d9a291b8a655c8844b2a28c9159710b863cad6edcdcd2ae5b895b06fbbe49e"
+    },
+    {
+      "path": "simulation/training/tests/test_s288_profile.py",
+      "source": "D:\\microduck_rl\\tests\\test_s288_profile.py",
+      "bytes": 2366,
+      "sha256": "d0597d96dc4e870873556c7cd370865400829573547832b9347a469a945af72c"
+    },
+    {
+      "path": "simulation/training/tests/test_slope_curriculum.py",
+      "source": "D:\\microduck_rl\\tests\\test_slope_curriculum.py",
+      "bytes": 1404,
+      "sha256": "d34bc338e6264a4833954bb97cde8067aaa177b4c34491f827ba50607068cc09"
+    },
+    {
+      "path": "simulation/training/tests/test_slope_terrain.py",
+      "source": "D:\\microduck_rl\\tests\\test_slope_terrain.py",
+      "bytes": 4130,
+      "sha256": "43bb9a1428f6fada67af551912f9152c3c4a34b0c9a53a3ff5f23242405fe003"
+    },
+    {
+      "path": "simulation/training/tests/test_spin.py",
+      "source": "D:\\microduck_rl\\tests\\test_spin.py",
+      "bytes": 16283,
+      "sha256": "4102ed91faa8ad46d3ad847566ca83e363f893e0b81af4e677c1f0a011a51017"
+    },
+    {
+      "path": "simulation/training/tests/test_spin_cfg.py",
+      "source": "D:\\microduck_rl\\tests\\test_spin_cfg.py",
+      "bytes": 4567,
+      "sha256": "b58e50f4665458c3b57a1f8116affef4adf6b237e6a98eef9595b308c48a8a19"
+    },
+    {
+      "path": "simulation/training/tests/test_swizzle_head_cfg.py",
+      "source": "D:\\microduck_rl\\tests\\test_swizzle_head_cfg.py",
+      "bytes": 1792,
+      "sha256": "617476b14592b4b638342de8e7052fe28c3c35997a9ee111da9158ea154d6903"
+    },
+    {
+      "path": "simulation/training/tests/test_wheel_glide.py",
+      "source": "D:\\microduck_rl\\tests\\test_wheel_glide.py",
+      "bytes": 2055,
+      "sha256": "7961ad2a8e690f76c05a92652d20118ae36306424c6f5cf6974f09fa332eea7d"
+    },
+    {
+      "path": "simulation/training/pyproject.toml",
+      "source": "D:\\microduck_rl\\pyproject.toml",
+      "bytes": 5965,
+      "sha256": "9985232228daed75d40425e007cd7a1a9e7d86606420ec6cb1a7e79b31f396c5"
+    },
+    {
+      "path": "simulation/training/uv.lock",
+      "source": "D:\\microduck_rl\\uv.lock",
+      "bytes": 241189,
+      "sha256": "cb9e04781a0bf66ec56eea2601c9d2e03edd3822f5a309a5a8b3dcf6c29d6950"
+    },
+    {
+      "path": "simulation/training/LICENSE",
+      "source": "D:\\microduck_rl\\LICENSE",
+      "bytes": 11553,
+      "sha256": "48a029ca4cffafe32428e9f7d3f6a54ce637fac5327a9ccf88c93cb3c40e5a8a"
+    },
+    {
+      "path": "simulation/training/README.md",
+      "source": "D:\\microduck_rl\\README.md",
+      "bytes": 13528,
+      "sha256": "4b85aaefc5bfe25120247abff94cd48b892d0a0b95dc231779d945e1fa4b89ff"
+    },
+    {
+      "path": "simulation/training/AGENTS.md",
+      "source": "D:\\microduck_rl\\AGENTS.md",
+      "bytes": 16762,
+      "sha256": "e8cd6aeb4a48b52f7c9ae52242a6b35448a12fea9b4fafbfebc44915fada8760"
+    },
+    {
+      "path": "simulation/training_assets.zip",
+      "bytes": 116435800,
+      "sha256": "67fa944a93682d8ce0102b48ab486d07fad402f9b7aa64c9bf7afa1dc5ca6d67",
+      "asset_count": 155
+    },
+    {
+      "path": "simulation/research/archive_corrective.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\archive_corrective.py",
+      "bytes": 2611,
+      "sha256": "053b4a81fc898b5ad138152b41916d6a7bd8bbcf2662302c5bc88de8f302227c"
+    },
+    {
+      "path": "simulation/research/archive_demonstration_study.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\archive_demonstration_study.py",
+      "bytes": 3718,
+      "sha256": "aef5458ce5e5fbf2ba3c8faaadf46856a14e994000eb0900990f272745c59911"
+    },
+    {
+      "path": "simulation/research/archive_owned_terrain.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\archive_owned_terrain.py",
+      "bytes": 4437,
+      "sha256": "9bcb7a7ab5dcd08965a87c08f08e98ade3a1030a08ca8967c4054e94eae9793d"
+    },
+    {
+      "path": "simulation/research/archive_transition_refine.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\archive_transition_refine.py",
+      "bytes": 2746,
+      "sha256": "3bb820b325b03bb49ec1b238669a51aa7fd8e65954811c45fd111cf9947c668b"
+    },
+    {
+      "path": "simulation/research/audit_contact_compilation.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\audit_contact_compilation.py",
+      "bytes": 4597,
+      "sha256": "0e620bfa0f30d79a6a617de48bf64060550abded34716922234bed7508a1b5b7"
+    },
+    {
+      "path": "simulation/research/audit_contact_motion.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\audit_contact_motion.py",
+      "bytes": 1405,
+      "sha256": "eefc5072187dcac8c2420c6c259e81563d7c383b8d488789847cc15ae1460be9"
+    },
+    {
+      "path": "simulation/research/audit_contact_results.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\audit_contact_results.py",
+      "bytes": 3413,
+      "sha256": "96fe61db60e2055a303d7c3a05ab4e7061d73b40ddd6e488bf06f08cb85dc2f4"
+    },
+    {
+      "path": "simulation/research/audit_corrective_data.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\audit_corrective_data.py",
+      "bytes": 2569,
+      "sha256": "0cadefc61da5d868ec691ca6499c4c2a53f3f598a73e4f339e757c689a423f78"
+    },
+    {
+      "path": "simulation/research/audit_corrective_offline.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\audit_corrective_offline.py",
+      "bytes": 2681,
+      "sha256": "b731d3dcf35e0d120010449fbc482e97b467d6d7199e73a0c4e454e536e070b6"
+    },
+    {
+      "path": "simulation/research/audit_corrective_training.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\audit_corrective_training.py",
+      "bytes": 3544,
+      "sha256": "f3d81cf5f08da5f63ab2cf70dd9df2e692f8f5891e47dac7721b1c5736403f90"
+    },
+    {
+      "path": "simulation/research/audit_deep_crouch_live.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\audit_deep_crouch_live.py",
+      "bytes": 2857,
+      "sha256": "e44e8ee8ceb05458b7a13452e6dc6f2241fdd1a05cc29347758e73c065e84221"
+    },
+    {
+      "path": "simulation/research/audit_delay_coverage.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\audit_delay_coverage.py",
+      "bytes": 6530,
+      "sha256": "e7d3f08c7b98c6fa5b5566f5e73683e26b25bb48f0f38c0bd90a9ecac6e9098f"
+    },
+    {
+      "path": "simulation/research/audit_demonstration_teacher.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\audit_demonstration_teacher.py",
+      "bytes": 2048,
+      "sha256": "3472597243c052c6deecfd5b39bfcaa38c47d98dcbe16ed8f47668284d78be39"
+    },
+    {
+      "path": "simulation/research/audit_demonstration_training.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\audit_demonstration_training.py",
+      "bytes": 3501,
+      "sha256": "ba0b4011ef483502eb7671cdc016b999ed6bf56c2599daa93fe755d51b0017a2"
+    },
+    {
+      "path": "simulation/research/audit_directional_rewards.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\audit_directional_rewards.py",
+      "bytes": 6898,
+      "sha256": "9c762c2c43ba872476c961b1fc873bd36c37fd5b1f6b98c2490e2b3c8cfeddd8"
+    },
+    {
+      "path": "simulation/research/audit_foot_flight_gpu.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\audit_foot_flight_gpu.py",
+      "bytes": 2439,
+      "sha256": "0e6be3edacd9ec1fe79356f90e27e24abe28143f721cdacc4799a66d95e42fd4"
+    },
+    {
+      "path": "simulation/research/audit_foot_training.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\audit_foot_training.py",
+      "bytes": 3914,
+      "sha256": "5433770b597a39aeb9bb3ac9f197685e5901bf92bdbc85fd183b8536eb8b6f7c"
+    },
+    {
+      "path": "simulation/research/audit_gaze_ablation.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\audit_gaze_ablation.py",
+      "bytes": 8128,
+      "sha256": "33e48eccb3958baa7071b682f45cce21712cd1277ce0def1f9df2fbd1cb65ea5"
+    },
+    {
+      "path": "simulation/research/audit_hardware.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\audit_hardware.py",
+      "bytes": 8224,
+      "sha256": "b1664da0f8bd85847b24226869e864719e050ef589f16d0e8b99670ff39c28ce"
+    },
+    {
+      "path": "simulation/research/audit_head_attitude.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\audit_head_attitude.py",
+      "bytes": 4679,
+      "sha256": "aea6f025747069c2ee9e4ec76add7ed7f4967f0c7b39022f5c045a8fc87c9b7f"
+    },
+    {
+      "path": "simulation/research/audit_jump_refine_gpu.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\audit_jump_refine_gpu.py",
+      "bytes": 2719,
+      "sha256": "d4191ea9cb99bbb937d8d56803bd4740872ca1749c8bc17543d02b1b299b5ba6"
+    },
+    {
+      "path": "simulation/research/audit_jump_refine_training.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\audit_jump_refine_training.py",
+      "bytes": 3836,
+      "sha256": "cc4f8af21f0bcf781e9e54dec24ddce738a2014c2bf7727a6dbc6abd5b06ad06"
+    },
+    {
+      "path": "simulation/research/audit_lane_live.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\audit_lane_live.py",
+      "bytes": 2813,
+      "sha256": "25a8f603e3e66b511fab64070b25497d2cb8da0685c4f56fc124b525d866ceb5"
+    },
+    {
+      "path": "simulation/research/audit_native.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\audit_native.py",
+      "bytes": 3409,
+      "sha256": "2ab23f91aec8fa8721e7777dd6d3b4e0d6825e00e05c0634c7d185dad2a121e2"
+    },
+    {
+      "path": "simulation/research/audit_owned_failure.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\audit_owned_failure.py",
+      "bytes": 3807,
+      "sha256": "acb4b23feabc02678ff76d04b90a1795c8aa52164e3b5864fa47a172da719b33"
+    },
+    {
+      "path": "simulation/research/audit_owned_training.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\audit_owned_training.py",
+      "bytes": 5047,
+      "sha256": "30757490ed8bff9aebddee1423e969f544037912ea92067858ea65efbbf38eca"
+    },
+    {
+      "path": "simulation/research/audit_reward_lifecycle.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\audit_reward_lifecycle.py",
+      "bytes": 2676,
+      "sha256": "1e4f739ce6f95cec4839e9b221ba477a8659092e3c66357cd2829d70fccc2b2f"
+    },
+    {
+      "path": "simulation/research/audit_rough_lane_geometry.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\audit_rough_lane_geometry.py",
+      "bytes": 1815,
+      "sha256": "2ba45803f5c3bc42eabfd192e0bcff5d88c15e64adf5a31b49644e5cc3dfd509"
+    },
+    {
+      "path": "simulation/research/audit_s288_reset.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\audit_s288_reset.py",
+      "bytes": 2069,
+      "sha256": "b0874c0c342c51144156e10df4ed377b1811b4515a62004142d375945e9da992"
+    },
+    {
+      "path": "simulation/research/audit_squat_friction.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\audit_squat_friction.py",
+      "bytes": 2580,
+      "sha256": "6cbeb7765b1f07eccf5c418ae819205ca6b0550a447cb95d7d9b02d82d4abbcf"
+    },
+    {
+      "path": "simulation/research/audit_step_dataset.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\audit_step_dataset.py",
+      "bytes": 3095,
+      "sha256": "da2bd5885db5813c75c195bb244d7455dfd13d7c0030a915374e03030a72ac9f"
+    },
+    {
+      "path": "simulation/research/audit_terrain_delivery.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\audit_terrain_delivery.py",
+      "bytes": 3886,
+      "sha256": "b7949b372fcbf4415ba1e3bffee64e72e70ce30139edd7c7fabddd8891abefba"
+    },
+    {
+      "path": "simulation/research/audit_terrain_skill_runs.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\audit_terrain_skill_runs.py",
+      "bytes": 2794,
+      "sha256": "192e2a7bdeb8196502936af817db4def387df0e8b64782051ebb6569c456bbd2"
+    },
+    {
+      "path": "simulation/research/audit_transition_live.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\audit_transition_live.py",
+      "bytes": 2796,
+      "sha256": "ae5cadd38d58489515785a825b254e91fd62937ff7d34e7b1a210e49b788f69e"
+    },
+    {
+      "path": "simulation/research/audit_transition_training.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\audit_transition_training.py",
+      "bytes": 4016,
+      "sha256": "92b26fcdbe2c1969181aaaf96239defe9905f368aa243f1b7eaa1279da726c4f"
+    },
+    {
+      "path": "simulation/research/build_contact_motion_bank.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\build_contact_motion_bank.py",
+      "bytes": 11264,
+      "sha256": "b0a50bac4430ee6948f8064ff19315d662e421405b1af479041415178411d981"
+    },
+    {
+      "path": "simulation/research/build_getup_curriculum.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\build_getup_curriculum.py",
+      "bytes": 1200,
+      "sha256": "be918ffb3659debb565be681080b2886adcc640286f2619e442bb9923764e829"
+    },
+    {
+      "path": "simulation/research/build_obstacle_plant.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\build_obstacle_plant.py",
+      "bytes": 5991,
+      "sha256": "a7d4f2e56cfa4c3d39332a73a61db8a9f0e4ea7f62bb9fcc5a9220c48b798520"
+    },
+    {
+      "path": "simulation/research/build_safe_getup_bank.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\build_safe_getup_bank.py",
+      "bytes": 2165,
+      "sha256": "516c66a137528c53ac38faef1a0ede1299c6ed300002ca218db9eeb84bd95b67"
+    },
+    {
+      "path": "simulation/research/build_squat_bank.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\build_squat_bank.py",
+      "bytes": 2022,
+      "sha256": "8aa8856e9c4200307f6952740e2915240f1d82c717bed63862bd738474ad2570"
+    },
+    {
+      "path": "simulation/research/cad_contact_geometry.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\cad_contact_geometry.py",
+      "bytes": 640,
+      "sha256": "939ea74a61e18df1ea5d7f007183ac7f03eb62897007f213fe84c99831f391c2"
+    },
+    {
+      "path": "simulation/research/capture_bounded_demonstrations.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\capture_bounded_demonstrations.py",
+      "bytes": 3483,
+      "sha256": "c0d7241f1477d3587e8f035c6b22060ac07a31fdbf769de9214c63ff4c8b132e"
+    },
+    {
+      "path": "simulation/research/capture_step_demonstrations.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\capture_step_demonstrations.py",
+      "bytes": 3392,
+      "sha256": "9b1dd8997780cab8e9d17212b6d4756c8941a325bfee55d873601608e82bd10e"
+    },
+    {
+      "path": "simulation/research/capture_v7_anchor.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\capture_v7_anchor.py",
+      "bytes": 1760,
+      "sha256": "4248563ea195ba04881fa68a3a28828e47cc9a873af5440b82e47bce839f0c96"
+    },
+    {
+      "path": "simulation/research/check_compact_cad.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\check_compact_cad.py",
+      "bytes": 2908,
+      "sha256": "7909b83ec724ac9f18e18dfcfd2b76fb3208724a93384c0395e4b4420798c4a4"
+    },
+    {
+      "path": "simulation/research/check_contact_export.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\check_contact_export.py",
+      "bytes": 1474,
+      "sha256": "fe49579733ab0434ec9c0d3f302a1300ade239a2f0d1f9afe9187f10438f7d8c"
+    },
+    {
+      "path": "simulation/research/check_contact_turning.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\check_contact_turning.py",
+      "bytes": 1677,
+      "sha256": "161b6f94342220a619bcb48fd647fb1d9a8db9c12e06f6e5fec84d953df66c96"
+    },
+    {
+      "path": "simulation/research/check_play_reset.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\check_play_reset.py",
+      "bytes": 1029,
+      "sha256": "fc4950358809d642207fd70940dac72778cf0d695b6f96c3b59737da7f7da47d"
+    },
+    {
+      "path": "simulation/research/check_squat_cad.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\check_squat_cad.py",
+      "bytes": 3022,
+      "sha256": "276ba7c841bc3256a1cc083c720f6913c004161c2a94422f27c919288bf20794"
+    },
+    {
+      "path": "simulation/research/collect_corrective.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\collect_corrective.py",
+      "bytes": 5159,
+      "sha256": "75b074220f8576538a25d260bd4f5c5d8e69a9cd25594ebc692023d63b917f0b"
+    },
+    {
+      "path": "simulation/research/collect_corrective_v2.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\collect_corrective_v2.py",
+      "bytes": 7269,
+      "sha256": "efa5a339fdd9f79fffcc774fc115ef0bc453e5187e90aab98116879b457966df"
+    },
+    {
+      "path": "simulation/research/collect_squat_demonstrations.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\collect_squat_demonstrations.py",
+      "bytes": 1188,
+      "sha256": "18e019dd1eb356d274569dfa1776019843fb172dbd5fc597ba49c063027d9179"
+    },
+    {
+      "path": "simulation/research/compact_contact_cfg.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\compact_contact_cfg.py",
+      "bytes": 5785,
+      "sha256": "2bdaac1a17efb348acd017206142eaaa2a29d94ae4b52d45d8661c9adcbb02cc"
+    },
+    {
+      "path": "simulation/research/compare_training_configs.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\compare_training_configs.py",
+      "bytes": 2050,
+      "sha256": "283fc20d1acc03860230d79793d9b475d530e9f101c5d456845455862fd76d05"
+    },
+    {
+      "path": "simulation/research/confirm_fold_frontier.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\confirm_fold_frontier.py",
+      "bytes": 1176,
+      "sha256": "4dda48a0e234d34d2a156d7a74646c81ee827d3857594962cdb30da3bf9af14f"
+    },
+    {
+      "path": "simulation/research/contact_motion_cfg.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\contact_motion_cfg.py",
+      "bytes": 23228,
+      "sha256": "bb77fea797cdaec8dd600635ba0c7fa386c801bd371cbe8a1a38d92fdf1964d7"
+    },
+    {
+      "path": "simulation/research/contact_motion_report.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\contact_motion_report.py",
+      "bytes": 11938,
+      "sha256": "27ab871493ffdcf1e233dac70c1133efb62ff1a25a1bb347e8c65fa7de912a77"
+    },
+    {
+      "path": "simulation/research/contact_motion_scan.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\contact_motion_scan.py",
+      "bytes": 2562,
+      "sha256": "7f3f6b0500fd7d5d640c1e214bb3938a869387bbfe1ddc76a61669988f36fa2a"
+    },
+    {
+      "path": "simulation/research/corrective_cfg.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\corrective_cfg.py",
+      "bytes": 868,
+      "sha256": "f6bb5b10b5a9a9660374798c0db23bcc731575ba0bc29b9d266df7853d952b3c"
+    },
+    {
+      "path": "simulation/research/corrective_cfg_v2.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\corrective_cfg_v2.py",
+      "bytes": 935,
+      "sha256": "ef8769e9b5ef012aa251384004c46f96b51b7f853c03b70f1486e2b0bcdfeb38"
+    },
+    {
+      "path": "simulation/research/corrective_common.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\corrective_common.py",
+      "bytes": 505,
+      "sha256": "d0bf4d41734b122aaafb338aa0fa9c2082fcbae382b2e34c57b507796ed48768"
+    },
+    {
+      "path": "simulation/research/corrective_rough_cfg.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\corrective_rough_cfg.py",
+      "bytes": 2313,
+      "sha256": "81f9903aa48f147bf8a9bdc858881cf41fa69df543c2c43a156580bd9f06ff69"
+    },
+    {
+      "path": "simulation/research/decompose_compact_contacts.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\decompose_compact_contacts.py",
+      "bytes": 2225,
+      "sha256": "bb76debc444e9ab4e65ec589602bfc5a7168cb827c6bd0fbc85941c24671397d"
+    },
+    {
+      "path": "simulation/research/deep_crouch_cfg.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\deep_crouch_cfg.py",
+      "bytes": 2273,
+      "sha256": "d6b11657d15cf7977ba6ede2d4ba7b8642b47deeb69518e409d8067c7d51a365"
+    },
+    {
+      "path": "simulation/research/delay_matrix.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\delay_matrix.py",
+      "bytes": 4994,
+      "sha256": "c9501b3c4e58e2d56e460a7492831c4e54a09e4cbcdfe2f0e790f0cbcc8166be"
+    },
+    {
+      "path": "simulation/research/demo_head_attitude.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\demo_head_attitude.py",
+      "bytes": 2199,
+      "sha256": "932debbc764cee0bf9fc3b233f6824c5c83b42e1d9914bdb5f21edec7c6f95b0"
+    },
+    {
+      "path": "simulation/research/demo_heading.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\demo_heading.py",
+      "bytes": 2017,
+      "sha256": "0c865fa9168722c50572aeaf42a7d94faf8c57f2a37692ecfd22aa6697f8c9fe"
+    },
+    {
+      "path": "simulation/research/demonstration_cfg.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\demonstration_cfg.py",
+      "bytes": 739,
+      "sha256": "7e9a3f8f76dd965808ea191f4762537b8c6cb84e25f0bfdc77de7c2a5702e98e"
+    },
+    {
+      "path": "simulation/research/demonstration_expert.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\demonstration_expert.py",
+      "bytes": 3912,
+      "sha256": "78988231d9cc25116358d65fe1fa011a7dd11ba33b25078e1db45871abadce50"
+    },
+    {
+      "path": "simulation/research/demonstration_nan_guard.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\demonstration_nan_guard.py",
+      "bytes": 2079,
+      "sha256": "c1220755309ff9df396a2aeffd9393c51daf0f7833889bf7ab94f11c3e3c25a6"
+    },
+    {
+      "path": "simulation/research/develop_head_attitude.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\develop_head_attitude.py",
+      "bytes": 2031,
+      "sha256": "da99daba75c0e4bac20c9e516eb1c3c796f3a3bc6c52ac1a8dd7260834b99ebc"
+    },
+    {
+      "path": "simulation/research/develop_head_attitude_followup.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\develop_head_attitude_followup.py",
+      "bytes": 2308,
+      "sha256": "0dbf1bb8ceb8c7d96ac37800fe708a4f44044a8021dcdcf3c976ca0450aa263f"
+    },
+    {
+      "path": "simulation/research/diagnose_foot_flight.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\diagnose_foot_flight.py",
+      "bytes": 2874,
+      "sha256": "5479fd696bf3a8dbca281e563c140a0fc9e1dad066b5d1e13b2f4ac740aea4e7"
+    },
+    {
+      "path": "simulation/research/diagnose_transition_gaze.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\diagnose_transition_gaze.py",
+      "bytes": 2338,
+      "sha256": "786ba4231786e9ce1317a51e49a190b83a89e2a2a379247a77fd250f336e3882"
+    },
+    {
+      "path": "simulation/research/diagnose_transition_stop.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\diagnose_transition_stop.py",
+      "bytes": 1389,
+      "sha256": "d67b3096728dc665e6f7d24a3ab219b65bad2a5fa22eb3b0940fccf6031144d7"
+    },
+    {
+      "path": "simulation/research/dump_cad_frames.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\dump_cad_frames.py",
+      "bytes": 498,
+      "sha256": "92896cb181511e31bdb5ad50ee94fde6d77a5615b965d54811e506fba363b87c"
+    },
+    {
+      "path": "simulation/research/evaluate_contact_motion.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\evaluate_contact_motion.py",
+      "bytes": 16877,
+      "sha256": "7621d95a554535ca5ec4b1c1b98d8b790bd734ca4aaf3b5a97ce04ef732cf915"
+    },
+    {
+      "path": "simulation/research/evaluate_corrective.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\evaluate_corrective.py",
+      "bytes": 2619,
+      "sha256": "f83b4c80852b99807bc3603b8635bb0314f4a2d5a4efa804acf07a90c0597e49"
+    },
+    {
+      "path": "simulation/research/evaluate_corrective_offline.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\evaluate_corrective_offline.py",
+      "bytes": 2533,
+      "sha256": "0c0397dc8b02ee316d768fec320226a0d5acabe46ea5efe58e88cafc3eebf98a"
+    },
+    {
+      "path": "simulation/research/evaluate_deep_crouch.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\evaluate_deep_crouch.py",
+      "bytes": 3467,
+      "sha256": "b9edc01f00771f90bed6882abe5b4b4b1b6e982319a75b646fdef612132cdedc"
+    },
+    {
+      "path": "simulation/research/evaluate_demonstrations.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\evaluate_demonstrations.py",
+      "bytes": 2421,
+      "sha256": "0058558326795a7a94891e347bab260a58fafae91d253a07b394caeb70ca2ab1"
+    },
+    {
+      "path": "simulation/research/evaluate_flamingo.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\evaluate_flamingo.py",
+      "bytes": 5817,
+      "sha256": "9b321767bd47a4da042d18c2fb5a62f6a393dd3f8603d4d3c6912879156c722a"
+    },
+    {
+      "path": "simulation/research/evaluate_flamingo_duo.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\evaluate_flamingo_duo.py",
+      "bytes": 10720,
+      "sha256": "a67c5cd1d4f9f5b35e3334f6abed0e2e94f8d05c7cbf11828e896c445fd4ba6b"
+    },
+    {
+      "path": "simulation/research/evaluate_foot_flight.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\evaluate_foot_flight.py",
+      "bytes": 4705,
+      "sha256": "9ffd51231a9ceaa00bad544496e34c8f6ee47d168d42fc719061b1aaca098990"
+    },
+    {
+      "path": "simulation/research/evaluate_gaze_ablation.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\evaluate_gaze_ablation.py",
+      "bytes": 8813,
+      "sha256": "6c857c2c8f4e2b27d33c05df41d5a9ddc4c7299ce36e9f60c2c6739838b453d7"
+    },
+    {
+      "path": "simulation/research/evaluate_hardware.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\evaluate_hardware.py",
+      "bytes": 4959,
+      "sha256": "0b8e756274838fa0a3d2ee7da25ea8864671af965c48526d9bee2c9b6d2629c2"
+    },
+    {
+      "path": "simulation/research/evaluate_jump_refine.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\evaluate_jump_refine.py",
+      "bytes": 4618,
+      "sha256": "dd4d1fbaa501b8bb2db12722cdcd25d0656ce72510dd43ef6acea4f7757b9257"
+    },
+    {
+      "path": "simulation/research/evaluate_jump_return.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\evaluate_jump_return.py",
+      "bytes": 4355,
+      "sha256": "955ab83be0600207c67bf1bb5f9760e7e7f7755e19c751f9adc11896e51b343b"
+    },
+    {
+      "path": "simulation/research/evaluate_owned_terrain.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\evaluate_owned_terrain.py",
+      "bytes": 3960,
+      "sha256": "583dd2d3bcc401732a4eaed053c950c0329fbabca5e47c942f61097b8ab8a1b2"
+    },
+    {
+      "path": "simulation/research/evaluate_policy.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\evaluate_policy.py",
+      "bytes": 11076,
+      "sha256": "b03a06213e7243e886c5e01a41306ee24c8f3fc27f347efb8d3186758fbf904c"
+    },
+    {
+      "path": "simulation/research/evaluate_run_jump.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\evaluate_run_jump.py",
+      "bytes": 12016,
+      "sha256": "928a7068b828037540566b75b5eb5eb65c4800f6e20777eae57c4e60f17841f9"
+    },
+    {
+      "path": "simulation/research/evaluate_single_leg.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\evaluate_single_leg.py",
+      "bytes": 10246,
+      "sha256": "d3ff53143c44b17ca1016894eaf85234bd3be48e627172eba6dac111e797483b"
+    },
+    {
+      "path": "simulation/research/evaluate_skill_turns.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\evaluate_skill_turns.py",
+      "bytes": 3811,
+      "sha256": "16014126f2b8052a971a48a50c72a4877cdfafac69439900865df1e3870383fc"
+    },
+    {
+      "path": "simulation/research/evaluate_squat_candidate.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\evaluate_squat_candidate.py",
+      "bytes": 2158,
+      "sha256": "2923b06dd16fcb5b7a84f7980a63d3de8a0eb31dae104052ddb9cddb53eefc42"
+    },
+    {
+      "path": "simulation/research/evaluate_stair_climb.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\evaluate_stair_climb.py",
+      "bytes": 3355,
+      "sha256": "7845c368b991557ab05e463bbe7174cc4db11033d25e651f709667d001890761"
+    },
+    {
+      "path": "simulation/research/evaluate_transition_refine.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\evaluate_transition_refine.py",
+      "bytes": 5687,
+      "sha256": "7df44597170065d8c4a40192c14488b7edd17a277971f4ebd7246e0955feabb2"
+    },
+    {
+      "path": "simulation/research/export_contact_checkpoint.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\export_contact_checkpoint.py",
+      "bytes": 953,
+      "sha256": "cd7b4d8fac97659c4be5321be1a10af9cbf79556eee7e6e3e5a2c1d91aeddd96"
+    },
+    {
+      "path": "simulation/research/export_flamingo_ckpt.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\export_flamingo_ckpt.py",
+      "bytes": 1509,
+      "sha256": "0d94f0a38348620d489ddfaf49572b0ef4aa76c6b45f3754557838b0e4009980"
+    },
+    {
+      "path": "simulation/research/export_leg_checkpoint.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\export_leg_checkpoint.py",
+      "bytes": 1811,
+      "sha256": "b65ed5e300d6e6cc80738868035f7fb6a7a4813f47d0048b9fbb82cdf64e0c67"
+    },
+    {
+      "path": "simulation/research/export_skill_checkpoint.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\export_skill_checkpoint.py",
+      "bytes": 1046,
+      "sha256": "edee0eddf876fe2a6a53355315f8dd9e8ff22b4914030b1cfec4eda8a950b046"
+    },
+    {
+      "path": "simulation/research/export_squat_plant.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\export_squat_plant.py",
+      "bytes": 1895,
+      "sha256": "a0998642a20fcd513c1070ad9194245da3494dd31dd34c2ff1cd5e1ffe65ec4d"
+    },
+    {
+      "path": "simulation/research/extract_compact_contacts.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\extract_compact_contacts.py",
+      "bytes": 2322,
+      "sha256": "e474bd2111de9cf52041238535c376348ffcdfeb1a3fca1129328d9b38c37c89"
+    },
+    {
+      "path": "simulation/research/extract_compact_pairs.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\extract_compact_pairs.py",
+      "bytes": 1792,
+      "sha256": "5f612a1a61921370a82f7c48928efe0d89fbdcc82207df271111353e6cdc6757"
+    },
+    {
+      "path": "simulation/research/extract_squat_pairs.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\extract_squat_pairs.py",
+      "bytes": 2039,
+      "sha256": "4e47a622e7c122f6b2028f883ada762056b688679d314a08b09c9436e641d771"
+    },
+    {
+      "path": "simulation/research/filter_recovery_bank.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\filter_recovery_bank.py",
+      "bytes": 1403,
+      "sha256": "5df4eac15c3224b9d532d7778fcda3364132f1cf63a392ad812079c759130987"
+    },
+    {
+      "path": "simulation/research/finalize_compact_fold.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\finalize_compact_fold.py",
+      "bytes": 4359,
+      "sha256": "d19ee7ff678c76c75a2edef1a89107446b5d83dd5f94ac660b0e25a0bba0d3dd"
+    },
+    {
+      "path": "simulation/research/finalize_contact_motion.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\finalize_contact_motion.py",
+      "bytes": 9683,
+      "sha256": "f403765ad4dfc06ad19278efb1a62cce601c953fed1d55c2d3dab44a343d3979"
+    },
+    {
+      "path": "simulation/research/finalize_head_attitude.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\finalize_head_attitude.py",
+      "bytes": 11071,
+      "sha256": "707e17f4ef8c565a2e70bbd4da712c892174233667aa89d1f3ee75034f7dd976"
+    },
+    {
+      "path": "simulation/research/finalize_run_jump.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\finalize_run_jump.py",
+      "bytes": 5497,
+      "sha256": "51f926c73a6ba4beb5bb1eb945995ec055cb1a0cdb0925c3d4d9b4a9723ad072"
+    },
+    {
+      "path": "simulation/research/finalize_squat_study.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\finalize_squat_study.py",
+      "bytes": 6087,
+      "sha256": "6cdcfffc294372f996fc90b595f01f160989dabcf9552a75737bf53f66705d94"
+    },
+    {
+      "path": "simulation/research/fit_corrective_offline.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\fit_corrective_offline.py",
+      "bytes": 6196,
+      "sha256": "6da670c07b68e2034d85ea2064c0fcf4844c2eefbb490cbddbaf904e06c076d0"
+    },
+    {
+      "path": "simulation/research/fit_squat_demonstrations.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\fit_squat_demonstrations.py",
+      "bytes": 3838,
+      "sha256": "05e4a55963bbb0c337c73503029719d0c67cf2e21783d12af7fc5d78d918d17d"
+    },
+    {
+      "path": "simulation/research/flamingo_cfg.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\flamingo_cfg.py",
+      "bytes": 14664,
+      "sha256": "61b44a1bfa56041762ebfdbc005032b74bcea15aaad8b94ed8141241b6748710"
+    },
+    {
+      "path": "simulation/research/flamingo_duration.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\flamingo_duration.py",
+      "bytes": 5255,
+      "sha256": "2fd73829a8759b142145868017e296616665b49d0831a0cc5f1661106597a3c8"
+    },
+    {
+      "path": "simulation/research/flamingo_mdp.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\flamingo_mdp.py",
+      "bytes": 25751,
+      "sha256": "e23ef9b1306c22f14da6a03b69809d8efdbb9479b1c97271424a11e413dd273d"
+    },
+    {
+      "path": "simulation/research/flamingo_shape.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\flamingo_shape.py",
+      "bytes": 4986,
+      "sha256": "7245d5c7e7c7427bd4d5eef5c173d411943f5f41644793fcd84025ab3700102f"
+    },
+    {
+      "path": "simulation/research/flamingo_shots.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\flamingo_shots.py",
+      "bytes": 5012,
+      "sha256": "f701c35735406de61440e8bbaee3d26251d5c949a7afa524778b0fbc43fff410"
+    },
+    {
+      "path": "simulation/research/flamingo_viewer.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\flamingo_viewer.py",
+      "bytes": 4719,
+      "sha256": "46f846abc2a58357efae1686a5ecb9d0da7752431ceb35b04612eee69598af0e"
+    },
+    {
+      "path": "simulation/research/flamingo_web.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\flamingo_web.py",
+      "bytes": 8340,
+      "sha256": "a8a67af03dce58ec25310c15e8f61d976a46b4f81639b6d9f476c50ce80ac91a"
+    },
+    {
+      "path": "simulation/research/fold_recovery_probe.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\fold_recovery_probe.py",
+      "bytes": 13890,
+      "sha256": "77371e70a79e5adebcca95f4a95d5679f048972f5e9b424f07e2cf0daeed46e9"
+    },
+    {
+      "path": "simulation/research/foot_flight_cfg.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\foot_flight_cfg.py",
+      "bytes": 9157,
+      "sha256": "1a30734595b893415fdd484524a12597ee805edd7c6b3477c9d68a48a28bade7"
+    },
+    {
+      "path": "simulation/research/freeze_foot_flight.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\freeze_foot_flight.py",
+      "bytes": 3734,
+      "sha256": "bdca38c41849b0f30059b185a3c68cc976c3365334d0831a028d529e253f1422"
+    },
+    {
+      "path": "simulation/research/freeze_jump_refine.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\freeze_jump_refine.py",
+      "bytes": 3944,
+      "sha256": "b3962b509e40f0e4fc7cc48ed3618b3c21bad3520e478e31853f6f2a786587bd"
+    },
+    {
+      "path": "simulation/research/getup_acceptance_margin.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\getup_acceptance_margin.py",
+      "bytes": 13270,
+      "sha256": "3d9a2cd2261a0b6344f6a9c94f294528e093f0aab6b95067d83a3dbde81424c4"
+    },
+    {
+      "path": "simulation/research/getup_capability_probe.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\getup_capability_probe.py",
+      "bytes": 10841,
+      "sha256": "ceccb892ca2ef1aa7434851722bedf691d90390a3d0afd1df72dc9059113f93c"
+    },
+    {
+      "path": "simulation/research/getup_head_clearance.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\getup_head_clearance.py",
+      "bytes": 7274,
+      "sha256": "150fb410bd1fab329175aba314b98fb51b6b06d6c471d494ee026af7b3c131c7"
+    },
+    {
+      "path": "simulation/research/getup_selfcollision_plant.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\getup_selfcollision_plant.py",
+      "bytes": 9400,
+      "sha256": "007b2862e908aa42037b8941a87c051f7b2bbe1523558a5c18bcec4b81e7348b"
+    },
+    {
+      "path": "simulation/research/getup_watch.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\getup_watch.py",
+      "bytes": 9652,
+      "sha256": "58eebb6e178dcc1463295f26ff74dcaeebb1a1ef43d786535b5b97bfd62948b9"
+    },
+    {
+      "path": "simulation/research/hardware_sim.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\hardware_sim.py",
+      "bytes": 12648,
+      "sha256": "02f6ac00b186b4acf6cbca99349f64faf9b1cc1ea8bb5624322e4ee2c6f5cb96"
+    },
+    {
+      "path": "simulation/research/head_attitude.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\head_attitude.py",
+      "bytes": 6057,
+      "sha256": "2339f522fff796b5d011529e0701b5cdcbc3bced739226936583ffab56fc8c07"
+    },
+    {
+      "path": "simulation/research/head_attitude_runtime.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\head_attitude_runtime.py",
+      "bytes": 591,
+      "sha256": "a115d3e04216d1e3fada4b2bb83292194208c33ee5a57b54863c8e758e092b8c"
+    },
+    {
+      "path": "simulation/research/head_attitude_sim.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\head_attitude_sim.py",
+      "bytes": 8478,
+      "sha256": "d5d419a1f262b8fa9444b6f898b39d033e4f027dce320284f244f98d25601e8f"
+    },
+    {
+      "path": "simulation/research/heading_sim.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\heading_sim.py",
+      "bytes": 9755,
+      "sha256": "a09333dfc1970487acc333810e6c278d3302cae87dcb0095019ac94b07427f37"
+    },
+    {
+      "path": "simulation/research/imu_heading.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\imu_heading.py",
+      "bytes": 6401,
+      "sha256": "b4527cc746e45f8658a7e88b2389cbb80e4c5484577dc71ec4b7ad4788da3ee9"
+    },
+    {
+      "path": "simulation/research/imu_owned_head.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\imu_owned_head.py",
+      "bytes": 1712,
+      "sha256": "3ce789944ea499e7cd71e8d02ea2a288967849be2357b2fe7daaed8c90a6cbc7"
+    },
+    {
+      "path": "simulation/research/inspect_requested_fold.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\inspect_requested_fold.py",
+      "bytes": 4275,
+      "sha256": "b5e03c5fa687b875e93ce039cac0d83e253f9eaa4082086881ae05c7dc80ed3c"
+    },
+    {
+      "path": "simulation/research/inspect_s288_owners.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\inspect_s288_owners.py",
+      "bytes": 958,
+      "sha256": "ab496a52dbf56c5548f99e029361b745ba76c7937a7aa50741cbce475967551a"
+    },
+    {
+      "path": "simulation/research/inspect_squat_attachment.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\inspect_squat_attachment.py",
+      "bytes": 1168,
+      "sha256": "04a10cfa0f21d7a0f61d4d350b479328be8206f68e254e70c015f4134390670e"
+    },
+    {
+      "path": "simulation/research/join_corrective_videos.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\join_corrective_videos.py",
+      "bytes": 1407,
+      "sha256": "ea52443524136137716c06b0895cd68be24d051cd6f87bc19eec50b9a51d726a"
+    },
+    {
+      "path": "simulation/research/join_deep_crouch_video.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\join_deep_crouch_video.py",
+      "bytes": 861,
+      "sha256": "512d96bcd41991be9705d22f8c7ad5cb00ea7f158a1024311875415b67dada1f"
+    },
+    {
+      "path": "simulation/research/join_demonstration_videos.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\join_demonstration_videos.py",
+      "bytes": 2464,
+      "sha256": "5c4d6129aa9d128005bc25296e21ecfb6baf03c173c5fddbe9362ea4304d518f"
+    },
+    {
+      "path": "simulation/research/join_owned_terrain_video.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\join_owned_terrain_video.py",
+      "bytes": 2377,
+      "sha256": "c20c39558ab03e9db27db2de5d7ee27f12c673cf3abf11d988a57295dbb88ec4"
+    },
+    {
+      "path": "simulation/research/join_transition_video.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\join_transition_video.py",
+      "bytes": 1408,
+      "sha256": "c600105ab67c7a5ed2a1ab7bc37a187fee3fc83795ada0a5f47a0632f17702d0"
+    },
+    {
+      "path": "simulation/research/jump_limit_probe.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\jump_limit_probe.py",
+      "bytes": 8117,
+      "sha256": "df38cbbdf06fe452d616f39a8d3d15ee7cc59da06a334a7d2a4d42134be36926"
+    },
+    {
+      "path": "simulation/research/jump_refine_cfg.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\jump_refine_cfg.py",
+      "bytes": 8604,
+      "sha256": "ef609d6bf54e9067fae77f413bc3047245995e540bbcbb48af746d8a7cc19c79"
+    },
+    {
+      "path": "simulation/research/measure_compact_intersections.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\measure_compact_intersections.py",
+      "bytes": 1557,
+      "sha256": "3981f3ae8cdb2ce00bf2280832483efbb2c814333b91323b95b8ba96205d4366"
+    },
+    {
+      "path": "simulation/research/measure_corrective_fit.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\measure_corrective_fit.py",
+      "bytes": 2219,
+      "sha256": "37c93da5104e7456d100fac3de613742c59e41a87145a22a4097a249c59323de"
+    },
+    {
+      "path": "simulation/research/measure_squat_intersections.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\measure_squat_intersections.py",
+      "bytes": 1934,
+      "sha256": "9676925c0d1e2f1e350de50307d3ebc08b12041e7b8dfa6ba3bc9536970efc38"
+    },
+    {
+      "path": "simulation/research/plot_delay_matrix.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\plot_delay_matrix.py",
+      "bytes": 2208,
+      "sha256": "71ad8437f4ad0a48c4ba549b103ee9118b3b3a3d610a0deb5c53d6ac9b80eed8"
+    },
+    {
+      "path": "simulation/research/plot_terrain_skills.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\plot_terrain_skills.py",
+      "bytes": 2045,
+      "sha256": "4120b74ddde914f2c523f720770d1534caae33e3f4ecb036a42b0985e335d39b"
+    },
+    {
+      "path": "simulation/research/plot_training.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\plot_training.py",
+      "bytes": 1562,
+      "sha256": "8a043d544088774c2e55db3b1451ff99da2a25530a0da1de635eac892b35cbce"
+    },
+    {
+      "path": "simulation/research/plot_walk_response.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\plot_walk_response.py",
+      "bytes": 2241,
+      "sha256": "be71a7382bc1669bef3ba85aaa40d309a31c37636520a6c64bce4ccb8d01ddac"
+    },
+    {
+      "path": "simulation/research/pose_amplitude_sweep.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\pose_amplitude_sweep.py",
+      "bytes": 7342,
+      "sha256": "20a1e46fc450686dca9521bab16dc2ce6f39c42165aa7e9f176bec3d4c158c9d"
+    },
+    {
+      "path": "simulation/research/pose_console.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\pose_console.py",
+      "bytes": 5815,
+      "sha256": "878ff9ba3cd7907965c54761be1083e5058ed9f5ad82b3f09a12f0aefe2646c1"
+    },
+    {
+      "path": "simulation/research/pose_modules_demo.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\pose_modules_demo.py",
+      "bytes": 9115,
+      "sha256": "d7d4e74bd0b3a41ad729edf9acd8fa2d3d9f235d8bf7050166d5a77401c74131"
+    },
+    {
+      "path": "simulation/research/pose_stack.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\pose_stack.py",
+      "bytes": 4202,
+      "sha256": "18057418ed71551170b94e9b22675d2683d7c5544dc7e51b95d8572d87b955fb"
+    },
+    {
+      "path": "simulation/research/prepare_compact_cad.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\prepare_compact_cad.py",
+      "bytes": 1137,
+      "sha256": "b34db2b7af93010ea24dfe7ff3425ad85dabd027f8f5adada9a4c2f58374b954"
+    },
+    {
+      "path": "simulation/research/prepare_contact_cad.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\prepare_contact_cad.py",
+      "bytes": 2119,
+      "sha256": "981a52f1f90167558bea4a331a527f4cb9a1cf678d677ba5bd960b9ea2869e7d"
+    },
+    {
+      "path": "simulation/research/prepare_contact_motion.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\prepare_contact_motion.py",
+      "bytes": 2807,
+      "sha256": "78d4ab306c61c3267f582691186e3034ba85e2bc36194bc513a6d66d3104fbad"
+    },
+    {
+      "path": "simulation/research/prepare_corrective_posture.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\prepare_corrective_posture.py",
+      "bytes": 1786,
+      "sha256": "b11a6a45a5f7dc5fb0c4398df5b2257f9a488be9dddf561deeace875b9406b57"
+    },
+    {
+      "path": "simulation/research/prepare_learned_squat_cad.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\prepare_learned_squat_cad.py",
+      "bytes": 1916,
+      "sha256": "e8633505b95e2171239d126b08c4a623ec58a3d699fb2c56a62dfcb2153fb3e0"
+    },
+    {
+      "path": "simulation/research/prepare_normal_contact.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\prepare_normal_contact.py",
+      "bytes": 1714,
+      "sha256": "a99656ea0c37c36ca6d24a1b18ec586103209b097754ce1c63146230f0bb9b21"
+    },
+    {
+      "path": "simulation/research/prepare_requested_fold_cad.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\prepare_requested_fold_cad.py",
+      "bytes": 3206,
+      "sha256": "8ba032031639852bdc0be27fb326a963682fecd70e0d42b5793eaa9d57eab0a2"
+    },
+    {
+      "path": "simulation/research/prepare_run_jump.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\prepare_run_jump.py",
+      "bytes": 3644,
+      "sha256": "35f6bf33eed2124347969efa0c6e99cd9de9eda40b61e036caae336cc47f19c2"
+    },
+    {
+      "path": "simulation/research/prepare_squat_cad.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\prepare_squat_cad.py",
+      "bytes": 1109,
+      "sha256": "0d0ce9ad1d306cdd6abc5deec358b5063e0b4ede9cd3d392ab6dd79e18e66413"
+    },
+    {
+      "path": "simulation/research/preview_fold_head.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\preview_fold_head.py",
+      "bytes": 3109,
+      "sha256": "9a81ca2b611d75d502fd7650481e1ca1923c63ca76e911dc0eaee16d4f82e0e4"
+    },
+    {
+      "path": "simulation/research/probe_action_filter.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\probe_action_filter.py",
+      "bytes": 1647,
+      "sha256": "67720e12de8caa90e207ad4483ad103fc5a9ffda17c085d98d48a45aed70839e"
+    },
+    {
+      "path": "simulation/research/probe_air_tuck_ik.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\probe_air_tuck_ik.py",
+      "bytes": 5462,
+      "sha256": "6ee3dd4d434b4f1d8e474d049a0e5cc4edd0608c976b1cb8493db052a95b32a9"
+    },
+    {
+      "path": "simulation/research/probe_constant_target.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\probe_constant_target.py",
+      "bytes": 1794,
+      "sha256": "7c653c92f2f40b057c3f34ee4c1b197cde97902c604985a6138adfb3c648b5b7"
+    },
+    {
+      "path": "simulation/research/probe_corrective_rough.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\probe_corrective_rough.py",
+      "bytes": 1549,
+      "sha256": "54557f266a91c77958fff3003eb04d0130934e03878e5bdce95af7e0b01fe97b"
+    },
+    {
+      "path": "simulation/research/probe_crouch_feasibility.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\probe_crouch_feasibility.py",
+      "bytes": 3195,
+      "sha256": "88336655dd10e33f298ccb09c82a252be5da8cc9b12b43424f423e816e51057c"
+    },
+    {
+      "path": "simulation/research/probe_deep_return_history.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\probe_deep_return_history.py",
+      "bytes": 2183,
+      "sha256": "085ef07e7c243a823b3d93639c2034a759a7e33c9f4466582ffbe8d146021ba7"
+    },
+    {
+      "path": "simulation/research/probe_expert_recovery.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\probe_expert_recovery.py",
+      "bytes": 2971,
+      "sha256": "d8dada54e52901b166a058da594d0f0b8a0912a424aef6ae324a9f203e8fa11c"
+    },
+    {
+      "path": "simulation/research/probe_getup_authority.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\probe_getup_authority.py",
+      "bytes": 6580,
+      "sha256": "99c3461aba5ceaabff3b743a3535ab59da1bf38a6d562ab1fc9e7976f3603388"
+    },
+    {
+      "path": "simulation/research/probe_getup_dynamic.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\probe_getup_dynamic.py",
+      "bytes": 5934,
+      "sha256": "5649ae262ec7190709d1c1d2c0a11ab64447fda61afc2df5f62cba30d6422e2b"
+    },
+    {
+      "path": "simulation/research/probe_head_ownership.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\probe_head_ownership.py",
+      "bytes": 2861,
+      "sha256": "5f865a9e4231a0ce6aebbf0c346e3f45320be577a1f1a6d8baf134e752774de9"
+    },
+    {
+      "path": "simulation/research/probe_heading_transport.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\probe_heading_transport.py",
+      "bytes": 1499,
+      "sha256": "21c7c2dee9fce8a1134a60a7ac1fb5499cbe1c1777ba1be1a64f48e408b4fa95"
+    },
+    {
+      "path": "simulation/research/probe_jump_feasibility.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\probe_jump_feasibility.py",
+      "bytes": 3938,
+      "sha256": "5c7d509259e960f42cb241aca8905de2f8fade021778c6612b5e5b5ac535197c"
+    },
+    {
+      "path": "simulation/research/probe_jump_refine_gpu.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\probe_jump_refine_gpu.py",
+      "bytes": 3186,
+      "sha256": "d9b7fee3473631e8ec4363545ee5efd476e942427c70ea4215639db3f405f462"
+    },
+    {
+      "path": "simulation/research/probe_latest_failures.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\probe_latest_failures.py",
+      "bytes": 3783,
+      "sha256": "1d7f5705474a9b34f5c8f420eaff3c910456aa5d5e8d10a6400d9191c9b75a4c"
+    },
+    {
+      "path": "simulation/research/probe_planned_motion_contacts.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\probe_planned_motion_contacts.py",
+      "bytes": 5665,
+      "sha256": "ca88dd0d10590b3d6e315824e809a5295749d3fb47c6bd2d9c75c8c7e5df640d"
+    },
+    {
+      "path": "simulation/research/probe_policy_tuck.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\probe_policy_tuck.py",
+      "bytes": 4320,
+      "sha256": "b77332762ae1472691fbfdf9b2ee012e92eaf2dc761b68bd564e3d908c962381"
+    },
+    {
+      "path": "simulation/research/probe_single_leg_feasibility.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\probe_single_leg_feasibility.py",
+      "bytes": 5033,
+      "sha256": "bd0e5b08ac8c450b877fd7cb8213760ebcfd2863ba7514777d8de1d12ce4f94f"
+    },
+    {
+      "path": "simulation/research/probe_synchronized_jump.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\probe_synchronized_jump.py",
+      "bytes": 3878,
+      "sha256": "e0614638080c8a642c138af1fb4d785e4ecc072abb37a8825f6809f72c8572f3"
+    },
+    {
+      "path": "simulation/research/probe_tof_feasibility.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\probe_tof_feasibility.py",
+      "bytes": 13890,
+      "sha256": "e5d1e82d53bc31a6124cc6c44315291d2b7e0dc98fe0aac4cf012fa6297fcd70"
+    },
+    {
+      "path": "simulation/research/probe_tuck_jump.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\probe_tuck_jump.py",
+      "bytes": 8929,
+      "sha256": "4c89ffbfc6bc45f95c1f4175583373bf03c1bb2f91bce2ef191a56d438a82422"
+    },
+    {
+      "path": "simulation/research/probe_walk_response.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\probe_walk_response.py",
+      "bytes": 2640,
+      "sha256": "6f99bbc22944b86de5a0d41c0356872e1572ac1196823759e18e15d8746f3352"
+    },
+    {
+      "path": "simulation/research/probe_walking_turns.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\probe_walking_turns.py",
+      "bytes": 4081,
+      "sha256": "d3cceca9775830cba70dd7607f355859b018ef499492cda5be4cb38b100c95f8"
+    },
+    {
+      "path": "simulation/research/probe_yaw_ownership.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\probe_yaw_ownership.py",
+      "bytes": 2207,
+      "sha256": "120f6ee911fe6c23edcc131c81a9aff72b4e29d8fb9d2784f14292664bdc9109"
+    },
+    {
+      "path": "simulation/research/refine_reference_audit.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\refine_reference_audit.py",
+      "bytes": 6323,
+      "sha256": "1049122f4521b48ff48d4bc7d0385e8325868d8f3640bc080a473924e67b75fd"
+    },
+    {
+      "path": "simulation/research/render_compact_fold.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\render_compact_fold.py",
+      "bytes": 2332,
+      "sha256": "548607f788a1199d7f314e451b355704f501b7a29cf212270961d0c9b8ddee09"
+    },
+    {
+      "path": "simulation/research/render_compact_interference.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\render_compact_interference.py",
+      "bytes": 2796,
+      "sha256": "a2c382cc74e0ca697de915e34087ce9db6c0627494ef98cdee7d0ec1d5992f50"
+    },
+    {
+      "path": "simulation/research/render_contact_squat.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\render_contact_squat.py",
+      "bytes": 2021,
+      "sha256": "79bdec0dde1a245fdbf75d90fd8300d0a1ad9eb86e693dac0b6833e31af0feeb"
+    },
+    {
+      "path": "simulation/research/render_corrective.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\render_corrective.py",
+      "bytes": 3741,
+      "sha256": "dc9fd804708ee9fca87e334f4d17e046ef8297cadc8d17a37fb918af8574e198"
+    },
+    {
+      "path": "simulation/research/render_corrective_compare.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\render_corrective_compare.py",
+      "bytes": 8853,
+      "sha256": "3949263dfe285e6bc4b2ce3fe0e75ca4049f46d07be738b7dd9179caa200cba4"
+    },
+    {
+      "path": "simulation/research/render_course_video.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\render_course_video.py",
+      "bytes": 5766,
+      "sha256": "115da1d542bcceaecc5340e9c49e2cc107d00930c71581d62d3e813e7775aa74"
+    },
+    {
+      "path": "simulation/research/render_deep_crouch.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\render_deep_crouch.py",
+      "bytes": 3412,
+      "sha256": "dd59d59a5d4d617f7e112bea1d65407f0e1dfaddc92097f82190afe509fccc38"
+    },
+    {
+      "path": "simulation/research/render_demonstrations.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\render_demonstrations.py",
+      "bytes": 6352,
+      "sha256": "e0f31465af2f30f97d9a5c1324bf1762df861b585a71a2e9c7aaeb292fb93708"
+    },
+    {
+      "path": "simulation/research/render_flamingo.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\render_flamingo.py",
+      "bytes": 4426,
+      "sha256": "c88a8eb95af2deec87161f8a4e87cd4e501901c84e3a35dfdd955140a1c231c5"
+    },
+    {
+      "path": "simulation/research/render_flamingo_posture.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\render_flamingo_posture.py",
+      "bytes": 6078,
+      "sha256": "0acaccc8b0169850590014d2785a8a226f5bec0a1cf89ff85386470b29650c9b"
+    },
+    {
+      "path": "simulation/research/render_fold_recovery.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\render_fold_recovery.py",
+      "bytes": 2949,
+      "sha256": "c68d4dc2685adfb6d91ee811bf602589fe7eaf382f8481957c10edd664981c87"
+    },
+    {
+      "path": "simulation/research/render_foot_flight_pair.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\render_foot_flight_pair.py",
+      "bytes": 4073,
+      "sha256": "2a227981d208a45e816d13e315ecc5e527dc46415698228df28f9f2735a8bebe"
+    },
+    {
+      "path": "simulation/research/render_gaze_pair.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\render_gaze_pair.py",
+      "bytes": 4956,
+      "sha256": "a493b7850d30cf8a3f656c6f77dcc5674060284d825aa448e708918ac028b8d1"
+    },
+    {
+      "path": "simulation/research/render_getup_grid.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\render_getup_grid.py",
+      "bytes": 5463,
+      "sha256": "f77a9b8970638a418d2d87ac5f30942045dbd5915f16a1ee004d0fdb19e3b310"
+    },
+    {
+      "path": "simulation/research/render_head_attitude.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\render_head_attitude.py",
+      "bytes": 4520,
+      "sha256": "f96f8812a006ebf493cffcc84b865ad621d549fdcdce5d856e9c33b17a6f6532"
+    },
+    {
+      "path": "simulation/research/render_heading_loop.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\render_heading_loop.py",
+      "bytes": 4864,
+      "sha256": "d1728e2e38ad9e3e1e69070afc133e2bcca6dd64f431e98a3fc6b11508ddf421"
+    },
+    {
+      "path": "simulation/research/render_jump_refine_pair.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\render_jump_refine_pair.py",
+      "bytes": 4288,
+      "sha256": "f52a39d0c6ef01e817f0a765dd9456194ab8f4661c1f7cde12de742f7ac982a6"
+    },
+    {
+      "path": "simulation/research/render_owned_terrain.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\render_owned_terrain.py",
+      "bytes": 3894,
+      "sha256": "65988c6b78fa407ed7979ea77ae9521304bad3919efe001e8a1fede63cee3d9a"
+    },
+    {
+      "path": "simulation/research/render_policy.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\render_policy.py",
+      "bytes": 4040,
+      "sha256": "bcec65ce48cbd121750a381040b33b06c2f3e32a3712ffafa151a6930c03b566"
+    },
+    {
+      "path": "simulation/research/render_push_demo.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\render_push_demo.py",
+      "bytes": 9826,
+      "sha256": "763b966d584c0db311e4867da32ee681ae7bbc2e8972c12b5eceeb31bbbeb575"
+    },
+    {
+      "path": "simulation/research/render_requested_fold.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\render_requested_fold.py",
+      "bytes": 2470,
+      "sha256": "5e74100d442b5b74509965b84c0656d56a3f9e47092ff578f2f2dd652333c74c"
+    },
+    {
+      "path": "simulation/research/render_run_jump_saved.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\render_run_jump_saved.py",
+      "bytes": 1844,
+      "sha256": "561100ea9121eefad2b4af9a13c50540deb7b4a1df973c95baf9581b722eb224"
+    },
+    {
+      "path": "simulation/research/render_single_leg.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\render_single_leg.py",
+      "bytes": 4986,
+      "sha256": "12da11ee51344c4479d203451940320468d4ddb51434dda7761371e4b5652ed8"
+    },
+    {
+      "path": "simulation/research/render_squat_skill.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\render_squat_skill.py",
+      "bytes": 2562,
+      "sha256": "273335c15280170d4641b4c05d7d9aa6337e7e53809663612ca1f1e11a315a64"
+    },
+    {
+      "path": "simulation/research/render_terrain_skill.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\render_terrain_skill.py",
+      "bytes": 4139,
+      "sha256": "e4cc09b0be2d9f6628ec81bf8a97557fd06e506edcecdb0c30ce150d563ebc9b"
+    },
+    {
+      "path": "simulation/research/render_transition_refine.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\render_transition_refine.py",
+      "bytes": 3993,
+      "sha256": "ed3dedbe4eee4cd0276eae768b04dea941df7e22a6f587f1961b47d7a495b32d"
+    },
+    {
+      "path": "simulation/research/render_vertical_fold.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\render_vertical_fold.py",
+      "bytes": 2666,
+      "sha256": "bd68e35686e4b3cf656c16e9907259ce63ded07cfdbee80f2b15a43942fa96b0"
+    },
+    {
+      "path": "simulation/research/research_nan_guard.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\research_nan_guard.py",
+      "bytes": 2437,
+      "sha256": "2bb8d514f1caec99f2e5a6f35eb45dd989f1b5141cfae1847355d591eb767737"
+    },
+    {
+      "path": "simulation/research/retention_deep_crouch.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\retention_deep_crouch.py",
+      "bytes": 1696,
+      "sha256": "e5dd6f5062b0e0712875e489ee57dc503fc247171c062575be5cc60fef940fe0"
+    },
+    {
+      "path": "simulation/research/review_jump_dynamics.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\review_jump_dynamics.py",
+      "bytes": 8503,
+      "sha256": "5cf79c134a68e2a8e3617b7f178b2ee059ed626d1a1d57686ac2a3d432a65a8a"
+    },
+    {
+      "path": "simulation/research/run_corrective_study.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\run_corrective_study.py",
+      "bytes": 2321,
+      "sha256": "1418f1edc1efa2a76a77c98fc0d6b45ebb3c2c205587878378d85ff1b182d1f5"
+    },
+    {
+      "path": "simulation/research/run_course.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\run_course.py",
+      "bytes": 9760,
+      "sha256": "f97dfa8c16fc48b261dbdab0fa3f0bd5d17ccf4fe0fdb182cc93ecadce71d5a3"
+    },
+    {
+      "path": "simulation/research/run_demonstration_matrix.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\run_demonstration_matrix.py",
+      "bytes": 2466,
+      "sha256": "4537151faaa9433e62819aa78d80b5c323de9563ae9bccfaf31960541544fd0d"
+    },
+    {
+      "path": "simulation/research/run_head_attitude.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\run_head_attitude.py",
+      "bytes": 6627,
+      "sha256": "1e5731170c78dfd0b547b1466e5910ffdf26e988b288c4e8366e85f35fff4bc1"
+    },
+    {
+      "path": "simulation/research/run_head_gaze_ablation.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\run_head_gaze_ablation.py",
+      "bytes": 7055,
+      "sha256": "2ebf969091de5b3191071b24fde663ccd30b2efd39dc1c63ae3726446fa366dc"
+    },
+    {
+      "path": "simulation/research/run_heading_experiment.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\run_heading_experiment.py",
+      "bytes": 6511,
+      "sha256": "92a8059dbc797e69ccce2a1c46db10abf19b93dbe94fe4e68be415d4fe609492"
+    },
+    {
+      "path": "simulation/research/run_heading_stable_start.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\run_heading_stable_start.py",
+      "bytes": 3955,
+      "sha256": "4a33c4163612c52ca20022cad65d86dc1ecdd32f3400bd14338843fed6be2dd5"
+    },
+    {
+      "path": "simulation/research/run_jump_cfg.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\run_jump_cfg.py",
+      "bytes": 9973,
+      "sha256": "f2c0980422d37c4f357d612f55ee1e293d1407cbd7d716021eea3875be100dad"
+    },
+    {
+      "path": "simulation/research/run_lap.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\run_lap.py",
+      "bytes": 12732,
+      "sha256": "34613b5818774c2ece851377ccc065a0a673fe7645b93d1f7cb2e83b421c7f81"
+    },
+    {
+      "path": "simulation/research/scan_compact_joints.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\scan_compact_joints.py",
+      "bytes": 2298,
+      "sha256": "541c5b807e1b81c98aaea1e0e0c35302410d264d6bbd9379d82ebee62fd94d4a"
+    },
+    {
+      "path": "simulation/research/scan_recovery_head.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\scan_recovery_head.py",
+      "bytes": 1614,
+      "sha256": "74210fff53e98c18091df78a6cf56b046684cf6c200902645e1b2b989e1bfa5b"
+    },
+    {
+      "path": "simulation/research/search_recovery_bridge.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\search_recovery_bridge.py",
+      "bytes": 1320,
+      "sha256": "256e8c3d813e677c64f697b43bd5391cb1c1df81f602f73519069b2f07a08181"
+    },
+    {
+      "path": "simulation/research/select_preferred_contact.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\select_preferred_contact.py",
+      "bytes": 2061,
+      "sha256": "f99aa29e26e89deb2213978db4ff2807adb682386f6ca7d9c385e80647e36e17"
+    },
+    {
+      "path": "simulation/research/single_leg_cfg.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\single_leg_cfg.py",
+      "bytes": 5813,
+      "sha256": "787c3f661807eca52646cccbbdb448514ac8bed0128f0908b07a593e6c8c0179"
+    },
+    {
+      "path": "simulation/research/single_leg_mdp.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\single_leg_mdp.py",
+      "bytes": 6418,
+      "sha256": "244c8687bb023cb73b3a16dfafc3db70c4bcb2edbc0b18f614661fdaf5d12dc0"
+    },
+    {
+      "path": "simulation/research/skill_console.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\skill_console.py",
+      "bytes": 21912,
+      "sha256": "566d4bb123e8913653697e7d3747bfb77f8631a49d7a7be8440394229c6b6a66"
+    },
+    {
+      "path": "simulation/research/solve_squat_reference.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\solve_squat_reference.py",
+      "bytes": 2978,
+      "sha256": "1351742b1dac37958013dc16cd89cc3b8a99ada89a52119c6d78287a5089761b"
+    },
+    {
+      "path": "simulation/research/solve_vertical_fold.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\solve_vertical_fold.py",
+      "bytes": 6695,
+      "sha256": "52607826649d8a107ff93330ac0001095137401dde9f50485c676ce2991a1d7b"
+    },
+    {
+      "path": "simulation/research/squat_plant.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\squat_plant.py",
+      "bytes": 3537,
+      "sha256": "c7366de459deaefacc8bf0af409ca01528dadaf95cfeb243494f37ba94744fdc"
+    },
+    {
+      "path": "simulation/research/squat_skill_cfg.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\squat_skill_cfg.py",
+      "bytes": 4413,
+      "sha256": "c4605678f4d3c88d94ed1ff02ae11d58df14a65e67ed227185cc9227ac82123c"
+    },
+    {
+      "path": "simulation/research/stair_climb_cfg.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\stair_climb_cfg.py",
+      "bytes": 3125,
+      "sha256": "d8e71b0c62367b43c01f2c4ecc594d5c365b12f64b371e66a7d7f62c414fd6b4"
+    },
+    {
+      "path": "simulation/research/stair_probe.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\stair_probe.py",
+      "bytes": 6446,
+      "sha256": "6361ee0d80c6f2f2e07f9faa6227a850bfe32e6eb1f2c3735aafcf1e7d778052"
+    },
+    {
+      "path": "simulation/research/step_render_overlay.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\step_render_overlay.py",
+      "bytes": 3606,
+      "sha256": "b18eb6e839193841a491444df5d0538147d9f72d1115d7c265efab595174fcac"
+    },
+    {
+      "path": "simulation/research/summarize_corrective.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\summarize_corrective.py",
+      "bytes": 4927,
+      "sha256": "4e738626d506ad86c73a709ecff4c19a8a27f5e9dc4eb0c2a1db1f2e5e819ee1"
+    },
+    {
+      "path": "simulation/research/summarize_deep_crouch.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\summarize_deep_crouch.py",
+      "bytes": 7017,
+      "sha256": "2766cdcdf2a4b3294ba4ea1106782c80f06e08b75f4537fde70fb1e00dc6c12c"
+    },
+    {
+      "path": "simulation/research/summarize_delay_coverage.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\summarize_delay_coverage.py",
+      "bytes": 12554,
+      "sha256": "17f90f2588de24c151207477d9d18cd15b8e18ad63353f271cbe411c070c3b3f"
+    },
+    {
+      "path": "simulation/research/summarize_demonstrations.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\summarize_demonstrations.py",
+      "bytes": 5382,
+      "sha256": "adbe52e760dfc2294d842487e1819778a386eb7877c354d3ab98f4c0acbf5a46"
+    },
+    {
+      "path": "simulation/research/summarize_filter_audit.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\summarize_filter_audit.py",
+      "bytes": 7401,
+      "sha256": "b80112f5aa5904504ff1a092e452079d4413e65a570d2b3d81b31720d9bc4378"
+    },
+    {
+      "path": "simulation/research/summarize_fold_recovery.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\summarize_fold_recovery.py",
+      "bytes": 4983,
+      "sha256": "b42e54cba0a7f2ca5ce7ff3ce52818f6aeabdab087ef90290f2db3ec756e1cbf"
+    },
+    {
+      "path": "simulation/research/summarize_foot_flight.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\summarize_foot_flight.py",
+      "bytes": 5655,
+      "sha256": "c8bf8301f914bbbab14a1787502c76188e918aa68207af1e5dda3747f3d790d5"
+    },
+    {
+      "path": "simulation/research/summarize_gaze_ablation.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\summarize_gaze_ablation.py",
+      "bytes": 14385,
+      "sha256": "19dfff8ac5a178bba856976ca26fbdf208b0da1ed7248c2a3823fe96b8312b18"
+    },
+    {
+      "path": "simulation/research/summarize_hardware.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\summarize_hardware.py",
+      "bytes": 12150,
+      "sha256": "ee53d5cdfae021a30a852aecfa09079646194d51ac440daa01554ee4b70d38be"
+    },
+    {
+      "path": "simulation/research/summarize_head_attitude.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\summarize_head_attitude.py",
+      "bytes": 3411,
+      "sha256": "36c968c403c77e676fabd4226f8cca4eb8d68301532ad941ea03bd86c849ea8f"
+    },
+    {
+      "path": "simulation/research/summarize_head_ownership.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\summarize_head_ownership.py",
+      "bytes": 4283,
+      "sha256": "4f133dd3e4d03af919388cd1d34aa91eae4632db3809f44b95470c04f599a065"
+    },
+    {
+      "path": "simulation/research/summarize_heading_experiment.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\summarize_heading_experiment.py",
+      "bytes": 9433,
+      "sha256": "a02af6a14a4623ff7ea145fe34207b73c4708fce12eae42ffffb5f6a9f10bc81"
+    },
+    {
+      "path": "simulation/research/summarize_heading_followups.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\summarize_heading_followups.py",
+      "bytes": 5787,
+      "sha256": "84629b89fa958a31b00789fe329cd4c9639496d9d910c204c7e7fcd8409a5f6c"
+    },
+    {
+      "path": "simulation/research/summarize_jump_dynamics_review.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\summarize_jump_dynamics_review.py",
+      "bytes": 3749,
+      "sha256": "d59fe2f518867bc0bb341024d06060d776a9ef58bc6b40cda6692bf036f2c0a1"
+    },
+    {
+      "path": "simulation/research/summarize_jump_limit.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\summarize_jump_limit.py",
+      "bytes": 6336,
+      "sha256": "c4e474ddd8d5b230c5ee1e0857e0ab4ec2e7ccd96b2ac69a28321360088de8ce"
+    },
+    {
+      "path": "simulation/research/summarize_jump_refine.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\summarize_jump_refine.py",
+      "bytes": 6843,
+      "sha256": "c65f1bde798d85a95305ce70d8b32693ec5d652b03c67f32918bd59dd4521166"
+    },
+    {
+      "path": "simulation/research/summarize_operating_envelope.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\summarize_operating_envelope.py",
+      "bytes": 5314,
+      "sha256": "0f39dd5894fc63c89d5788c61b163560886dcabc2685b3cf3c7fd51bd13b3e71"
+    },
+    {
+      "path": "simulation/research/summarize_owned_terrain.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\summarize_owned_terrain.py",
+      "bytes": 5771,
+      "sha256": "b9c628a99935376570de2d7fe780833d27d9501ceb914651b84186fa3b5e2142"
+    },
+    {
+      "path": "simulation/research/summarize_reward_audit.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\summarize_reward_audit.py",
+      "bytes": 6310,
+      "sha256": "77e86f05ecde22219fd2115253cf4495ccc13be3a4c47bdf495c279c2076e54c"
+    },
+    {
+      "path": "simulation/research/summarize_run.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\summarize_run.py",
+      "bytes": 6771,
+      "sha256": "decd8cbe827792b74344949b606e3a431c83adec3080589c7b878a9677766c05"
+    },
+    {
+      "path": "simulation/research/summarize_run_jump.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\summarize_run_jump.py",
+      "bytes": 8447,
+      "sha256": "782a5ab15a5d60b7737b9085e53550a2ea2dbe48af8a5b8f7e8d4917024f3366"
+    },
+    {
+      "path": "simulation/research/summarize_terrain_skills.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\summarize_terrain_skills.py",
+      "bytes": 2867,
+      "sha256": "015bce03250b406cf1ce74328262ec3b1e5b90c427a09ebc8f8316fe058ea2f9"
+    },
+    {
+      "path": "simulation/research/summarize_transition_refine.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\summarize_transition_refine.py",
+      "bytes": 8828,
+      "sha256": "1194d2cb1d06d5f46cc2debc7ec4af87a25b1c30e1f65a412fb34b88bcafde43"
+    },
+    {
+      "path": "simulation/research/terrain_lane_cfg.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\terrain_lane_cfg.py",
+      "bytes": 2959,
+      "sha256": "887d6606605a6221f5d01fd249043dfccd2d7dabd3ec0adb0df93ffed82a86a9"
+    },
+    {
+      "path": "simulation/research/terrain_skill_cfg.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\terrain_skill_cfg.py",
+      "bytes": 4757,
+      "sha256": "812e7d41be1b2a19882a847f61576c893ce3c2c623a45c62bafeaa18598642a9"
+    },
+    {
+      "path": "simulation/research/terrain_skill_eval.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\terrain_skill_eval.py",
+      "bytes": 11820,
+      "sha256": "cc566e21098bd9c685c2ba15e41a6161aeb2ba546b4d05f7888ba3face9791c7"
+    },
+    {
+      "path": "simulation/research/test_corrective.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\test_corrective.py",
+      "bytes": 1961,
+      "sha256": "e646fb2a3d91107f6a8edaf72fba70b751d8a9225c31c60f59e66849b08ec2c6"
+    },
+    {
+      "path": "simulation/research/test_deep_crouch.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\test_deep_crouch.py",
+      "bytes": 6777,
+      "sha256": "b977d2f2f08a61a5a9c8c53056524654ca3418729a96cfc1354efeba98c21e8b"
+    },
+    {
+      "path": "simulation/research/test_demonstrations.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\test_demonstrations.py",
+      "bytes": 4020,
+      "sha256": "8ca99dc25a4c19d1dc5deb973c2560fcf8be9f14ec406a1cff074b54af32ade0"
+    },
+    {
+      "path": "simulation/research/test_foot_flight.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\test_foot_flight.py",
+      "bytes": 3991,
+      "sha256": "d461f9ad49fbf5428c0379b2b50c6405f0e2669e61bcc0569d851a6871db989b"
+    },
+    {
+      "path": "simulation/research/test_gaze_metrics.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\test_gaze_metrics.py",
+      "bytes": 1756,
+      "sha256": "d289f90167d2cfb44eaa479b6e9823b4b037787d903adc2635a3b91bb79be212"
+    },
+    {
+      "path": "simulation/research/test_hardware_sim.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\test_hardware_sim.py",
+      "bytes": 3179,
+      "sha256": "b07eace1f52e38504b596264fec5193b622dc8aeb7831fe90b7c86626e4dbb74"
+    },
+    {
+      "path": "simulation/research/test_head_attitude.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\test_head_attitude.py",
+      "bytes": 5080,
+      "sha256": "c25ac64205a9aab7309b05866efde583a7b61e9bce558c2b1a9c1b6634a0f697"
+    },
+    {
+      "path": "simulation/research/test_imu_heading.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\test_imu_heading.py",
+      "bytes": 4904,
+      "sha256": "1f4c16e8aefef00769df217e37223793b22c3168846d8df8f567bb13392f04fc"
+    },
+    {
+      "path": "simulation/research/test_imu_owned_terrain.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\test_imu_owned_terrain.py",
+      "bytes": 5777,
+      "sha256": "366e1f362340e00a6bc59dfba895a9a5abe15259949e4b6a810870c7f3feb8c2"
+    },
+    {
+      "path": "simulation/research/test_jump_refine.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\test_jump_refine.py",
+      "bytes": 3126,
+      "sha256": "13a602ac7e343c39b09bdf4327464ec24c3abef8c1827758497b42bf19f87fee"
+    },
+    {
+      "path": "simulation/research/test_recovery_bounds_consistency.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\test_recovery_bounds_consistency.py",
+      "bytes": 2981,
+      "sha256": "54142834e00b05f58e3f58b9693da512502c9b251d63b4534172a63db19d4d2f"
+    },
+    {
+      "path": "simulation/research/test_run_jump.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\test_run_jump.py",
+      "bytes": 5025,
+      "sha256": "06309001301561539a99171f91fa17cf4b8d89bd453e6704b40bd63e7fd23ecc"
+    },
+    {
+      "path": "simulation/research/test_terrain_skills.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\test_terrain_skills.py",
+      "bytes": 2998,
+      "sha256": "04b2878e0535af8d97ef2fc10531a9423f63a63e5b82d3f4a8b268ab2728599b"
+    },
+    {
+      "path": "simulation/research/test_tof_skill_contract.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\test_tof_skill_contract.py",
+      "bytes": 5369,
+      "sha256": "48712ebf7003fda51ccfc9162d290e3cf87ed6b758f93e0e031377da06673fbd"
+    },
+    {
+      "path": "simulation/research/test_transition_refine.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\test_transition_refine.py",
+      "bytes": 4712,
+      "sha256": "b5db31f2ff013ba5feb68c2d9b49d50ede3c339ee152cb93fa60ce4a13de010c"
+    },
+    {
+      "path": "simulation/research/tof_skill_contract.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\tof_skill_contract.py",
+      "bytes": 7998,
+      "sha256": "1ca3debadfde19d7107b5048db69934dae506798612443d132c681f6db48ef2e"
+    },
+    {
+      "path": "simulation/research/trace_standing_delay.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\trace_standing_delay.py",
+      "bytes": 3386,
+      "sha256": "f24a765584b2a8a0eda2a1dd62c43153140946c0ba7bebceacf397af948a3a6a"
+    },
+    {
+      "path": "simulation/research/train_candidate.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\train_candidate.py",
+      "bytes": 8238,
+      "sha256": "414e32b303c41f045f1cfa32413ea2852974aabeccfc0122a981a38f5f1cad21"
+    },
+    {
+      "path": "simulation/research/train_contact_motion.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\train_contact_motion.py",
+      "bytes": 5697,
+      "sha256": "c00b0cb3955a190abd279fea77a7e885029cb8b315c813efb571d336cca76a13"
+    },
+    {
+      "path": "simulation/research/train_corrective.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\train_corrective.py",
+      "bytes": 3735,
+      "sha256": "01e74a7690ccce28a36c44edefe017a5a98647df21a104bc7758d020e3c6bb36"
+    },
+    {
+      "path": "simulation/research/train_corrective_v2.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\train_corrective_v2.py",
+      "bytes": 4954,
+      "sha256": "b613716961fe2ffe03a528e80281968aa3a6d5c683d8fcdc7395ddd3bc598018"
+    },
+    {
+      "path": "simulation/research/train_demonstration.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\train_demonstration.py",
+      "bytes": 4184,
+      "sha256": "25c89a52c031e6e68d6b06d10726525cc865567c88fb5c90eba3752360128eea"
+    },
+    {
+      "path": "simulation/research/train_flamingo.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\train_flamingo.py",
+      "bytes": 5490,
+      "sha256": "832c8d08f282e2ff86e44c52a6e28660b8c95d11e2fbc1aeed248346844edeb9"
+    },
+    {
+      "path": "simulation/research/train_single_leg.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\train_single_leg.py",
+      "bytes": 5987,
+      "sha256": "b9aef901943877130d70c6aeb53a1203923b37e8ae0585975daaed601da90381"
+    },
+    {
+      "path": "simulation/research/train_squat_skill.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\train_squat_skill.py",
+      "bytes": 5326,
+      "sha256": "b1d6271238a7f7ab3a75163a1139a408072b97d392462c03528a42ca5cb0c5ea"
+    },
+    {
+      "path": "simulation/research/train_stair_climb.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\train_stair_climb.py",
+      "bytes": 5737,
+      "sha256": "fb0df8a1bd7467c1cbb05a5c1a726b27fcc831896e0e7c1bc809b648040d11f0"
+    },
+    {
+      "path": "simulation/research/train_terrain_skill.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\train_terrain_skill.py",
+      "bytes": 11873,
+      "sha256": "70a35b8f38e4ad2dd7ab9288c6b336e3e240aa57eeeb3f9283a0cbb1f8dcc4e6"
+    },
+    {
+      "path": "simulation/research/train_watchdog.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\train_watchdog.py",
+      "bytes": 5976,
+      "sha256": "35783d4ab18724e1ebe1b9d18d7c28d1bd95dd46da02297b2014335302cd28da"
+    },
+    {
+      "path": "simulation/research/transition_refine_cfg.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\transition_refine_cfg.py",
+      "bytes": 1880,
+      "sha256": "a8346b03b2b9d808ac7c8534467c9de1cac6f4f04533271d4e60687dc8bdb344"
+    },
+    {
+      "path": "simulation/research/try_compact_fold.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\try_compact_fold.py",
+      "bytes": 7017,
+      "sha256": "a5681059335ac436140fc580116d6237081e3ee6a3f072b7d6c4b1b7b8bfcbfd"
+    },
+    {
+      "path": "simulation/research/try_getup_reference.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\try_getup_reference.py",
+      "bytes": 12046,
+      "sha256": "0810b1a0dfbd04ebae870b7815fcf5d81cfac003eb9bc6661d92155a5e524080"
+    },
+    {
+      "path": "simulation/research/try_requested_fold.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\try_requested_fold.py",
+      "bytes": 2523,
+      "sha256": "e4f7e7caa1da5076f603753df8eb4dfcba216bc9f3a383e6fbb3a529f593cbf2"
+    },
+    {
+      "path": "simulation/research/try_sit_reference.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\try_sit_reference.py",
+      "bytes": 10494,
+      "sha256": "57344c07e6597ce39f4b1c3032ae189393200ab802034c62d85abd953bfd3dcc"
+    },
+    {
+      "path": "simulation/research/try_squat_reference.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\try_squat_reference.py",
+      "bytes": 13570,
+      "sha256": "db8c5e649214914f1e60139dc727a0c3caee5b495027c3f9a0371873648a2d48"
+    },
+    {
+      "path": "simulation/research/verify_head_attitude_runtime.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\verify_head_attitude_runtime.py",
+      "bytes": 2911,
+      "sha256": "51904dccae04cee710fbaa6a7c4262898b759bef9f491fa8fc31560811ac1c0a"
+    },
+    {
+      "path": "simulation/research/verify_integration.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\verify_integration.py",
+      "bytes": 2961,
+      "sha256": "8d8002f71e34ce1e6830cfc8202c5eb1507455f5276c93e9d400c8b98d1ee0e6"
+    },
+    {
+      "path": "simulation/research/watch_gaze_ablation_eval.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\watch_gaze_ablation_eval.py",
+      "bytes": 1991,
+      "sha256": "b2ed38b054919e05d165a18754ae04bdcac6de42664319f48507a8289c8e610d"
+    },
+    {
+      "path": "simulation/research/write_corrective_report.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\write_corrective_report.py",
+      "bytes": 11653,
+      "sha256": "e2c5d1afb43d62e95e59f7db04ac36dc867a791aef26944a0c1d7c3c1989a07d"
+    },
+    {
+      "path": "simulation/research/yaw_diagnosis.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\yaw_diagnosis.py",
+      "bytes": 5772,
+      "sha256": "70f46d89d9d009386868f16333e2a6a1612a5e19694a7756b8c87763d90531d0"
+    },
+    {
+      "path": "simulation/tools/blend2mjcf.py",
+      "source": "D:\\项目\\miro_dinosaur\\microdinosaur\\blend2mjcf.py",
+      "bytes": 66985,
+      "sha256": "889cd215de4851f149d694b147d36a87c19b617b1f9bdf9e83767a8c77d69d4f"
+    },
+    {
+      "path": "simulation/research/20260913_handoff/native_v07/nominal.mjb.gz",
+      "bytes": 123608643,
+      "sha256": "57eb76e8229fed30bded06b2aaaac06d7edf66f11afa44001c6e3b3fc1cad6a8",
+      "uncompressed_sha256": "7cd4696548b42babbd0d7065a14cd04dbe131826b499cbee5345455842b519c5"
+    },
+    {
+      "path": "simulation/research/20260913_handoff/native_v07/contract.json",
+      "source": "D:\\项目\\miro_dinosaur\\research\\20260913_handoff\\native_v07\\contract.json",
+      "bytes": 13251,
+      "sha256": "19073282ac2f57d8fa9e9e3c6eed34e22bdd090be8cd1202edf9eec76bb52a07"
+    },
+    {
+      "path": "simulation/research/20260913_handoff/v7_reference.onnx",
+      "source": "D:\\项目\\miro_dinosaur\\research\\20260913_handoff\\v7_reference.onnx",
+      "bytes": 837806,
+      "sha256": "53120a401d02f124b35361d791eb74748a7601550c701c511d62cbad9cddff96"
+    },
+    {
+      "path": "simulation/policies/head_candidate.onnx",
+      "source": "D:\\microduck_rl\\logs\\rsl_rl\\microdinosaur_v07_calibration\\20260914_gaze_train_s42_no_neck_cost_1024x101\\candidate.onnx",
+      "bytes": 837833,
+      "sha256": "45dad351070afd5c7adcd302dbe5e69f5a8fc94287f7d12a362111aeb24d5677"
+    },
+    {
+      "path": "simulation/policies/fast_walk_candidate.onnx",
+      "source": "D:\\microduck_rl\\logs\\rsl_rl\\microdinosaur_run_specialist\\20260914_train_512x301\\candidate.onnx",
+      "bytes": 837808,
+      "sha256": "f985cd322db6181dc9bacdb049dd764e268f27963a9bb54ccff9bd5651d162fc"
+    },
+    {
+      "path": "simulation/policies/jump_candidate.onnx",
+      "source": "D:\\microduck_rl\\logs\\rsl_rl\\microdinosaur_jump_specialist\\20260914_train_512x401\\candidate.onnx",
+      "bytes": 837809,
+      "sha256": "bbfc57748af64a3bee9fffc45825cbb6e816c7f2bd351e885683b3ef750dc5cf"
+    },
+    {
+      "path": "simulation/research/20260914_head_attitude/RESULTS.md",
+      "source": "D:\\项目\\miro_dinosaur\\research\\20260914_head_attitude\\RESULTS.md",
+      "bytes": 6876,
+      "sha256": "8620ddf66593cb1aba1193e1294a418916da95006a6c7b3fc155d2abcb5fce46"
+    },
+    {
+      "path": "simulation/research/20260914_head_attitude/TABLES.md",
+      "source": "D:\\项目\\miro_dinosaur\\research\\20260914_head_attitude\\TABLES.md",
+      "bytes": 3835,
+      "sha256": "3d09b51ddf4f4ab270573edfe08723db6d4817c660121f2e28a0abcaf6c23168"
+    },
+    {
+      "path": "simulation/research/20260914_head_attitude/EXPERIMENT.md",
+      "source": "D:\\项目\\miro_dinosaur\\research\\20260914_head_attitude\\EXPERIMENT.md",
+      "bytes": 3875,
+      "sha256": "0330393de54ae1995f15c912806766eb472f3b57da8c608d5996f5c5f78e37a7"
+    },
+    {
+      "path": "simulation/research/20260914_head_attitude/audit.json",
+      "source": "D:\\项目\\miro_dinosaur\\research\\20260914_head_attitude\\audit.json",
+      "bytes": 7039,
+      "sha256": "920a3f45c2debe1b835a887ff5e600077dbf24459e1f4dac10b22bbaea512422"
+    },
+    {
+      "path": "simulation/research/20260914_head_attitude/final_audit.json",
+      "source": "D:\\项目\\miro_dinosaur\\research\\20260914_head_attitude\\final_audit.json",
+      "bytes": 1008,
+      "sha256": "e7bdc6c0f526f90ef7d392ea0ee25ccc56e105ce637c671636cd432eefdfdcb6"
+    },
+    {
+      "path": "simulation/research/20260914_head_attitude/summary.json",
+      "source": "D:\\项目\\miro_dinosaur\\research\\20260914_head_attitude\\summary.json",
+      "bytes": 27528,
+      "sha256": "2b5ee3820460434a56c60f8a45f4674c395f2f33500c1aec714bfcc0ea02546c"
+    },
+    {
+      "path": "simulation/research/20260914_head_attitude/matrix.json",
+      "source": "D:\\项目\\miro_dinosaur\\research\\20260914_head_attitude\\matrix.json",
+      "bytes": 507432,
+      "sha256": "33867d988fc1f81e3d7cc4a6a0b6fad594dd6cdd97d2a49795991a14a45b8fd4"
+    },
+    {
+      "path": "simulation/research/20260914_head_attitude/plan.json",
+      "source": "D:\\项目\\miro_dinosaur\\research\\20260914_head_attitude\\plan.json",
+      "bytes": 90314,
+      "sha256": "cf71e37260cc9d486de48b923ac27c07771e6ebe4a50329e6888e859994ed13d"
+    },
+    {
+      "path": "simulation/research/20260914_head_attitude/runtime_contract.json",
+      "source": "D:\\项目\\miro_dinosaur\\research\\20260914_head_attitude\\runtime_contract.json",
+      "bytes": 2351,
+      "sha256": "f3fd8e4194944a5040465b8cc4474bb6f6469d9ca45726f89d55f12d8b43b005"
+    },
+    {
+      "path": "simulation/research/20260914_head_attitude/tests.log",
+      "source": "D:\\项目\\miro_dinosaur\\research\\20260914_head_attitude\\tests.log",
+      "bytes": 2165,
+      "sha256": "4f6f6f2b835b2064f8cbd0fdc1afb4e17b6309b75f0a0ad9bdf417ac0d0c5070"
+    },
+    {
+      "path": "simulation/research/20260914_head_attitude/comparison.png",
+      "source": "D:\\项目\\miro_dinosaur\\research\\20260914_head_attitude\\comparison.png",
+      "bytes": 103608,
+      "sha256": "cba52ae0cc8d480132485621682cdc6b98001917c499cac1da547138847a8532"
+    },
+    {
+      "path": "simulation/research/20260914_head_attitude/runtime_followup/audit.json",
+      "source": "D:\\项目\\miro_dinosaur\\research\\20260914_head_attitude\\runtime_followup\\audit.json",
+      "bytes": 757,
+      "sha256": "6756bb0cd6245618fe8ca0d08aa91e833a1cb9df2846a34884892b3b7c43c3aa"
+    },
+    {
+      "path": "simulation/research/20260914_head_attitude/videos/v7/comparison.mp4",
+      "source": "D:\\项目\\miro_dinosaur\\research\\20260914_head_attitude\\videos\\v7\\comparison.mp4",
+      "bytes": 9352059,
+      "sha256": "631cd79a6ec1c9532b108deddcb5c2fe0e42984db132b0e0893d7b5f28fa071f"
+    },
+    {
+      "path": "simulation/research/20260914_run_jump/RESULTS.md",
+      "source": "D:\\项目\\miro_dinosaur\\research\\20260914_run_jump\\RESULTS.md",
+      "bytes": 10102,
+      "sha256": "af7be43213d7ebecbecf8c7ec49198dc41118004102a09d6b03e0fbc81bd09c2"
+    },
+    {
+      "path": "simulation/research/20260914_run_jump/PLAN.md",
+      "source": "D:\\项目\\miro_dinosaur\\research\\20260914_run_jump\\PLAN.md",
+      "bytes": 4440,
+      "sha256": "cecdf89dca12bd094c172f1116eb3986ab2f146a5fe4bd8f46ae999d45ebd2d0"
+    },
+    {
+      "path": "simulation/research/20260914_run_jump/summary.json",
+      "source": "D:\\项目\\miro_dinosaur\\research\\20260914_run_jump\\summary.json",
+      "bytes": 92765,
+      "sha256": "37166ce125a14102ae71bc77c9c16b43012e357c49d65150124a0e5acdd3f774"
+    },
+    {
+      "path": "simulation/research/20260914_run_jump/conditions.csv",
+      "source": "D:\\项目\\miro_dinosaur\\research\\20260914_run_jump\\conditions.csv",
+      "bytes": 27252,
+      "sha256": "2e0ebf685fb91d6765256143084a60de516700541747b95c25db6ba89cf8fceb"
+    },
+    {
+      "path": "simulation/research/20260914_run_jump/training_audit.json",
+      "source": "D:\\项目\\miro_dinosaur\\research\\20260914_run_jump\\training_audit.json",
+      "bytes": 6867,
+      "sha256": "b0536097ecfc4cc89c1944da3297caed6838ff8ad2b3ace4216bbbf3a6e031dd"
+    },
+    {
+      "path": "simulation/research/20260914_run_jump/physics_precheck.json",
+      "source": "D:\\项目\\miro_dinosaur\\research\\20260914_run_jump\\physics_precheck.json",
+      "bytes": 1240,
+      "sha256": "792ed78ff80ec58a5c7319cbc808ec92cf712020e44c07eaf5e7f606f9b8d230"
+    },
+    {
+      "path": "simulation/research/20260914_run_jump/tests.log",
+      "source": "D:\\项目\\miro_dinosaur\\research\\20260914_run_jump\\tests.log",
+      "bytes": 1252,
+      "sha256": "9c638800cd56ad302ae70b27aac342ad008474a0dd88f422a44c505ca9a695e1"
+    },
+    {
+      "path": "simulation/research/20260914_run_jump/comparison.png",
+      "source": "D:\\项目\\miro_dinosaur\\research\\20260914_run_jump\\comparison.png",
+      "bytes": 208977,
+      "sha256": "c1f6e358b94380e54f86fa99878ecdc66fd26e0b0116b5294de14960628d0673"
+    },
+    {
+      "path": "simulation/research/20260914_run_jump/evaluation/run/fast_walk.mp4",
+      "source": "D:\\项目\\miro_dinosaur\\research\\20260914_run_jump\\evaluation\\run\\fast_walk.mp4",
+      "bytes": 3889351,
+      "sha256": "d7e1d8526a80c21d63114e5a92c318d70ac855d53f376226df32c7a0a5561421"
+    },
+    {
+      "path": "simulation/research/20260914_run_jump/evaluation/jump_return/jump_return_slow.mp4",
+      "source": "D:\\项目\\miro_dinosaur\\research\\20260914_run_jump\\evaluation\\jump_return\\jump_return_slow.mp4",
+      "bytes": 2051958,
+      "sha256": "aa390ffc0831b7eeb49e8033d1885482d4cce3e06ae36bee8ef3c1b1545a3572"
+    },
+    {
+      "path": "simulation/research/20260914_head_attitude/source_snapshot/audit_head_attitude.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\20260914_head_attitude\\source_snapshot\\audit_head_attitude.py",
+      "bytes": 4679,
+      "sha256": "aea6f025747069c2ee9e4ec76add7ed7f4967f0c7b39022f5c045a8fc87c9b7f"
+    },
+    {
+      "path": "simulation/research/20260914_head_attitude/source_snapshot/demo_head_attitude.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\20260914_head_attitude\\source_snapshot\\demo_head_attitude.py",
+      "bytes": 2199,
+      "sha256": "932debbc764cee0bf9fc3b233f6824c5c83b42e1d9914bdb5f21edec7c6f95b0"
+    },
+    {
+      "path": "simulation/research/20260914_head_attitude/source_snapshot/evaluate_gaze_ablation.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\20260914_head_attitude\\source_snapshot\\evaluate_gaze_ablation.py",
+      "bytes": 8813,
+      "sha256": "6c857c2c8f4e2b27d33c05df41d5a9ddc4c7299ce36e9f60c2c6739838b453d7"
+    },
+    {
+      "path": "simulation/research/20260914_head_attitude/source_snapshot/evaluate_policy.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\20260914_head_attitude\\source_snapshot\\evaluate_policy.py",
+      "bytes": 11076,
+      "sha256": "b03a06213e7243e886c5e01a41306ee24c8f3fc27f347efb8d3186758fbf904c"
+    },
+    {
+      "path": "simulation/research/20260914_head_attitude/source_snapshot/finalize_head_attitude.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\20260914_head_attitude\\source_snapshot\\finalize_head_attitude.py",
+      "bytes": 11071,
+      "sha256": "707e17f4ef8c565a2e70bbd4da712c892174233667aa89d1f3ee75034f7dd976"
+    },
+    {
+      "path": "simulation/research/20260914_head_attitude/source_snapshot/hardware_sim.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\20260914_head_attitude\\source_snapshot\\hardware_sim.py",
+      "bytes": 10832,
+      "sha256": "01c36acb7094e8b42a3a627f348eefd39a00a555f6981e0bdb98c39e46b69f51"
+    },
+    {
+      "path": "simulation/research/20260914_head_attitude/source_snapshot/head_attitude.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\20260914_head_attitude\\source_snapshot\\head_attitude.py",
+      "bytes": 6057,
+      "sha256": "2339f522fff796b5d011529e0701b5cdcbc3bced739226936583ffab56fc8c07"
+    },
+    {
+      "path": "simulation/research/20260914_head_attitude/source_snapshot/head_attitude_runtime.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\20260914_head_attitude\\source_snapshot\\head_attitude_runtime.py",
+      "bytes": 591,
+      "sha256": "a115d3e04216d1e3fada4b2bb83292194208c33ee5a57b54863c8e758e092b8c"
+    },
+    {
+      "path": "simulation/research/20260914_head_attitude/source_snapshot/head_attitude_sim.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\20260914_head_attitude\\source_snapshot\\head_attitude_sim.py",
+      "bytes": 7920,
+      "sha256": "9a3b6c8aa7f125d77e18b6d36a6e1454880c828121c4daa94e3d96aa8aa5ded1"
+    },
+    {
+      "path": "simulation/research/20260914_head_attitude/source_snapshot/heading_sim.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\20260914_head_attitude\\source_snapshot\\heading_sim.py",
+      "bytes": 9676,
+      "sha256": "d4876b44575342e33378d39000ae4e5ddf574b6206bb990a120471e454f94777"
+    },
+    {
+      "path": "simulation/research/20260914_head_attitude/source_snapshot/imu_heading.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\20260914_head_attitude\\source_snapshot\\imu_heading.py",
+      "bytes": 6401,
+      "sha256": "b4527cc746e45f8658a7e88b2389cbb80e4c5484577dc71ec4b7ad4788da3ee9"
+    },
+    {
+      "path": "simulation/research/20260914_head_attitude/source_snapshot/render_head_attitude.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\20260914_head_attitude\\source_snapshot\\render_head_attitude.py",
+      "bytes": 4520,
+      "sha256": "f96f8812a006ebf493cffcc84b865ad621d549fdcdce5d856e9c33b17a6f6532"
+    },
+    {
+      "path": "simulation/research/20260914_head_attitude/source_snapshot/run_head_attitude.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\20260914_head_attitude\\source_snapshot\\run_head_attitude.py",
+      "bytes": 6627,
+      "sha256": "1e5731170c78dfd0b547b1466e5910ffdf26e988b288c4e8366e85f35fff4bc1"
+    },
+    {
+      "path": "simulation/research/20260914_head_attitude/source_snapshot/run_heading_stable_start.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\20260914_head_attitude\\source_snapshot\\run_heading_stable_start.py",
+      "bytes": 3955,
+      "sha256": "4a33c4163612c52ca20022cad65d86dc1ecdd32f3400bd14338843fed6be2dd5"
+    },
+    {
+      "path": "simulation/research/20260914_head_attitude/source_snapshot/summarize_head_attitude.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\20260914_head_attitude\\source_snapshot\\summarize_head_attitude.py",
+      "bytes": 3411,
+      "sha256": "36c968c403c77e676fabd4226f8cca4eb8d68301532ad941ea03bd86c849ea8f"
+    },
+    {
+      "path": "simulation/research/20260914_head_attitude/source_snapshot/test_head_attitude.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\20260914_head_attitude\\source_snapshot\\test_head_attitude.py",
+      "bytes": 5080,
+      "sha256": "c25ac64205a9aab7309b05866efde583a7b61e9bce558c2b1a9c1b6634a0f697"
+    },
+    {
+      "path": "simulation/research/20260914_head_attitude/source_snapshot/verify_head_attitude_runtime.py",
+      "source": "D:\\项目\\miro_dinosaur\\research\\20260914_head_attitude\\source_snapshot\\verify_head_attitude_runtime.py",
+      "bytes": 2911,
+      "sha256": "51904dccae04cee710fbaa6a7c4262898b759bef9f491fa8fc31560811ac1c0a"
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "status": "PASS",
+  "attempts": 73,
+  "completed": 73,
+  "rejected": 0,
+  "falls": 0,
+  "frozen_sources_match": true,
+  "production_and_reference_policies_unchanged": true,
+  "all_traces_finite": true,
+  "head_torque_and_command_bounds_pass": true,
+  "tests_passed": 14,
+  "cli_matches_confirmation": true,
+  "primary_improvements": {
+    "nominal__s42_no_neck__1__straight__imu": {
+      "camera_heading_error_rms_deg": {
+        "off": 2.4318952486701,
+        "filter_only": 3.088537881199733,
+        "imu": 0.890077134388708,
+        "better_than_both": true
+      },
+      "camera_heading_detrended_rms_deg": {
+        "off": 2.086413195848537,
+        "filter_only": 2.211806981466826,
+        "imu": 0.7549794983695545,
+        "better_than_both": true
+      },
+      "camera_yaw_rate_error_rms_deg_s": {
+        "off": 30.16686639683426,
+        "filter_only": 14.284125986504437,
+        "imu": 12.12742064183406,
+        "better_than_both": true
+      }
+    },
+    "nominal__s42_no_neck__2__straight__imu": {
+      "camera_heading_error_rms_deg": {
+        "off": 2.4756117205872488,
+        "filter_only": 2.813586869835893,
+        "imu": 0.8962126965775623,
+        "better_than_both": true
+      },
+      "camera_heading_detrended_rms_deg": {
+        "off": 2.0765342053238363,
+        "filter_only": 1.9690480710921938,
+        "imu": 0.7283125873583169,
+        "better_than_both": true
+      },
+      "camera_yaw_rate_error_rms_deg_s": {
+        "off": 30.459885979987284,
+        "filter_only": 14.341015398578376,
+        "imu": 12.097993922104806,
+        "better_than_both": true
+      }
+    },
+    "nominal__s42_no_neck__3__straight__imu": {
+      "camera_heading_error_rms_deg": {
+        "off": 2.6137093003254632,
+        "filter_only": 2.634570129802345,
+        "imu": 0.8986794120883915,
+        "better_than_both": true
+      },
+      "camera_heading_detrended_rms_deg": {
+        "off": 2.1972258469797215,
+        "filter_only": 1.8840902076783916,
+        "imu": 0.6817637865122032,
+        "better_than_both": true
+      },
+      "camera_yaw_rate_error_rms_deg_s": {
+        "off": 30.524855685027855,
+        "filter_only": 14.068781508847323,
+        "imu": 12.03049449540776,
+        "better_than_both": true
+      }
+    },
+    "nominal__v7__1__straight__imu": {
+      "camera_heading_error_rms_deg": {
+        "off": 4.340578355240617,
+        "filter_only": 4.1208732573485145,
+        "imu": 1.1997638709823581,
+        "better_than_both": true
+      },
+      "camera_heading_detrended_rms_deg": {
+        "off": 1.49414182558811,
+        "filter_only": 1.403415992954139,
+        "imu": 0.6139611540761619,
+        "better_than_both": true
+      },
+      "camera_yaw_rate_error_rms_deg_s": {
+        "off": 19.816806371316172,
+        "filter_only": 12.344356701705019,
+        "imu": 9.210672140500902,
+        "better_than_both": true
+      }
+    },
+    "nominal__v7__2__straight__imu": {
+      "camera_heading_error_rms_deg": {
+        "off": 4.89012938406687,
+        "filter_only": 4.594437965263892,
+        "imu": 1.4534184707572981,
+        "better_than_both": true
+      },
+      "camera_heading_detrended_rms_deg": {
+        "off": 1.4590077919507203,
+        "filter_only": 1.4296694394453737,
+        "imu": 0.62259143080964,
+        "better_than_both": true
+      },
+      "camera_yaw_rate_error_rms_deg_s": {
+        "off": 19.797078645472983,
+        "filter_only": 12.11108330183179,
+        "imu": 9.097797507654619,
+        "better_than_both": true
+      }
+    },
+    "nominal__v7__3__straight__imu": {
+      "camera_heading_error_rms_deg": {
+        "off": 4.4714934101644515,
+        "filter_only": 4.332958236492583,
+        "imu": 1.4642788201773367,
+        "better_than_both": true
+      },
+      "camera_heading_detrended_rms_deg": {
+        "off": 1.4476955460330194,
+        "filter_only": 1.4522716996403675,
+        "imu": 0.6141614660444255,
+        "better_than_both": true
+      },
+      "camera_yaw_rate_error_rms_deg_s": {
+        "off": 19.80741898679081,
+        "filter_only": 12.235821567175272,
+        "imu": 9.102192651747913,
+        "better_than_both": true
+      }
+    }
+  },
+  "stand_after_transient": {
+    "nominal__s42_no_neck__1__stand__imu": {
+      "camera_yaw_rate_after_2s_rms_deg_s": 0.21372902914289596,
+      "camera_yaw_periodic_after_2s_rms_deg": 0.03571038093928175
+    },
+    "nominal__s42_no_neck__1__stand__off": {
+      "camera_yaw_rate_after_2s_rms_deg_s": 0.2501464972075843,
+      "camera_yaw_periodic_after_2s_rms_deg": 0.08846704766438453
+    },
+    "nominal__s42_no_neck__2__stand__imu": {
+      "camera_yaw_rate_after_2s_rms_deg_s": 0.22210319658750044,
+      "camera_yaw_periodic_after_2s_rms_deg": 0.031016881793719454
+    },
+    "nominal__s42_no_neck__2__stand__off": {
+      "camera_yaw_rate_after_2s_rms_deg_s": 0.2450907719079168,
+      "camera_yaw_periodic_after_2s_rms_deg": 0.09241838264940473
+    },
+    "nominal__s42_no_neck__3__stand__imu": {
+      "camera_yaw_rate_after_2s_rms_deg_s": 0.2186176682632106,
+      "camera_yaw_periodic_after_2s_rms_deg": 0.023656043550456772
+    },
+    "nominal__s42_no_neck__3__stand__off": {
+      "camera_yaw_rate_after_2s_rms_deg_s": 0.24997604713431257,
+      "camera_yaw_periodic_after_2s_rms_deg": 0.0891323879844878
+    },
+    "nominal__v7__1__stand__imu": {
+      "camera_yaw_rate_after_2s_rms_deg_s": 0.09018828180029105,
+      "camera_yaw_periodic_after_2s_rms_deg": 0.04650918967982822
+    },
+    "nominal__v7__1__stand__off": {
+      "camera_yaw_rate_after_2s_rms_deg_s": 0.0820526293639623,
+      "camera_yaw_periodic_after_2s_rms_deg": 0.019370164894584783
+    },
+    "nominal__v7__2__stand__imu": {
+      "camera_yaw_rate_after_2s_rms_deg_s": 0.08776346002652216,
+      "camera_yaw_periodic_after_2s_rms_deg": 0.031563978733686354
+    },
+    "nominal__v7__2__stand__off": {
+      "camera_yaw_rate_after_2s_rms_deg_s": 0.07970312706418667,
+      "camera_yaw_periodic_after_2s_rms_deg": 0.017644541731443728
+    },
+    "nominal__v7__3__stand__imu": {
+      "camera_yaw_rate_after_2s_rms_deg_s": 0.09044967004895013,
+      "camera_yaw_periodic_after_2s_rms_deg": 0.025989115534776827
+    },
+    "nominal__v7__3__stand__off": {
+      "camera_yaw_rate_after_2s_rms_deg_s": 0.0811499636156162,
+      "camera_yaw_periodic_after_2s_rms_deg": 0.0178495018753911
+    }
+  },
+  "explicit_head_commands": {
+    "pitch": {
+      "requested_deg": 6.875493541569878,
+      "plateau_mean_deg": 4.147998840599681,
+      "returned_mean_deg": 1.0501400415800497
+    },
+    "roll": {
+      "requested_deg": 5.729577951308233,
+      "plateau_mean_deg": 0.09251614988697615,
+      "returned_mean_deg": -1.2285408683935592
+    },
+    "yaw": {
+      "requested_deg": 14.32394487827058,
+      "plateau_mean_deg": 12.452320285111815,
+      "returned_mean_deg": 1.477427623462611
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "head_control": {
+    "kp": [
+      0.5,
+      1.0,
+      2.0
+    ],
+    "kd": [
+      0.01,
+      0.03,
+      0.04
+    ],
+    "ki": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "integral_limit_rad": 0.1,
+    "correction_limit_rad": [
+      0.35,
+      0.5,
+      0.18
+    ],
+    "correction_slew_rad_s": 2.0,
+    "target_slew_rad_s": 4.0,
+    "correction_filter_tau_s": 0.02,
+    "joint_margin_rad": 0.035,
+    "jacobian_damping": 0.05,
+    "max_measurement_age_s": 0.04,
+    "prediction_limit_s": 0.02,
+    "nominal_target_filter_tau_s": 0.1
+  },
+  "head_joint_names": [
+    "head_pitch",
+    "head_yaw",
+    "head_roll"
+  ],
+  "hardware": {
+    "name": "s288_protocol",
+    "protocol": true,
+    "motor_curve": false,
+    "voltage": 12.6,
+    "effort_fraction": 1.0,
+    "no_load_speed_at_12v": 16.5,
+    "command_ms": 10,
+    "position_ms": 20,
+    "velocity_ms": 20,
+    "physics_dt": 0.00125,
+    "joint_friction_scale": 1.0,
+    "kp_scale": 1.0,
+    "kd_scale": 1.0,
+    "armature_scale": 1.0,
+    "ground_friction": 1.0,
+    "slope_deg": 0.0,
+    "head_mass_scale": 1.0,
+    "gyro_bias_deg_s": 0.0,
+    "imu_period_ms": 20,
+    "feedback_drop_probability": 0.0,
+    "bus_stall_ms": 0,
+    "push_force_n": 0.0
+  },
+  "imu_transport": {
+    "period_ms": 20,
+    "latency_ms": 20,
+    "gyro_noise_deg_s": 0.05,
+    "accel_noise_m_s2": 0.02,
+    "constant_z_bias_deg_s": 0.0,
+    "residual_z_bias_deg_s": 0.0,
+    "outage_start_s": 5.0,
+    "outage_duration_s": 0.0
+  },
+  "actor_observation_size": 81,
+  "actor_action_size": 19,
+  "untouched_raw_policy_last_action": true,
+  "target_adapter_before_existing_filter_and_bus": true,
+  "user_reference": "navigation desired yaw + intentional head offsets; gravity-level pitch/roll",
+  "stationary_yaw_alignment": "body IMU tilt and four quantized neck encoders through static CAD FK",
+  "no_dynamic_world_truth_in_new_head_loop": true,
+  "head_translation_control": false,
+  "real_hardware_validated": false,
+  "hardware_control_connected": false,
+  "frozen_confirmation_age_s": 0.12,
+  "operational_max_age_s": 0.04,
+  "known_limitations": [
+    "Weak intentional roll tracking",
+    "Finite six-axis yaw drift",
+    "Slow IMU releases stabilization",
+    "Legacy actor gravity uses simulation truth"
+  ]
+}

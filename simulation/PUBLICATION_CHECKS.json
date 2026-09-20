@@ -1,0 +1,34 @@
+{
+  "verified_on": "2026-09-20",
+  "source_snapshot_python_files_syntax_checked": 440,
+  "original_cad_sha256": "0a4f86aefea24e0d5260c837849a16164ec83cc2d364f58e6c03947de95ce286",
+  "source_copy_changes": [
+    "simulation/research/evaluate_policy.py",
+    "simulation/research/hardware_sim.py",
+    "simulation/research/run_heading_stable_start.py"
+  ],
+  "compressed_plant_bytes_preserved": true,
+  "training_assets_extracted_and_verified": 155,
+  "head_and_heading_unit_tests_passed": 14,
+  "cpu_demo": {
+    "policy": "v7",
+    "head_mode": "imu",
+    "seed": 1,
+    "seconds": 12,
+    "source_vs_packaged_metrics_exactly_equal": true,
+    "source_vs_packaged_trace_arrays_exactly_equal": true,
+    "metrics": {
+      "camera_heading_error_rms_deg": 1.1997638709823581,
+      "camera_heading_detrended_rms_deg": 0.6139611540761619,
+      "camera_yaw_rate_error_rms_deg_s": 9.210672140500902,
+      "body_vx_mean_m_s": 0.22941697663395222,
+      "fell": false
+    }
+  },
+  "not_run": [
+    "new GPU training",
+    "clean-machine GPU installation",
+    "live CAD 1605-pose replay",
+    "real robot assembly or deployment"
+  ]
+}

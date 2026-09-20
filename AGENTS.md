@@ -1,5 +1,7 @@
 # DuckReplica / MicroDinosaur 当前工作约定
 
+2026-09-20 范围更新：用户明确要求将最新 CAD、训练代码和精选结果整理到本私有库。当前机械入口及以下几何约束保持有效；新增 simulation/ 管理当前训练源码快照、必要兼容资产、选定 ONNX、头控 CPU 复现入口和精选历史实验记录。原始训练目录不迁移、不清理、不重训；禁止上传环境、完整日志/检查点池、简历或联系方式。以下“只上传建模资料”是 2026-09-13 的历史范围，已由本段更新。新增文件仍须逐项进入白名单和 repository_files.json。simulation/training/AGENTS.md 是上游训练说明，其中 14 轴/61 维属于原 Microduck，当前 MicroDinosaur 使用 19 轴/81 维。复现支持与历史脚本边界见 simulation/README.md。
+
 GitHub 私有库名为 MicroDinosaur，按用户要求只上传最新建模相关文件；以 .gitignore 白名单和 repository_files.json 为准，不将本地历史目录整体加入 Git。v07 脚本已移至 scripts/head_imu_v07/，当前便携校验为 scripts/verify_current.py。下文历史恢复库、旧评审、采购资料和旧姿态输入在远程克隆中可以缺失；它们仍保留在原本地工作区。不要因缺失而把旧文件批量上传或用当前模型冒充旧输入。
 
 先完整阅读CURRENT_DESIGN.md，再读HEAD_IMU_V07_REVIEW.md；MICRODINOSAUR_V1_REVIEW.md是v06骨架历史。唯一现用模型current/MicroDinosaur_v1.blender，用户指定名称，Blender可直接命令行打开。SHA256 0a4f86aefea24e0d5260c837849a16164ec83cc2d364f58e6c03947de95ce286，755对象、663网格、672实体台账、19S288/19驱动。
