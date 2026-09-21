@@ -1,6 +1,6 @@
 # MicroDinosaur 项目进展
 
-更新日期：2026-09-20。个人机器人设计与仿真项目，基于 Microduck 开源方案改型，使用 Blender、Python、MuJoCo/mjlab、PPO 与 ONNX；开发过程中使用 AI 辅助。上游框架、参考几何与本人改型工作的来源分别保留，见 [NOTICE](NOTICE.md) 和 [仿真快照](simulation/SOURCE_SNAPSHOT.json)。
+更新日期：2026-09-21。个人机器人设计与仿真项目，基于 Microduck 开源方案改型，使用 Blender、Python、MuJoCo/mjlab、PPO 与 ONNX；开发过程中使用 AI 辅助。上游框架、参考几何与本人改型工作的来源分别保留，见 [NOTICE](NOTICE.md) 和 [仿真快照](simulation/SOURCE_SNAPSHOT.json)。
 
 ## 机械设计
 
@@ -20,8 +20,9 @@
 | 头控故障回退 | 历史 73 条确认与 9 条运行回退仿真；源数据年龄超过 40 ms 时释放主动补偿 | 慢 IMU 不承诺主动稳定；传感器延迟与偏置待实测 |
 | 快速运动专家 | 0.80 m/s 指令档，完成运动样本的均速 0.339→0.489 m/s | 无双脚腾空；三档停止仅 9/27，仍为研究候选 |
 | 小跳专家加固定策略交还 | 新初态 201–203 × 三档延迟完整通过 7/9 | 2 条起跳越限；7 项压力条件仅 3/7 通过，非完整技能 |
+| 碰撞开启的倒地起身续训 | 同一批 40 个未见初态，严格通过 15/40→18/40；不计末态偏航时 28/40→29/40 | 侧向严格通过仍仅 3/20，且负载、限位、尾部几何门未全过；候选不晋级 |
 
-原始分母、校准拒绝、失败样本和条件定义详见 [头控结果](simulation/research/20260914_head_attitude/RESULTS.md) 与 [快走和小跳结果](simulation/research/20260914_run_jump/RESULTS.md)。历史训练未通过整体实机放行，模型精度、碰撞完整性、供电、热和实际执行时序仍须验证。
+原始分母、校准拒绝、失败样本和条件定义详见 [动作状态表](simulation/ACTION_STATUS.md)、[头控结果](simulation/research/20260914_head_attitude/RESULTS.md)、[快走和小跳结果](simulation/research/20260914_run_jump/RESULTS.md) 与 [起身复核](simulation/research/20260921_action_requalification/RESULTS.md)。历史训练未通过整体实机放行，模型精度、碰撞完整性、供电、热和实际执行时序仍须验证。
 
 ## 硬件阶段
 
@@ -31,4 +32,4 @@
 
 ## 复现和访问
 
-本仓库保持私有。CAD 打开方式见 [README](README.md)，CPU 头控复现和训练快照说明见 [simulation/README](simulation/README.md)。精选视频与完整报告可用于面试演示；外部评审者需要单独的仓库访问权限。
+本仓库于 2026-09-21 整理为公开复现包。CAD 打开方式见 [README](README.md)，CPU 头控复现和训练快照说明见 [simulation/README](simulation/README.md)。原始检查点池、完整轨迹与本地开发环境不在仓库内；公开报告只引用随仓库提供的相对路径和冻结哈希。

@@ -1,0 +1,316 @@
+{
+  "n_samples": 9600,
+  "n_joints": 19,
+  "dt_s": 0.0012500000000006395,
+  "record_duration_s": 11.999999999993348,
+  "joints": [
+    {
+      "name": "left_hip_yaw",
+      "torque_rms_nm": 0.04903048982724048,
+      "torque_sq_integral_nm2s": 0.02884786719240435,
+      "positive_mechanical_work_j": 0.04568128464250024,
+      "negative_mechanical_work_j": -0.013028300563025803,
+      "peak_abs_velocity_rad_s": 3.2214298866087048,
+      "limit_ratio_p95": 0.1264170237772266,
+      "high_load_total_s": 0.018750000000009592,
+      "high_load_longest_run_s": 0.017500000000008953,
+      "suspected_stall_events": [],
+      "stall_contact_opposition_s": 0.0
+    },
+    {
+      "name": "left_hip_roll",
+      "torque_rms_nm": 0.03292358850001776,
+      "torque_sq_integral_nm2s": 0.013007552156628674,
+      "positive_mechanical_work_j": 0.04019892485671973,
+      "negative_mechanical_work_j": -0.005065945442855489,
+      "peak_abs_velocity_rad_s": 2.881815104813769,
+      "limit_ratio_p95": 0.08082621056599372,
+      "high_load_total_s": 0.015000000000007674,
+      "high_load_longest_run_s": 0.015000000000007674,
+      "suspected_stall_events": [],
+      "stall_contact_opposition_s": 0.0
+    },
+    {
+      "name": "left_hip_pitch",
+      "torque_rms_nm": 0.04219819038306909,
+      "torque_sq_integral_nm2s": 0.02136824725927986,
+      "positive_mechanical_work_j": 0.18344134189181133,
+      "negative_mechanical_work_j": -0.0017979177792809716,
+      "peak_abs_velocity_rad_s": 5.759876536799055,
+      "limit_ratio_p95": 0.06347307305752209,
+      "high_load_total_s": 0.0825000000000422,
+      "high_load_longest_run_s": 0.0825000000000422,
+      "suspected_stall_events": [],
+      "stall_contact_opposition_s": 0.0
+    },
+    {
+      "name": "left_knee",
+      "torque_rms_nm": 0.1254150277493118,
+      "torque_sq_integral_nm2s": 0.18874715022442431,
+      "positive_mechanical_work_j": 1.891939734202972,
+      "negative_mechanical_work_j": -0.12523423859911523,
+      "peak_abs_velocity_rad_s": 6.640397751658772,
+      "limit_ratio_p95": 1.0,
+      "high_load_total_s": 0.9450000000004835,
+      "high_load_longest_run_s": 0.2687500000001375,
+      "suspected_stall_events": [],
+      "stall_contact_opposition_s": 0.0
+    },
+    {
+      "name": "left_ankle",
+      "torque_rms_nm": 0.24382506422756306,
+      "torque_sq_integral_nm2s": 0.713407943347268,
+      "positive_mechanical_work_j": 7.327026921693896,
+      "negative_mechanical_work_j": -0.47770390635552085,
+      "peak_abs_velocity_rad_s": 6.44315310869741,
+      "limit_ratio_p95": 1.0,
+      "high_load_total_s": 3.5462500000018142,
+      "high_load_longest_run_s": 0.16625000000008505,
+      "suspected_stall_events": [],
+      "stall_contact_opposition_s": 0.0
+    },
+    {
+      "name": "neck_pitch",
+      "torque_rms_nm": 0.25585290086850715,
+      "torque_sq_integral_nm2s": 0.7855284825943637,
+      "positive_mechanical_work_j": 2.6779870160639003,
+      "negative_mechanical_work_j": -0.4141824610018627,
+      "peak_abs_velocity_rad_s": 6.447812247572755,
+      "limit_ratio_p95": 1.0,
+      "high_load_total_s": 2.2625000000011575,
+      "high_load_longest_run_s": 0.5712500000002922,
+      "suspected_stall_events": [],
+      "stall_contact_opposition_s": 0.0
+    },
+    {
+      "name": "head_pitch",
+      "torque_rms_nm": 0.11218210442940682,
+      "torque_sq_integral_nm2s": 0.15101789465060134,
+      "positive_mechanical_work_j": 0.15977878619065294,
+      "negative_mechanical_work_j": -0.10177210301531593,
+      "peak_abs_velocity_rad_s": 1.8070993409956893,
+      "limit_ratio_p95": 0.4296552087643837,
+      "high_load_total_s": 0.04875000000002494,
+      "high_load_longest_run_s": 0.011250000000005755,
+      "suspected_stall_events": [],
+      "stall_contact_opposition_s": 0.0
+    },
+    {
+      "name": "head_yaw",
+      "torque_rms_nm": 0.40507028615250873,
+      "torque_sq_integral_nm2s": 1.9689832406851113,
+      "positive_mechanical_work_j": 1.5749366408764212,
+      "negative_mechanical_work_j": -0.10684546711748573,
+      "peak_abs_velocity_rad_s": 3.343509833710689,
+      "limit_ratio_p95": 1.0,
+      "high_load_total_s": 5.595000000002862,
+      "high_load_longest_run_s": 2.9687499999973017,
+      "suspected_stall_events": [
+        {
+          "start_s": 6.8425,
+          "end_s": 7.21125,
+          "duration_s": 0.36875,
+          "terminated_before_record_end": true
+        },
+        {
+          "start_s": 7.89125,
+          "end_s": 9.65125,
+          "duration_s": 1.76,
+          "terminated_before_record_end": true
+        },
+        {
+          "start_s": 10.19125,
+          "end_s": 10.6325,
+          "duration_s": 0.44125,
+          "terminated_before_record_end": true
+        }
+      ],
+      "stall_contact_opposition_s": 2.570000000001315
+    },
+    {
+      "name": "head_roll",
+      "torque_rms_nm": 0.480370674364661,
+      "torque_sq_integral_nm2s": 2.769071817476127,
+      "positive_mechanical_work_j": 0.6844034594416376,
+      "negative_mechanical_work_j": -0.22765630809345716,
+      "peak_abs_velocity_rad_s": 2.316016726816872,
+      "limit_ratio_p95": 1.0,
+      "high_load_total_s": 7.9312500000040576,
+      "high_load_longest_run_s": 0.721250000000369,
+      "suspected_stall_events": [],
+      "stall_contact_opposition_s": 0.0
+    },
+    {
+      "name": "jaw_hinge",
+      "torque_rms_nm": 0.029272412587378237,
+      "torque_sq_integral_nm2s": 0.010282489664233658,
+      "positive_mechanical_work_j": 0.0005493036461623083,
+      "negative_mechanical_work_j": -0.008230036288499356,
+      "peak_abs_velocity_rad_s": 0.41276050238755146,
+      "limit_ratio_p95": 0.028806920405480933,
+      "high_load_total_s": 0.0,
+      "high_load_longest_run_s": 0.0,
+      "suspected_stall_events": [],
+      "stall_contact_opposition_s": 0.0
+    },
+    {
+      "name": "right_hip_yaw",
+      "torque_rms_nm": 0.23028282558900182,
+      "torque_sq_integral_nm2s": 0.636362157135381,
+      "positive_mechanical_work_j": 0.22772661598570698,
+      "negative_mechanical_work_j": -0.3936664161050887,
+      "peak_abs_velocity_rad_s": 4.775135476716133,
+      "limit_ratio_p95": 1.0,
+      "high_load_total_s": 0.9075000000004643,
+      "high_load_longest_run_s": 0.15125000000007738,
+      "suspected_stall_events": [],
+      "stall_contact_opposition_s": 0.0
+    },
+    {
+      "name": "right_hip_roll",
+      "torque_rms_nm": 0.10041722488554503,
+      "torque_sq_integral_nm2s": 0.12100342864463139,
+      "positive_mechanical_work_j": 0.07662097451013186,
+      "negative_mechanical_work_j": -0.110951800269131,
+      "peak_abs_velocity_rad_s": 2.6596104560841956,
+      "limit_ratio_p95": 0.39742761063784793,
+      "high_load_total_s": 0.06375000000003261,
+      "high_load_longest_run_s": 0.03125000000001599,
+      "suspected_stall_events": [],
+      "stall_contact_opposition_s": 0.0
+    },
+    {
+      "name": "right_hip_pitch",
+      "torque_rms_nm": 0.14518923809430387,
+      "torque_sq_integral_nm2s": 0.2529589783009829,
+      "positive_mechanical_work_j": 0.5864244792839468,
+      "negative_mechanical_work_j": -0.24319576801324386,
+      "peak_abs_velocity_rad_s": 7.177915267052949,
+      "limit_ratio_p95": 0.6826295726594208,
+      "high_load_total_s": 0.4587500000002347,
+      "high_load_longest_run_s": 0.23500000000012022,
+      "suspected_stall_events": [],
+      "stall_contact_opposition_s": 0.0
+    },
+    {
+      "name": "right_knee",
+      "torque_rms_nm": 0.35036945051876583,
+      "torque_sq_integral_nm2s": 1.4731050222826163,
+      "positive_mechanical_work_j": 13.568197688599081,
+      "negative_mechanical_work_j": -1.0094371252012115,
+      "peak_abs_velocity_rad_s": 6.831788332463056,
+      "limit_ratio_p95": 1.0,
+      "high_load_total_s": 7.218750000003693,
+      "high_load_longest_run_s": 0.3487500000001784,
+      "suspected_stall_events": [],
+      "stall_contact_opposition_s": 0.0
+    },
+    {
+      "name": "right_ankle",
+      "torque_rms_nm": 0.4747238399577079,
+      "torque_sq_integral_nm2s": 2.704352690691681,
+      "positive_mechanical_work_j": 9.561412135643963,
+      "negative_mechanical_work_j": -0.5290549320496163,
+      "peak_abs_velocity_rad_s": 6.41757272125967,
+      "limit_ratio_p95": 1.0,
+      "high_load_total_s": 10.343750000005292,
+      "high_load_longest_run_s": 1.6000000000008185,
+      "suspected_stall_events": [
+        {
+          "start_s": 1.72125,
+          "end_s": 2.02125,
+          "duration_s": 0.3,
+          "terminated_before_record_end": true
+        }
+      ],
+      "stall_contact_opposition_s": 0.3000000000001535
+    },
+    {
+      "name": "tail_yaw",
+      "torque_rms_nm": 0.34346615008124803,
+      "torque_sq_integral_nm2s": 1.4156279550203368,
+      "positive_mechanical_work_j": 2.200371481472347,
+      "negative_mechanical_work_j": -1.2748737942373947,
+      "peak_abs_velocity_rad_s": 8.413920214316317,
+      "limit_ratio_p95": 1.0,
+      "high_load_total_s": 2.5950000000013276,
+      "high_load_longest_run_s": 0.2625000000001343,
+      "suspected_stall_events": [],
+      "stall_contact_opposition_s": 0.0
+    },
+    {
+      "name": "tail_pitch",
+      "torque_rms_nm": 0.32119446983386496,
+      "torque_sq_integral_nm2s": 1.2379906494229242,
+      "positive_mechanical_work_j": 3.493898930080792,
+      "negative_mechanical_work_j": -1.4587536095506346,
+      "peak_abs_velocity_rad_s": 7.027052966891135,
+      "limit_ratio_p95": 1.0,
+      "high_load_total_s": 3.9712500000020317,
+      "high_load_longest_run_s": 0.40000000000020464,
+      "suspected_stall_events": [],
+      "stall_contact_opposition_s": 0.0
+    },
+    {
+      "name": "arm_l",
+      "torque_rms_nm": 0.1342952369499981,
+      "torque_sq_integral_nm2s": 0.21642252800958428,
+      "positive_mechanical_work_j": 1.1220047111128286,
+      "negative_mechanical_work_j": -0.7908717757743849,
+      "peak_abs_velocity_rad_s": 11.494728656459786,
+      "limit_ratio_p95": 1.0,
+      "high_load_total_s": 0.9000000000004604,
+      "high_load_longest_run_s": 0.09125000000004668,
+      "suspected_stall_events": [],
+      "stall_contact_opposition_s": 0.0
+    },
+    {
+      "name": "arm_r",
+      "torque_rms_nm": 0.055126247265728484,
+      "torque_sq_integral_nm2s": 0.036466837651245504,
+      "positive_mechanical_work_j": 0.27693420523270235,
+      "negative_mechanical_work_j": -0.15862127548002122,
+      "peak_abs_velocity_rad_s": 10.962609216296872,
+      "limit_ratio_p95": 0.1463133832255662,
+      "high_load_total_s": 0.14500000000007418,
+      "high_load_longest_run_s": 0.0825000000000422,
+      "suspected_stall_events": [],
+      "stall_contact_opposition_s": 0.0
+    }
+  ],
+  "caveats": [
+    "Metrics are screening indicators for independent review.",
+    "Ratios and 'high load' are dynamic margin proxies, not temperature estimates, burnout times, or hardware safety thresholds.",
+    "Suspected-stall flags are heuristic: contact alone does not prove a joint is stuck; high load alone does not either.",
+    "'terminated_before_record_end' only notes the condition ceased before the record ends; it is NOT evidence of successful release.",
+    "The leading 0.5 s is never flagged; normal standing with high progress is not flagged."
+  ],
+  "initial_hash": "b1470923d39474f06ab66a889ec249c1ab7bd6eb4f511a882de462f47c5fe938",
+  "initial_internal_contacts": 0,
+  "added_contacts_enabled": true,
+  "pair_contacts": {
+    "motor_support__047 / yaw_roll_motion__039": {
+      "contact_seconds": 6.493749999999779,
+      "longest_contact_seconds": 2.328750000000014,
+      "peak_single_contact_N": 35.1264208555026,
+      "max_depth_mm": 0.11729074706260569,
+      "current_seconds": 0.0
+    },
+    "S288_right_ankle_CASE / ankle_right__077": {
+      "contact_seconds": 5.447499999999987,
+      "longest_contact_seconds": 1.3687499999999764,
+      "peak_single_contact_N": 50.28946592419781,
+      "max_depth_mm": 0.12146581191942027,
+      "current_seconds": 0.04375000000000002
+    },
+    "V13_Microduck_Head_Pan / neck_pitch__037": {
+      "contact_seconds": 7.317499999999615,
+      "longest_contact_seconds": 2.962500000000113,
+      "peak_single_contact_N": 100.48391935091695,
+      "max_depth_mm": 0.25080222234622396,
+      "current_seconds": 0.22000000000000017
+    }
+  },
+  "steps": 9600,
+  "reference": "Identical r7 physical preparation; intervention after preparation; original ground contacts retained"
+}

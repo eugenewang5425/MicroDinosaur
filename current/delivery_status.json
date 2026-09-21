@@ -2,7 +2,7 @@
   "status": "CURRENT v07: nominal second JY61P in rigid head carrier; not hardware/printing/electrical/continuous-motion release",
   "models": [
     {
-      "file": "D:\\项目\\竞赛\\DuckReplica\\current\\MicroDinosaur_v1.blender",
+      "file": "current/MicroDinosaur_v1.blender",
       "sha256": "0a4f86aefea24e0d5260c837849a16164ec83cc2d364f58e6c03947de95ce286",
       "objects": 755,
       "actuators": 19,
@@ -55,7 +55,7 @@
     "actual_pose_matrix_checks": 1605,
     "max_pose_matrix_error_mm": 0.0,
     "arm_inner_rotor_gap_mm": 0.8457924498741535,
-    "evidence_directory": "D:\\项目\\竞赛\\DuckReplica\\work_in_progress\\front_mount_v06"
+    "evidence_directory": "work_in_progress/front_mount_v06"
   },
   "modeled_imu_count": 2,
   "latest_delta_audit": {
@@ -74,6 +74,6 @@
     "head_nut_samples_per_path": 17,
     "board_removal_samples": 41,
     "nominal_screw_to_skull_min_mm": 0.6157083117436134,
-    "evidence_directory": "D:\\项目\\竞赛\\DuckReplica\\work_in_progress\\head_imu_v07"
+    "evidence_directory": "work_in_progress/head_imu_v07"
   }
 }

@@ -1,0 +1,28 @@
+{
+  "decision": "research_only",
+  "stage1_gate_passed": false,
+  "stage2_gate_passed": false,
+  "stage1_onnx_sha256": "a2a89b52a3327039eb709ac8f1583f63315ee1f15ef08c88d422fc39c170d146",
+  "stage2_onnx_sha256": "3525afcb21b912e3cad3512815f9ba10348b3d7c6d10892f2b2c01c4621d945c",
+  "baseline_onnx_sha256": "9a29cf2a188e7fb59ea11514cc2b5eae6e977fb139c7d0c155c8a3baa9a13a89",
+  "failed_checks": {
+    "stage1": [
+      "40_load_files",
+      "front_at_least_5_of_10",
+      "left_at_least_3_of_10",
+      "side_combined_at_least_8_of_20",
+      "no_tail_limit_violation",
+      "no_joint_limit_excess",
+      "no_high_load_run_over_0_5_s"
+    ],
+    "stage2": [
+      "left_at_least_3_of_10",
+      "right_at_least_3_of_10",
+      "side_combined_at_least_8_of_20",
+      "no_tail_cradle_contact",
+      "no_tail_limit_violation",
+      "no_joint_limit_excess",
+      "no_high_load_run_over_0_5_s"
+    ]
+  }
+}

@@ -24,7 +24,7 @@ for o in bpy.data.objects:
  rows[o.name]=r
 assert not (P/'basis.json').exists(),'Snapshot already frozen'
 np.savez_compressed(P/'basis_meshes.npz',**a)
-(P/'basis.json').write_text(json.dumps(dict(source=bpy.data.filepath,source_sha256=H,objects=rows),indent=2))
+(P/'basis.json').write_text(json.dumps(dict(source=Path(bpy.data.filepath).resolve().relative_to(R.resolve()).as_posix(),source_sha256=H,objects=rows),indent=2))
 shutil.copy2(Path(bpy.data.filepath),P/'BEFORE_HEAD_IMU_RETIRED_INPUT.blender')
 for n in ['model_manifest.json','delivery_status.json','mass_estimate.json','parts_mass_estimate.csv','battery_design_target.json','s288_joint_bus_map.json','fastener_interface_schedule.csv']:
  shutil.copy2(R/'current'/n,P/('source_'+n))

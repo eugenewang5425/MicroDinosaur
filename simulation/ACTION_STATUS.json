@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "updated": "2026-09-21",
+  "scope": "bounded simulation only; no hardware qualification",
+  "actions": {
+    "basic_walk_head_imu": {
+      "status": "bounded_simulation_reference",
+      "packaged_tests_passed": 14,
+      "packaged_tests_total": 14
+    },
+    "squat_25mm": {
+      "status": "pass_tested_flat_ground_condition",
+      "collision_off": "20/20",
+      "collision_on": "20/20",
+      "fully_folded_posture": false
+    },
+    "fully_folded_special_squat": {
+      "status": "not_qualified"
+    },
+    "getup": {
+      "status": "research_only",
+      "baseline_strict": "15/40",
+      "stage1_strict": "17/40",
+      "stage2_strict": "18/40",
+      "baseline_mechanical_excluding_yaw": "28/40",
+      "stage1_mechanical_excluding_yaw": "26/40",
+      "stage2_mechanical_excluding_yaw": "29/40",
+      "stage2_strict_by_direction": {
+        "front": "5/10",
+        "back": "10/10",
+        "left": "1/10",
+        "right": "2/10"
+      },
+      "promoted": false
+    },
+    "fast_run": {
+      "status": "not_qualified",
+      "collision_off": "0/20",
+      "collision_on": "0/20",
+      "confirmed_flight_phase": false
+    },
+    "small_jump_return": {
+      "status": "research_only",
+      "new_nominal_initial_states": "7/9",
+      "stress_conditions": "3/7"
+    },
+    "continuous_high_steps": {
+      "status": "deferred"
+    }
+  }
+}

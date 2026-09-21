@@ -23,6 +23,18 @@ from mjlab.scripts.train import TrainConfig, run_train
 from mjlab_microduck.export import ExportConfig, run_export
 
 
+REPOSITORY_ROOT = Path(__file__).resolve().parents[2]
+
+
+def portable_path(path):
+    """Record a repository-relative path, or only a filename for external input."""
+    resolved = Path(path).resolve()
+    try:
+        return resolved.relative_to(REPOSITORY_ROOT).as_posix()
+    except ValueError:
+        return f"external/{resolved.name}"
+
+
 def delay_contract(cfg):
     fields = ('delay_min_lag', 'delay_max_lag', 'delay_hold_prob', 'delay_update_period')
     return {
@@ -111,7 +123,9 @@ def main():
         cfg.agent.algorithm.learning_rate = args.learning_rate
         cfg.agent.algorithm.schedule = 'fixed'
     cfg = dataclasses.replace(cfg, enable_nan_guard=True)
-    provenance = {**vars(args), 'source_checkpoint_sha256': hashlib.sha256(checkpoint.read_bytes()).hexdigest(),
+    recorded_args = {**vars(args), 'xml': portable_path(args.xml),
+                     'checkpoint': portable_path(checkpoint), 'out': portable_path(out)}
+    provenance = {**recorded_args, 'source_checkpoint_sha256': hashlib.sha256(checkpoint.read_bytes()).hexdigest(),
                   'model_xml_sha256': hashlib.sha256(Path(args.xml).read_bytes()).hexdigest(),
                   'same_81D_actor_contract': True, 'head_IMU_actor_input': False,
                   'algorithm_changes': 'none' if args.learning_rate is None else 'fixed learning rate',
@@ -136,7 +150,7 @@ def main():
     for i, path in enumerate(source_files):
         dest = snapshot / f'{i}_{path.name}'
         shutil.copy2(path, dest)
-        provenance['source_files'].append({'path': str(path), 'snapshot': str(dest),
+        provenance['source_files'].append({'path': portable_path(path), 'snapshot': portable_path(dest),
                                            'sha256': hashlib.sha256(path.read_bytes()).hexdigest()})
     record = out / 'run_provenance.json'
     record.write_text(json.dumps(provenance, indent=2), encoding='utf-8')
@@ -152,8 +166,8 @@ def main():
     session = ort.InferenceSession(str(export.onnx_path), providers=['CPUExecutionProvider'])
     y = session.run(None, {'obs': np.zeros((1, 81), dtype=np.float32)})[0]
     assert y.shape == (1, 19) and np.isfinite(y).all()
-    provenance.update(status='COMPLETE', final_checkpoint=str(final),
-                      onnx=str(export.onnx_path), finite_output_check=True,
+    provenance.update(status='COMPLETE', final_checkpoint=portable_path(final),
+                      onnx=portable_path(export.onnx_path), finite_output_check=True,
                       final_checkpoint_sha256=hashlib.sha256(final.read_bytes()).hexdigest())
     record.write_text(json.dumps(provenance, indent=2), encoding='utf-8')
     print(json.dumps(provenance, indent=2), flush=True)

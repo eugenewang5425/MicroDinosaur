@@ -1,5 +1,5 @@
 {
-  "file": "D:\\项目\\竞赛\\DuckReplica\\current\\MicroDinosaur_v1.blender",
+  "file": "current/MicroDinosaur_v1.blender",
   "sha256": "0a4f86aefea24e0d5260c837849a16164ec83cc2d364f58e6c03947de95ce286",
   "variant": "MicroDinosaur_v1_HEAD_AND_BODY_JY61P_NOMINAL_MECHANICAL_REVIEW",
   "objects": [
@@ -9954,9 +9954,9 @@
   "actual_battery_leads_and_polarity_verified": false,
   "source_blueprint_sha256": "16bc3a0c14ee2c6e4c587d992ec4eb1320338bed4b6a1e1520135f899f2e5434",
   "original_blueprint_unchanged": true,
-  "recovery_copy": "D:\\项目\\竞赛\\DuckReplica\\exports\\retired_before_head_imu_v07_20260913\\MicroDinosaur_v1_v06_RETIRED.blender",
-  "local_parts_backup": "D:\\项目\\竞赛\\DuckReplica\\exports\\retired_before_head_imu_v07_20260913\\HEAD_LOCAL_v06_NOT_CURRENT.blend",
-  "evidence_directory": "D:\\项目\\竞赛\\DuckReplica\\work_in_progress\\head_imu_v07",
+  "recovery_copy": "local_archive/exports/retired_before_head_imu_v07_20260913/MicroDinosaur_v1_v06_RETIRED.blender",
+  "local_parts_backup": "local_archive/exports/retired_before_head_imu_v07_20260913/HEAD_LOCAL_v06_NOT_CURRENT.blend",
+  "evidence_directory": "work_in_progress/head_imu_v07",
   "screenshots_version": "20260913_07",
   "body_imu": "JY61P_NOMINAL_ENVELOPE",
   "modeled_imu_count": 2,

@@ -1,0 +1,298 @@
+{
+  "schema_version": 1,
+  "paired": true,
+  "seed_range": [
+    969,
+    978
+  ],
+  "directions": [
+    "front",
+    "back",
+    "left",
+    "right"
+  ],
+  "full_initial_hash_match_cases": {
+    "baseline_vs_stage1_vs_stage2": 38,
+    "baseline_vs_stage2": 40
+  },
+  "logged_reset_metric_match_cases": 40,
+  "baseline": {
+    "case_count": 40,
+    "pass_count": 15,
+    "pass_rate": 0.375,
+    "passed_by_direction": {
+      "front": 2,
+      "back": 10,
+      "left": 0,
+      "right": 3
+    },
+    "mechanical_recovery_excluding_yaw_count": 28,
+    "mechanical_recovery_excluding_yaw_by_direction": {
+      "front": 9,
+      "back": 10,
+      "left": 2,
+      "right": 7
+    },
+    "yaw_only_failure_count": 13,
+    "rejected_count": 0,
+    "max_penetration_mm": 3.0923605002200865,
+    "max_joint_limit_excess_deg": 0.2788001523856504,
+    "tail_dynamic_violation_count": 0,
+    "minimum_tail_pitch_deg": -22.312023155054117,
+    "tail_cradle_contact_case_count": 0,
+    "tail_cradle_contact_cases": [],
+    "max_high_load_longest_run": {
+      "seconds": 2.9687499999973017,
+      "case": "left_c10_s975",
+      "joint": "head_yaw"
+    },
+    "load_initial_hashes": {
+      "back_c10_s969": "da19606dcc684d75da58097c4b1b81026dfb0aa9af2e87459217526eb68052a2",
+      "back_c10_s970": "793328afc000aa24f1ccaf8c577a6b1f2b89d7f5d3e189efb13d40fe93117d4a",
+      "back_c10_s971": "7aaff8197d2929d61d6f19ccf91dfc1ff62895e869d2a4b7dd51fe260d7e72db",
+      "back_c10_s972": "0fe9ccc8373630b19620dda9ca6713fde7e6afb6a510f9c76b7f1b4241fff051",
+      "back_c10_s973": "5802868b76271f1a58dec0622cb31872284e150918efcf31956791d327dde114",
+      "back_c10_s974": "27645eccac9537555a3a019a9fb6e3a7fd5dfeb4ae17a804fd2776a6bb4a9d73",
+      "back_c10_s975": "8a5041b59e3761c12043601476dd170459186c3dd5ff58c4413442d3824d366d",
+      "back_c10_s976": "eff2995c5cfeffeb2872340e003b94ea093bedf89e25681e00ad1e64f8dbd3cc",
+      "back_c10_s977": "9eca247d428b9e303946c7e73863ef2dbde90da7ff634e1ea9ce598b3e172ef8",
+      "back_c10_s978": "352d83a3777e431ba38964d9a15fe149316ada958eaf2a85185fe95b661f2100",
+      "front_c10_s969": "a96509c3af727ef3c2fb0a16bd2b99c02ae16f2fb3fe96b523019be19c0d62b2",
+      "front_c10_s970": "f7964c4c5625eb9ba1595edeb5aa544c997e5cae39169a20041267ae9890fb6a",
+      "front_c10_s971": "23c75b86a7cee328e1d97750bbf629f8212443d4f9a92fed7019a43207947e09",
+      "front_c10_s972": "aa85cba6a93bd81305e1f4d597a62f8de614324f49918edaa6d6053a4540f1c2",
+      "front_c10_s973": "199075f51a7d446099559afa1220734c55fa01c7313249cc42fffab37b0176a5",
+      "front_c10_s974": "15d342a08d44842981c6af3b60fcdb65d0e00e9040f57e77c7c0e7d58d11db59",
+      "front_c10_s975": "6325b2b7b203b48aea7f3cf89aa27e947ded1817cbd0022ddd10bf3f77e765ff",
+      "front_c10_s976": "f04b71fd9adac938eb2590954ba2eddcc16eb986fe25c660dbf57c26c4e5f3d9",
+      "front_c10_s977": "c8e8214b605a07d41e8dd75bcd7b152a94ee8c7cc0943d7831af768036e6436c",
+      "front_c10_s978": "e6e59bc13d3c5740b51bb8c03c7de85f5a803f8d28dbb0017fe77ea1fdfad317",
+      "left_c10_s969": "1c4cfcf533e0830e675208c6061f9386fea477c6523c818a6b71395154ca8870",
+      "left_c10_s970": "08db5c00e24d822d2201cc29d48f3c9b2193e3454171b92714ec841a634b828c",
+      "left_c10_s971": "4400ea4b47bb86b7cc66ce9679ed11106d7d39a27d6f176fc82046532681e377",
+      "left_c10_s972": "c787644d38e76f073e169f2a09235d07cfd6544828dbe195fa9402843f1439fd",
+      "left_c10_s973": "0c6775f0cb1318d7e4265e86e7ac1a5dcee7472331cd73f45a9a35ec33ec0c58",
+      "left_c10_s974": "809fd7454508efc0a2474f3c6fe2efcc2f3e2f9354d8ec724a83660728327452",
+      "left_c10_s975": "b1470923d39474f06ab66a889ec249c1ab7bd6eb4f511a882de462f47c5fe938",
+      "left_c10_s976": "87ec4dc293f7e1dc36ec871ae9c4410923cec19e56f34e00a26eddaffd20d838",
+      "left_c10_s977": "b95eebc78c2fd811a383e133df51a57a7d56005917b969183b65c90512872a47",
+      "left_c10_s978": "4dcd927d6158893a931c1f4cbb9baf952446297133f23c5a4afd23338465f18e",
+      "right_c10_s969": "9cf24f27e36d4ede04c34e721c105b1089ce7343728bc66892829e4189e0d0f9",
+      "right_c10_s970": "3f92d241b9269b6d0ee87e345c5ee4c2796000d49bb3d15f1f8f46e8903605d0",
+      "right_c10_s971": "cfa147bbcb5b8256bdb02b1a122bb65798e4e1e981a6fa8e1d95dbda4ca5fa15",
+      "right_c10_s972": "ba25b23edde337276c661c101d4e7abf32b9fd0c73827305f644ed990453e63c",
+      "right_c10_s973": "3e3347a0b30556077022eb6616fcd3d42a9961e897f792fa5efb6739e1d2fcca",
+      "right_c10_s974": "5f41aa36eb6f43025f4432dea631128b13a9adaf43dd0c7c48bc85a719ba7acb",
+      "right_c10_s975": "db188dee7d851b4150e93afe63d08491eb5ac07875fee26e1bd79295551eb09a",
+      "right_c10_s976": "549cbb07cfb849c7a88373a3cae0c27958c9b18b2f5372e4961e30a08daf1db4",
+      "right_c10_s977": "d755d35e142ae2b00660007b8145fcc3bdb16867a5be2d9a2161b2afe4357020",
+      "right_c10_s978": "6f6ffc93219d30484a8e0aff9ea027f56c880b35ed508e6d05a51b4b24f4b7a9"
+    },
+    "load_file_count": 40,
+    "missing_load_files": []
+  },
+  "stage1": {
+    "case_count": 40,
+    "pass_count": 17,
+    "pass_rate": 0.425,
+    "passed_by_direction": {
+      "front": 4,
+      "back": 10,
+      "left": 0,
+      "right": 3
+    },
+    "mechanical_recovery_excluding_yaw_count": 26,
+    "mechanical_recovery_excluding_yaw_by_direction": {
+      "front": 7,
+      "back": 10,
+      "left": 4,
+      "right": 5
+    },
+    "yaw_only_failure_count": 9,
+    "rejected_count": 2,
+    "max_penetration_mm": 4.488250334919161,
+    "max_joint_limit_excess_deg": 0.2829686378985743,
+    "tail_dynamic_violation_count": 2,
+    "minimum_tail_pitch_deg": -25.766369070265842,
+    "tail_cradle_contact_case_count": 0,
+    "tail_cradle_contact_cases": [],
+    "max_high_load_longest_run": {
+      "seconds": 5.2899999999951905,
+      "case": "left_c10_s969",
+      "joint": "head_roll"
+    },
+    "load_initial_hashes": {
+      "back_c10_s969": "da19606dcc684d75da58097c4b1b81026dfb0aa9af2e87459217526eb68052a2",
+      "back_c10_s970": "793328afc000aa24f1ccaf8c577a6b1f2b89d7f5d3e189efb13d40fe93117d4a",
+      "back_c10_s971": "7aaff8197d2929d61d6f19ccf91dfc1ff62895e869d2a4b7dd51fe260d7e72db",
+      "back_c10_s972": "0fe9ccc8373630b19620dda9ca6713fde7e6afb6a510f9c76b7f1b4241fff051",
+      "back_c10_s973": "5802868b76271f1a58dec0622cb31872284e150918efcf31956791d327dde114",
+      "back_c10_s974": "27645eccac9537555a3a019a9fb6e3a7fd5dfeb4ae17a804fd2776a6bb4a9d73",
+      "back_c10_s975": "8a5041b59e3761c12043601476dd170459186c3dd5ff58c4413442d3824d366d",
+      "back_c10_s976": "eff2995c5cfeffeb2872340e003b94ea093bedf89e25681e00ad1e64f8dbd3cc",
+      "back_c10_s977": "9eca247d428b9e303946c7e73863ef2dbde90da7ff634e1ea9ce598b3e172ef8",
+      "back_c10_s978": "352d83a3777e431ba38964d9a15fe149316ada958eaf2a85185fe95b661f2100",
+      "front_c10_s969": "a96509c3af727ef3c2fb0a16bd2b99c02ae16f2fb3fe96b523019be19c0d62b2",
+      "front_c10_s970": "f7964c4c5625eb9ba1595edeb5aa544c997e5cae39169a20041267ae9890fb6a",
+      "front_c10_s971": "23c75b86a7cee328e1d97750bbf629f8212443d4f9a92fed7019a43207947e09",
+      "front_c10_s972": "aa85cba6a93bd81305e1f4d597a62f8de614324f49918edaa6d6053a4540f1c2",
+      "front_c10_s973": "199075f51a7d446099559afa1220734c55fa01c7313249cc42fffab37b0176a5",
+      "front_c10_s974": "15d342a08d44842981c6af3b60fcdb65d0e00e9040f57e77c7c0e7d58d11db59",
+      "front_c10_s975": "6325b2b7b203b48aea7f3cf89aa27e947ded1817cbd0022ddd10bf3f77e765ff",
+      "front_c10_s977": "c8e8214b605a07d41e8dd75bcd7b152a94ee8c7cc0943d7831af768036e6436c",
+      "front_c10_s978": "e6e59bc13d3c5740b51bb8c03c7de85f5a803f8d28dbb0017fe77ea1fdfad317",
+      "left_c10_s969": "1c4cfcf533e0830e675208c6061f9386fea477c6523c818a6b71395154ca8870",
+      "left_c10_s970": "08db5c00e24d822d2201cc29d48f3c9b2193e3454171b92714ec841a634b828c",
+      "left_c10_s971": "4400ea4b47bb86b7cc66ce9679ed11106d7d39a27d6f176fc82046532681e377",
+      "left_c10_s972": "c787644d38e76f073e169f2a09235d07cfd6544828dbe195fa9402843f1439fd",
+      "left_c10_s974": "809fd7454508efc0a2474f3c6fe2efcc2f3e2f9354d8ec724a83660728327452",
+      "left_c10_s975": "b1470923d39474f06ab66a889ec249c1ab7bd6eb4f511a882de462f47c5fe938",
+      "left_c10_s976": "87ec4dc293f7e1dc36ec871ae9c4410923cec19e56f34e00a26eddaffd20d838",
+      "left_c10_s977": "b95eebc78c2fd811a383e133df51a57a7d56005917b969183b65c90512872a47",
+      "left_c10_s978": "4dcd927d6158893a931c1f4cbb9baf952446297133f23c5a4afd23338465f18e",
+      "right_c10_s969": "9cf24f27e36d4ede04c34e721c105b1089ce7343728bc66892829e4189e0d0f9",
+      "right_c10_s970": "3f92d241b9269b6d0ee87e345c5ee4c2796000d49bb3d15f1f8f46e8903605d0",
+      "right_c10_s971": "cfa147bbcb5b8256bdb02b1a122bb65798e4e1e981a6fa8e1d95dbda4ca5fa15",
+      "right_c10_s972": "ba25b23edde337276c661c101d4e7abf32b9fd0c73827305f644ed990453e63c",
+      "right_c10_s973": "3e3347a0b30556077022eb6616fcd3d42a9961e897f792fa5efb6739e1d2fcca",
+      "right_c10_s974": "5f41aa36eb6f43025f4432dea631128b13a9adaf43dd0c7c48bc85a719ba7acb",
+      "right_c10_s975": "db188dee7d851b4150e93afe63d08491eb5ac07875fee26e1bd79295551eb09a",
+      "right_c10_s976": "549cbb07cfb849c7a88373a3cae0c27958c9b18b2f5372e4961e30a08daf1db4",
+      "right_c10_s977": "d755d35e142ae2b00660007b8145fcc3bdb16867a5be2d9a2161b2afe4357020",
+      "right_c10_s978": "6f6ffc93219d30484a8e0aff9ea027f56c880b35ed508e6d05a51b4b24f4b7a9"
+    },
+    "load_file_count": 38,
+    "missing_load_files": [
+      "front_c10_s976",
+      "left_c10_s973"
+    ]
+  },
+  "stage2": {
+    "case_count": 40,
+    "pass_count": 18,
+    "pass_rate": 0.45,
+    "passed_by_direction": {
+      "front": 5,
+      "back": 10,
+      "left": 1,
+      "right": 2
+    },
+    "mechanical_recovery_excluding_yaw_count": 29,
+    "mechanical_recovery_excluding_yaw_by_direction": {
+      "front": 8,
+      "back": 10,
+      "left": 5,
+      "right": 6
+    },
+    "yaw_only_failure_count": 11,
+    "rejected_count": 0,
+    "max_penetration_mm": 6.467407631318742,
+    "max_joint_limit_excess_deg": 1.5116794153348347,
+    "tail_dynamic_violation_count": 2,
+    "minimum_tail_pitch_deg": -26.234059123472935,
+    "tail_cradle_contact_case_count": 1,
+    "tail_cradle_contact_cases": [
+      {
+        "case": "left_c10_s978",
+        "contact_seconds": 0.005,
+        "longest_contact_seconds": 0.005,
+        "peak_single_contact_N": 0.1308333759834731,
+        "max_depth_mm": 0.015073803157552171,
+        "current_seconds": 0.0
+      }
+    ],
+    "max_high_load_longest_run": {
+      "seconds": 0.9600000000004911,
+      "case": "front_c10_s972",
+      "joint": "right_ankle"
+    },
+    "load_initial_hashes": {
+      "back_c10_s969": "da19606dcc684d75da58097c4b1b81026dfb0aa9af2e87459217526eb68052a2",
+      "back_c10_s970": "793328afc000aa24f1ccaf8c577a6b1f2b89d7f5d3e189efb13d40fe93117d4a",
+      "back_c10_s971": "7aaff8197d2929d61d6f19ccf91dfc1ff62895e869d2a4b7dd51fe260d7e72db",
+      "back_c10_s972": "0fe9ccc8373630b19620dda9ca6713fde7e6afb6a510f9c76b7f1b4241fff051",
+      "back_c10_s973": "5802868b76271f1a58dec0622cb31872284e150918efcf31956791d327dde114",
+      "back_c10_s974": "27645eccac9537555a3a019a9fb6e3a7fd5dfeb4ae17a804fd2776a6bb4a9d73",
+      "back_c10_s975": "8a5041b59e3761c12043601476dd170459186c3dd5ff58c4413442d3824d366d",
+      "back_c10_s976": "eff2995c5cfeffeb2872340e003b94ea093bedf89e25681e00ad1e64f8dbd3cc",
+      "back_c10_s977": "9eca247d428b9e303946c7e73863ef2dbde90da7ff634e1ea9ce598b3e172ef8",
+      "back_c10_s978": "352d83a3777e431ba38964d9a15fe149316ada958eaf2a85185fe95b661f2100",
+      "front_c10_s969": "a96509c3af727ef3c2fb0a16bd2b99c02ae16f2fb3fe96b523019be19c0d62b2",
+      "front_c10_s970": "f7964c4c5625eb9ba1595edeb5aa544c997e5cae39169a20041267ae9890fb6a",
+      "front_c10_s971": "23c75b86a7cee328e1d97750bbf629f8212443d4f9a92fed7019a43207947e09",
+      "front_c10_s972": "aa85cba6a93bd81305e1f4d597a62f8de614324f49918edaa6d6053a4540f1c2",
+      "front_c10_s973": "199075f51a7d446099559afa1220734c55fa01c7313249cc42fffab37b0176a5",
+      "front_c10_s974": "15d342a08d44842981c6af3b60fcdb65d0e00e9040f57e77c7c0e7d58d11db59",
+      "front_c10_s975": "6325b2b7b203b48aea7f3cf89aa27e947ded1817cbd0022ddd10bf3f77e765ff",
+      "front_c10_s976": "f04b71fd9adac938eb2590954ba2eddcc16eb986fe25c660dbf57c26c4e5f3d9",
+      "front_c10_s977": "c8e8214b605a07d41e8dd75bcd7b152a94ee8c7cc0943d7831af768036e6436c",
+      "front_c10_s978": "e6e59bc13d3c5740b51bb8c03c7de85f5a803f8d28dbb0017fe77ea1fdfad317",
+      "left_c10_s969": "1c4cfcf533e0830e675208c6061f9386fea477c6523c818a6b71395154ca8870",
+      "left_c10_s970": "08db5c00e24d822d2201cc29d48f3c9b2193e3454171b92714ec841a634b828c",
+      "left_c10_s971": "4400ea4b47bb86b7cc66ce9679ed11106d7d39a27d6f176fc82046532681e377",
+      "left_c10_s972": "c787644d38e76f073e169f2a09235d07cfd6544828dbe195fa9402843f1439fd",
+      "left_c10_s973": "0c6775f0cb1318d7e4265e86e7ac1a5dcee7472331cd73f45a9a35ec33ec0c58",
+      "left_c10_s974": "809fd7454508efc0a2474f3c6fe2efcc2f3e2f9354d8ec724a83660728327452",
+      "left_c10_s975": "b1470923d39474f06ab66a889ec249c1ab7bd6eb4f511a882de462f47c5fe938",
+      "left_c10_s976": "87ec4dc293f7e1dc36ec871ae9c4410923cec19e56f34e00a26eddaffd20d838",
+      "left_c10_s977": "b95eebc78c2fd811a383e133df51a57a7d56005917b969183b65c90512872a47",
+      "left_c10_s978": "4dcd927d6158893a931c1f4cbb9baf952446297133f23c5a4afd23338465f18e",
+      "right_c10_s969": "9cf24f27e36d4ede04c34e721c105b1089ce7343728bc66892829e4189e0d0f9",
+      "right_c10_s970": "3f92d241b9269b6d0ee87e345c5ee4c2796000d49bb3d15f1f8f46e8903605d0",
+      "right_c10_s971": "cfa147bbcb5b8256bdb02b1a122bb65798e4e1e981a6fa8e1d95dbda4ca5fa15",
+      "right_c10_s972": "ba25b23edde337276c661c101d4e7abf32b9fd0c73827305f644ed990453e63c",
+      "right_c10_s973": "3e3347a0b30556077022eb6616fcd3d42a9961e897f792fa5efb6739e1d2fcca",
+      "right_c10_s974": "5f41aa36eb6f43025f4432dea631128b13a9adaf43dd0c7c48bc85a719ba7acb",
+      "right_c10_s975": "db188dee7d851b4150e93afe63d08491eb5ac07875fee26e1bd79295551eb09a",
+      "right_c10_s976": "549cbb07cfb849c7a88373a3cae0c27958c9b18b2f5372e4961e30a08daf1db4",
+      "right_c10_s977": "d755d35e142ae2b00660007b8145fcc3bdb16867a5be2d9a2161b2afe4357020",
+      "right_c10_s978": "6f6ffc93219d30484a8e0aff9ea027f56c880b35ed508e6d05a51b4b24f4b7a9"
+    },
+    "load_file_count": 40,
+    "missing_load_files": []
+  },
+  "delta_pass_count": {
+    "stage1": 2,
+    "stage2": 3
+  },
+  "gates": {
+    "stage1": {
+      "passed": false,
+      "checks": {
+        "40_complete_cases": true,
+        "40_load_files": false,
+        "front_at_least_5_of_10": false,
+        "back_10_of_10": true,
+        "left_at_least_3_of_10": false,
+        "right_at_least_3_of_10": true,
+        "side_combined_at_least_8_of_20": false,
+        "no_tail_cradle_contact": true,
+        "no_tail_limit_violation": false,
+        "no_joint_limit_excess": false,
+        "no_high_load_run_over_0_5_s": false
+      }
+    },
+    "stage2": {
+      "passed": false,
+      "checks": {
+        "40_complete_cases": true,
+        "40_load_files": true,
+        "front_at_least_5_of_10": true,
+        "back_10_of_10": true,
+        "left_at_least_3_of_10": false,
+        "right_at_least_3_of_10": false,
+        "side_combined_at_least_8_of_20": false,
+        "no_tail_cradle_contact": false,
+        "no_tail_limit_violation": false,
+        "no_joint_limit_excess": false,
+        "no_high_load_run_over_0_5_s": false
+      }
+    }
+  },
+  "decision": "research_only",
+  "notes": [
+    "The 0.5 s high-load rule is a screening threshold, not a validated thermal model.",
+    "Passing this gate qualifies get-up only for these collision-enabled simulated resets.",
+    "Stage 1 has two policy-triggered evaluator rejections before load serialization; the 38 available full initial-state hashes match the baseline and stage 2."
+  ]
+}

@@ -52,7 +52,7 @@
   "screen_version": "20260912_06",
   "battery_geometry_and_pose_unchanged_from_v02": true,
   "battery_geometry_and_pose_unchanged_from_v03": true,
-  "current_model": "D:\\项目\\竞赛\\DuckReplica\\current\\MicroDinosaur_v1.blender",
+  "current_model": "current/MicroDinosaur_v1.blender",
   "cradle_reconstructed": true,
   "battery_envelope_pose_unchanged_from_v05": true,
   "current_model_sha256": "0a4f86aefea24e0d5260c837849a16164ec83cc2d364f58e6c03947de95ce286",

@@ -49,12 +49,12 @@
 
 测试涵盖30个随机姿态下CAD运动学/关节雅可比与MuJoCo一致、角度跨界、反馈符号、关节限幅和变化率、陈旧数据释放、重置复现、关闭头控时旧轨迹逐位一致、污染评分真值也不改变头控。演示入口复跑与对应确认记录逐项一致。视频采用预先指定seed1，每组300帧/25FPS，渲染全部指标与确认记录一致；查看了对照图与视频抽帧。
 
-[v7开关对照视频](videos/v7/comparison.mp4) · [较快候选对照视频](videos/s42_no_neck/comparison.mp4) · [全部确认表](TABLES.md) · [冻结审计](audit.json) · [运行回退审计](runtime_followup/audit.json) · [实验约定](EXPERIMENT.md)
+[v7开关对照视频](videos/v7/comparison.mp4) · [全部确认表](TABLES.md) · [冻结审计](audit.json) · [实验约定](EXPERIMENT.md)
 
 在工作区根目录复跑当前入口（输出目录必须新建）：
 
 ```powershell
-& 'D:\microduck_rl\.venv\Scripts\python.exe' research/demo_head_attitude.py --policy v7 --head-mode imu --scenario straight --seconds 12 --out research/head_demo_new
+.venv-sim/Scripts/python.exe simulation/run_head_demo.py --policy v7 --head-mode imu --scenario straight --seconds 12 --out local_runs/head_demo_new
 ```
 
 `--head-mode off/filter_only/imu`选择对照；`--policy s42_no_neck`选择候选。`--head-motion yaw_scan/pitch_scan/roll_scan`复跑上述有意转头测试，不表示对应角度已精确跟踪。运行入口默认使用40ms头部数据年龄门限。

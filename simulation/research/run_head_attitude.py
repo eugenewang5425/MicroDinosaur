@@ -73,7 +73,7 @@ def main():
         'causal_control': 'filter_only has identical filter/limits but zero head IMU feedback gains',
         'policy_sha256': {label: sha(path) for label, path in POLICIES.items()},
         'plant_sha256': sha(ROOT/'20260913_handoff/native_v07/nominal.mjb'),
-        'production_sha256': sha('D:/microduck_rl/microdinosaur_p2.onnx')}
+        'production_sha256': sha(ROOT.parent/'policies/head_candidate.onnx')}
     (OUT/'plan.json').write_text(json.dumps(plan, indent=2), encoding='utf-8')
     state = dict(status='RUNNING', completed=0, rejected=0, total=len(jobs), started_unix=time.time())
     records = []

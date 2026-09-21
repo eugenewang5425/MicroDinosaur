@@ -1,11 +1,11 @@
 {
-  "delta_sha256": "22b46caaf1cb50207ebb048451ea246842a6ad6e35248551da4e25cf58b3d687",
+  "delta_sha256": "d14e5e6e4c5363de68a9eb6143b71572d8a27c45b171526cf4da9a35e3957f94",
   "delta_meshes_sha256": "8a7865fedbeed3c7f988ec9485f4de99875fc0fa0cb6e18068d389b5c622cf47",
   "poses": 653,
   "tests": 27105,
   "new_or_worsened_intersections": [],
   "inherited_intersections": [],
-  "pose_source": "D:\\\u9879\u76ee\\\u7ade\u8d5b\\DuckReplica\\work_in_progress\\lower_module_v05\\dense_head_input.json",
+  "pose_source": "work_in_progress/lower_module_v05/dense_head_input.json",
   "scope": "Changed carrier and all new parts against current assembly; relative-static pairs checked separately",
   "continuous_collision_release": false
 }

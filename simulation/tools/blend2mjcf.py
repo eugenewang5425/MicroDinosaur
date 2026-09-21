@@ -385,8 +385,13 @@ def parse_args():
                     help="Current CAD per-part mass_estimate.json; replaces legacy inertials")
     ap.add_argument("--imu-mounts", default=None,
                     help="CAD-hash-bound imu_mounts.json for nominal sensor frames")
-    ap.add_argument("--reference-xml",
-                    default=r"D:\microduck_rl\src\mjlab_microduck\robot\microduck\robot_walk.xml")
+    ap.add_argument(
+        "--reference-xml",
+        default=str(
+            Path(__file__).resolve().parents[1]
+            / "training/src/mjlab_microduck/robot/microduck/robot_walk.xml"
+        ),
+    )
     return ap.parse_args(argv)
 
 

@@ -1,6 +1,6 @@
 {
   "task": "Mjlab-Velocity-Flat-MicroDinosaur",
-  "xml": "D:\\microduck_rl\\src\\mjlab_microduck\\robot\\microdinosaur_v07\\robot_microdinosaur_v07.xml",
+  "xml": "simulation/training/src/mjlab_microduck/robot/microdinosaur_v07/robot_microdinosaur_v07.xml",
   "mass_kg": 1.0982148,
   "physics_dt": 0.005,
   "policy_dt": 0.02,

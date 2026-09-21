@@ -6,7 +6,7 @@ numerically as well as visually.
 
 Usage (from the repo root):
   uv run scripts/microdinosaur_snapshots.py --iters 14000,16000,18000 \
-      --out D:/项目/miro_dinosaur/renders/snap
+      --out ../../local_runs/snapshots
   uv run scripts/microdinosaur_snapshots.py --latest 3 --out ...   # newest 3
 """
 

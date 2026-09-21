@@ -64,16 +64,16 @@
 | 小跳，seed51 | 512×401 | 4,927,488 | 1e-4 | model_16650.pt |
 | 快速运动，seed52 | 512×301 | 3,698,688 | 1e-4 | model_16550.pt |
 
-共同起点为 `D:\microduck_rl\logs\rsl_rl\microdinosaur_demo_demonstration\20260914_train_512x101\model_16250.pt`。移除旧技能教师保留损失，使用现有PPO及81维镜像损失，两项独立存档。两次64×5短训另有15,360次转移，不混入正式计数。训练未中断，权重/TensorBoard标量有限；环境计数与优化器步数增量核对通过，成本项符号正确。7项单元测试覆盖命令时序、奖励历史/reset、腾空与整机质心判据、正阻尼和延迟。
+共同起点为本地检查点 `logs/rsl_rl/microdinosaur_demo_demonstration/20260914_train_512x101/model_16250.pt`，该大文件未随仓库发布。移除旧技能教师保留损失，使用现有PPO及81维镜像损失，两项独立存档。两次64×5短训另有15,360次转移，不混入正式计数。训练未中断，权重/TensorBoard标量有限；环境计数与优化器步数增量核对通过，成本项符号正确。7项单元测试覆盖命令时序、奖励历史/reset、腾空与整机质心判据、正阻尼和延迟。
 
-归一化ONNX导出保持81→19，用270条锚点派生观测对PyTorch手动归一化和前向进行比较，两模型最大差异均为4.18e-7以内。原生产 `D:\microduck_rl\microdinosaur_p2.onnx` 前后SHA256均为 `0804114efd1e457ec2c297d709c0464fd0c2bfe251cbb36db7de74543857b0e3`。
+归一化ONNX导出保持81→19，用270条锚点派生观测对PyTorch手动归一化和前向进行比较，两模型最大差异均为4.18e-7以内。原生产策略（未随仓库发布）前后SHA256均为 `0804114efd1e457ec2c297d709c0464fd0c2bfe251cbb36db7de74543857b0e3`。
 
 本轮正式矩阵127条记录（含明确的重复名义对照），118条完成运动，9条在候选执行前被静止IMU校准拒绝；另4条quick/中途开发探针。各阶段失败均保留。两条原策略视频曾因缺少cv2失败，随后用已有imageio/Pillow从原qpos重绘，原物理记录哈希未变，见视频修复审计。腾空指标在开发中由躯干速度细化为整机质心起飞速度，52条既有记录从原轨迹重算，成功/失败判定改变0条；没有重跑挑选更好的物理结果。
 
 模型与材料：
 
-- [快速运动ONNX](D:/microduck_rl/logs/rsl_rl/microdinosaur_run_specialist/20260914_train_512x301/candidate.onnx)，SHA256 `f985cd322db6181dc9bacdb049dd764e268f27963a9bb54ccff9bd5651d162fc`。
-- [小跳ONNX](D:/microduck_rl/logs/rsl_rl/microdinosaur_jump_specialist/20260914_train_512x401/candidate.onnx)，SHA256 `bbfc57748af64a3bee9fffc45825cbb6e816c7f2bd351e885683b3ef750dc5cf`。
+- [快速运动 ONNX](../../policies/fast_walk_candidate.onnx)，SHA256 `f985cd322db6181dc9bacdb049dd764e268f27963a9bb54ccff9bd5651d162fc`。
+- [小跳 ONNX](../../policies/jump_candidate.onnx)，SHA256 `bbfc57748af64a3bee9fffc45825cbb6e816c7f2bd351e885683b3ef750dc5cf`。
 - 交还与启动使用冻结 `research/20260913_handoff/v7_reference.onnx`，SHA256 `53120a401d02f124b35361d791eb74748a7601550c701c511d62cbad9cddff96`，与生产p2分开。
 - [2.5倍慢放的小跳与交还](evaluation/jump_return/jump_return_slow.mp4)、[0.8m/s指令快走原速视频](evaluation/run/fast_walk.mp4)、[前后物理曲线](comparison.png)。
 - [预定配方/验收](PLAN.md)、[全部条件CSV](conditions.csv)、[结构化汇总](summary.json)、[训练/导出审计](training_audit.json)、[7项测试](tests.log)、[物理预检](physics_precheck.json)。
@@ -81,7 +81,7 @@
 
 ## 复核入口与下一轮
 
-解释器为 `D:\microduck_rl\.venv\Scripts\python.exe`，工作目录 `D:\项目\miro_dinosaur\research`。可直接执行 `test_run_jump.py`、`summarize_run_jump.py`、`render_run_jump_saved.py` 复核已有结果；渲染只读取轨迹。新CPU评估用 `evaluate_run_jump.py --policy <新专家路径> --label <新目录名> --skill run|jump --sensitivity --video`，已有label会拒绝覆盖。`evaluate_jump_return.py` 固定保留本轮方案与目录，现有结果不重复覆盖。
+本仓库发布冻结结果、ONNX 和视频，不发布当时的完整检查点池及临时评估脚本。复核现有证据从仓库根目录读取本目录的 CSV、JSON、视频和策略哈希；如需续训，应先用 `simulation/training/` 建立新环境并提供自己的起始检查点。
 
 正式训练入口为 `train_terrain_skill.py --skill jump --checkpoint <共同起点> --out <新的独立目录> --envs 512 --iterations 401 --seed 51 --learning-rate 0.0001`；run对应301次、seed52。旧脚本名保留兼容，不意味着训练台阶。每个训练目录的 `run_provenance.json`、`source_snapshot/`、`params/` 保留当次实际配置，后续不要用新配置追溯解释旧模型。
 

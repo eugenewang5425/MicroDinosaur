@@ -1,6 +1,6 @@
 {
   "jump": {
-    "run": "D:\\microduck_rl\\logs\\rsl_rl\\microdinosaur_jump_specialist\\20260914_train_512x401",
+    "run": "logs/rsl_rl/microdinosaur_jump_specialist/20260914_train_512x401",
     "iterations": 401,
     "envs": 512,
     "transitions": 4927488,
@@ -71,7 +71,7 @@
     "head_control_in_training": true
   },
   "run": {
-    "run": "D:\\microduck_rl\\logs\\rsl_rl\\microdinosaur_run_specialist\\20260914_train_512x301",
+    "run": "logs/rsl_rl/microdinosaur_run_specialist/20260914_train_512x301",
     "iterations": 301,
     "envs": 512,
     "transitions": 3698688,

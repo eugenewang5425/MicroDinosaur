@@ -1,34 +1,47 @@
 {
-  "verified_on": "2026-09-20",
-  "source_snapshot_python_files_syntax_checked": 440,
-  "original_cad_sha256": "0a4f86aefea24e0d5260c837849a16164ec83cc2d364f58e6c03947de95ce286",
-  "source_copy_changes": [
-    "simulation/research/evaluate_policy.py",
-    "simulation/research/hardware_sim.py",
-    "simulation/research/run_heading_stable_start.py"
+  "verified_on": "2026-09-21",
+  "python_files_syntax_checked": 132,
+  "strict_json_files_checked": 283,
+  "strict_json_failures": 5,
+  "strict_json_exclusions": [
+    "training/src/mjlab_microduck/robot/microduck/config_mjcf_groundcontact.json",
+    "training/src/mjlab_microduck/robot/microduck/config_mjcf_groundcontact_backlash.json",
+    "training/src/mjlab_microduck/robot/microduck/config_mjcf_groundcontact_rollers.json",
+    "training/src/mjlab_microduck/robot/microduck/config_mjcf_groundcontact_rollers_backlash.json",
+    "training/src/mjlab_microduck/robot/xl330_test_bench/config.json"
   ],
-  "compressed_plant_bytes_preserved": true,
+  "strict_json_exclusion_reason": "Upstream MJCF conversion configs use a permissive JSON-like format with trailing commas.",
+  "original_cad_sha256": "0a4f86aefea24e0d5260c837849a16164ec83cc2d364f58e6c03947de95ce286",
   "training_assets_extracted_and_verified": 155,
   "head_and_heading_unit_tests_passed": 14,
-  "cpu_demo": {
+  "head_and_heading_unit_tests_total": 14,
+  "tracked_text_files_sensitive_path_scan": 487,
+  "sensitive_path_or_token_hits": 0,
+  "getup_requalification": {
+    "paired_cases_per_variant": 40,
+    "baseline_strict": "15/40",
+    "stage1_strict": "17/40",
+    "stage2_strict": "18/40",
+    "baseline_mechanical_excluding_yaw": "28/40",
+    "stage1_mechanical_excluding_yaw": "26/40",
+    "stage2_mechanical_excluding_yaw": "29/40",
+    "full_initial_hash_match_stage1": "38/38 available load records",
+    "full_initial_hash_match_stage2": "40/40",
+    "logged_reset_metric_match_all_variants": "40/40",
+    "decision": "research_only"
+  },
+  "historical_cpu_demo": {
     "policy": "v7",
     "head_mode": "imu",
     "seed": 1,
     "seconds": 12,
     "source_vs_packaged_metrics_exactly_equal": true,
-    "source_vs_packaged_trace_arrays_exactly_equal": true,
-    "metrics": {
-      "camera_heading_error_rms_deg": 1.1997638709823581,
-      "camera_heading_detrended_rms_deg": 0.6139611540761619,
-      "camera_yaw_rate_error_rms_deg_s": 9.210672140500902,
-      "body_vx_mean_m_s": 0.22941697663395222,
-      "fell": false
-    }
+    "source_vs_packaged_trace_arrays_exactly_equal": true
   },
   "not_run": [
-    "new GPU training",
     "clean-machine GPU installation",
     "live CAD 1605-pose replay",
-    "real robot assembly or deployment"
+    "real robot assembly or deployment",
+    "packaged pytest suite because pytest is not installed in the frozen runtime"
   ]
 }

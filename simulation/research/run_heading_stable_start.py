@@ -40,8 +40,8 @@ def main():
     jobs=[{'seed':seed,'scenario':scenario,'mode':mode,'seconds':8 if scenario=='stand' else 12}
         for seed in (1,2,3) for scenario in ('stand','straight','left_then_hold','right_then_hold') for mode in ('open','imu')]
     plan={'phase':'followup_stable_start','reason':'Candidate standing failed strict calibration in phase A',
-        'startup_policy':str(CALIBRATOR),'startup_policy_sha256':sha(CALIBRATOR),
-        'locomotion_policy':str(POLICY),'locomotion_policy_sha256':sha(POLICY),
+        'startup_policy':CALIBRATOR.relative_to(ROOT).as_posix(),'startup_policy_sha256':sha(CALIBRATOR),
+        'locomotion_policy':POLICY.relative_to(ROOT.parent).as_posix(),'locomotion_policy_sha256':sha(POLICY),
         'source_hashes':sources,'jobs':jobs,'same_heading_parameters_as_phase_A':True,
         'preserve_action_state_on_switch':True,'hardware':{'physics_dt':.00125,'command_ms':10,'position_ms':20,'velocity_ms':20}}
     (OUT/'plan.json').write_text(json.dumps(plan,indent=2),encoding='utf-8')

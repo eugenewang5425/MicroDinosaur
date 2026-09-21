@@ -39,6 +39,7 @@ Usage (from the repo root):
 import argparse
 import math
 import os
+from pathlib import Path
 import queue
 import sys
 import threading
@@ -540,8 +541,9 @@ def main():
     from PIL import Image, ImageDraw, ImageFont, ImageTk
 
     FONT_PATH = None
-    for cand in (r"C:\Windows\Fonts\msyh.ttc", r"C:\Windows\Fonts\simhei.ttf",
-                 r"C:\Windows\Fonts\segoeui.ttf"):
+    fonts_dir = os.path.join(os.environ.get("WINDIR", ""), "Fonts")
+    for cand in (os.path.join(fonts_dir, "msyh.ttc"), os.path.join(fonts_dir, "simhei.ttf"),
+                 os.path.join(fonts_dir, "segoeui.ttf")):
         if os.path.exists(cand):
             FONT_PATH = cand
             break
@@ -595,17 +597,15 @@ def main():
     # 走路策略里; 且它们的忠实检查需要各自训练时的 1.25ms 物理 + 电机包络 +
     # 头部 IMU 外环栈 —— 这个窗口不复制该栈, 所以这里直接打开由该栈渲染的
     # 检查视频(与验收条件一致), 而不是在本窗口的走路物理里假跑。
+    simulation_dir = Path(__file__).resolve().parents[2]
     SKILL_VIDEOS = [
-        ("蹲·专项25mm", r"D:\项目\miro_dinosaur\research\20260914_contact_motion\squat_contact_optimized.mp4"),
-        ("折叠蹲·脚本40mm", r"D:\项目\miro_dinosaur\research\20260914_requested_fold\deeper_fold_probe.mp4"),
-        ("折叠40/70对比", r"D:\项目\miro_dinosaur\research\20260914_fold_recovery\videos\fold_comparison.mp4"),
-        ("跑步·专家0.6", r"D:\项目\miro_dinosaur\research\20260914_contact_motion\run_final\v0.6_c10_s941.mp4"),
-        ("起身·专项", r"D:\项目\miro_dinosaur\research\20260914_contact_motion\getup_dense_final\back_c10_s941.mp4"),
+        ("快走候选", simulation_dir / "research/20260914_run_jump/evaluation/run/fast_walk.mp4"),
+        ("小跳慢放", simulation_dir / "research/20260914_run_jump/evaluation/jump_return/jump_return_slow.mp4"),
     ]
 
     def open_video(path):
-        if os.path.exists(path):
-            os.startfile(path)
+        if path.exists():
+            os.startfile(str(path))
         else:
             print("缺视频文件:", path)
 

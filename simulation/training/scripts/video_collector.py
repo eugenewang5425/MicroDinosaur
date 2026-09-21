@@ -5,7 +5,7 @@ logs/rsl_rl/<experiment>/<timestamp>/.  This watcher mirrors any new clip into
 --out with a run-prefixed name, so there is always one place to look.
 
 Usage (runs alongside training; harmless to leave running):
-  uv run scripts/video_collector.py --out D:/项目/miro_dinosaur/renders/train_videos
+  uv run scripts/video_collector.py --out ../../local_runs/train_videos
 """
 
 import argparse
