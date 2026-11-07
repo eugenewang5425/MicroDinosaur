@@ -468,8 +468,8 @@
     },
     {
       "path": "software/perception/camera_preview_ui.html",
-      "bytes": 27763,
-      "sha256": "4c170275a319885d055876a9e99e66007fea41c32596c57ef1eb6b18935e87d0"
+      "bytes": 27532,
+      "sha256": "03a92c623f3b00dfc21ac4db80d1456194a8f8d44f4b3426bdf2abeb36fc1776"
     },
     {
       "path": "software/perception/camera_sensor.py",
