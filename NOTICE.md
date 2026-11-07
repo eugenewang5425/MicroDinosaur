@@ -1,33 +1,15 @@
-# Third-party notices and reference boundaries
+# 来源与许可
 
-## Microduck digital blueprint
+## 机器人几何
 
-- Source: `pollen-robotics/microduck_rl`, commit `29e887ecfbf5d37144759e5a9f8a176dfb83d547`.
-- The repository code is Apache-2.0. Its README separately states that the 3D model files are Creative Commons BY-SA-NC, without naming a CC version; this project does not invent one.
-- The current `MicroDinosaur_v1.blender` and previews retain Microduck-derived 3D geometry. The original non-commercial/share-alike model notice is preserved in [MODEL_LICENSE_NOTE.md](source/microduck_rl/MODEL_LICENSE_NOTE.md); the separate code license is in [LICENSE](source/microduck_rl/LICENSE).
-- This project preserves the Microduck hierarchy and source meshes, then adds original DuckRex structural shells, clearance envelopes, controls, reports and renders. Raw downloaded source files are unchanged.
+MicroDinosaur 使用并修改了 [Pollen Robotics Microduck](https://github.com/pollen-robotics/microduck_rl) 的数字模型，基线提交 `29e887ecfbf5d37144759e5a9f8a176dfb83d547`。当前 OS-M02 继续保留上游头腿等几何，结合本项目头部、骨架、安装和打印适配，不应被描述为全部原创机器人。
 
-## User-provided mecha T-rex reference
+上游代码许可为 Apache-2.0；上游 README 对三维模型单列 Creative Commons BY-SA-NC，未指定 CC 版本。模型许可不能用代码许可代替，也不自行补写版本。原始表述见 [模型来源说明](source/microduck_rl/MODEL_LICENSE_NOTE.md)，代码许可见 [LICENSE](source/microduck_rl/LICENSE)。
 
-- `机甲霸王龙_P1.3mf` and its embedded assembly guide were used only to understand proportions and assembly language: articulated jaw, armored skull, continuous dorsal line and tapered tail.
-- No reference mesh was copied into DuckRex. Instructions in embedded documents were not treated as user requests or executed.
-- The original 3MF remains separate and is not redistributed by this project; its own license continues to govern that file.
+## HAT 与主机软件
 
-## Legacy Open Duck Mini variant
+HAT 改编自 Pollen RPI Robot HAT，保留 Apache-2.0 许可、设计出处和修改说明，见 [硬件 NOTICE](hardware/head_hat/NOTICE.md)。S288 主机协议代码独立实现，保留官方协议来源，不包含宇树固件二进制。
 
-- Earlier DuckRex v0.2–v0.4 outputs were based on `apirrone/Open_Duck_Mini`, commit `b23317a485b3cec7d8417f352478778b3475173c`, under Apache-2.0.
-- Those old outputs are retained only as rollback/history artifacts and are no longer the active DuckRex basis.
+## 深度感知
 
-## Blender
-
-- Portable Blender 4.5.9 LTS is unmodified and remains local under `tools/`; it and its installation files are not uploaded in this repository.
-- Official Windows archive SHA256 recorded at setup: `41da973b9bf95bb312cbeff4d1982feb13259b43c821686b9bafea4dfe5477cf`.
-
-The local-only `source/manifest.json` records source URLs, revisions, byte counts and SHA256 values for retrieved upstream files. User reference files and retired CAD assemblies remain local.
-
-## Training snapshot added on 2026-09-20
-
-- `simulation/training/` includes the local training implementation based on `pollen-robotics/microduck_rl`; its pinned upstream base and original source hashes are recorded in `simulation/SOURCE_SNAPSHOT.json`.
-- The upstream Apache-2.0 code license is preserved in `simulation/training/LICENSE`. Mesh assets in `simulation/training_assets.zip` retain their original model-license boundaries; inclusion here does not relicense those meshes as Apache-2.0.
-- The archive retains models required by the current source registry, including compatibility variants. They are not additional current CAD designs. The current CAD and its model notice remain the authoritative mechanical source.
-- Selected policies, reports, and videos show simulation work only. Original upstream work and local modifications must not be represented as a wholly original robot or training framework.
+固定 MiDaS RKNN 权重源于 Intel ISL MiDaS Small，保留 [MIT 许可](software/perception/MiDaS_LICENSE)。RKNN SDK、Blender、KiCad、编译器和厂家安装程序不随包分发。相关名称属于各自权利人，不表示官方认证或背书。

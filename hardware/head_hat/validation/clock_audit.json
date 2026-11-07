@@ -1,0 +1,30 @@
+[
+  {
+    "ref": "Y110",
+    "part": "12MHz CMOS +/-25ppm",
+    "clock_net": "FT_XI",
+    "trace_length_mm": 2.6509776310850235,
+    "signal_vias": 0,
+    "adjacent_layer": "In1.Cu",
+    "adjacent_layer_foreign_track_count": 0,
+    "no_track_rule_verified": true,
+    "clock_centerline_ground_coverage_samples": 109,
+    "clock_centerline_total_samples": 109,
+    "nearest_GND_via_mm": 3.3004734508854945,
+    "local_GND_fill_polygons": 4
+  },
+  {
+    "ref": "Y1",
+    "part": "12MHz CMOS 3.3V",
+    "clock_net": "AUD_U2_MCLK",
+    "trace_length_mm": 1.7275044850278798,
+    "signal_vias": 0,
+    "adjacent_layer": "In4.Cu",
+    "adjacent_layer_foreign_track_count": 0,
+    "no_track_rule_verified": true,
+    "clock_centerline_ground_coverage_samples": 75,
+    "clock_centerline_total_samples": 75,
+    "nearest_GND_via_mm": 0.9340770846134688,
+    "local_GND_fill_polygons": 2
+  }
+]

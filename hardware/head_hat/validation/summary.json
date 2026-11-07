@@ -1,0 +1,93 @@
+{
+  "status": "REVIEW_CANDIDATE_NOT_FAB_RELEASE",
+  "vias_before": 310,
+  "vias_after": 279,
+  "via_categories_before": {
+    "power": 71,
+    "signal": 124,
+    "ground": 115
+  },
+  "via_categories_after": {
+    "power": 71,
+    "signal": 93,
+    "ground": 115
+  },
+  "via_category_definition": {
+    "ground": [
+      "GND"
+    ],
+    "power": [
+      "1V8_AUDIO",
+      "1V8_FT",
+      "3V3_AUDIO",
+      "3V3_FT",
+      "3V3_IMU",
+      "5V_RAW",
+      "5V_SYS",
+      "FT_VPHY",
+      "FT_VPLL",
+      "VBAT_IN",
+      "VBAT_LOGIC",
+      "VPH_A",
+      "VPH_B"
+    ],
+    "signal": "All remaining non-GND, non-supply nets, including control, analog and USB."
+  },
+  "tracks_before": 4770,
+  "tracks_after": 3938,
+  "track_length_before_mm": 2523.3655684762066,
+  "track_length_after_mm": 2395.6856076795866,
+  "total_via_reduction": 31,
+  "signal_via_reduction_percent": 25.0,
+  "original_B2_vias": 340,
+  "original_B2_total_reduction": 61,
+  "overlap_pairs_before_over_0p05mm": 50,
+  "overlap_pairs_after_over_0p00001mm": 0,
+  "via_copper_overlap_pairs": 0,
+  "min_hole_edge_gap_mm": 0.28541219597369166,
+  "min_via_copper_edge_gap_mm": 0.1354121959736917,
+  "pad_positions_shapes_nets_unchanged": true,
+  "ground_and_power_vias_preserved": true,
+  "USB_and_MEMS_clock_tracks_unchanged": true,
+  "project_rules_byte_unchanged": true,
+  "schematics_byte_unchanged": true,
+  "original_B2_sha256": "9e4421c76dfecc443e348d25d644494e4f5436a9f8fb165a288a5d8dba53b5b8",
+  "source_v2_sha256": "a55b416e5348df03f710912534ea805cf894bd5b79488bd32543e624ed51b98e",
+  "candidate_sha256": "566901eef7e306b5e4f0bd7f48aab18467615563099a4b934d516693c2ad7f8a",
+  "DRC": {
+    "errors": 0,
+    "warnings": 0,
+    "unconnected": 0,
+    "kicad_version": "9.0.9"
+  },
+  "clocks": [
+    {
+      "ref": "Y110",
+      "part": "12MHz CMOS +/-25ppm",
+      "clock_net": "FT_XI",
+      "trace_length_mm": 2.6509776310850235,
+      "signal_vias": 0,
+      "adjacent_layer": "In1.Cu",
+      "adjacent_layer_foreign_track_count": 0,
+      "no_track_rule_verified": true,
+      "clock_centerline_ground_coverage_samples": 109,
+      "clock_centerline_total_samples": 109,
+      "nearest_GND_via_mm": 3.3004734508854945,
+      "local_GND_fill_polygons": 4
+    },
+    {
+      "ref": "Y1",
+      "part": "12MHz CMOS 3.3V",
+      "clock_net": "AUD_U2_MCLK",
+      "trace_length_mm": 1.7275044850278798,
+      "signal_vias": 0,
+      "adjacent_layer": "In4.Cu",
+      "adjacent_layer_foreign_track_count": 0,
+      "no_track_rule_verified": true,
+      "clock_centerline_ground_coverage_samples": 75,
+      "clock_centerline_total_samples": 75,
+      "nearest_GND_via_mm": 0.9340770846134688,
+      "local_GND_fill_polygons": 2
+    }
+  ]
+}

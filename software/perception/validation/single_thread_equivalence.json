@@ -1,0 +1,95 @@
+{
+  "rows": [
+    {
+      "image": "canonical.png",
+      "float_input_bit_exact": true,
+      "jpeg_bit_exact": true
+    },
+    {
+      "image": "live_00.png",
+      "float_input_bit_exact": true,
+      "jpeg_bit_exact": true
+    },
+    {
+      "image": "live_01.png",
+      "float_input_bit_exact": true,
+      "jpeg_bit_exact": true
+    },
+    {
+      "image": "live_02.png",
+      "float_input_bit_exact": true,
+      "jpeg_bit_exact": true
+    },
+    {
+      "image": "live_03.png",
+      "float_input_bit_exact": true,
+      "jpeg_bit_exact": true
+    },
+    {
+      "image": "live_04.png",
+      "float_input_bit_exact": true,
+      "jpeg_bit_exact": true
+    },
+    {
+      "image": "live_05.png",
+      "float_input_bit_exact": true,
+      "jpeg_bit_exact": true
+    },
+    {
+      "image": "live_06.png",
+      "float_input_bit_exact": true,
+      "jpeg_bit_exact": true
+    },
+    {
+      "image": "live_07.png",
+      "float_input_bit_exact": true,
+      "jpeg_bit_exact": true
+    },
+    {
+      "image": "fresh_00.png",
+      "float_input_bit_exact": true,
+      "jpeg_bit_exact": true
+    },
+    {
+      "image": "fresh_01.png",
+      "float_input_bit_exact": true,
+      "jpeg_bit_exact": true
+    },
+    {
+      "image": "fresh_02.png",
+      "float_input_bit_exact": true,
+      "jpeg_bit_exact": true
+    },
+    {
+      "image": "fresh_03.png",
+      "float_input_bit_exact": true,
+      "jpeg_bit_exact": true
+    },
+    {
+      "image": "fresh_04.png",
+      "float_input_bit_exact": true,
+      "jpeg_bit_exact": true
+    },
+    {
+      "image": "fresh_05.png",
+      "float_input_bit_exact": true,
+      "jpeg_bit_exact": true
+    },
+    {
+      "image": "fresh_06.png",
+      "float_input_bit_exact": true,
+      "jpeg_bit_exact": true
+    },
+    {
+      "image": "fresh_07.png",
+      "float_input_bit_exact": true,
+      "jpeg_bit_exact": true
+    },
+    {
+      "image": "fresh_08.png",
+      "float_input_bit_exact": true,
+      "jpeg_bit_exact": true
+    }
+  ],
+  "passed": true
+}

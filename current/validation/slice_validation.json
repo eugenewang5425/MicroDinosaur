@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "file": "local-only/after_MicroDinosaur_Print.3mf",
+  "sha256": "8ea3582ccce6e77a3e5f6e476b8f1f6ffdce3b0d5eef0e13b56b129321843972",
+  "plate": 1,
+  "return_code": 0,
+  "warnings": [
+    ""
+  ],
+  "estimated_seconds": 23060.91015625,
+  "result": "local-only/result.json",
+  "print_sent": false,
+  "slice_input_original_filename": "working.3mf"
+}

@@ -1,0 +1,22 @@
+{
+  "verified_on": "2026-11-07",
+  "scope": "Latest-only publication, no intermediate models or historical candidate packages",
+  "perception_offline_tests": {"passed": 72, "total": 72},
+  "s288_eeprom_offline_tests": {"passed": 11, "total": 11},
+  "model_sha256": "745f2bdc70ae5a2fdc263e6a40cdd4a8e287477194765c6961e53d885bf097ee",
+  "print_sha256": "8ea3582ccce6e77a3e5f6e476b8f1f6ffdce3b0d5eef0e13b56b129321843972",
+  "pcb_sha256": "566901eef7e306b5e4f0bd7f48aab18467615563099a4b934d516693c2ad7f8a",
+  "model_and_print_byte_identical_to_local_current": true,
+  "native_kicad_files_byte_identical_to_reviewed_candidate": true,
+  "native_print_zip_and_plate_counts_checked": true,
+  "plate_counts": [10, 5, 8, 2, 1, 1, 2, 1],
+  "local_markdown_links_checked": true,
+  "secret_and_private_path_scan_hits": 0,
+  "hardware_accessed_during_publication": false,
+  "new_board_drc_run_during_publication": false,
+  "board_evidence": "Existing KiCad 9.0.9 DRC bound to the identical PCB; 0 errors, 0 warnings, 0 unconnected",
+  "physical_fit_verified": false,
+  "manufacturing_released": false,
+  "physical_standing_or_walking_verified": false,
+  "sustained_300_second_20fps_verified": false
+}

@@ -1,0 +1,305 @@
+{
+  "before": [
+    {
+      "layer": 0,
+      "net_a": "3V3_FT",
+      "net_b": "3V3_FT",
+      "overlap_length": 0.07190000000000296
+    },
+    {
+      "layer": 0,
+      "net_a": "3V3_FT",
+      "net_b": "3V3_FT",
+      "overlap_length": 0.39400000000000013
+    },
+    {
+      "layer": 0,
+      "net_a": "5V_SYS",
+      "net_b": "5V_SYS",
+      "overlap_length": 2.549999999999999
+    },
+    {
+      "layer": 0,
+      "net_a": "A_DATA",
+      "net_b": "A_DATA",
+      "overlap_length": 0.07071067811865826
+    },
+    {
+      "layer": 0,
+      "net_a": "A_DATA",
+      "net_b": "A_DATA",
+      "overlap_length": 0.05000000000000071
+    },
+    {
+      "layer": 0,
+      "net_a": "A_DATA",
+      "net_b": "A_DATA",
+      "overlap_length": 0.9499999999999993
+    },
+    {
+      "layer": 0,
+      "net_a": "A_DATA",
+      "net_b": "A_DATA",
+      "overlap_length": 1.25
+    },
+    {
+      "layer": 0,
+      "net_a": "A_DATA",
+      "net_b": "A_DATA",
+      "overlap_length": 0.565685424949236
+    },
+    {
+      "layer": 0,
+      "net_a": "BUCK_FB",
+      "net_b": "BUCK_FB",
+      "overlap_length": 0.21213203435596223
+    },
+    {
+      "layer": 0,
+      "net_a": "BUCK_SW",
+      "net_b": "BUCK_SW",
+      "overlap_length": 4.25
+    },
+    {
+      "layer": 0,
+      "net_a": "B_EN",
+      "net_b": "B_EN",
+      "overlap_length": 0.4375
+    },
+    {
+      "layer": 0,
+      "net_a": "B_EN",
+      "net_b": "B_EN",
+      "overlap_length": 0.28469999999999374
+    },
+    {
+      "layer": 0,
+      "net_a": "B_EN",
+      "net_b": "B_EN",
+      "overlap_length": 0.6717514421272222
+    },
+    {
+      "layer": 0,
+      "net_a": "B_EN",
+      "net_b": "B_EN",
+      "overlap_length": 0.8000000000000007
+    },
+    {
+      "layer": 0,
+      "net_a": "FT_VPHY",
+      "net_b": "FT_VPHY",
+      "overlap_length": 0.05000000000000071
+    },
+    {
+      "layer": 0,
+      "net_a": "GND",
+      "net_b": "GND",
+      "overlap_length": 0.4499999999999993
+    },
+    {
+      "layer": 0,
+      "net_a": "IMU_INT1",
+      "net_b": "IMU_INT1",
+      "overlap_length": 0.4499999999999993
+    },
+    {
+      "layer": 0,
+      "net_a": "IMU_INT1",
+      "net_b": "IMU_INT1",
+      "overlap_length": 0.2121320343559635
+    },
+    {
+      "layer": 0,
+      "net_a": "VBAT_LOGIC",
+      "net_b": "VBAT_LOGIC",
+      "overlap_length": 0.10000000000000142
+    },
+    {
+      "layer": 0,
+      "net_a": "VBAT_LOGIC",
+      "net_b": "VBAT_LOGIC",
+      "overlap_length": 1.0606601717798212
+    },
+    {
+      "layer": 0,
+      "net_a": "VBAT_LOGIC",
+      "net_b": "VBAT_LOGIC",
+      "overlap_length": 0.2121320343559635
+    },
+    {
+      "layer": 0,
+      "net_a": "VBAT_LOGIC",
+      "net_b": "VBAT_LOGIC",
+      "overlap_length": 0.5500000000000007
+    },
+    {
+      "layer": 0,
+      "net_a": "VBAT_LOGIC",
+      "net_b": "VBAT_LOGIC",
+      "overlap_length": 1.3499999999999996
+    },
+    {
+      "layer": 6,
+      "net_a": "5V_SYS",
+      "net_b": "5V_SYS",
+      "overlap_length": 0.34999999999999787
+    },
+    {
+      "layer": 6,
+      "net_a": "5V_SYS",
+      "net_b": "5V_SYS",
+      "overlap_length": 0.9499999999999993
+    },
+    {
+      "layer": 6,
+      "net_a": "5V_SYS",
+      "net_b": "5V_SYS",
+      "overlap_length": 0.07071067811865826
+    },
+    {
+      "layer": 6,
+      "net_a": "AUD_J1_Pin_2",
+      "net_b": "AUD_J1_Pin_2",
+      "overlap_length": 0.3500000000000014
+    },
+    {
+      "layer": 6,
+      "net_a": "AUD_J1_Pin_2",
+      "net_b": "AUD_J1_Pin_2",
+      "overlap_length": 0.4749999999999943
+    },
+    {
+      "layer": 6,
+      "net_a": "B_DATA",
+      "net_b": "B_DATA",
+      "overlap_length": 0.7424621202458753
+    },
+    {
+      "layer": 6,
+      "net_a": "B_DATA",
+      "net_b": "B_DATA",
+      "overlap_length": 0.125
+    },
+    {
+      "layer": 6,
+      "net_a": "B_DATA",
+      "net_b": "B_DATA",
+      "overlap_length": 0.6717514421272222
+    },
+    {
+      "layer": 6,
+      "net_a": "B_DATA",
+      "net_b": "B_DATA",
+      "overlap_length": 0.29999999999999716
+    },
+    {
+      "layer": 6,
+      "net_a": "B_DATA",
+      "net_b": "B_DATA",
+      "overlap_length": 0.5
+    },
+    {
+      "layer": 8,
+      "net_a": "3V3_FT",
+      "net_b": "3V3_FT",
+      "overlap_length": 1.1499999999999986
+    },
+    {
+      "layer": 8,
+      "net_a": "5V_SYS",
+      "net_b": "5V_SYS",
+      "overlap_length": 0.9000000000000004
+    },
+    {
+      "layer": 8,
+      "net_a": "5V_SYS",
+      "net_b": "5V_SYS",
+      "overlap_length": 0.5
+    },
+    {
+      "layer": 8,
+      "net_a": "5V_SYS",
+      "net_b": "5V_SYS",
+      "overlap_length": 0.8499999999999996
+    },
+    {
+      "layer": 8,
+      "net_a": "5V_SYS",
+      "net_b": "5V_SYS",
+      "overlap_length": 0.8499999999999996
+    },
+    {
+      "layer": 8,
+      "net_a": "5V_SYS",
+      "net_b": "5V_SYS",
+      "overlap_length": 0.494974746830584
+    },
+    {
+      "layer": 8,
+      "net_a": "5V_SYS",
+      "net_b": "5V_SYS",
+      "overlap_length": 0.8499999999999996
+    },
+    {
+      "layer": 8,
+      "net_a": "5V_SYS",
+      "net_b": "5V_SYS",
+      "overlap_length": 0.09999999999999787
+    },
+    {
+      "layer": 8,
+      "net_a": "5V_SYS",
+      "net_b": "5V_SYS",
+      "overlap_length": 0.494974746830584
+    },
+    {
+      "layer": 8,
+      "net_a": "5V_SYS",
+      "net_b": "5V_SYS",
+      "overlap_length": 0.3999999999999986
+    },
+    {
+      "layer": 8,
+      "net_a": "AUD_J1_Pin_2",
+      "net_b": "AUD_J1_Pin_2",
+      "overlap_length": 0.14999999999999858
+    },
+    {
+      "layer": 2,
+      "net_a": "3V3_AUDIO",
+      "net_b": "3V3_AUDIO",
+      "overlap_length": 0.10000000000000142
+    },
+    {
+      "layer": 2,
+      "net_a": "5V_SYS",
+      "net_b": "5V_SYS",
+      "overlap_length": 0.21213203435596223
+    },
+    {
+      "layer": 2,
+      "net_a": "5V_SYS",
+      "net_b": "5V_SYS",
+      "overlap_length": 0.10000000000000142
+    },
+    {
+      "layer": 2,
+      "net_a": "5V_SYS",
+      "net_b": "5V_SYS",
+      "overlap_length": 0.5656854249492372
+    },
+    {
+      "layer": 2,
+      "net_a": "5V_SYS",
+      "net_b": "5V_SYS",
+      "overlap_length": 0.25
+    },
+    {
+      "layer": 2,
+      "net_a": "VPH_B",
+      "net_b": "VPH_B",
+      "overlap_length": 0.9249999999999972
+    }
+  ],
+  "after": []
+}

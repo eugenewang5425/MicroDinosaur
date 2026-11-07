@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "updated_at": "2026-11-02T09:12:25+08:00",
+  "current_state": "edit_20261102_090559",
+  "stage": "OS-M02",
+  "source_model_sha256": "745f2bdc70ae5a2fdc263e6a40cdd4a8e287477194765c6961e53d885bf097ee",
+  "current_print_sha256": "8ea3582ccce6e77a3e5f6e476b8f1f6ffdce3b0d5eef0e13b56b129321843972",
+  "before_state": "edit_20261027_195624",
+  "target_parts": [
+    "SRC__024__yaw2roll-1",
+    "SRC__128__yaw2roll-2"
+  ],
+  "changed_holes": 4,
+  "before_diameter_mm": 2.1,
+  "after_diameter_mm": 1.8,
+  "nominal_bore_depth_mm": 4,
+  "axes_and_depth_unchanged": true,
+  "only_material_inside_four_old_bores_added": true,
+  "all_unrelated148_objects122_meshes_exact": true,
+  "other28_native_print_meshes_byte_exact": true,
+  "all_process_material_and_layout_preserved": true,
+  "physical_fit_verified": false,
+  "thread_strength_verified": false,
+  "print_sent": false,
+  "publication_note": "Latest result only. Full before/after and intermediate history are retained locally and excluded from this package.",
+  "saved_validation": "saved_validation.json",
+  "project_validation": "project_validation.json",
+  "slice_validation": "slice_validation.json"
+}

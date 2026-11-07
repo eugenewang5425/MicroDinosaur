@@ -1,0 +1,160 @@
+Reference,Value,MPN,Footprint,Side,Fit,Function,Note,Source
+U1,PAM8406D,PAM8406DR,HEAD:Pollen_U1,B,YES,02_Audio_Amplifier,Pollen D1 audio connection retained. Left amplifier outputs unused; one external mic connector retained.,Pollen 6de86283297e4c49a9da8312cd3395ab83c437e3
+U2,TLV320AIC3104IRHBR,TLV320AIC3104IRHBR,HEAD:Pollen_U2,B,YES,02_Audio_Codec,Pollen D1 audio connection retained. Left amplifier outputs unused; one external mic connector retained.,Pollen 6de86283297e4c49a9da8312cd3395ab83c437e3
+U3,XC6206P182MR,XC6206P182MR-G,HEAD:Pollen_U3,B,YES,02_Audio_Codec,Pollen D1 audio connection retained. Left amplifier outputs unused; one external mic connector retained.,Pollen 6de86283297e4c49a9da8312cd3395ab83c437e3
+Y1,12MHz CMOS 3.3V,ASDMB-12.000MHZ-LC-T,HEAD:Pollen_Y1,B,YES,02_Audio_Codec,Pollen D1 audio connection retained. Left amplifier outputs unused; one external mic connector retained.,Pollen 6de86283297e4c49a9da8312cd3395ab83c437e3
+MK1,Microphone_MEMS,LMA2718T421-OA5-2,HEAD:Pollen_MK1,F,YES,02_Audio_Codec,Pollen D1 audio connection retained. Left amplifier outputs unused; one external mic connector retained.,Pollen 6de86283297e4c49a9da8312cd3395ab83c437e3
+FB1,300mA 600R@100MHz,BLM15AG601SN1D,HEAD:Pollen_FB1,B,YES,02_Audio_Amplifier,Pollen D1 audio connection retained. Left amplifier outputs unused; one external mic connector retained. B1: manufacturer rating 300mA; Pollen 1.3A text was incorrect. Amplifier VDD current budget remains to be verified.,Pollen 6de86283297e4c49a9da8312cd3395ab83c437e3
+FB2,2A - 120R@100MHz,BLM15PX121SN1D,HEAD:Pollen_FB2,F,YES,02_Audio_Amplifier,"Pollen D1 audio connection retained. Left amplifier outputs unused; one external mic connector retained. B1: corrected to 0402 2A 120ohm; original custom footprint is 0402, not 0603.",Pollen 6de86283297e4c49a9da8312cd3395ab83c437e3
+FB3,2A - 120R@100MHz,BLM15PX121SN1D,HEAD:Pollen_FB3,B,YES,02_Audio_Amplifier,"Pollen D1 audio connection retained. Left amplifier outputs unused; one external mic connector retained. B1: corrected to 0402 2A 120ohm; original custom footprint is 0402, not 0603.",Pollen 6de86283297e4c49a9da8312cd3395ab83c437e3
+C1,1u,GRM155R61A105KE15D,Capacitor_SMD:C_0402_1005Metric,B,YES,02_Audio_Amplifier,Pollen D1 audio connection retained. Left amplifier outputs unused; one external mic connector retained.,Pollen 6de86283297e4c49a9da8312cd3395ab83c437e3
+C2,1u,GRM155R61A105KE15D,Capacitor_SMD:C_0402_1005Metric,B,YES,02_Audio_Amplifier,Pollen D1 audio connection retained. Left amplifier outputs unused; one external mic connector retained.,Pollen 6de86283297e4c49a9da8312cd3395ab83c437e3
+C3,1u,GRM155R61A105KE15D,Capacitor_SMD:C_0402_1005Metric,B,YES,02_Audio_Amplifier,Pollen D1 audio connection retained. Left amplifier outputs unused; one external mic connector retained.,Pollen 6de86283297e4c49a9da8312cd3395ab83c437e3
+C4,1u,GRM155R61A105KE15D,Capacitor_SMD:C_0402_1005Metric,B,YES,02_Audio_Amplifier,Pollen D1 audio connection retained. Left amplifier outputs unused; one external mic connector retained.,Pollen 6de86283297e4c49a9da8312cd3395ab83c437e3
+C5,10u,GRM188R61A106KE69D,Capacitor_SMD:C_0603_1608Metric,B,YES,02_Audio_Amplifier,Pollen D1 audio connection retained. Left amplifier outputs unused; one external mic connector retained.,Pollen 6de86283297e4c49a9da8312cd3395ab83c437e3
+C6,1u,GRM155R61A105KE15D,Capacitor_SMD:C_0402_1005Metric,B,YES,02_Audio_Amplifier,Pollen D1 audio connection retained. Left amplifier outputs unused; one external mic connector retained.,Pollen 6de86283297e4c49a9da8312cd3395ab83c437e3
+C7,10u,GRM188R61A106KE69D,Capacitor_SMD:C_0603_1608Metric,B,YES,02_Audio_Amplifier,Pollen D1 audio connection retained. Left amplifier outputs unused; one external mic connector retained.,Pollen 6de86283297e4c49a9da8312cd3395ab83c437e3
+C8,220p,GRM1885C1H221JA01D,Capacitor_SMD:C_0603_1608Metric,B,YES,02_Audio_Amplifier,Pollen D1 audio connection retained. Left amplifier outputs unused; one external mic connector retained.,Pollen 6de86283297e4c49a9da8312cd3395ab83c437e3
+C9,220p,GRM1885C1H221JA01D,Capacitor_SMD:C_0603_1608Metric,B,YES,02_Audio_Amplifier,Pollen D1 audio connection retained. Left amplifier outputs unused; one external mic connector retained.,Pollen 6de86283297e4c49a9da8312cd3395ab83c437e3
+C10,1u,GRM155R61A105KE15D,Capacitor_SMD:C_0402_1005Metric,F,YES,02_Audio_Codec,Pollen D1 audio connection retained. Left amplifier outputs unused; one external mic connector retained.,Pollen 6de86283297e4c49a9da8312cd3395ab83c437e3
+C11,100n,GRM155R71C104KA88D,Capacitor_SMD:C_0402_1005Metric,F,YES,02_Audio_Codec,Pollen D1 audio connection retained. Left amplifier outputs unused; one external mic connector retained.,Pollen 6de86283297e4c49a9da8312cd3395ab83c437e3
+C12,10u,GRM188R61A106KE69D,Capacitor_SMD:C_0603_1608Metric,B,YES,02_Audio_Codec,Pollen D1 audio connection retained. Left amplifier outputs unused; one external mic connector retained.,Pollen 6de86283297e4c49a9da8312cd3395ab83c437e3
+C13,10u,GRM188R61A106KE69D,Capacitor_SMD:C_0603_1608Metric,B,YES,02_Audio_Codec,Pollen D1 audio connection retained. Left amplifier outputs unused; one external mic connector retained.,Pollen 6de86283297e4c49a9da8312cd3395ab83c437e3
+C14,100n,GRM155R71C104KA88D,Capacitor_SMD:C_0402_1005Metric,B,YES,02_Audio_Codec,Pollen D1 audio connection retained. Left amplifier outputs unused; one external mic connector retained.,Pollen 6de86283297e4c49a9da8312cd3395ab83c437e3
+C26,100n,GRM155R71C104KA88D,Capacitor_SMD:C_0402_1005Metric,B,YES,02_Audio_Codec,Pollen D1 audio connection retained. Left amplifier outputs unused; one external mic connector retained.,Pollen 6de86283297e4c49a9da8312cd3395ab83c437e3
+C27,1u,GRM155R61A105KE15D,Capacitor_SMD:C_0402_1005Metric,B,YES,02_Audio_Codec,Pollen D1 audio connection retained. Left amplifier outputs unused; one external mic connector retained.,Pollen 6de86283297e4c49a9da8312cd3395ab83c437e3
+C28,100n,GRM155R71C104KA88D,Capacitor_SMD:C_0402_1005Metric,B,YES,02_Audio_Codec,Pollen D1 audio connection retained. Left amplifier outputs unused; one external mic connector retained.,Pollen 6de86283297e4c49a9da8312cd3395ab83c437e3
+C29,1u,GRM155R61A105KE15D,Capacitor_SMD:C_0402_1005Metric,B,YES,02_Audio_Codec,Pollen D1 audio connection retained. Left amplifier outputs unused; one external mic connector retained.,Pollen 6de86283297e4c49a9da8312cd3395ab83c437e3
+C30,100n,GRM155R71C104KA88D,Capacitor_SMD:C_0402_1005Metric,B,YES,02_Audio_Codec,Pollen D1 audio connection retained. Left amplifier outputs unused; one external mic connector retained.,Pollen 6de86283297e4c49a9da8312cd3395ab83c437e3
+C31,1u,GRM155R61A105KE15D,Capacitor_SMD:C_0402_1005Metric,B,YES,02_Audio_Codec,Pollen D1 audio connection retained. Left amplifier outputs unused; one external mic connector retained.,Pollen 6de86283297e4c49a9da8312cd3395ab83c437e3
+C32,100n,GRM155R71C104KA88D,Capacitor_SMD:C_0402_1005Metric,B,YES,02_Audio_Codec,Pollen D1 audio connection retained. Left amplifier outputs unused; one external mic connector retained.,Pollen 6de86283297e4c49a9da8312cd3395ab83c437e3
+C33,1u,GRM155R61A105KE15D,Capacitor_SMD:C_0402_1005Metric,B,YES,02_Audio_Amplifier,Pollen D1 audio connection retained. Left amplifier outputs unused; one external mic connector retained.,Pollen 6de86283297e4c49a9da8312cd3395ab83c437e3
+C34,10n,GRM155R71H103KA88D,Capacitor_SMD:C_0402_1005Metric,B,YES,02_Audio_Amplifier,Pollen D1 audio connection retained. Left amplifier outputs unused; one external mic connector retained.,Pollen 6de86283297e4c49a9da8312cd3395ab83c437e3
+C35,1u,GRM155R61A105KE15D,Capacitor_SMD:C_0402_1005Metric,B,YES,02_Audio_Codec,Pollen D1 audio connection retained. Left amplifier outputs unused; one external mic connector retained.,Pollen 6de86283297e4c49a9da8312cd3395ab83c437e3
+C36,100n,GRM155R71C104KA88D,Capacitor_SMD:C_0402_1005Metric,B,YES,02_Audio_Codec,Pollen D1 audio connection retained. Left amplifier outputs unused; one external mic connector retained.,Pollen 6de86283297e4c49a9da8312cd3395ab83c437e3
+C37,10u,GRM188R61A106KE69D,Capacitor_SMD:C_0603_1608Metric,B,YES,02_Audio_Codec,Pollen D1 audio connection retained. Left amplifier outputs unused; one external mic connector retained.,Pollen 6de86283297e4c49a9da8312cd3395ab83c437e3
+C38,100n,GRM155R71C104KA88D,Capacitor_SMD:C_0402_1005Metric,B,YES,02_Audio_Codec,Pollen D1 audio connection retained. Left amplifier outputs unused; one external mic connector retained.,Pollen 6de86283297e4c49a9da8312cd3395ab83c437e3
+C41,1u,GRM155R61A105KE15D,Capacitor_SMD:C_0402_1005Metric,F,YES,02_Audio_Codec,Pollen D1 audio connection retained. Left amplifier outputs unused; one external mic connector retained.,Pollen 6de86283297e4c49a9da8312cd3395ab83c437e3
+C42,1u,GRM155R61A105KE15D,Capacitor_SMD:C_0402_1005Metric,F,YES,02_Audio_Codec,Pollen D1 audio connection retained. Left amplifier outputs unused; one external mic connector retained.,Pollen 6de86283297e4c49a9da8312cd3395ab83c437e3
+C43,1u,GRM155R61A105KE15D,Capacitor_SMD:C_0402_1005Metric,F,YES,02_Audio_Codec,Pollen D1 audio connection retained. Left amplifier outputs unused; one external mic connector retained.,Pollen 6de86283297e4c49a9da8312cd3395ab83c437e3
+R1,10k,RC0402FR-0710KL,Resistor_SMD:R_0402_1005Metric,B,YES,02_Audio_Amplifier,Pollen D1 audio connection retained. Left amplifier outputs unused; one external mic connector retained.,Pollen 6de86283297e4c49a9da8312cd3395ab83c437e3
+R2,10k,RC0402FR-0710KL,Resistor_SMD:R_0402_1005Metric,B,YES,02_Audio_Amplifier,Pollen D1 audio connection retained. Left amplifier outputs unused; one external mic connector retained.,Pollen 6de86283297e4c49a9da8312cd3395ab83c437e3
+R3,0R,RC0402JR-070RL,Resistor_SMD:R_0402_1005Metric,B,YES,02_Audio_Amplifier,Pollen D1 audio connection retained. Left amplifier outputs unused; one external mic connector retained.,Pollen 6de86283297e4c49a9da8312cd3395ab83c437e3
+R4,0R,RC0402JR-070RL,Resistor_SMD:R_0402_1005Metric,B,YES,02_Audio_Amplifier,Pollen D1 audio connection retained. Left amplifier outputs unused; one external mic connector retained.,Pollen 6de86283297e4c49a9da8312cd3395ab83c437e3
+R5,0R,RC0402JR-070RL,Resistor_SMD:R_0402_1005Metric,B,YES,02_Audio_Amplifier,Pollen D1 audio connection retained. Left amplifier outputs unused; one external mic connector retained.,Pollen 6de86283297e4c49a9da8312cd3395ab83c437e3
+R6,10k,RC0402FR-0710KL,Resistor_SMD:R_0402_1005Metric,B,YES,02_Audio_Codec,Pollen D1 audio connection retained. Left amplifier outputs unused; one external mic connector retained.,Pollen 6de86283297e4c49a9da8312cd3395ab83c437e3
+R7,0R,RC0402JR-070RL,Resistor_SMD:R_0402_1005Metric,B,YES,02_Audio_Codec,Pollen D1 audio connection retained. Left amplifier outputs unused; one external mic connector retained.,Pollen 6de86283297e4c49a9da8312cd3395ab83c437e3
+R22,4k7,RC0402FR-074K7L,Resistor_SMD:R_0402_1005Metric,F,YES,02_Audio_Codec,Pollen D1 audio connection retained. Left amplifier outputs unused; one external mic connector retained.,Pollen 6de86283297e4c49a9da8312cd3395ab83c437e3
+R42,1k,RC0402FR-071KL,Resistor_SMD:R_0402_1005Metric,F,YES,02_Audio_Codec,Pollen D1 audio connection retained. Left amplifier outputs unused; one external mic connector retained.,Pollen 6de86283297e4c49a9da8312cd3395ab83c437e3
+J100,3S BAT IN,1053131202,Connector_Molex:Molex_Nano-Fit_105313-xx02_1x02_P2.50mm_Horizontal,F,YES,01_Power,"Molex Nano-Fit 8A/contact, 6.64mm board header height, short-edge side exit; body projects 1.88mm past PCB. Allow mating plug and wire space. Head branch only; body motor power injection remains required.",
+F100,3A logic fuse,0467003.NR,Fuse:Fuse_1206_3216Metric,F,YES,01_Power,,
+U100,AP64502SP-13,AP64502SP-13,HEAD:AP64502_SO8EP,F,YES,01_Power,,"Diodes DS42744 Rev2-2 p2,p18,p20"
+L100,6.8uH,XAL6060-682MEC,Inductor_SMD:L_Coilcraft_XAL6060-XXX,F,YES,01_Power,Isat 9.2A; Irms 7A at 20C rise; 6.1mm maximum height. Board thermal rating remains unvalidated.,
+C100,10u25,GRM31CR71E106KA12L,Capacitor_SMD:C_1206_3216Metric,F,YES,01_Power,,
+C101,10u25,GRM31CR71E106KA12L,Capacitor_SMD:C_1206_3216Metric,F,YES,01_Power,,
+C102,47u10,GRM32ER71A476KE15L,Capacitor_SMD:C_1210_3225Metric,F,YES,01_Power,,
+C103,47u10,GRM32ER71A476KE15L,Capacitor_SMD:C_1210_3225Metric,F,YES,01_Power,,
+C104,47u10,GRM32ER71A476KE15L,Capacitor_SMD:C_1210_3225Metric,F,YES,01_Power,,
+C105,47u10,GRM32ER71A476KE15L,Capacitor_SMD:C_1210_3225Metric,F,YES,01_Power,,
+C106,100n,GRM155R71C104KA88D,Capacitor_SMD:C_0402_1005Metric,F,YES,01_Power,,
+R100,52.3k,RC0402FR-0752K3L,Resistor_SMD:R_0402_1005Metric,F,YES,01_Power,,
+R101,10k,RC0402FR-0710KL,Resistor_SMD:R_0402_1005Metric,F,YES,01_Power,,
+R102,200k,RC0402FR-07200KL,Resistor_SMD:R_0402_1005Metric,F,YES,01_Power,,
+C107,10n,GRM155R71H103KA88D,Capacitor_SMD:C_0402_1005Metric,F,YES,01_Power,,
+U101,LM5050MK-1/NOPB,LM5050MK-1/NOPB,Package_TO_SOT_SMD:SOT-23-6,B,YES,01_Power,"OFF tied low; original Pollen ideal-diode function, larger external FET.",
+Q100,AOSP36326C,AOSP36326C,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,B,YES,01_Power,"Source on buck side; drain on system side. 30V SO8, not the original 5A SOT23.",
+R103,100R,RC0402FR-07100RL,Resistor_SMD:R_0402_1005Metric,B,YES,01_Power,Separate battery-side VS bias keeps LM5050 above its 5V recommended minimum while the power path is nominally 5V.,
+C108,100n,GRM155R71H104KE14D,Capacitor_SMD:C_0402_1005Metric,B,YES,01_Power,50V capacitor on the LM5050 battery-side bias rail.,
+C109,10u,GRM188R61A106KE69D,Capacitor_SMD:C_0603_1608Metric,B,YES,01_Power,,
+U102,AP2112K-3.3TRG1,AP2112K-3.3TRG1,Package_TO_SOT_SMD:SOT-23-5,F,YES,01_Power,600mA IC rating. Rail budget and LDO junction temperature require bench validation.,
+U103,AP2112K-3.3TRG1,AP2112K-3.3TRG1,Package_TO_SOT_SMD:SOT-23-5,B,YES,01_Power,600mA IC rating. Rail budget and LDO junction temperature require bench validation.,
+C110,4.7u,GRM188R60J475KE19D,Capacitor_SMD:C_0603_1608Metric,F,YES,01_Power,,
+C111,4.7u,GRM188R60J475KE19D,Capacitor_SMD:C_0603_1608Metric,F,YES,01_Power,,
+C112,4.7u,GRM188R60J475KE19D,Capacitor_SMD:C_0603_1608Metric,F,YES,01_Power,,
+C113,4.7u,GRM188R60J475KE19D,Capacitor_SMD:C_0603_1608Metric,F,YES,01_Power,,
+U104,TLV3012BIDBVR,TLV3012BIDBVR,Package_TO_SOT_SMD:SOT-23-6,B,YES,01_Power,"BAT_OK falls near 9.91V nominal; indicates loss only, no energy storage or shutdown-time guarantee.",
+R104,698k,RC0402FR-07698KL,Resistor_SMD:R_0402_1005Metric,B,YES,01_Power,,
+R105,100k,RC0402FR-07100KL,Resistor_SMD:R_0402_1005Metric,B,YES,01_Power,,
+C114,10n,GRM155R71H103KA88D,Capacitor_SMD:C_0402_1005Metric,B,YES,01_Power,,
+C115,100n,GRM155R71C104KA88D,Capacitor_SMD:C_0402_1005Metric,B,YES,01_Power,,
+J101,ZERO 3W 2x20,61304021121,Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical,F,YES,03_HOST,"Wurth 3A per contact. Pin1 left open; pin17 sense only. USB27/28 REQUIRES Radxa R32/R39 remove,R45/R46 0R. Short interconnect signal integrity pending; no long Dupont USB.",
+R106,100k,RC0402FR-07100KL,Resistor_SMD:R_0402_1005Metric,B,YES,03_HOST,,
+U110,FT2232H-56Q-REEL,FT2232H-56Q-REEL,Package_DFN_QFN:QFN-56-1EP_8x8mm_P0.5mm_EP5.9x5.9mm,F,YES,04_USB_UART,Two hardware UARTs at 6Mbaud. EEPROM self-powered/PWRSAV settings needed. USB configured state gates bus drivers.,"FTDI DS_FT2232H v2.9 pp18-20,59"
+Y110,12MHz CMOS +/-25ppm,SiT1602BI-12-33E-12.000000E,HEAD:SiTime_2520_Oscillator,F,YES,04_USB_UART,"Factory-programmed 12MHz, 3.3V, +/-25ppm including initial/temp/supply/load/first-year aging. No crystal load caps. Datasheet p10 landing 1.1x1.0mm at 1.9x1.5mm pitch.",https://www.sitime.com/datasheet/SiT1602
+U111,93LC56B-I/ST,93LC56B-I/ST,Package_SO:TSSOP-8_3x3mm_P0.65mm,B,YES,04_USB_UART,FTDI configuration and unique USB serial; NOT Raspberry Pi HAT identification EEPROM.,
+R110,12k,RC0402FR-0712KL,Resistor_SMD:R_0402_1005Metric,F,YES,04_USB_UART,,
+R111,1k,RC0402FR-071KL,Resistor_SMD:R_0402_1005Metric,F,YES,04_USB_UART,,
+R112,10k,RC0402FR-0710KL,Resistor_SMD:R_0402_1005Metric,B,YES,04_USB_UART,,
+R113,10k,RC0402FR-0710KL,Resistor_SMD:R_0402_1005Metric,B,YES,04_USB_UART,,
+R114,10k,RC0402FR-0710KL,Resistor_SMD:R_0402_1005Metric,B,YES,04_USB_UART,,
+R115,2.2k,RC0402FR-072K2L,Resistor_SMD:R_0402_1005Metric,B,YES,04_USB_UART,,
+R116,10k,RC0402FR-0710KL,Resistor_SMD:R_0402_1005Metric,B,YES,04_USB_UART,,
+FB110,600R@100MHz,BLM18AG601SN1D,Resistor_SMD:R_0603_1608Metric,F,YES,04_USB_UART,,
+FB111,600R@100MHz,BLM18AG601SN1D,Resistor_SMD:R_0603_1608Metric,F,YES,04_USB_UART,,
+C120,4.7u,GRM188R60J475KE19D,Capacitor_SMD:C_0603_1608Metric,F,YES,04_USB_UART,,
+C121,100n,GRM155R71C104KA88D,Capacitor_SMD:C_0402_1005Metric,F,YES,04_USB_UART,,
+C122,100n,GRM155R71C104KA88D,Capacitor_SMD:C_0402_1005Metric,F,YES,04_USB_UART,,
+C123,100n,GRM155R71C104KA88D,Capacitor_SMD:C_0402_1005Metric,F,YES,04_USB_UART,,
+C124,100n,GRM155R71C104KA88D,Capacitor_SMD:C_0402_1005Metric,F,YES,04_USB_UART,,
+C125,100n,GRM155R71C104KA88D,Capacitor_SMD:C_0402_1005Metric,F,YES,04_USB_UART,,
+C126,100n,GRM155R71C104KA88D,Capacitor_SMD:C_0402_1005Metric,F,YES,04_USB_UART,,
+C127,4.7u,GRM188R60J475KE19D,Capacitor_SMD:C_0603_1608Metric,F,YES,04_USB_UART,,
+C128,100n,GRM155R71C104KA88D,Capacitor_SMD:C_0402_1005Metric,B,YES,04_USB_UART,,
+C129,4.7u,GRM188R60J475KE19D,Capacitor_SMD:C_0603_1608Metric,F,YES,04_USB_UART,,
+C130,100n,GRM155R71C104KA88D,Capacitor_SMD:C_0402_1005Metric,B,YES,04_USB_UART,,
+C131,100n,GRM155R71C104KA88D,Capacitor_SMD:C_0402_1005Metric,F,YES,04_USB_UART,B2 oscillator supply bypass; replaces crystal load capacitor.,
+C133,100n,GRM155R71C104KA88D,Capacitor_SMD:C_0402_1005Metric,B,YES,04_USB_UART,,
+U120,SN74LVC1G04DBVR,SN74LVC1G04DBVR,Package_TO_SOT_SMD:SOT-23-5,F,YES,05_S288,,
+C140,100n,GRM155R71C104KA88D,Capacitor_SMD:C_0402_1005Metric,F,YES,05_S288,,
+U121,SN74LVC1G08DBVR,SN74LVC1G08DBVR,Package_TO_SOT_SMD:SOT-23-5,F,YES,05_S288,RX forced high during local TX; TXDEN gated by FTDI configured state. S288 3.3V input acceptance must be bench checked.,
+U122,SN74LVC1G126DBVR,SN74LVC1G126DBVR,Package_TO_SOT_SMD:SOT-23-5,F,YES,05_S288,RX forced high during local TX; TXDEN gated by FTDI configured state. S288 3.3V input acceptance must be bench checked.,
+U123,SN74LVC1G32DBVR,SN74LVC1G32DBVR,Package_TO_SOT_SMD:SOT-23-5,F,YES,05_S288,RX forced high during local TX; TXDEN gated by FTDI configured state. S288 3.3V input acceptance must be bench checked.,
+R120,100k,RC0402FR-07100KL,Resistor_SMD:R_0402_1005Metric,F,YES,05_S288,,
+R121,100k,RC0402FR-07100KL,Resistor_SMD:R_0402_1005Metric,F,YES,05_S288,,
+R122,33R,RC0402FR-0733RL,Resistor_SMD:R_0402_1005Metric,F,YES,05_S288,,
+R123,1k,RC0402FR-071KL,Resistor_SMD:R_0402_1005Metric,F,YES,05_S288,,
+R124,4.7k,RC0402FR-074K7L,Resistor_SMD:R_0402_1005Metric,F,YES,05_S288,,
+C141,100n,GRM155R71C104KA88D,Capacitor_SMD:C_0402_1005Metric,F,YES,05_S288,,
+C142,100n,GRM155R71C104KA88D,Capacitor_SMD:C_0402_1005Metric,F,YES,05_S288,,
+C143,100n,GRM155R71C104KA88D,Capacitor_SMD:C_0402_1005Metric,F,YES,05_S288,,
+D120,PESD5V0U1UL,"PESD5V0U1UL,315",Diode_SMD:D_SOD-882,F,YES,05_S288,,
+J120,S288 A,B3B-PH-K-S,Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical,F,YES,05_S288,"Pins 1 DATA, 2 VPH (isolated from head VBAT with default DNP fuse), 3 GND. Connect servo power via external branch harness. Verify mating-face cavity order.",
+F120,2A OPTIONAL DNP,0467002.NR,Fuse:Fuse_1206_3216Metric,B,DNP,05_S288,B2 DEFAULT DNP. Servo power supplied by separately fused battery harness branches. Fit only for a validated low-current branch below connector/wire/PCB limits; never for a full 12/7-servo chain.,
+C147,10u25,GRM31CR71E106KA12L,Capacitor_SMD:C_1206_3216Metric,B,YES,05_S288,,
+U124,SN74LVC1G08DBVR,SN74LVC1G08DBVR,Package_TO_SOT_SMD:SOT-23-5,F,YES,05_S288,RX forced high during local TX; TXDEN gated by FTDI configured state. S288 3.3V input acceptance must be bench checked.,
+U125,SN74LVC1G126DBVR,SN74LVC1G126DBVR,Package_TO_SOT_SMD:SOT-23-5,F,YES,05_S288,RX forced high during local TX; TXDEN gated by FTDI configured state. S288 3.3V input acceptance must be bench checked.,
+U126,SN74LVC1G32DBVR,SN74LVC1G32DBVR,Package_TO_SOT_SMD:SOT-23-5,F,YES,05_S288,RX forced high during local TX; TXDEN gated by FTDI configured state. S288 3.3V input acceptance must be bench checked.,
+R125,100k,RC0402FR-07100KL,Resistor_SMD:R_0402_1005Metric,F,YES,05_S288,,
+R126,100k,RC0402FR-07100KL,Resistor_SMD:R_0402_1005Metric,F,YES,05_S288,,
+R127,33R,RC0402FR-0733RL,Resistor_SMD:R_0402_1005Metric,F,YES,05_S288,,
+R128,1k,RC0402FR-071KL,Resistor_SMD:R_0402_1005Metric,F,YES,05_S288,,
+R129,4.7k,RC0402FR-074K7L,Resistor_SMD:R_0402_1005Metric,F,YES,05_S288,,
+C144,100n,GRM155R71C104KA88D,Capacitor_SMD:C_0402_1005Metric,F,YES,05_S288,,
+C145,100n,GRM155R71C104KA88D,Capacitor_SMD:C_0402_1005Metric,F,YES,05_S288,,
+C146,100n,GRM155R71C104KA88D,Capacitor_SMD:C_0402_1005Metric,F,YES,05_S288,,
+D121,PESD5V0U1UL,"PESD5V0U1UL,315",Diode_SMD:D_SOD-882,F,YES,05_S288,,
+J121,S288 B,B3B-PH-K-S,Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical,F,YES,05_S288,"Pins 1 DATA, 2 VPH (isolated from head VBAT with default DNP fuse), 3 GND. Connect servo power via external branch harness. Verify mating-face cavity order.",
+F121,2A OPTIONAL DNP,0467002.NR,Fuse:Fuse_1206_3216Metric,B,DNP,05_S288,B2 DEFAULT DNP. Servo power supplied by separately fused battery harness branches. Fit only for a validated low-current branch below connector/wire/PCB limits; never for a full 12/7-servo chain.,
+C148,10u25,GRM31CR71E106KA12L,Capacitor_SMD:C_1206_3216Metric,B,YES,05_S288,,
+U130,LSM6DSV16XTR,LSM6DSV16XTR,Package_LGA:LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y,F,YES,06_Sensors,"Head sensing point. ST Mode1 SPI; orientation arrow is +X right,+Y up on TOP; body measurement remains external.",
+R140,0R,RC0402JR-070RL,Resistor_SMD:R_0402_1005Metric,F,YES,06_Sensors,,
+R141,10k,RC0402FR-0710KL,Resistor_SMD:R_0402_1005Metric,F,YES,06_Sensors,,
+C150,100n,GRM155R71C104KA88D,Capacitor_SMD:C_0402_1005Metric,F,YES,06_Sensors,,
+C151,100n,GRM155R71C104KA88D,Capacitor_SMD:C_0402_1005Metric,F,YES,06_Sensors,,
+C152,2.2u,GRM155R60J225ME95D,Capacitor_SMD:C_0402_1005Metric,F,YES,06_Sensors,,
+J130,BODY IMU DUPONT,61300411121,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,F,YES,06_Sensors,"Existing 2.54mm Dupont wires; pin order VCC,GND,SCL,SDA. 3.3V supply, verify actual enhanced JY61P carrier requirements.",
+J131,VL53L5CX V2 TOF,61300611121,Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical,F,YES,06_Sensors,"Matches user photo order VIN,GND,SCL,SDA,INT,LPn. Carrier VIN/pullup voltage NOT verified by photo. Populate only after carrier schematic or measurement check.",
+R142,33R,RC0402FR-0733RL,Resistor_SMD:R_0402_1005Metric,F,YES,06_Sensors,,
+R143,33R,RC0402FR-0733RL,Resistor_SMD:R_0402_1005Metric,F,YES,06_Sensors,,
+R144,33R,RC0402FR-0733RL,Resistor_SMD:R_0402_1005Metric,F,YES,06_Sensors,,
+R145,33R,RC0402FR-0733RL,Resistor_SMD:R_0402_1005Metric,F,YES,06_Sensors,,
+R146,4.7k,RC0402FR-074K7L,Resistor_SMD:R_0402_1005Metric,F,YES,06_Sensors,,
+R147,4.7k,RC0402FR-074K7L,Resistor_SMD:R_0402_1005Metric,F,YES,06_Sensors,,
+Q130,"2N7002P,215","2N7002P,215",Package_TO_SOT_SMD:SOT-23,B,YES,06_Sensors,GPIO high asserts LPn low; carrier must supply its own correct-voltage pullup.,
+R148,100k,RC0402FR-07100KL,Resistor_SMD:R_0402_1005Metric,B,YES,06_Sensors,,
+R149,10k,RC0402FR-0710KL,Resistor_SMD:R_0402_1005Metric,B,DNP,06_Sensors,DNP until module INT voltage/pullup topology verified.,
+R150,10k,RC0402FR-0710KL,Resistor_SMD:R_0402_1005Metric,B,DNP,06_Sensors,DNP until module LPn voltage/pullup topology verified.,
+C153,4.7u,GRM188R60J475KE19D,Capacitor_SMD:C_0603_1608Metric,F,YES,06_Sensors,,
+C154,100n,GRM155R71C104KA88D,Capacitor_SMD:C_0402_1005Metric,F,YES,06_Sensors,,
+J1,SPEAKER,B2B-PH-K-S,Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,F,YES,02_Audio_Amplifier,Bridge output: neither speaker terminal is ground. Confirm speaker impedance/power before full-volume test.,
+J2,EXT MIC,BM02B-SRSS-TB(LF)(SN),Connector_JST:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical,F,YES,02_Audio_Codec,Analog electret input with original 5V/1k/4.7k bias network. Not I2S or PDM. Board mic remains MEMS.,

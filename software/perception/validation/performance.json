@@ -1,0 +1,280 @@
+{
+  "target": "actual browser nominal 20fps, unchanged model/resolution/JPEG",
+  "near_20_definition": "Full 300s healthy run; actual displayed mean and each full 30s window >=19.8fps. Exact rates are retained; this is not a claim of strict >=20.000fps.",
+  "cooling": "User confirmed bare board, no heatsink or fan",
+  "physical_photon_to_display_measured": false,
+  "rows": [
+    {
+      "label": "SDK原路径 · CPU1800 / 双线程",
+      "source_sha256": "0c471efdf678f5b4475bc006b7c91e09bdeb88b2394b5e725b07400b3de5df6f",
+      "duration_s": 61.08779999999982,
+      "health_ok": true,
+      "display_fps": 16.094825071213766,
+      "processing_fps": 16.091592756655224,
+      "p50_ms": 166.34486700009438,
+      "p95_ms": 200.25552899972536,
+      "max_sampled_soc_c": 70.555,
+      "windows_30s": [
+        {
+          "start_s": 0,
+          "frames": 483,
+          "display_fps": 16.094133988674102
+        },
+        {
+          "start_s": 30,
+          "frames": 483,
+          "display_fps": 16.085164605963527
+        }
+      ],
+      "failure": null,
+      "capture_recoveries": 0,
+      "termination_reason": null,
+      "full_300s": false,
+      "near_20fps_300s": false
+    },
+    {
+      "label": "原生输入 · CPU1800 / 双线程",
+      "source_sha256": "0f1970dcbed1bca384b2f26523ae99213a0160be96691ecdb760112f36f1185c",
+      "duration_s": 130.8326000000015,
+      "health_ok": false,
+      "display_fps": 19.949934073493722,
+      "processing_fps": 19.95679975785829,
+      "p50_ms": 139.89191300031962,
+      "p95_ms": 160.0091919992119,
+      "max_sampled_soc_c": 85,
+      "windows_30s": [
+        {
+          "start_s": 0,
+          "frames": 598,
+          "display_fps": 19.900265336871406
+        },
+        {
+          "start_s": 30,
+          "frames": 599,
+          "display_fps": 19.977950756689943
+        },
+        {
+          "start_s": 60,
+          "frames": 599,
+          "display_fps": 19.978551454792928
+        },
+        {
+          "start_s": 90,
+          "frames": 599,
+          "display_fps": 19.978751695520653
+        }
+      ],
+      "failure": "Error: page.evaluate: TypeError: Failed to fetch\n    at eval (eval at evaluate (:311:30), <anonymous>:2:23)\n    at UtilityScript.evaluate (<anonymous>:313:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)",
+      "capture_recoveries": 0,
+      "termination_reason": "experiment_temperature_bound",
+      "max_trial_soc_c": 85.0,
+      "controls_restored": true,
+      "thermal_stop_elapsed_s": 131.19178333500003,
+      "full_300s": false,
+      "near_20fps_300s": false
+    },
+    {
+      "label": "原生输入 · CPU1416 / 双线程",
+      "source_sha256": "18fdfe1f7664b2fb0e5d090be9d3eef2df6327753971e3bd18aedac90fb87aae",
+      "duration_s": 137.883,
+      "health_ok": false,
+      "display_fps": 19.91870036645761,
+      "processing_fps": 19.95895070458287,
+      "p50_ms": 144.11312499968335,
+      "p95_ms": 171.67764099908527,
+      "max_sampled_soc_c": 84.444,
+      "windows_30s": [
+        {
+          "start_s": 0,
+          "frames": 597,
+          "display_fps": 19.86792496858159
+        },
+        {
+          "start_s": 30,
+          "frames": 597,
+          "display_fps": 19.912066177551733
+        },
+        {
+          "start_s": 60,
+          "frames": 597,
+          "display_fps": 19.911267906778594
+        },
+        {
+          "start_s": 90,
+          "frames": 599,
+          "display_fps": 19.966944356333162
+        }
+      ],
+      "failure": "Error: page.evaluate: TypeError: Failed to fetch\n    at eval (eval at evaluate (:311:30), <anonymous>:2:23)\n    at UtilityScript.evaluate (<anonymous>:313:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)",
+      "capture_recoveries": 0,
+      "termination_reason": "experiment_temperature_bound",
+      "max_trial_soc_c": 85.0,
+      "controls_restored": true,
+      "thermal_stop_elapsed_s": 137.97513807400003,
+      "full_300s": false,
+      "near_20fps_300s": false
+    },
+    {
+      "label": "原生输入 · CPU1104 / 双线程",
+      "source_sha256": "4c18bc9ead707b4fd58faa4f3f5485ba100197e5bdb41a3fb2ded96d2dfa069d",
+      "duration_s": 274.36990000000037,
+      "health_ok": false,
+      "display_fps": 17.70950722448757,
+      "processing_fps": 19.962102256843746,
+      "p50_ms": 161.65231500100344,
+      "p95_ms": 200.88102600013372,
+      "max_sampled_soc_c": 84.444,
+      "windows_30s": [
+        {
+          "start_s": 0,
+          "frames": 598,
+          "display_fps": 19.901658471539296
+        },
+        {
+          "start_s": 30,
+          "frames": 599,
+          "display_fps": 19.96807778868515
+        },
+        {
+          "start_s": 60,
+          "frames": 598,
+          "display_fps": 19.93448666192414
+        },
+        {
+          "start_s": 90,
+          "frames": 593,
+          "display_fps": 19.777767384056425
+        },
+        {
+          "start_s": 120,
+          "frames": 562,
+          "display_fps": 18.761161386119216
+        },
+        {
+          "start_s": 150,
+          "frames": 92,
+          "display_fps": 3.066182367092826
+        },
+        {
+          "start_s": 180,
+          "frames": 536,
+          "display_fps": 18.098965821709278
+        },
+        {
+          "start_s": 210,
+          "frames": 595,
+          "display_fps": 19.834644512415263
+        },
+        {
+          "start_s": 240,
+          "frames": 599,
+          "display_fps": 19.967077694636775
+        }
+      ],
+      "failure": "Error: page.evaluate: TypeError: Failed to fetch\n    at eval (eval at evaluate (:311:30), <anonymous>:2:23)\n    at UtilityScript.evaluate (<anonymous>:313:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)",
+      "capture_recoveries": 0,
+      "termination_reason": "experiment_temperature_bound",
+      "max_trial_soc_c": 85.0,
+      "controls_restored": true,
+      "thermal_stop_elapsed_s": 274.0466656169999,
+      "full_300s": false,
+      "near_20fps_300s": false
+    },
+    {
+      "label": "原生输入 · CPU816 / 单线程",
+      "source_sha256": "e612365a2f6f408b62c0caeb2df3c47ec4143e2e2873f84c30db37997d6557e3",
+      "duration_s": 194.617,
+      "health_ok": false,
+      "display_fps": 19.08443036264011,
+      "processing_fps": 19.12474244284929,
+      "p50_ms": 211.8258010004647,
+      "p95_ms": 245.36726500070654,
+      "max_sampled_soc_c": 81.111,
+      "windows_30s": [
+        {
+          "start_s": 0,
+          "frames": 573,
+          "display_fps": 19.06787429870582
+        },
+        {
+          "start_s": 30,
+          "frames": 573,
+          "display_fps": 19.109854938828896
+        },
+        {
+          "start_s": 60,
+          "frames": 574,
+          "display_fps": 19.14390335168582
+        },
+        {
+          "start_s": 90,
+          "frames": 577,
+          "display_fps": 19.211655070742438
+        },
+        {
+          "start_s": 120,
+          "frames": 576,
+          "display_fps": 19.20950386027532
+        },
+        {
+          "start_s": 150,
+          "frames": 568,
+          "display_fps": 18.9324375763811
+        }
+      ],
+      "failure": "Error: page.evaluate: TypeError: Failed to fetch\n    at eval (eval at evaluate (:311:30), <anonymous>:2:23)\n    at UtilityScript.evaluate (<anonymous>:313:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)",
+      "capture_recoveries": 0,
+      "termination_reason": "service_exit",
+      "max_trial_soc_c": 81.666,
+      "controls_restored": true,
+      "full_300s": false,
+      "near_20fps_300s": false
+    },
+    {
+      "label": "原生输入 · CPU1104 / 单线程",
+      "source_sha256": "9ce64789b10067a7f3a99b2437065c008822dfe8235671e756653020e2abaa3f",
+      "duration_s": 165.7100999999996,
+      "health_ok": false,
+      "display_fps": 19.95254855321384,
+      "processing_fps": 19.962573192581548,
+      "p50_ms": 174.87562399939634,
+      "p95_ms": 201.4421249993611,
+      "max_sampled_soc_c": 85,
+      "windows_30s": [
+        {
+          "start_s": 0,
+          "frames": 597,
+          "display_fps": 19.91233228203272
+        },
+        {
+          "start_s": 30,
+          "frames": 599,
+          "display_fps": 19.96747772023543
+        },
+        {
+          "start_s": 60,
+          "frames": 599,
+          "display_fps": 19.96727770543257
+        },
+        {
+          "start_s": 90,
+          "frames": 599,
+          "display_fps": 19.978684948165423
+        },
+        {
+          "start_s": 120,
+          "frames": 599,
+          "display_fps": 19.96767773904424
+        }
+      ],
+      "failure": "Error: page.evaluate: TypeError: Failed to fetch\n    at eval (eval at evaluate (:311:30), <anonymous>:2:23)\n    at UtilityScript.evaluate (<anonymous>:313:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)",
+      "capture_recoveries": 0,
+      "termination_reason": "experiment_temperature_bound",
+      "max_trial_soc_c": 85.0,
+      "controls_restored": true,
+      "thermal_stop_elapsed_s": 166.79315062499995,
+      "full_300s": false,
+      "near_20fps_300s": false
+    }
+  ]
+}

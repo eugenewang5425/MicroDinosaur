@@ -1,0 +1,10 @@
+{
+  "distinct_input_values": 4782,
+  "input_elements": 196608,
+  "critical_levels": 281,
+  "adjacent_float32_steps_per_side": 8,
+  "sdk_native_input_bit_exact": true,
+  "different_bytes": 0,
+  "reference_read_before_other_inference": true,
+  "examples": []
+}

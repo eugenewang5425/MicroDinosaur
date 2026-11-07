@@ -1,0 +1,1 @@
+(fp_lib_table (lib(name "HEAD")(type "KiCad")(uri "${KIPRJMOD}/HEAD.pretty")(options "")(descr "Vendored native footprints")))

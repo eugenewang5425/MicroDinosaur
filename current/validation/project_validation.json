@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "before_print_sha256": "5d440146a3fd68dfd04b7e8ea891401a7973826014f4ccab6c8b0184c23e9312",
+  "after_print_sha256": "8ea3582ccce6e77a3e5f6e476b8f1f6ffdce3b0d5eef0e13b56b129321843972",
+  "parts": [
+    {
+      "object_id": "34",
+      "name": "SRC__024__yaw2roll-1",
+      "resource_path": "3D/Objects/object_19.model",
+      "triangles": 10018,
+      "saved_CAD_to_native_max_error_mm": 7.3958165103249485e-06
+    },
+    {
+      "object_id": "36",
+      "name": "SRC__128__yaw2roll-2",
+      "resource_path": "3D/Objects/object_20.model",
+      "triangles": 10038,
+      "saved_CAD_to_native_max_error_mm": 7.358743806307189e-06
+    }
+  ],
+  "unrelated28_mesh_resources_byte_exact": true,
+  "project_settings_bytes_exact": true,
+  "all_materials_object_settings_and_build_transforms_exact": true,
+  "all8_plate_configurations_exact": true,
+  "plate": 1,
+  "physical_fit_verified": false,
+  "print_sent": false
+}

@@ -1,0 +1,255 @@
+(footprint "Pollen_MK1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "MK1"
+		(at 0.25738 4.2 180)
+		(layer "User.1")
+		(uuid "c9beab16-f217-4d40-8883-51ceee4a46d6")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "Microphone_MEMS"
+		(at 0 4.99 180)
+		(layer "F.Fab")
+		(uuid "8dd652c2-e879-4db3-8323-ae747ebc71cf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bcce5fad-5f2a-4ce8-aac3-d241be4a7b5c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Microphone"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "86f685a8-ee78-4ed3-bb74-11e757f26156")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC Part" "C7587901"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e4d1172a-7951-459e-9946-b41991717258")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Man." "LinkMems"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "85b8368d-a663-4de7-803c-60cacd88d68d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Man. Ref." "LMA2718T421-OA5-2"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9773ce44-5ed8-438d-9afa-e30f8678194a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1 -1.6)
+		(end -1 -1.45)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "58288e7a-2dc5-4f5f-8b88-7cdccad560ad")
+	)
+	(fp_line
+		(start -1 -1.6)
+		(end 1 -1.6)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5861c79a-8089-4753-a232-3388db5238c7")
+	)
+	(fp_line
+		(start -1 -0.55)
+		(end -1 0.39)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bfa4671f-f35e-4a72-b352-a68b55762502")
+	)
+	(fp_line
+		(start -1 1.29)
+		(end -1 1.44)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f765e26a-6eeb-442f-9561-94b4b780b6ab")
+	)
+	(fp_line
+		(start -1 1.44)
+		(end 1 1.44)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d0ce62f0-9ea8-4fee-b4bc-cfbf5f160604")
+	)
+	(fp_line
+		(start 1 -1.6)
+		(end 1 -1.45)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8a31e4b9-767b-425e-8902-09af848ffb49")
+	)
+	(fp_line
+		(start 1 -0.55)
+		(end 1 0.39)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c53692e6-2e49-47b3-8143-8d65e5a8ea9d")
+	)
+	(fp_line
+		(start 1 1.29)
+		(end 1 1.44)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "32ecec58-7aa2-4e97-847f-5549d4362500")
+	)
+	(fp_rect
+		(start -0.95 -1.4)
+		(end 0.95 1.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "be9aec80-ef44-4c03-8e20-da7c4a5e7932")
+	)
+	(fp_circle
+		(center -0.93 -1.45)
+		(end -0.9 -1.45)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "915f49f2-93fe-4c5c-b484-2b58dc1f57ad")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "92ff4db5-462b-40cb-af80-c0a40ba572f8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "o"
+		(at -1.24262 -2.03 0)
+		(unlocked yes)
+		(layer "User.1")
+		(uuid "d0979db5-58dd-495a-89d6-9c9b50b46b88")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.53 -0.99)
+		(size 0.6 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5ae9774d-cc82-4e75-97da-c003056e95cb")
+	)
+	(pad "2" smd rect
+		(at -0.53 0.99)
+		(size 0.6 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5e25f523-09ba-42ca-bc71-7697282aa870")
+	)
+	(pad "3" smd rect
+		(at 0.53 0.99)
+		(size 0.6 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5ad6f0d6-b045-42d1-bb2c-ed0d5ee84461")
+	)
+	(pad "4" smd rect
+		(at 0.53 -0.99)
+		(size 0.6 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "44fb31e1-9720-469e-8b2d-1ea8cfd0fe9a")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_USER_LIB}/LCSC_parts/easyeda2kicad.3dshapes/MIC-SMD_4P-L2.8-W1.9-H1.0-P1.84-TL.step"
+		(offset
+			(xyz 0 0.08 0.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

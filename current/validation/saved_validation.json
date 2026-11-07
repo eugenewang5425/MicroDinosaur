@@ -1,0 +1,397 @@
+{
+  "passed": true,
+  "nominal_diameter_mm": 1.8,
+  "four_holes_each_verified_in_saved_CAD_and_native_project": true,
+  "rows": [
+    {
+      "part": "SRC__024__yaw2roll-1",
+      "source": "saved_CAD",
+      "center_yz_mm": [
+        -7.23825256987377,
+        -9.000000186449647
+      ],
+      "sections": [
+        {
+          "axial_native_x_mm": 11.8,
+          "fitted_diameter_mm": 1.7995607422631583,
+          "cardinal_diameters_mm": [
+            1.7999953753460138,
+            1.7999999349859497
+          ],
+          "minimum_inscribed_diameter_mm": 1.7990339676831277,
+          "maximum_diameter_mm": 1.800011464730776,
+          "bounds_center_error_mm": 2.171165112225737e-06
+        },
+        {
+          "axial_native_x_mm": 12.4,
+          "fitted_diameter_mm": 1.7997396639470253,
+          "cardinal_diameters_mm": [
+            1.7999953753460156,
+            1.7999997665206884
+          ],
+          "minimum_inscribed_diameter_mm": 1.7991337968664534,
+          "maximum_diameter_mm": 1.800011423891211,
+          "bounds_center_error_mm": 2.1632504247774075e-06
+        },
+        {
+          "axial_native_x_mm": 12.8,
+          "fitted_diameter_mm": 1.7999396859196015,
+          "cardinal_diameters_mm": [
+            1.7999953753460138,
+            1.799999654210513
+          ],
+          "minimum_inscribed_diameter_mm": 1.7997547742164541,
+          "maximum_diameter_mm": 1.8000113966648397,
+          "bounds_center_error_mm": 2.158793816139737e-06
+        }
+      ],
+      "passed": true
+    },
+    {
+      "part": "SRC__024__yaw2roll-1",
+      "source": "saved_CAD",
+      "center_yz_mm": [
+        -7.238252609039581,
+        8.99999952765388
+      ],
+      "sections": [
+        {
+          "axial_native_x_mm": 11.8,
+          "fitted_diameter_mm": 1.799505245120648,
+          "cardinal_diameters_mm": [
+            1.7999953753460192,
+            1.799999502415151
+          ],
+          "minimum_inscribed_diameter_mm": 1.7990352288087368,
+          "maximum_diameter_mm": 1.8000118338632265,
+          "bounds_center_error_mm": 2.1857808700208825e-06
+        },
+        {
+          "axial_native_x_mm": 12.4,
+          "fitted_diameter_mm": 1.7997006016680852,
+          "cardinal_diameters_mm": [
+            1.7999953753460165,
+            1.7999999424314748
+          ],
+          "minimum_inscribed_diameter_mm": 1.7991340821783992,
+          "maximum_diameter_mm": 1.8000119717625371,
+          "bounds_center_error_mm": 2.2216218709596777e-06
+        },
+        {
+          "axial_native_x_mm": 12.8,
+          "fitted_diameter_mm": 1.799927624986889,
+          "cardinal_diameters_mm": [
+            1.7999953753460156,
+            1.8000002357756912
+          ],
+          "minimum_inscribed_diameter_mm": 1.7990456783054902,
+          "maximum_diameter_mm": 1.8000120636954606,
+          "bounds_center_error_mm": 2.275934824518823e-06
+        }
+      ],
+      "passed": true
+    },
+    {
+      "part": "SRC__024__yaw2roll-1",
+      "source": "native_project",
+      "center_yz_mm": [
+        -7.23825256987377,
+        -9.000000186449647
+      ],
+      "sections": [
+        {
+          "axial_native_x_mm": 11.8,
+          "fitted_diameter_mm": 1.7995666160503825,
+          "cardinal_diameters_mm": [
+            1.7999999999999998,
+            1.8000000000000007
+          ],
+          "minimum_inscribed_diameter_mm": 1.7990362774635515,
+          "maximum_diameter_mm": 1.8000000000000018,
+          "bounds_center_error_mm": 8.881784197001252e-16
+        },
+        {
+          "axial_native_x_mm": 12.4,
+          "fitted_diameter_mm": 1.7997414189813854,
+          "cardinal_diameters_mm": [
+            1.7999999999999998,
+            1.8000000000000007
+          ],
+          "minimum_inscribed_diameter_mm": 1.7991338996836401,
+          "maximum_diameter_mm": 1.8000000000000018,
+          "bounds_center_error_mm": 8.881784197001252e-16
+        },
+        {
+          "axial_native_x_mm": 12.8,
+          "fitted_diameter_mm": 1.7999397874481888,
+          "cardinal_diameters_mm": [
+            1.7999999999999998,
+            1.8000000000000007
+          ],
+          "minimum_inscribed_diameter_mm": 1.7997551499824018,
+          "maximum_diameter_mm": 1.8000000000000018,
+          "bounds_center_error_mm": 8.881784197001252e-16
+        }
+      ],
+      "passed": true
+    },
+    {
+      "part": "SRC__024__yaw2roll-1",
+      "source": "native_project",
+      "center_yz_mm": [
+        -7.238252609039581,
+        8.99999952765388
+      ],
+      "sections": [
+        {
+          "axial_native_x_mm": 11.8,
+          "fitted_diameter_mm": 1.7995023921289122,
+          "cardinal_diameters_mm": [
+            1.8000000000000007,
+            1.8000000000000007
+          ],
+          "minimum_inscribed_diameter_mm": 1.7990362581570833,
+          "maximum_diameter_mm": 1.8000000000000016,
+          "bounds_center_error_mm": 0.0
+        },
+        {
+          "axial_native_x_mm": 12.4,
+          "fitted_diameter_mm": 1.7996993324214,
+          "cardinal_diameters_mm": [
+            1.8000000000000007,
+            1.8000000000000007
+          ],
+          "minimum_inscribed_diameter_mm": 1.7991332335275896,
+          "maximum_diameter_mm": 1.8000000000000016,
+          "bounds_center_error_mm": 0.0
+        },
+        {
+          "axial_native_x_mm": 12.8,
+          "fitted_diameter_mm": 1.799927213760452,
+          "cardinal_diameters_mm": [
+            1.8000000000000007,
+            1.8000000000000007
+          ],
+          "minimum_inscribed_diameter_mm": 1.79904981573917,
+          "maximum_diameter_mm": 1.8000000000000016,
+          "bounds_center_error_mm": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "part": "SRC__128__yaw2roll-2",
+      "source": "saved_CAD",
+      "center_yz_mm": [
+        7.238249172259642,
+        -9.000002151622356
+      ],
+      "sections": [
+        {
+          "axial_native_x_mm": -11.8,
+          "fitted_diameter_mm": 1.7995598814772429,
+          "cardinal_diameters_mm": [
+            1.799995397436593,
+            1.7999990187523043
+          ],
+          "minimum_inscribed_diameter_mm": 1.799035371680693,
+          "maximum_diameter_mm": 1.8000106609824158,
+          "bounds_center_error_mm": 2.4982184646446485e-06
+        },
+        {
+          "axial_native_x_mm": -12.4,
+          "fitted_diameter_mm": 1.7997382381095373,
+          "cardinal_diameters_mm": [
+            1.7999953974366605,
+            1.7999997209216048
+          ],
+          "minimum_inscribed_diameter_mm": 1.7991333632024276,
+          "maximum_diameter_mm": 1.8000106876161022,
+          "bounds_center_error_mm": 2.480202892354051e-06
+        },
+        {
+          "axial_native_x_mm": -12.8,
+          "fitted_diameter_mm": 1.7999394749047897,
+          "cardinal_diameters_mm": [
+            1.799995397436704,
+            1.8000001890344706
+          ],
+          "minimum_inscribed_diameter_mm": 1.7997534765393999,
+          "maximum_diameter_mm": 1.8000107249531374,
+          "bounds_center_error_mm": 2.5260470678872338e-06
+        }
+      ],
+      "passed": true
+    },
+    {
+      "part": "SRC__128__yaw2roll-2",
+      "source": "saved_CAD",
+      "center_yz_mm": [
+        7.238251700999726,
+        8.999999716524936
+      ],
+      "sections": [
+        {
+          "axial_native_x_mm": -11.8,
+          "fitted_diameter_mm": 1.799504116675866,
+          "cardinal_diameters_mm": [
+            1.7999953974365415,
+            1.8000000296276113
+          ],
+          "minimum_inscribed_diameter_mm": 1.7990317348905687,
+          "maximum_diameter_mm": 1.8000113590184523,
+          "bounds_center_error_mm": 2.332086355956169e-06
+        },
+        {
+          "axial_native_x_mm": -12.4,
+          "fitted_diameter_mm": 1.7996977398294756,
+          "cardinal_diameters_mm": [
+            1.7999953974365361,
+            1.8000004854377494
+          ],
+          "minimum_inscribed_diameter_mm": 1.7991319823352347,
+          "maximum_diameter_mm": 1.8000115222333382,
+          "bounds_center_error_mm": 2.245496678239747e-06
+        },
+        {
+          "axial_native_x_mm": -12.8,
+          "fitted_diameter_mm": 1.7999281912039509,
+          "cardinal_diameters_mm": [
+            1.7999953974365326,
+            1.8000007893111771
+          ],
+          "minimum_inscribed_diameter_mm": 1.7990496513556216,
+          "maximum_diameter_mm": 1.8000116310432632,
+          "bounds_center_error_mm": 2.1982873341114536e-06
+        }
+      ],
+      "passed": true
+    },
+    {
+      "part": "SRC__128__yaw2roll-2",
+      "source": "native_project",
+      "center_yz_mm": [
+        7.238249172259642,
+        -9.000002151622356
+      ],
+      "sections": [
+        {
+          "axial_native_x_mm": -11.8,
+          "fitted_diameter_mm": 1.7995624879052927,
+          "cardinal_diameters_mm": [
+            1.7999999723393438,
+            1.8000000000000007
+          ],
+          "minimum_inscribed_diameter_mm": 1.7990362775494808,
+          "maximum_diameter_mm": 1.8000000000000023,
+          "bounds_center_error_mm": 1.383032799395778e-08
+        },
+        {
+          "axial_native_x_mm": -12.4,
+          "fitted_diameter_mm": 1.7997392748795698,
+          "cardinal_diameters_mm": [
+            1.7999999596945715,
+            1.8000000000000007
+          ],
+          "minimum_inscribed_diameter_mm": 1.7991335197739697,
+          "maximum_diameter_mm": 1.8000000000000023,
+          "bounds_center_error_mm": 2.015271416411224e-08
+        },
+        {
+          "axial_native_x_mm": -12.8,
+          "fitted_diameter_mm": 1.7999395884034672,
+          "cardinal_diameters_mm": [
+            1.7999999512647227,
+            1.8000000000000007
+          ],
+          "minimum_inscribed_diameter_mm": 1.7997549401196822,
+          "maximum_diameter_mm": 1.8000000000000023,
+          "bounds_center_error_mm": 2.436763946178644e-08
+        }
+      ],
+      "passed": true
+    },
+    {
+      "part": "SRC__128__yaw2roll-2",
+      "source": "native_project",
+      "center_yz_mm": [
+        7.238251700999726,
+        8.999999716524936
+      ],
+      "sections": [
+        {
+          "axial_native_x_mm": -11.8,
+          "fitted_diameter_mm": 1.7995026544161457,
+          "cardinal_diameters_mm": [
+            1.8000000000000007,
+            1.8000000000000007
+          ],
+          "minimum_inscribed_diameter_mm": 1.79903625749421,
+          "maximum_diameter_mm": 1.8000000000000016,
+          "bounds_center_error_mm": 0.0
+        },
+        {
+          "axial_native_x_mm": -12.4,
+          "fitted_diameter_mm": 1.799696030573149,
+          "cardinal_diameters_mm": [
+            1.8000000000000007,
+            1.8000000000000007
+          ],
+          "minimum_inscribed_diameter_mm": 1.799132692636051,
+          "maximum_diameter_mm": 1.8000000000000016,
+          "bounds_center_error_mm": 0.0
+        },
+        {
+          "axial_native_x_mm": -12.8,
+          "fitted_diameter_mm": 1.799927317661062,
+          "cardinal_diameters_mm": [
+            1.8000000000000007,
+            1.8000000000000007
+          ],
+          "minimum_inscribed_diameter_mm": 1.799047542178382,
+          "maximum_diameter_mm": 1.8000000000000016,
+          "bounds_center_error_mm": 0.0
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "closed_single_solids": true,
+  "solid_checks": [
+    {
+      "part": "SRC__024__yaw2roll-1",
+      "source": "saved_CAD",
+      "indexed_mesh_connected_components": 1,
+      "positive_volume_solids": 1,
+      "kernel_near_zero_fragments_mm3": [],
+      "kernel_near_zero_tolerance_mm3": 1e-05
+    },
+    {
+      "part": "SRC__024__yaw2roll-1",
+      "source": "native_project",
+      "indexed_mesh_connected_components": 1,
+      "positive_volume_solids": 1,
+      "kernel_near_zero_fragments_mm3": [],
+      "kernel_near_zero_tolerance_mm3": 1e-07
+    },
+    {
+      "part": "SRC__128__yaw2roll-2",
+      "source": "saved_CAD",
+      "indexed_mesh_connected_components": 1,
+      "positive_volume_solids": 1,
+      "kernel_near_zero_fragments_mm3": [
+        4.195063240869379e-06
+      ],
+      "kernel_near_zero_tolerance_mm3": 1e-05
+    },
+    {
+      "part": "SRC__128__yaw2roll-2",
+      "source": "native_project",
+      "indexed_mesh_connected_components": 1,
+      "positive_volume_solids": 1,
+      "kernel_near_zero_fragments_mm3": [],
+      "kernel_near_zero_tolerance_mm3": 1e-07
+    }
+  ],
+  "physical_fit_verified": false
+}

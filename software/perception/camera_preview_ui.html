@@ -1,0 +1,460 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IMX219 · 实时深度测试</title>
+<style>
+  :root { color-scheme: dark; font: 15px/1.5 system-ui, sans-serif; background: #101d26; color: #e5eef2; }
+  * { box-sizing: border-box; }
+  body { margin: 0; }
+  main { max-width: 1440px; margin: auto; padding: 24px; }
+  header { display: flex; align-items: center; justify-content: space-between; gap: 18px; flex-wrap: wrap; }
+  h1 { margin: 0; font-size: 25px; font-weight: 650; }
+  p { color: #aebfc9; margin: 8px 0 18px; }
+  label { display: flex; align-items: center; gap: 10px; color: #bacbd4; }
+  select { min-width: 212px; padding: 9px 12px; font: inherit; color: #f2f7fa; background: #203340; border: 1px solid #526b7b; border-radius: 8px; }
+  select:focus-visible, a:focus-visible { outline: 2px solid #72dcbb; outline-offset: 3px; }
+  #status { min-height: 28px; margin: 10px 0; color: #c2cfda; }
+  #status[data-kind="live"] { color: #78dfbd; }
+  #status[data-kind="error"] { color: #ffad9d; }
+  .preview { position: relative; width: 100%; aspect-ratio: 32 / 9; overflow: hidden; border: 1px solid #35505f; border-radius: 10px; background: #07121a; }
+  #view { display: block; width: 100%; height: 100%; object-fit: contain; }
+  [hidden] { display: none !important; }
+  #placeholder { position: absolute; inset: 0; display: grid; place-content: center; text-align: center; color: #a6bac6; padding: 20px; }
+  .image-labels { position: absolute; top: 10px; left: 12px; right: 12px; display: grid; grid-template-columns: 1fr 1fr; pointer-events: none; font-size: 13px; color: #fff; text-shadow: 0 1px 3px #000; }
+  .image-labels span { justify-self: start; background: #07121abf; border-radius: 4px; padding: 2px 7px; }
+  .image-labels span:last-child { margin-left: 12px; }
+  .legend { display: flex; align-items: center; gap: 9px; margin: 10px 0 20px; color: #b5c6ce; font-size: 13px; flex-wrap: wrap; }
+  .gradient { width: 120px; height: 8px; border-radius: 10px; background: linear-gradient(90deg, #ed4a25, #f6c640, #7bdb61, #30a6c9, #4350a0); }
+  .legend .note { margin-left: auto; }
+  .fps, .timing { display: grid; gap: 10px; }
+  .fps { grid-template-columns: repeat(3, 1fr); }
+  .timing { grid-template-columns: repeat(6, 1fr); margin-top: 10px; }
+  .metric { padding: 13px 15px; background: #192b36; border: 1px solid #294250; border-radius: 9px; }
+  .metric span { display: block; color: #b6c7d0; font-size: 13px; }
+  .metric strong { display: block; font-size: 24px; font-weight: 600; margin: 3px 0; font-variant-numeric: tabular-nums; }
+  .metric small { color: #91a9b8; font-size: 11px; }
+  .timing .metric strong { font-size: 21px; }
+  footer { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin-top: 18px; font-size: 12px; color: #91a9b8; }
+  a { color: #78dfbd; }
+  @media (max-width: 1000px) { .timing { grid-template-columns: repeat(3, 1fr); } }
+  @media (max-width: 600px) { main { padding: 15px; } h1 { font-size: 21px; } label { width: 100%; } select { flex: 1; } .metric { padding: 10px; } .metric strong { font-size: 21px; } .timing { grid-template-columns: repeat(2, 1fr); } .legend .note { margin-left: 0; width: 100%; } }
+</style>
+<main>
+  <header>
+    <h1>IMX219 · 实时深度测试</h1>
+    <label for="model">深度模型 <select id="model" disabled aria-label="深度模型"><option>读取模型…</option></select></label>
+  </header>
+  <p>RGB 与相对深度来自同一帧。暖色近、冷色远；每个模型使用各自固定色标，尚未定尺，颜色不代表米。</p>
+  <div id="status" role="status" aria-live="polite">正在连接预览服务…</div>
+  <p id="hardware-status" style="font-size:12px;margin:0 0 12px" hidden></p>
+  <div class="preview">
+    <img id="view" width="1280" height="360" alt="同帧 RGB 与相对深度" hidden>
+    <div id="placeholder">等待模型与相机首帧</div>
+    <div class="image-labels" aria-hidden="true"><span>RGB · 640 × 360</span><span>相对深度 · 640 × 360</span></div>
+  </div>
+  <div class="legend"><span>近</span><span class="gradient" aria-hidden="true"></span><span>远</span><span class="note" id="frame-note">配对画面 1280 × 360</span></div>
+  <div class="fps" aria-label="实测帧率">
+    <div class="metric"><span>相机采集</span><strong id="capture-fps">—</strong><small>fps · 后台近 3 秒</small></div>
+    <div class="metric"><span>模型处理</span><strong id="processing-fps">—</strong><small>fps · 后台近 3 秒</small></div>
+    <div class="metric"><span>网页实际显示</span><strong id="display-fps">—</strong><small>fps · 新帧显示计数，近 3 秒</small></div>
+  </div>
+  <div class="timing" aria-label="实测耗时">
+    <div class="metric"><span>预处理</span><strong id="preprocess-ms">—</strong><small>ms · 近 3 秒 P50</small></div>
+    <div class="metric"><span>模型调用</span><strong id="inference-ms">—</strong><small>ms · 近 3 秒 P50，含输入与等待</small></div>
+    <div class="metric"><span>深度后处理</span><strong id="postprocess-ms">—</strong><small>ms · 近 3 秒 P50</small></div>
+    <div class="metric"><span>JPEG 编码</span><strong id="jpeg-ms">—</strong><small>ms · 近 3 秒 P50</small></div>
+    <div class="metric"><span>驱动帧 → 就绪</span><strong id="driver-ms">—</strong><small>ms · 最近显示帧</small></div>
+    <div class="metric"><span>驱动帧 → 浏览器</span><strong id="browser-ms">—</strong><small id="browser-uncertainty">ms · 软件时间戳估计</small></div>
+  </div>
+  <footer><span>浏览器延迟含解码与动画帧等待；非光子到屏幕实测。临时测试页，不控制舵机。</span><span><a href="/results/input_transport/index.html">10/29 输入优化 →</a> <a href="/results/continued_optimization/index.html">10/27 续测 →</a> · <a href="/results/midas_optimization/index.html">INT8 优化前后 →</a> · <a href="/results/index.html">历史五模型报告 →</a> · <a href="/results/gpu_comparison/index.html">GPU 实测 →</a></span></footer>
+</main>
+<script>
+(() => {
+  'use strict';
+  const $ = id => document.getElementById(id);
+  const view = $('view'), status = $('status'), select = $('model');
+  const maximumAge = 3000;
+  let requested = null, expectedEpoch = null, generation = 0, lastFrame = 0;
+  let frameController = null, stateInFlight = null, readyResolver = null;
+  let state = null, imageUrl = null, frameIssue = null, modelIssue = null;
+  let postRunning = false, sentGeneration = 0, acknowledgedGeneration = 0, stopped = false;
+  let displayTimes = [], latestDisplay = null, clockOffset = null, bestRtt = Infinity;
+  const modelLabels = new Map();
+  window.previewTimingSamples = [];
+  window.previewTransport = 'long-poll';
+  window.previewStreamStats = { parts: 0, dropped: 0, invalid: 0, pending: 0, max_pending: 0 };
+  window.previewClockSync = { best_rtt_ms: null, offset_ms: null };
+  const finite = value => typeof value === 'number' && Number.isFinite(value);
+  const fmt = value => finite(value) ? value.toFixed(1) : '—';
+  const displayRate = () => {
+    const span = displayTimes.at(-1) - displayTimes[0];
+    return displayTimes.length >= 3 && span >= 750 ? (displayTimes.length - 1) * 1000 / span : null;
+  };
+  const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
+  const nextPaint = () => new Promise(resolve => requestAnimationFrame(resolve));
+  const headerNumber = (response, name) => {
+    const value = response.headers.get(name);
+    return value !== null && value.trim() !== '' && Number.isFinite(Number(value)) ? Number(value) : null;
+  };
+  function message(text, kind = 'waiting') {
+    status.textContent = text;
+    status.dataset.kind = kind;
+  }
+  function clearPicture(reason) {
+    view.hidden = true;
+    view.removeAttribute('src');
+    for (const key of ['frame', 'model', 'epoch']) delete view.dataset[key];
+    if (imageUrl) URL.revokeObjectURL(imageUrl);
+    imageUrl = null;
+    latestDisplay = null;
+    displayTimes = [];
+    $('placeholder').hidden = false;
+    $('placeholder').textContent = reason;
+    $('frame-note').textContent = '配对画面 1280 × 360';
+    for (const id of ['display-fps', 'driver-ms', 'browser-ms']) $(id).textContent = '—';
+    $('browser-uncertainty').textContent = 'ms · 软件时间戳估计';
+  }
+  function clearProcessing() {
+    for (const id of ['processing-fps', 'preprocess-ms', 'inference-ms', 'postprocess-ms', 'jpeg-ms']) {
+      $(id).textContent = '—';
+      $(id).removeAttribute('title');
+    }
+  }
+  function pauseFrames(reason) {
+    expectedEpoch = null;
+    frameController?.abort();
+    clearPicture(reason);
+  }
+  function setEpoch(epoch) {
+    if (expectedEpoch !== epoch) {
+      frameController?.abort();
+      lastFrame = 0;
+      clearPicture('等待所选模型的新画面');
+      expectedEpoch = epoch;
+    }
+    if (readyResolver) { readyResolver(); readyResolver = null; }
+  }
+  function renderStatus() {
+    if (modelIssue) return message(modelIssue, 'error');
+    if (frameIssue) return message(frameIssue.text, frameIssue.kind);
+    const label = modelLabels.get(requested) || requested || '模型';
+    if (!state || state.requested_model !== requested) return message(`正在请求 ${label}…`);
+    if (state.error) return message(`${state.phase === 'recovering' ? '相机正在恢复' : '预览异常'}：${state.error}`, 'error');
+    const phases = { loading: '正在加载模型', waiting_camera: '等待相机画面', recovering: '相机正在恢复', fault: '预览故障', stopped: '预览已停止' };
+    if (state.phase !== 'running' || expectedEpoch === null) return message(`${phases[state.phase] || '等待新结果'} · ${label}`);
+    if (latestDisplay) return message(`正在显示 ${label} · 帧 ${latestDisplay.frame} · epoch ${latestDisplay.epoch}`, 'live');
+    message(`模型已就绪，等待 ${label} 的新画面…`);
+  }
+  function applyState(next, requestGeneration) {
+    if (requestGeneration !== generation) return;
+    state = next;
+    const hw = next.hardware;
+    $('hardware-status').hidden = !finite(hw?.soc_c);
+    if (finite(hw?.soc_c)) {
+      const capped = finite(hw.cpu_max_khz) && finite(hw.cpu_nominal_max_khz) && hw.cpu_max_khz < hw.cpu_nominal_max_khz;
+      const sensor = state.sensor_mode?.actual;
+      const sensorText = Array.isArray(sensor) && sensor.length === 3 ? ` · 传感器 ${sensor[1]} × ${sensor[2]}` : '';
+      $('hardware-status').textContent = `板温 ${hw.soc_c.toFixed(1)} °C · CPU 上限 ${fmt(hw.cpu_max_khz / 1000)} MHz${capped ? '（系统正在限频）' : ''} · NPU ${fmt(hw.npu_hz / 1e6)} MHz${sensorText}`;
+    }
+    $('capture-fps').textContent = fmt(next.capture?.fps);
+    // Returning A → B → A must not accept A's old running epoch before the final POST is acknowledged.
+    if (acknowledgedGeneration !== generation || next.requested_model !== requested) {
+      pauseFrames('等待所选模型确认');
+      clearProcessing();
+      renderStatus();
+      return;
+    }
+    if (modelIssue && next.active_model === requested && next.phase === 'running') modelIssue = null;
+    const result = next.result;
+    const matches = next.phase === 'running' && !next.error && next.active_model === requested &&
+      finite(next.model_epoch) && result?.model === requested && result.epoch === next.model_epoch;
+    const stale = (finite(next.capture?.age_ms) && next.capture.age_ms > maximumAge) ||
+      (finite(result?.age_ms) && result.age_ms > maximumAge);
+    if (!matches || stale) {
+      pauseFrames(stale ? '最近画面已超过 3 秒，等待新帧' : '等待模型与相机就绪');
+      clearProcessing();
+      if (stale) frameIssue = { text: '最近画面已超过 3 秒，旧画面已隐藏，等待新帧', kind: 'waiting' };
+      else frameIssue = null;
+      renderStatus();
+      return;
+    }
+    setEpoch(next.model_epoch);
+    $('processing-fps').textContent = fmt(next.processing?.fps);
+    for (const name of ['preprocess', 'inference', 'postprocess', 'jpeg']) {
+      const element = $(`${name}-ms`);
+      element.textContent = fmt(next.processing?.[`${name}_ms`]);
+      const p95 = next.processing?.[`${name}_p95_ms`];
+      element.title = finite(p95) ? `近 3 秒 P95：${p95.toFixed(1)} ms` : '';
+    }
+    if (latestDisplay) {
+      displayTimes = displayTimes.filter(time => time >= performance.now() - 3000);
+      $('display-fps').textContent = fmt(displayRate());
+    }
+    renderStatus();
+  }
+  async function refreshState() {
+    if (stateInFlight) return stateInFlight;
+    const requestGeneration = generation;
+    stateInFlight = (async () => {
+      const started = performance.now();
+      try {
+        const response = await fetch('/api/state', { cache: 'no-store', signal: AbortSignal.timeout(4000) });
+        if (!response.ok) throw new Error(`状态接口 HTTP ${response.status}`);
+        const next = await response.json(), received = performance.now(), rtt = received - started;
+        // Only this immediate endpoint calibrates clocks. A frame long poll includes waiting time.
+        if (finite(next.server_monotonic_ms) && rtt < bestRtt) {
+          bestRtt = rtt;
+          clockOffset = next.server_monotonic_ms - (started + received) / 2;
+          window.previewClockSync = { best_rtt_ms: bestRtt, offset_ms: clockOffset };
+        }
+        applyState(next, requestGeneration);
+        return next;
+      } catch (error) {
+        if (requestGeneration === generation) {
+          pauseFrames('状态连接中断，旧画面已隐藏');
+          $('capture-fps').textContent = '—';
+          clearProcessing();
+          frameIssue = { text: `状态连接中断，正在重试：${error.message}`, kind: 'error' };
+          renderStatus();
+        }
+        return null;
+      } finally { stateInFlight = null; }
+    })();
+    return stateInFlight;
+  }
+  async function stateLoop() {
+    while (!stopped) { await refreshState(); await delay(1000); }
+  }
+  async function pumpModelRequests() {
+    if (postRunning) return;
+    postRunning = true;
+    let failures = 0;
+    try {
+      while (!stopped && sentGeneration < generation) {
+        const requestGeneration = generation, model = requested;
+        sentGeneration = requestGeneration;
+        try {
+          const response = await fetch('/api/model', {
+            method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ model }),
+            cache: 'no-store', signal: AbortSignal.timeout(8000)
+          });
+          const next = await response.json();
+          if (!response.ok || next.ok === false) {
+            if (requestGeneration === generation) { modelIssue = `模型请求失败：${next.error || `HTTP ${response.status}`}`; renderStatus(); }
+            continue;
+          }
+          failures = 0;
+          if (requestGeneration === generation) {
+            acknowledgedGeneration = requestGeneration;
+            modelIssue = null; applyState(next, requestGeneration); await refreshState();
+          }
+        } catch (error) {
+          if (requestGeneration !== generation) continue;
+          modelIssue = `模型请求连接中断，正在重试：${error.message}`;
+          renderStatus();
+          sentGeneration = requestGeneration - 1;
+          await delay(Math.min(250 * 2 ** failures++, 2000));
+        }
+      }
+    } finally { postRunning = false; }
+  }
+  select.addEventListener('change', () => {
+    generation++;
+    requested = select.value;
+    state = null; lastFrame = 0; frameIssue = null; modelIssue = null;
+    pauseFrames('正在切换模型，等待新画面');
+    clearProcessing();
+    renderStatus();
+    void pumpModelRequests();
+  });
+  async function displayPart(part, current, model, epoch) {
+    const { headers, blob, started, headersReady, bodyReady } = part;
+    const response = { headers }, frame = headerNumber(response, 'X-Frame-Id');
+    const candidateUrl = URL.createObjectURL(blob);
+    try {
+      const candidate = new Image(); candidate.src = candidateUrl;
+      await candidate.decode();
+      await nextPaint();
+      if (!current() || frame <= lastFrame) return;
+      const shown = performance.now(), source = headerNumber(response, 'X-Source-Monotonic-Ms');
+      const sample = {
+        frame, model, epoch, client_time_ms: shown, rtt_headers_ms: headersReady - started,
+        transfer_ms: bodyReady - headersReady, decode_and_raf_ms: shown - bodyReady,
+        estimated_driver_to_browser_ms: finite(source) && finite(clockOffset) ? shown + clockOffset - source : null,
+        clock_offset_uncertainty_ms: finite(bestRtt) ? bestRtt / 2 : null
+      };
+      const previousUrl = imageUrl;
+      view.src = candidateUrl; imageUrl = candidateUrl; view.hidden = false;
+      view.dataset.frame = String(frame); view.dataset.model = model; view.dataset.epoch = String(epoch);
+      $('placeholder').hidden = true;
+      if (previousUrl) URL.revokeObjectURL(previousUrl);
+      lastFrame = frame; latestDisplay = { frame, model, epoch, shown };
+      displayTimes.push(shown); displayTimes = displayTimes.filter(time => time >= shown - 3000);
+      $('display-fps').textContent = fmt(displayRate());
+      $('driver-ms').textContent = fmt(headerNumber(response, 'X-Driver-To-Encoded-Ms'));
+      $('browser-ms').textContent = fmt(sample.estimated_driver_to_browser_ms);
+      $('browser-uncertainty').textContent = finite(sample.clock_offset_uncertainty_ms) ? `ms · 时钟估计 ±${sample.clock_offset_uncertainty_ms.toFixed(1)} ms` : 'ms · 等待时钟校准';
+      $('frame-note').textContent = `配对画面 1280 × 360 · 帧 ${frame} · 此帧推理 ${fmt(headerNumber(response, 'X-Inference-Ms'))} ms`;
+      window.previewTimingSamples.push(sample);
+      if (window.previewTimingSamples.length > 300) window.previewTimingSamples.splice(0, window.previewTimingSamples.length - 300);
+      frameIssue = null; renderStatus();
+    } finally { if (candidateUrl !== imageUrl) URL.revokeObjectURL(candidateUrl); }
+  }
+  async function streamFrames(controller, current, model, epoch) {
+    const started = performance.now();
+    const query = new URLSearchParams({ after: String(lastFrame), epoch: String(epoch) });
+    const response = await fetch(`/api/stream?${query}`, { cache: 'no-store', signal: controller.signal });
+    if (!response.ok || !/multipart\/x-mixed-replace\s*;\s*boundary="?depthframe"?/i.test(response.headers.get('Content-Type') || '') || !response.body) throw new Error(`连续画面流响应无效 HTTP ${response.status}`);
+    const reader = response.body.getReader(), stats = window.previewStreamStats;
+    const session = { pending: null, live: true, wake: null, error: null };
+    let lastPartAt = performance.now(), watchdog = null;
+    const wake = () => { if (session.wake) { session.wake(); session.wake = null; } };
+    const stop = () => { clearInterval(watchdog); session.live = false; session.pending = null; stats.pending = 0; wake(); };
+    controller.signal.addEventListener('abort', stop, { once: true });
+    const valid = () => session.live && current() && !controller.signal.aborted;
+    watchdog = setInterval(() => {
+      if (valid() && performance.now() - lastPartAt >= 3000) {
+        frameIssue = { text: '连续画面流 3 秒无新有效帧，旧画面已隐藏，正在重连', kind: 'error' };
+        clearPicture(frameIssue.text); renderStatus();
+        controller.abort();
+      }
+    }, 500);
+    const reading = (async () => {
+      // Fixed header storage and one bounded payload; complete pending parts replace each other.
+      const headerBytes = new Uint8Array(32768), decoder = new TextDecoder();
+      let used = 0, payload = null, written = 0, separator = 0, headers = null;
+      let headerStarted = started, headersReady = 0, lastReceived = lastFrame;
+      while (valid()) {
+        const { value, done } = await reader.read();
+        if (done) throw new Error('连续画面流已关闭，等待重连');
+        let position = 0;
+        while (position < value.length && valid()) {
+          if (separator) {
+            if (value[position++] !== (separator === 2 ? 13 : 10)) throw new Error('连续画面流分隔符无效');
+            if (--separator === 0) headerStarted = performance.now();
+          } else if (!payload) {
+            if (used >= headerBytes.length) throw new Error('连续画面流头部超过 32KB');
+            headerBytes[used++] = value[position++];
+            if (used >= 4 && headerBytes[used - 4] === 13 && headerBytes[used - 3] === 10 && headerBytes[used - 2] === 13 && headerBytes[used - 1] === 10) {
+              const lines = decoder.decode(headerBytes.subarray(0, used - 4)).split('\r\n');
+              if (lines.shift() !== '--depthframe') throw new Error('连续画面流边界无效');
+              headers = new Headers();
+              for (const line of lines) { const colon = line.indexOf(':'); if (colon <= 0) throw new Error('连续画面流头部无效'); headers.append(line.slice(0, colon), line.slice(colon + 1).trim()); }
+              const lengthText = headers.get('Content-Length') || '';
+              const length = Number(lengthText);
+              if (!/^\d+$/.test(lengthText) || !Number.isInteger(length) || length < 1 || length > 2 * 1024 * 1024 || headers.get('Content-Type')?.toLowerCase() !== 'image/jpeg') throw new Error('连续画面流 JPEG 长度或类型无效');
+              headersReady = performance.now(); payload = new Uint8Array(length); written = 0; used = 0;
+            }
+          } else {
+            const count = Math.min(value.length - position, payload.length - written);
+            payload.set(value.subarray(position, position + count), written); position += count; written += count;
+            if (written === payload.length) {
+              const bodyReady = performance.now(), frame = headerNumber({ headers }, 'X-Frame-Id');
+              stats.parts++;
+              if (headers.get('X-Model-Id') === model && headerNumber({ headers }, 'X-Model-Epoch') === epoch && finite(frame) && frame > lastReceived) {
+                lastPartAt = bodyReady;
+                lastReceived = frame;
+                if (session.pending) stats.dropped++;
+                session.pending = { headers, blob: new Blob([payload], { type: 'image/jpeg' }), started: headerStarted, headersReady, bodyReady };
+                stats.pending = 1; stats.max_pending = Math.max(stats.max_pending, 1); wake();
+              } else stats.invalid++;
+              payload = null; separator = 2;
+            }
+          }
+        }
+      }
+    })().catch(error => { session.error = error; }).finally(() => {
+      stop();
+      if (current() && !controller.signal.aborted) { clearPicture('连续画面流已中断，等待重连'); }
+    });
+    try {
+      while (valid()) {
+        if (!session.pending) { await new Promise(resolve => { session.wake = resolve; }); continue; }
+        const part = session.pending; session.pending = null; stats.pending = 0;
+        await displayPart(part, valid, model, epoch);
+      }
+      await reading;
+      if (session.error) throw session.error;
+    } finally {
+      stop(); controller.signal.removeEventListener('abort', stop);
+      await reader.cancel().catch(() => {});
+    }
+  }
+  async function frameLoop() {
+    let failures = 0;
+    while (!stopped) {
+      while (!stopped && expectedEpoch === null) await new Promise(resolve => { readyResolver = resolve; });
+      if (stopped) break;
+      const requestGeneration = generation, model = requested, epoch = expectedEpoch;
+      const controller = new AbortController(); frameController = controller;
+      const current = () => !stopped && requestGeneration === generation && model === requested && epoch === expectedEpoch;
+      try {
+        if (window.previewTransport === 'multipart') {
+          await streamFrames(controller, current, model, epoch);
+          continue;
+        }
+        const started = performance.now();
+        const query = new URLSearchParams({ after: String(lastFrame), epoch: String(epoch), timeout: '15' });
+        const response = await fetch(`/api/frame?${query}`, { cache: 'no-store', signal: AbortSignal.any([controller.signal, AbortSignal.timeout(18000)]) });
+        const headersReady = performance.now();
+        if (!current()) continue;
+        if (response.status === 204) {
+          const changedEpoch = headerNumber(response, 'X-Model-Epoch');
+          frameIssue = { text: changedEpoch !== null && changedEpoch !== epoch ? '模型版本已变化，等待新结果' : '长轮询超时，暂无新帧；旧画面已隐藏', kind: 'waiting' };
+          clearPicture(frameIssue.text); renderStatus();
+          await refreshState();
+          await delay(100);
+          continue;
+        }
+        if (!response.ok) throw new Error(response.status === 503 ? '服务暂时没有可用画面' : `画面接口 HTTP ${response.status}`);
+        const frame = headerNumber(response, 'X-Frame-Id');
+        const receivedModel = response.headers.get('X-Model-Id'), receivedEpoch = headerNumber(response, 'X-Model-Epoch');
+        if (receivedModel !== model || receivedEpoch !== epoch || !finite(frame) || frame <= lastFrame) {
+          frameIssue = { text: '丢弃不匹配或重复的帧，等待所选模型新结果', kind: 'waiting' };
+          clearPicture(frameIssue.text); renderStatus();
+          await refreshState();
+          await delay(100);
+          continue;
+        }
+        const blob = await response.blob(), bodyReady = performance.now();
+        await displayPart({ headers: response.headers, blob, started, headersReady, bodyReady }, current, model, epoch);
+        failures = 0;
+        // A successful frame immediately starts the next long poll. No refresh timer or fixed delay.
+      } catch (error) {
+        if (!current() || controller.signal.aborted) continue;
+        frameIssue = { text: `画面连接中断，旧画面已隐藏；正在重试：${error.message}`, kind: 'error' };
+        clearPicture(frameIssue.text); renderStatus();
+        await refreshState();
+        await delay(Math.min(250 * 2 ** failures++, 2000));
+      } finally { if (frameController === controller) frameController = null; }
+    }
+  }
+  async function start() {
+    let failures = 0;
+    while (!stopped) {
+      try {
+        const response = await fetch('/api/config', { cache: 'no-store', signal: AbortSignal.timeout(4000) });
+        if (!response.ok) throw new Error(`配置接口 HTTP ${response.status}`);
+        const config = await response.json();
+        window.previewTransport = config.frame_transport === 'multipart' ? 'multipart' : 'long-poll';
+        if (!Array.isArray(config.models) || !config.models.length || !config.models.some(model => model.id === config.selected_model)) throw new Error('模型配置无效');
+        select.replaceChildren();
+        for (const model of config.models) {
+          const option = document.createElement('option'); option.value = model.id; option.textContent = model.label;
+          modelLabels.set(model.id, model.label); select.append(option);
+        }
+        requested = config.selected_model; select.value = requested; select.disabled = false;
+        void stateLoop(); void frameLoop();
+        return;
+      } catch (error) {
+        message(`预览服务连接中断，正在重试：${error.message}`, 'error');
+        await delay(Math.min(250 * 2 ** failures++, 2000));
+      }
+    }
+  }
+  window.addEventListener('pagehide', () => { stopped = true; frameController?.abort(); if (readyResolver) readyResolver(); if (imageUrl) URL.revokeObjectURL(imageUrl); });
+  void start();
+})();
+</script>
+</html>
