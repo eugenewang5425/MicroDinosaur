@@ -13,8 +13,8 @@
     },
     {
       "path": ".gitignore",
-      "bytes": 7557,
-      "sha256": "e2175a7379ccb0362407211cd4f926ed2930c5dc41b65207d6f386c0aa48c3c6"
+      "bytes": 7497,
+      "sha256": "f8d11992e5a2c551fabaad966420bfd7bfb152cc8b4a7655cb8029dd99821f32"
     },
     {
       "path": "AGENTS.md",
@@ -43,8 +43,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 2691,
-      "sha256": "01c078f04157a5442a1d193ebb81ef14b0d82ea1eafd3507d5b7f89c667cd9d3"
+      "bytes": 2688,
+      "sha256": "b5426530d593d29d7fd157be3d5d2933137dd5a4b71e0111c7caf59011ffe61e"
     },
     {
       "path": "current/MicroDinosaur_Current.blend",
@@ -58,8 +58,8 @@
     },
     {
       "path": "current/README.md",
-      "bytes": 927,
-      "sha256": "f4e3f95f9a4fc4c35781588dec50469d64dbcbdd412f9ffbbcc68dbeff5a9f02"
+      "bytes": 950,
+      "sha256": "ad57f5b266d4505d473be4eabf27c7d7859e71117e19a087e9d2361cbcf10446"
     },
     {
       "path": "current/calibration_fixture/BodyStand.stl",
@@ -83,18 +83,13 @@
     },
     {
       "path": "current/calibration_fixture/README.md",
-      "bytes": 4180,
-      "sha256": "83cbcb83a572827ff77a37980c9a2b680d4eb7bde9a0f2bd7dbc074f8c654c84"
+      "bytes": 4080,
+      "sha256": "224e04cda4e02ec21b06e7212ff0b5d1640e9f69cee6ca47e4340e0548bc963b"
     },
     {
       "path": "current/calibration_fixture/TailStand.stl",
       "bytes": 151769,
       "sha256": "7fca0acc0d587269c7a62b71249055bc85d6458efd3cc32711c323285b0ee697"
-    },
-    {
-      "path": "current/calibration_fixture/WholeBodyFixture_Assembly.3mf",
-      "bytes": 33618637,
-      "sha256": "3ac216ab8a90b2b73ed573647c072e756ca920830bdd0ce3cefef60797b8aae4"
     },
     {
       "path": "current/calibration_fixture/WholeBodyFixture_TwoPlates.3mf",
@@ -113,8 +108,8 @@
     },
     {
       "path": "current/calibration_fixture/manifest.json",
-      "bytes": 3039,
-      "sha256": "81d68c11914a5a4a72993c136139a883cefb5eb08163d67d9ddb263b55b24289"
+      "bytes": 2948,
+      "sha256": "86e331a2527476caac17714c513773f8f0c1dae2dbd968e40bb46ab8de6dd5cd"
     },
     {
       "path": "current/calibration_fixture/previews/fullbody_assembly.png",
@@ -138,8 +133,8 @@
     },
     {
       "path": "current/calibration_fixture/validation.json",
-      "bytes": 12108,
-      "sha256": "a785fb19aae90d82ff9dbfcd6a67a4a53594446ec1f0f70a8ed297bfdb730218"
+      "bytes": 12121,
+      "sha256": "39a00c06b0db7535afb087efec955c1d8519a7542fe09e8dfe4f7107719f83cc"
     },
     {
       "path": "current/current_manifest.json",
@@ -657,6 +652,7 @@
     "manifest": "current/calibration_fixture/manifest.json",
     "native_print_sha256": "ab1fce0878612ec8e9147178885410822750910d058c4d20dc9340fc7ec23fea",
     "source_robot_component_state": "edit_20261108_220551",
-    "physical_fit_verified": false
+    "physical_fit_verified": false,
+    "standalone_whole_robot_3mf": false
   }
 }

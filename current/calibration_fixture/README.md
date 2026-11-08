@@ -1,14 +1,13 @@
 # 整机零位校准架
 
-2026-11-08 最新交付。适用于 MicroDinosaur **OS-M02 开源头腿分支**；三件夹具、两盘打印。机器人为姿态和接触关系的参考模型，夹具与参考整机分别标识。
+2026-11-08 最新交付。适用于 MicroDinosaur **OS-M02 开源头腿分支**；三件夹具、两盘打印。整机示意仅以图片展示，不另行导出带整机的装配3MF。Blender中的机器人集合用于建模参照和生成示意图。
 
-![完整装配](previews/fullbody_assembly.png)
+![整机示意图](previews/fullbody_assembly.png)
 
 | 文件 | 用途 |
 | --- | --- |
 | [WholeBodyFixture_TwoPlates.3mf](WholeBodyFixture_TwoPlates.3mf) | Bambu Studio 原生两盘打印工程。第1盘前部一体架；第2盘尾架＋放倒的头颈柱。包含工艺、耗材和两处手根局部填充修改器 |
-| [WholeBodyZeroJig.blend](WholeBodyZeroJig.blend) | 完整装配：140个机器人参考网格＋3件夹具；毫米单位。可在 Blender 中查看和编辑网格 |
-| [WholeBodyFixture_Assembly.3mf](WholeBodyFixture_Assembly.3mf) | 同一装配的3MF查看文件，143网格作为一个装配组，已标记不打印 |
+| [WholeBodyZeroJig.blend](WholeBodyZeroJig.blend) | 夹具建模源，保留机器人参考集合以绘制示意图；毫米单位。打印内容仅为三件夹具 |
 | [BodyStand.stl](BodyStand.stl) · [HeadNeckColumn.stl](HeadNeckColumn.stl) · [TailStand.stl](TailStand.stl) | 三件夹具的毫米STL；不携带打印工艺 |
 | [Print_Body_Module.3mf](Print_Body_Module.3mf) · [Print_Tail_Module.3mf](Print_Tail_Module.3mf) | 几何交换文件。当前盘位和工艺以两盘原生工程为准 |
 

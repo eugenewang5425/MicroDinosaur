@@ -12,8 +12,6 @@
     "TailStand"
   ],
   "print_project": "WholeBodyFixture_TwoPlates.3mf",
-  "assembly_blend": "WholeBodyZeroJig.blend",
-  "assembly_review_3mf": "WholeBodyFixture_Assembly.3mf",
   "physical_fit_verified": false,
   "strength_verified": false,
   "files": [
@@ -39,18 +37,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 4180,
-      "sha256": "83cbcb83a572827ff77a37980c9a2b680d4eb7bde9a0f2bd7dbc074f8c654c84"
+      "bytes": 4080,
+      "sha256": "224e04cda4e02ec21b06e7212ff0b5d1640e9f69cee6ca47e4340e0548bc963b"
     },
     {
       "path": "TailStand.stl",
       "bytes": 151769,
       "sha256": "7fca0acc0d587269c7a62b71249055bc85d6458efd3cc32711c323285b0ee697"
-    },
-    {
-      "path": "WholeBodyFixture_Assembly.3mf",
-      "bytes": 33618637,
-      "sha256": "3ac216ab8a90b2b73ed573647c072e756ca920830bdd0ce3cefef60797b8aae4"
     },
     {
       "path": "WholeBodyFixture_TwoPlates.3mf",
@@ -89,8 +82,10 @@
     },
     {
       "path": "validation.json",
-      "bytes": 12108,
-      "sha256": "a785fb19aae90d82ff9dbfcd6a67a4a53594446ec1f0f70a8ed297bfdb730218"
+      "bytes": 12121,
+      "sha256": "39a00c06b0db7535afb087efec955c1d8519a7542fe09e8dfe4f7107719f83cc"
     }
-  ]
+  ],
+  "illustration_policy": "Whole-robot support illustrations are PNG images. No separate whole-robot assembly3MF is delivered.",
+  "modeling_source_blend": "WholeBodyZeroJig.blend"
 }

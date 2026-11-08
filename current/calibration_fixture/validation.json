@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "date": "2026-11-08",
-  "scope": "Current three-piece whole-body zero calibration fixture and view-only robot assembly",
+  "scope": "Current three-piece whole-body zero calibration fixture, modeling source and PNG illustrations",
   "artifact_sha256": {
     "BodyStand.stl": "a81a2e76ffd8e64c7fa410fb38248b7217b84d97c9c57f8b98892ef40c04f669",
     "HeadNeckColumn.stl": "57aba3111523e96710424f826662905ed8be68f768fedbb5350ed7865a60c493",
@@ -9,7 +9,6 @@
     "Print_Body_Module.3mf": "237fe222b0c7efa01fcefbe269791a90a9b40e99d73b7978adbfeee25cca2be5",
     "Print_Tail_Module.3mf": "831f5d36a7e3d5b16402520388d2cb626774889474577778540101a9c8906aba",
     "WholeBodyFixture_TwoPlates.3mf": "ab1fce0878612ec8e9147178885410822750910d058c4d20dc9340fc7ec23fea",
-    "WholeBodyFixture_Assembly.3mf": "3ac216ab8a90b2b73ed573647c072e756ca920830bdd0ce3cefef60797b8aae4",
     "WholeBodyZeroJig.blend": "80ed8d4f1e1dc5c6aff4a863f544a1b4bd6981ca5738246b33e149388c4cc5b1",
     "design_parameters.json": "5f09b459e435605e89898ff3ade6bfa9f204b24908a6cc59375dbe55c3452bcc"
   },
@@ -405,7 +404,6 @@
     "source_current_state": "edit_20261108_220551",
     "source_current_model_sha256": "218745a32ee3d6793b4bd7bd4266eba72a6f1370dd4ace8cd2537f403b8d7294",
     "new_fixture_blend_sha256": "80ed8d4f1e1dc5c6aff4a863f544a1b4bd6981ca5738246b33e149388c4cc5b1",
-    "new_fixture_review_sha256": "3ac216ab8a90b2b73ed573647c072e756ca920830bdd0ce3cefef60797b8aae4",
     "other139_robot_and3_fixture_arrays_exact": true,
     "robot_pose_and_closed_mouth_retained": true,
     "saved_reopened": true,
@@ -433,5 +431,14 @@
     ],
     "native_blender_saved_coordinates_are_float32": true,
     "print_dispatched": false
+  },
+  "delivery_scope": {
+    "standalone_whole_robot_3mf": false,
+    "whole_robot_illustrations": "previews/*.png",
+    "printed_parts": [
+      "BodyStand",
+      "HeadNeckColumn",
+      "TailStand"
+    ]
   }
 }

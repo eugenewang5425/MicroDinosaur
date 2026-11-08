@@ -8,7 +8,7 @@
 | --- | --- | --- |
 | 整机 CAD | [MicroDinosaur_Current.blend](current/MicroDinosaur_Current.blend) | OS-M02，11 月 2 日更新；150 对象、124 网格、6 条保留驱动 |
 | 打印工程 | [MicroDinosaur_Print.3mf](current/MicroDinosaur_Print.3mf) | 8 盘 30 件，与当前模型配套 |
-| 整机零位校准架 | [三件夹具、两盘工程与整机装配](current/calibration_fixture/README.md) | 11月8日最新试装版；两盘切片通过，实物配合与承载待验 |
+| 整机零位校准架 | [三件夹具、两盘工程与示意图](current/calibration_fixture/README.md) | 11月8日最新试装版；两盘切片通过，实物配合与承载待验 |
 | 头部集成板 | [KiCad 工程与说明](hardware/head_hat/README.md) | 65×30 mm 六层；原生 DRC 0 错误、0 警告、0 未连接；未打样验收 |
 | S288 主机接口 | [双总线适配代码](hardware/head_hat/software/README.md) | 帧编码、CRC、端口绑定与 EEPROM 工具；待实板联调 |
 | IMU | [接线、读取程序与数据](hardware/imu/README.md) | F411 与 ZERO 3W 基础读取通过；异常跳点待排查 |
