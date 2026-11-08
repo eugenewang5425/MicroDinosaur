@@ -3,3 +3,6 @@
 *.3mf filter=lfs diff=lfs merge=lfs -text
 *.rknn filter=lfs diff=lfs merge=lfs -text
 *.kicad_* -text
+
+# Preserve source STL bytes and avoid textual geometry diffs.
+/current/calibration_fixture/*.stl -text -diff

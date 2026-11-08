@@ -1,0 +1,437 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-08",
+  "scope": "Current three-piece whole-body zero calibration fixture and view-only robot assembly",
+  "artifact_sha256": {
+    "BodyStand.stl": "a81a2e76ffd8e64c7fa410fb38248b7217b84d97c9c57f8b98892ef40c04f669",
+    "HeadNeckColumn.stl": "57aba3111523e96710424f826662905ed8be68f768fedbb5350ed7865a60c493",
+    "TailStand.stl": "7fca0acc0d587269c7a62b71249055bc85d6458efd3cc32711c323285b0ee697",
+    "Print_Body_Module.3mf": "237fe222b0c7efa01fcefbe269791a90a9b40e99d73b7978adbfeee25cca2be5",
+    "Print_Tail_Module.3mf": "831f5d36a7e3d5b16402520388d2cb626774889474577778540101a9c8906aba",
+    "WholeBodyFixture_TwoPlates.3mf": "ab1fce0878612ec8e9147178885410822750910d058c4d20dc9340fc7ec23fea",
+    "WholeBodyFixture_Assembly.3mf": "3ac216ab8a90b2b73ed573647c072e756ca920830bdd0ce3cefef60797b8aae4",
+    "WholeBodyZeroJig.blend": "80ed8d4f1e1dc5c6aff4a863f544a1b4bd6981ca5738246b33e149388c4cc5b1",
+    "design_parameters.json": "5f09b459e435605e89898ff3ade6bfa9f204b24908a6cc59375dbe55c3452bcc"
+  },
+  "native_print_project": {
+    "plates": [
+      1,
+      2
+    ],
+    "layout": [
+      {
+        "plate": 1,
+        "parts": [
+          {
+            "name": "BodyStand",
+            "object_id": "4",
+            "identify_id": "147",
+            "bounds_mm": [
+              [
+                60.285695000000004,
+                71.27709899999999,
+                3.819275278260648e-06
+              ],
+              [
+                260.28569500000003,
+                225.47709899999998,
+                146.6334953807247
+              ]
+            ],
+            "size_mm": [
+              200.00000000000003,
+              154.2,
+              146.63349156144943
+            ],
+            "build_transform": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ],
+              [
+                160.285695,
+                148.377099,
+                73.3167496
+              ]
+            ]
+          }
+        ],
+        "plate_origin_mm": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "over_limit": false
+      },
+      {
+        "plate": 2,
+        "parts": [
+          {
+            "name": "TailStand",
+            "object_id": "6",
+            "identify_id": "158",
+            "bounds_mm": [
+              [
+                55.78691200000003,
+                28.6200331,
+                3.819275278260648e-06
+              ],
+              [
+                250.58691199999998,
+                148.6200331,
+                183.1334953807247
+              ]
+            ],
+            "size_mm": [
+              194.79999999999995,
+              120.0,
+              183.13349156144943
+            ],
+            "build_transform": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ],
+              [
+                549.186912,
+                88.6200331,
+                91.5667496
+              ]
+            ]
+          },
+          {
+            "name": "HeadNeckColumn",
+            "object_id": "8",
+            "identify_id": "169",
+            "bounds_mm": [
+              [
+                51.02484705126807,
+                193.821989,
+                0.0
+              ],
+              [
+                251.6945669487318,
+                249.821991,
+                64.0
+              ]
+            ],
+            "size_mm": [
+              200.66971989746372,
+              56.000001999999995,
+              64.0
+            ],
+            "build_transform": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ],
+              [
+                547.359707,
+                221.82199,
+                32.0
+              ]
+            ]
+          }
+        ],
+        "plate_origin_mm": [
+          396.0,
+          0.0,
+          0.0
+        ],
+        "over_limit": false
+      }
+    ],
+    "bounds_over_limit": false,
+    "density_modifiers": 2,
+    "slicing": {
+      "plates": [
+        {
+          "plate": 1,
+          "seconds": 62803.22265625,
+          "grams_including_support": 190.1661834716797,
+          "objects": [
+            "BodyStand"
+          ],
+          "warnings": "",
+          "gcode_sha256": "83180a827faa337095951009e17b9389f87d5a544a3ffa8272ac82bcfb955697"
+        },
+        {
+          "plate": 2,
+          "seconds": 42652.51171875,
+          "grams_including_support": 142.2202911376953,
+          "objects": [
+            "TailStand",
+            "HeadNeckColumn"
+          ],
+          "warnings": "",
+          "gcode_sha256": "6192fef153302d32114938befe27dfd49ee67f0af96dedd9cb1d60896b56e92e"
+        }
+      ],
+      "total_seconds": 105455.734375,
+      "total_grams": 332.386474609375
+    },
+    "tail_support": {
+      "root_support_extrusion_length_mm": 0.0,
+      "root_support_moves": 0,
+      "all_tail_support_extrusion_length_mm": 0.0,
+      "support_by_object_id_mm": {
+        "169": 6396.33388187429
+      },
+      "tail_identify_id": "158",
+      "method": "Native plate_2 support extrusion parsed by OBJECT_ID, preserving automatic support settings. Head column is a separate object on this plate."
+    }
+  },
+  "fixture_geometry": {
+    "three_closed_single_solids": true,
+    "bearing_contact_regions": [
+      {
+        "label": "torso_rear",
+        "fixture": "BodyStand",
+        "samples": 81,
+        "max_cad_robot_gap_mm": 2.842170943040401e-14
+      },
+      {
+        "label": "torso_front",
+        "fixture": "BodyStand",
+        "samples": 81,
+        "max_cad_robot_gap_mm": 1.4210854715202004e-14
+      },
+      {
+        "label": "foot_SRC__012",
+        "fixture": "BodyStand",
+        "samples": 81,
+        "max_cad_robot_gap_mm": 3.552713678800501e-15
+      },
+      {
+        "label": "foot_DERIVED__1012",
+        "fixture": "BodyStand",
+        "samples": 81,
+        "max_cad_robot_gap_mm": 3.552713678800501e-15
+      },
+      {
+        "label": "head_rear_-1",
+        "fixture": "HeadNeckColumn",
+        "samples": 81,
+        "max_cad_robot_gap_mm": 5.684341886080802e-14
+      },
+      {
+        "label": "head_rear_1",
+        "fixture": "HeadNeckColumn",
+        "samples": 81,
+        "max_cad_robot_gap_mm": 5.684341886080802e-14
+      },
+      {
+        "label": "head_neck_side_-1",
+        "fixture": "HeadNeckColumn",
+        "samples": 81,
+        "max_cad_robot_gap_mm": 4.077459664131311e-06
+      },
+      {
+        "label": "head_neck_side_1",
+        "fixture": "HeadNeckColumn",
+        "samples": 81,
+        "max_cad_robot_gap_mm": 5.684341886080802e-14
+      },
+      {
+        "label": "neck_bottom",
+        "fixture": "HeadNeckColumn",
+        "samples": 81,
+        "max_cad_robot_gap_mm": 3.4050853230382927e-06
+      },
+      {
+        "label": "horizontal_hand_-1",
+        "fixture": "BodyStand",
+        "samples": 81,
+        "max_cad_robot_gap_mm": 1.1821130129874291e-05
+      },
+      {
+        "label": "horizontal_hand_1",
+        "fixture": "BodyStand",
+        "samples": 81,
+        "max_cad_robot_gap_mm": 4.1909588617272675e-06
+      },
+      {
+        "label": "thigh_upper_L",
+        "fixture": "BodyStand",
+        "samples": 81,
+        "max_cad_robot_gap_mm": 4.666902086114533e-06
+      },
+      {
+        "label": "knee_lower_L",
+        "fixture": "BodyStand",
+        "samples": 81,
+        "max_cad_robot_gap_mm": 1.276783150672145e-05
+      },
+      {
+        "label": "thigh_upper_R",
+        "fixture": "BodyStand",
+        "samples": 81,
+        "max_cad_robot_gap_mm": 4.991623569594594e-06
+      },
+      {
+        "label": "knee_lower_R",
+        "fixture": "BodyStand",
+        "samples": 81,
+        "max_cad_robot_gap_mm": 2.505062781210654e-06
+      },
+      {
+        "label": "tail_root_-1",
+        "fixture": "TailStand",
+        "samples": 81,
+        "max_cad_robot_gap_mm": 2.842170943040401e-14
+      },
+      {
+        "label": "tail_root_1",
+        "fixture": "TailStand",
+        "samples": 81,
+        "max_cad_robot_gap_mm": 2.842170943040401e-14
+      },
+      {
+        "label": "tail_beam",
+        "fixture": "TailStand",
+        "samples": 81,
+        "max_cad_robot_gap_mm": 9.999999974752427e-07
+      },
+      {
+        "label": "hand_cradle_floor_1",
+        "fixture": "BodyStand",
+        "samples": 81,
+        "max_cad_robot_gap_mm": 1.2200741025480966e-05
+      },
+      {
+        "label": "hand_cradle_floor_-1",
+        "fixture": "BodyStand",
+        "samples": 81,
+        "max_cad_robot_gap_mm": 7.725006668124479e-06
+      }
+    ],
+    "lateral_guide_gaps": [
+      {
+        "feature": "upper_neck",
+        "side_y": -1,
+        "samples": 9,
+        "min_side_gap_mm": 0.10000054144697046,
+        "max_side_gap_mm": 0.10000657686158831
+      },
+      {
+        "feature": "upper_neck",
+        "side_y": 1,
+        "samples": 9,
+        "min_side_gap_mm": 0.10000187236765612,
+        "max_side_gap_mm": 0.10000412017820537
+      },
+      {
+        "feature": "tail_root",
+        "side_y": -1,
+        "samples": 9,
+        "min_side_gap_mm": 0.10001028925180222,
+        "max_side_gap_mm": 0.10001028925180577
+      },
+      {
+        "feature": "tail_root",
+        "side_y": 1,
+        "samples": 9,
+        "min_side_gap_mm": 0.10001028925180222,
+        "max_side_gap_mm": 0.10001028925180577
+      }
+    ],
+    "closed_solid_robot_meshes_checked_in_fixture_design": 100,
+    "fixture_pair_intersections": [],
+    "empty_fixture_guide_paths": [
+      {
+        "moving": "HeadNeckColumn",
+        "fixed": [
+          "BodyStand",
+          "TailStand"
+        ],
+        "axis": 2,
+        "samples": 124,
+        "max_volume_mm3": 1.7638668303732175e-14
+      },
+      {
+        "moving": "BodyStand",
+        "fixed": [
+          "TailStand"
+        ],
+        "axis": 2,
+        "samples": 33,
+        "max_volume_mm3": 0.0
+      },
+      {
+        "moving": "TailStand",
+        "fixed": [
+          "BodyStand"
+        ],
+        "axis": 0,
+        "samples": 61,
+        "max_volume_mm3": 0.0
+      }
+    ]
+  },
+  "reference_sync": {
+    "source_current_state": "edit_20261108_220551",
+    "source_current_model_sha256": "218745a32ee3d6793b4bd7bd4266eba72a6f1370dd4ace8cd2537f403b8d7294",
+    "new_fixture_blend_sha256": "80ed8d4f1e1dc5c6aff4a863f544a1b4bd6981ca5738246b33e149388c4cc5b1",
+    "new_fixture_review_sha256": "3ac216ab8a90b2b73ed573647c072e756ca920830bdd0ce3cefef60797b8aae4",
+    "other139_robot_and3_fixture_arrays_exact": true,
+    "robot_pose_and_closed_mouth_retained": true,
+    "saved_reopened": true,
+    "readback_meshes": 143,
+    "maximum_saved_vertex_error_mm": 1.5258575729149015e-05,
+    "head_mounting_pilot_mm": 1.8,
+    "side_vent_position_corrected": true,
+    "side_shift_forward_mm": 23,
+    "side_shift_down_mm": 5
+  },
+  "validation_reuse": "The3 fixtures and139 other robot reference meshes are unchanged after crown edits. Crown slot/pilot edits do not meet any fixture bearing surfaces;20 existing contact interfaces and the native two-plate slice remain applicable.",
+  "limitations": {
+    "physical_fit_verified": false,
+    "physical_load_verified": false,
+    "articulated_robot_insertion_path_verified": false,
+    "known_rigid_robot_path_surface_crossings": [
+      {
+        "name": "body_module_docking_lift30",
+        "samples_with_surface_crossings": 17
+      },
+      {
+        "name": "lowering_to_seats",
+        "samples_with_surface_crossings": 79
+      }
+    ],
+    "native_blender_saved_coordinates_are_float32": true,
+    "print_dispatched": false
+  }
+}

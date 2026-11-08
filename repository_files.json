@@ -1,20 +1,20 @@
 {
   "schema_version": 4,
   "repository": "eugenewang5425/MicroDinosaur",
-  "published_on": "2026-11-07",
-  "scope": "Latest OS-M02 CAD/print, HAT candidate, host software, IMU probes and perception only",
+  "published_on": "2026-11-08",
+  "scope": "Latest OS-M02 CAD/print, HAT candidate, host software, IMU probes and perception only; latest whole-body zero calibration fixture",
   "model_path": "current/MicroDinosaur_Current.blend",
   "inventory_excludes_itself": true,
   "files": [
     {
       "path": ".gitattributes",
-      "bytes": 164,
-      "sha256": "448ad83ceb2e6acb00fb51a29ec7a060654e44a79bf157d9a0c71594cea424b7"
+      "bytes": 274,
+      "sha256": "65c5577e31a084532f3ff59d31f9f45769a9217742257362a6325423913e5b5e"
     },
     {
       "path": ".gitignore",
-      "bytes": 6567,
-      "sha256": "78ce2a889725f299fb0eb8bfa304b067290ad43c6ed704cb78243096f546208b"
+      "bytes": 7557,
+      "sha256": "e2175a7379ccb0362407211cd4f926ed2930c5dc41b65207d6f386c0aa48c3c6"
     },
     {
       "path": "AGENTS.md",
@@ -43,8 +43,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 2501,
-      "sha256": "59ac8c43df77a7593341dda30accee16668451bf46e0d399a73849bacd783466"
+      "bytes": 2691,
+      "sha256": "01c078f04157a5442a1d193ebb81ef14b0d82ea1eafd3507d5b7f89c667cd9d3"
     },
     {
       "path": "current/MicroDinosaur_Current.blend",
@@ -58,8 +58,88 @@
     },
     {
       "path": "current/README.md",
-      "bytes": 594,
-      "sha256": "e889d040d9190640f05e6aa69960b03f2b69eb30a11750a2c388aaac70d3874d"
+      "bytes": 927,
+      "sha256": "f4e3f95f9a4fc4c35781588dec50469d64dbcbdd412f9ffbbcc68dbeff5a9f02"
+    },
+    {
+      "path": "current/calibration_fixture/BodyStand.stl",
+      "bytes": 4847356,
+      "sha256": "a81a2e76ffd8e64c7fa410fb38248b7217b84d97c9c57f8b98892ef40c04f669"
+    },
+    {
+      "path": "current/calibration_fixture/HeadNeckColumn.stl",
+      "bytes": 556866,
+      "sha256": "57aba3111523e96710424f826662905ed8be68f768fedbb5350ed7865a60c493"
+    },
+    {
+      "path": "current/calibration_fixture/Print_Body_Module.3mf",
+      "bytes": 279352,
+      "sha256": "237fe222b0c7efa01fcefbe269791a90a9b40e99d73b7978adbfeee25cca2be5"
+    },
+    {
+      "path": "current/calibration_fixture/Print_Tail_Module.3mf",
+      "bytes": 8000,
+      "sha256": "831f5d36a7e3d5b16402520388d2cb626774889474577778540101a9c8906aba"
+    },
+    {
+      "path": "current/calibration_fixture/README.md",
+      "bytes": 4180,
+      "sha256": "83cbcb83a572827ff77a37980c9a2b680d4eb7bde9a0f2bd7dbc074f8c654c84"
+    },
+    {
+      "path": "current/calibration_fixture/TailStand.stl",
+      "bytes": 151769,
+      "sha256": "7fca0acc0d587269c7a62b71249055bc85d6458efd3cc32711c323285b0ee697"
+    },
+    {
+      "path": "current/calibration_fixture/WholeBodyFixture_Assembly.3mf",
+      "bytes": 33618637,
+      "sha256": "3ac216ab8a90b2b73ed573647c072e756ca920830bdd0ce3cefef60797b8aae4"
+    },
+    {
+      "path": "current/calibration_fixture/WholeBodyFixture_TwoPlates.3mf",
+      "bytes": 307288,
+      "sha256": "ab1fce0878612ec8e9147178885410822750910d058c4d20dc9340fc7ec23fea"
+    },
+    {
+      "path": "current/calibration_fixture/WholeBodyZeroJig.blend",
+      "bytes": 46108159,
+      "sha256": "80ed8d4f1e1dc5c6aff4a863f544a1b4bd6981ca5738246b33e149388c4cc5b1"
+    },
+    {
+      "path": "current/calibration_fixture/design_parameters.json",
+      "bytes": 9933,
+      "sha256": "5f09b459e435605e89898ff3ade6bfa9f204b24908a6cc59375dbe55c3452bcc"
+    },
+    {
+      "path": "current/calibration_fixture/manifest.json",
+      "bytes": 3039,
+      "sha256": "81d68c11914a5a4a72993c136139a883cefb5eb08163d67d9ddb263b55b24289"
+    },
+    {
+      "path": "current/calibration_fixture/previews/fullbody_assembly.png",
+      "bytes": 2182298,
+      "sha256": "e2017c18bfceb1137b33015cfdf02822efc48d45467c9c3228e4ae824236f1bb"
+    },
+    {
+      "path": "current/calibration_fixture/previews/fullbody_fixture.png",
+      "bytes": 2152573,
+      "sha256": "c1cce82cb340a8dbe56f7d0669be0f03e290ae2eea5150b71afd5767a93f99fc"
+    },
+    {
+      "path": "current/calibration_fixture/previews/head_vented_installed.png",
+      "bytes": 1973823,
+      "sha256": "9a62b4f045b9231f074030f06e94e78e4e582421648fcc9a3f7a44ae7286ecd8"
+    },
+    {
+      "path": "current/calibration_fixture/previews/two_plate_layout.png",
+      "bytes": 122181,
+      "sha256": "c1152a86173ef9c358ee596affda35378c637b442126aee0cc6e3bc19fb10474"
+    },
+    {
+      "path": "current/calibration_fixture/validation.json",
+      "bytes": 12108,
+      "sha256": "a785fb19aae90d82ff9dbfcd6a67a4a53594446ec1f0f70a8ed297bfdb730218"
     },
     {
       "path": "current/current_manifest.json",
@@ -571,5 +651,12 @@
       "bytes": 961,
       "sha256": "bfb6283d067f175407eb8026218a5eaf3438a6f8b0ba3577627fd320e6efce50"
     }
-  ]
+  ],
+  "latest_zero_fixture": {
+    "path": "current/calibration_fixture",
+    "manifest": "current/calibration_fixture/manifest.json",
+    "native_print_sha256": "ab1fce0878612ec8e9147178885410822750910d058c4d20dc9340fc7ec23fea",
+    "source_robot_component_state": "edit_20261108_220551",
+    "physical_fit_verified": false
+  }
 }

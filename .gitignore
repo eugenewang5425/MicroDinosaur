@@ -136,3 +136,23 @@
 !/software/perception/validation/single_thread_equivalence.json
 !/source/microduck_rl/LICENSE
 !/source/microduck_rl/MODEL_LICENSE_NOTE.md
+
+# Latest whole-body zero calibration fixture; no local history or G-code.
+!/current/calibration_fixture/
+!/current/calibration_fixture/previews/
+!/current/calibration_fixture/BodyStand.stl
+!/current/calibration_fixture/HeadNeckColumn.stl
+!/current/calibration_fixture/Print_Body_Module.3mf
+!/current/calibration_fixture/Print_Tail_Module.3mf
+!/current/calibration_fixture/README.md
+!/current/calibration_fixture/TailStand.stl
+!/current/calibration_fixture/WholeBodyFixture_Assembly.3mf
+!/current/calibration_fixture/WholeBodyFixture_TwoPlates.3mf
+!/current/calibration_fixture/WholeBodyZeroJig.blend
+!/current/calibration_fixture/design_parameters.json
+!/current/calibration_fixture/manifest.json
+!/current/calibration_fixture/previews/fullbody_assembly.png
+!/current/calibration_fixture/previews/fullbody_fixture.png
+!/current/calibration_fixture/previews/head_vented_installed.png
+!/current/calibration_fixture/previews/two_plate_layout.png
+!/current/calibration_fixture/validation.json

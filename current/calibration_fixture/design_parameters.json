@@ -1,0 +1,446 @@
+{
+  "schema_version": 1,
+  "units": "mm",
+  "parts": [
+    {
+      "name": "BodyStand",
+      "print_size_mm": [
+        200.0,
+        154.2,
+        146.63349156144943
+      ],
+      "assembly_bounds_mm": [
+        [
+          -140.0,
+          -77.1,
+          3.8665084385505786
+        ],
+        [
+          60.0,
+          77.1,
+          150.5
+        ]
+      ],
+      "volume_mm3": 236825.72974736345,
+      "watertight_single_solid": true
+    },
+    {
+      "name": "HeadNeckColumn",
+      "print_size_mm": [
+        200.66971989746378,
+        56.000002,
+        64.0
+      ],
+      "assembly_bounds_mm": [
+        [
+          -12.000000000000004,
+          -28.000001,
+          20.866508438550582
+        ],
+        [
+          52.0,
+          28.000001,
+          221.53622833601437
+        ]
+      ],
+      "volume_mm3": 52610.55106465183,
+      "watertight_single_solid": true
+    },
+    {
+      "name": "TailStand",
+      "print_size_mm": [
+        194.8,
+        120.0,
+        183.13349156144943
+      ],
+      "assembly_bounds_mm": [
+        [
+          -323.0,
+          -60.0,
+          3.8665084385505786
+        ],
+        [
+          -128.2,
+          60.0,
+          187.0
+        ]
+      ],
+      "volume_mm3": 147870.03037768148,
+      "watertight_single_solid": true
+    }
+  ],
+  "head_column_join": {
+    "pin_count": 3,
+    "distribution": "triangle",
+    "male_across_flats_mm": 5.6,
+    "socket_across_flats_mm": 6.0,
+    "nominal_clearance_per_flat_mm": 0.2,
+    "insertion_length_mm": 24,
+    "socket_depth_mm": 24.4,
+    "pin_axis_xy_mm": [
+      [
+        43.5,
+        -8
+      ],
+      [
+        49.2,
+        0
+      ],
+      [
+        43.5,
+        8
+      ]
+    ],
+    "shoulder_z_mm": 44.86650843855058,
+    "pedestal_height_above_base_mm": 35,
+    "stem_section_xy_mm": [
+      12,
+      24
+    ],
+    "retention": "User chose removable locating plugs; no elastic undercut"
+  },
+  "base_module_hex_joins": [
+    {
+      "center_xy_mm": [
+        -134,
+        -50
+      ],
+      "male_across_flats_mm": 6.0,
+      "socket_across_flats_mm": 6.4,
+      "insertion_length_mm": 5.8,
+      "nominal_clearance_per_flat_mm": 0.2,
+      "axis": "Z",
+      "replaces": "M4 hole and nut pocket"
+    },
+    {
+      "center_xy_mm": [
+        -134,
+        50
+      ],
+      "male_across_flats_mm": 6.0,
+      "socket_across_flats_mm": 6.4,
+      "insertion_length_mm": 5.8,
+      "nominal_clearance_per_flat_mm": 0.2,
+      "axis": "Z",
+      "replaces": "M4 hole and nut pocket"
+    }
+  ],
+  "foot_rim": [
+    {
+      "target": "SRC__012__sole_left-1",
+      "outward_reinforcement_mm": 2.2,
+      "contact_surface_changed": false,
+      "separate_fences_removed": true,
+      "upper_edge_flat_crown_width_mm": 1.8,
+      "outer_edge_chamfer_mm": 0.4,
+      "construction": "Thicken the curved upper edge itself, with a broad near-level crown and a chamfered outside corner; not merely a bottom skirt.",
+      "sample_count": 2057,
+      "retained_contact_samples": 2054,
+      "max_positive_penetration_mm": 4.660301012648915e-06,
+      "max_retained_contact_error_mm": 4.660301012648915e-06
+    },
+    {
+      "target": "DERIVED__1012__DERIVED_MIRROR_sole_left",
+      "outward_reinforcement_mm": 2.2,
+      "contact_surface_changed": false,
+      "separate_fences_removed": true,
+      "upper_edge_flat_crown_width_mm": 1.8,
+      "outer_edge_chamfer_mm": 0.4,
+      "construction": "Thicken the curved upper edge itself, with a broad near-level crown and a chamfered outside corner; not merely a bottom skirt.",
+      "sample_count": 2056,
+      "retained_contact_samples": 2054,
+      "max_positive_penetration_mm": 4.0259760787364485e-06,
+      "max_retained_contact_error_mm": 4.0259760787364485e-06
+    }
+  ],
+  "latest_fixture_changes": {
+    "base_triangle_webs": [
+      {
+        "part": "BodyStand",
+        "triangles": 10,
+        "added_mm3": 1112.3186765430394,
+        "height_mm": 6,
+        "floor_z_mm": 3.866508438550579
+      },
+      {
+        "part": "TailStand",
+        "triangles": 8,
+        "added_mm3": 1439.8800000000058,
+        "height_mm": 6,
+        "floor_z_mm": 3.866508438550579
+      }
+    ],
+    "hip_fore_aft_fences": [
+      {
+        "side": "rear",
+        "bounds_mm": [
+          [
+            -87,
+            -4,
+            111.5
+          ],
+          [
+            -84.8,
+            4,
+            120
+          ]
+        ]
+      },
+      {
+        "side": "front",
+        "bounds_mm": [
+          [
+            -46.6,
+            -4,
+            111.5
+          ],
+          [
+            -44.4,
+            4,
+            120
+          ]
+        ]
+      }
+    ],
+    "lower_leg_tray_width_mm": {
+      "before": 18.5,
+      "after": 14,
+      "local_y_mm": [
+        46,
+        60
+      ],
+      "free_arm_x_mm": [
+        -104,
+        -55
+      ],
+      "connector_retained": true
+    },
+    "smooth_hand_columns": [
+      {
+        "side_y": 1,
+        "outer_y_positive_mm": 62.099996799230574,
+        "root_x_mm": [
+          37,
+          52
+        ],
+        "root_y_positive_mm": [
+          46.099996799230574,
+          62.099996799230574
+        ],
+        "smooth_transition": "Cubic smoothstep sampled along Z; fixed lateral outer face",
+        "root_outside_base_mm3": 0.0,
+        "modifier_bounds_world_mm": [
+          [
+            37,
+            46.099996799230574,
+            3.866508438550579
+          ],
+          [
+            52,
+            62.099996799230574,
+            55
+          ]
+        ],
+        "density_percent": 50
+      },
+      {
+        "side_y": -1,
+        "outer_y_positive_mm": 62.099996799230574,
+        "root_x_mm": [
+          37,
+          52
+        ],
+        "root_y_positive_mm": [
+          46.099996799230574,
+          62.099996799230574
+        ],
+        "smooth_transition": "Cubic smoothstep sampled along Z; fixed lateral outer face",
+        "root_outside_base_mm3": 0.0,
+        "modifier_bounds_world_mm": [
+          [
+            37,
+            -62.099996799230574,
+            3.866508438550579
+          ],
+          [
+            52,
+            -46.099996799230574,
+            55
+          ]
+        ],
+        "density_percent": 50
+      }
+    ],
+    "head_hex_join": {
+      "pin_count": 3,
+      "distribution": "triangle",
+      "male_across_flats_mm": 5.6,
+      "socket_across_flats_mm": 6.0,
+      "nominal_clearance_per_flat_mm": 0.2,
+      "insertion_length_mm": 24,
+      "socket_depth_mm": 24.4,
+      "pin_axis_xy_mm": [
+        [
+          43.5,
+          -8
+        ],
+        [
+          49.2,
+          0
+        ],
+        [
+          43.5,
+          8
+        ]
+      ],
+      "shoulder_z_mm": 44.86650843855058,
+      "pedestal_height_above_base_mm": 35,
+      "stem_section_xy_mm": [
+        12,
+        24
+      ],
+      "retention": "User chose removable locating plugs; no elastic undercut"
+    },
+    "head_base_lip": {
+      "outside_y_limit_mm": 28,
+      "old_width_y_mm": 60,
+      "new_width_y_mm": 56,
+      "removed_mm3": 383.9998079999995,
+      "user_confirmed": "Remove outward thin lips; retain the head-bearing surfaces."
+    },
+    "additional_head_window": {
+      "width_y_mm": 8,
+      "z_mm": [
+        144,
+        156
+      ],
+      "through_axis": "X",
+      "side_rails_mm": 8
+    },
+    "neck_side_capture": [
+      {
+        "target": "MD-N01-P003-neck_pitch__037",
+        "side_y": -1,
+        "nominal_side_gap_mm": 0.1,
+        "inner_y_positive_mm": 17.599998439782407,
+        "outer_y_positive_mm": 19.999998439782406,
+        "x_mm": [
+          18,
+          43
+        ],
+        "z_mm": [
+          202,
+          213
+        ],
+        "entry_relief_mm": 0.4
+      },
+      {
+        "target": "MD-N01-P003-neck_pitch__037",
+        "side_y": 1,
+        "nominal_side_gap_mm": 0.1,
+        "inner_y_positive_mm": 17.60000779558347,
+        "outer_y_positive_mm": 20.000007795583468,
+        "x_mm": [
+          18,
+          43
+        ],
+        "z_mm": [
+          202,
+          213
+        ],
+        "entry_relief_mm": 0.4
+      }
+    ],
+    "tail_full_sloping_floor": {
+      "plane_z_equals_ax_by_c": [
+        -0.04907005291588064,
+        0.0,
+        155.61733949269214
+      ],
+      "thickness_mm": 4,
+      "x_mm": [
+        -313,
+        -287
+      ],
+      "raised_pad_removed": true,
+      "max_source_plane_error_mm": 9.999999690535333e-07
+    },
+    "tail_root_capture": {
+      "side_gap_mm": 0.1,
+      "back_gap_mm": 0.1,
+      "wall_thickness_mm": 2.4,
+      "wall_z_mm": [
+        122.4,
+        128.5
+      ],
+      "plate_x_mm": [
+        -204,
+        -173
+      ],
+      "plate_top_z_mm": 122.50000238418579,
+      "rear_inner_x_mm": -200.9000612258911
+    }
+  },
+  "native_infill_settings": {
+    "HeadNeckColumn": {
+      "extruder": "1",
+      "sparse_infill_density": "15%"
+    },
+    "BodyStand": {
+      "extruder": "1",
+      "sparse_infill_density": "15%"
+    },
+    "TailStand": {
+      "extruder": "1",
+      "sparse_infill_density": "15%"
+    }
+  },
+  "hand_root_infill_modifiers": [
+    {
+      "part_id": "2",
+      "density": "50%",
+      "world_bounds_mm": [
+        [
+          37.0,
+          46.099996799230574,
+          3.866508438550579
+        ],
+        [
+          52.0,
+          62.099996799230574,
+          55.0
+        ]
+      ]
+    },
+    {
+      "part_id": "3",
+      "density": "50%",
+      "world_bounds_mm": [
+        [
+          37.0,
+          -62.099996799230574,
+          3.866508438550579
+        ],
+        [
+          52.0,
+          -46.099996799230574,
+          55.0
+        ]
+      ]
+    }
+  ],
+  "source_reference_head": {
+    "top_slots": 6,
+    "top_slot_length_width_mm": [
+      14,
+      3
+    ],
+    "side_slots_each": 3,
+    "side_slot_length_width_mm": [
+      12,
+      2
+    ],
+    "head_mounting_pilot_mm": 1.8,
+    "note": "These holes belong to the robot reference crown, not the three printed fixture pieces."
+  }
+}
