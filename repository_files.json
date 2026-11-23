@@ -13,8 +13,8 @@
     },
     {
       "path": ".gitignore",
-      "bytes": 7766,
-      "sha256": "8fdfc96ebfc1202b2b0bfeb9c1b8a4170f2f14a8856deeee6f61540fc74156c9"
+      "bytes": 7823,
+      "sha256": "03571d339621cb45b2c6f7544cbf500f5f7af3ee2236930ebeb895cc43b8bf0f"
     },
     {
       "path": "AGENTS.md",
@@ -528,13 +528,18 @@
     },
     {
       "path": "research/demo1_domain_randomization/README.md",
-      "bytes": 3085,
-      "sha256": "e417e19681f0843c972950d36456d5588f885174aca4910bd30cbef4e2b42913"
+      "bytes": 4729,
+      "sha256": "734a6e2f9d1f0af6e24c3bd34e6fa604f8930f0341bba2c3ec90d1f0f72087e8"
+    },
+    {
+      "path": "research/demo1_domain_randomization/pilot_metrics.json",
+      "bytes": 44979,
+      "sha256": "bbaab27e1ac5bb1312ddd5d4aadfe40d58be9b3c2858b71c4ccab7c581e92605"
     },
     {
       "path": "research/demo1_domain_randomization/train.py",
-      "bytes": 17569,
-      "sha256": "9ab3b3434b40ba74d8eb5f785bc4d9e918839ab56fabc31362fd3d57fbe816a7"
+      "bytes": 17829,
+      "sha256": "97813b24ff8704cdd76979054250406cce07e804f7cc4821a89b96ecb6a7fc5b"
     },
     {
       "path": "research/s288_calibration_20261124.md",

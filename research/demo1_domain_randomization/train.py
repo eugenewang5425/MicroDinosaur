@@ -209,7 +209,8 @@ def metrics(rows, release, hold, ended, load_transfers):
         speed_mm_s=float(displacement[0] / release), sustained_alternations=alternations,
         peak_tilt_deg=tilt, peak_nonsole_N=walk_contact,
     )
-    walk["stable"] = bool(completed_walk and alternations >= np.ceil(14 * release / 4.)
+    walk["stable"] = bool(completed_walk and displacement[0] > 0.
+                          and alternations >= np.ceil(14 * release / 4.)
                           and abs(displacement[1]) <= 77.2527 * release / 4.
                           and tilt < 20. and walk_contact <= .5)
     parking = dict(complete=False, passed=False, duration_s=0.)
@@ -220,14 +221,17 @@ def metrics(rows, release, hold, ended, load_transfers):
         dual = loads.all(axis=1)
         anchors = np.flatnonzero(np.r_[True, dual, True])
         landing = 0
-        for side in range(2):
-            start = None
-            for i, supported in enumerate(loads[:, side]):
-                if not supported:
-                    start = i if start is None else start
-                elif start is not None:
-                    landing += int(i - start >= 2)
-                    start = None
+        airborne = [None, None]
+        # A swing that started while walking still counts if it lands after zero.
+        for row in rows:
+            t = row["t"]
+            for side, load in enumerate(row["loads"]):
+                if load <= .5 and airborne[side] is None:
+                    airborne[side] = t
+                elif load > .5 and airborne[side] is not None:
+                    if t >= release - 1e-8 and t - airborne[side] >= .04 - 1e-8:
+                        landing += 1
+                    airborne[side] = None
         width = np.linalg.norm(foot[:, 0] - foot[:, 1], axis=1)
         duration = stop[-1]["t"] - stop[0]["t"]
         parking = dict(
@@ -241,7 +245,7 @@ def metrics(rows, release, hold, ended, load_transfers):
             peak_nonsole_N=max(r["peak_other"] for r in stop), landings=landing,
         )
         parking["passed"] = bool(
-            parking["complete"] and parking["dual"] >= .98 and parking["longest_unloaded_s"] <= .10
+            parking["complete"] and parking["dual"] >= .98 and parking["longest_unloaded_s"] <= .06
             and parking["drift_mm"] <= 25. and parking["rms_m_s"] <= .02
             and parking["foot_shift_mm"] <= 6. and parking["stance_width_change_mm"] <= 8.
             and parking["peak_tilt_deg"] <= 6. and parking["peak_nonsole_N"] <= .5 and landing <= 2
