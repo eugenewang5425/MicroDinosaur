@@ -158,6 +158,9 @@
 
 # Enumerated research branch records.
 !/research/
+!/research/demo1_domain_randomization/
 !/research/BRANCHES.md
+!/research/demo1_domain_randomization/README.md
+!/research/demo1_domain_randomization/train.py
 !/research/README.md
 !/research/s288_calibration_20261124.md

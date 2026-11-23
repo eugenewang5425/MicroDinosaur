@@ -13,8 +13,8 @@
     },
     {
       "path": ".gitignore",
-      "bytes": 7632,
-      "sha256": "c71c0e680ce995e423fa7d9dde7d23d7183809a06d572a810c9e423ab6519135"
+      "bytes": 7766,
+      "sha256": "8fdfc96ebfc1202b2b0bfeb9c1b8a4170f2f14a8856deeee6f61540fc74156c9"
     },
     {
       "path": "AGENTS.md",
@@ -525,6 +525,16 @@
       "path": "research/README.md",
       "bytes": 1514,
       "sha256": "06a8fd64fbe7155743a317e59107d448b201dfdf563822fcf9bf81cd6025a641"
+    },
+    {
+      "path": "research/demo1_domain_randomization/README.md",
+      "bytes": 3085,
+      "sha256": "e417e19681f0843c972950d36456d5588f885174aca4910bd30cbef4e2b42913"
+    },
+    {
+      "path": "research/demo1_domain_randomization/train.py",
+      "bytes": 17569,
+      "sha256": "9ab3b3434b40ba74d8eb5f785bc4d9e918839ab56fabc31362fd3d57fbe816a7"
     },
     {
       "path": "research/s288_calibration_20261124.md",
