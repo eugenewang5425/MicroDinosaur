@@ -58,8 +58,8 @@
     },
     {
       "path": "current/README.md",
-      "bytes": 950,
-      "sha256": "ad57f5b266d4505d473be4eabf27c7d7859e71117e19a087e9d2361cbcf10446"
+      "bytes": 1114,
+      "sha256": "b9baeddf3a34dbe1e15113081d567530b799505ae873c70ef29e08befa30cbdc"
     },
     {
       "path": "current/calibration_fixture/BodyStand.stl",
@@ -83,8 +83,8 @@
     },
     {
       "path": "current/calibration_fixture/README.md",
-      "bytes": 4080,
-      "sha256": "224e04cda4e02ec21b06e7212ff0b5d1640e9f69cee6ca47e4340e0548bc963b"
+      "bytes": 4043,
+      "sha256": "9d12dfb06cdd838c2c44f3a6ce62986f176affef96b28f9e9d10cef599e69e03"
     },
     {
       "path": "current/calibration_fixture/TailStand.stl",
