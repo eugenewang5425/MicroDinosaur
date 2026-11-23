@@ -155,3 +155,6 @@
 !/current/calibration_fixture/previews/head_vented_installed.png
 !/current/calibration_fixture/previews/two_plate_layout.png
 !/current/calibration_fixture/validation.json
+
+# Current head shell geometric and print verification.
+!/current/validation/current_head_vent_position_m2.json

@@ -1,0 +1,73 @@
+{
+  "report_date": "2026-11-08",
+  "file_identity_rechecked_on": "2026-11-24",
+  "component_state": "edit_20261108_220551",
+  "stage": "OS-M02",
+  "part": "SRC_HEAD__127__top_head_shell-2-1",
+  "model_sha256": "218745a32ee3d6793b4bd7bd4266eba72a6f1370dd4ace8cd2537f403b8d7294",
+  "print_sha256": "6ddcd3cd46e3a647de247570063182569b2f2c8a9308c03b96bf0e767ceba5e8",
+  "slots": {
+    "top": {
+      "count": 6,
+      "size_mm": [
+        14,
+        3
+      ]
+    },
+    "each_side": {
+      "count": 3,
+      "size_mm": [
+        12,
+        2
+      ],
+      "shift_forward_mm": 23,
+      "shift_down_mm": 5
+    }
+  },
+  "pilots": {
+    "count": 3,
+    "diameter_mm": 1.8,
+    "depth_mm": 7,
+    "intended_screw": "M2x8"
+  },
+  "bottom_plate_clearance_diameter_mm": 2.7,
+  "saved_head_shell_checks": [
+    {
+      "source": "saved_CAD",
+      "closed_single_indexed_solid": true,
+      "through_apertures": 12,
+      "max_probe_blockage_mm3": 0.0
+    },
+    {
+      "source": "native_print",
+      "closed_single_indexed_solid": true,
+      "through_apertures": 12,
+      "max_probe_blockage_mm3": 0.0
+    }
+  ],
+  "cad_to_native_max_error_mm": 4.34599240364264e-05,
+  "print_project": {
+    "changed_mesh": "3D/Objects/object_1.model",
+    "other_mesh_resources_unchanged": 29,
+    "plate_counts": [
+      10,
+      5,
+      8,
+      2,
+      1,
+      1,
+      2,
+      1
+    ],
+    "plate_placement_metadata_identical": true
+  },
+  "existing_slice_check": {
+    "plate": 2,
+    "return_code": 0,
+    "warnings": []
+  },
+  "fixture_source_robot_matches": true,
+  "physical_fit_verified": false,
+  "physical_airflow_or_acoustic_test": false,
+  "strength_verified": false
+}

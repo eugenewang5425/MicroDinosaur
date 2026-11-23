@@ -1,7 +1,7 @@
 {
   "schema_version": 4,
   "repository": "eugenewang5425/MicroDinosaur",
-  "published_on": "2026-11-08",
+  "published_on": "2026-11-24",
   "scope": "Latest OS-M02 CAD/print, HAT candidate, host software, IMU probes and perception only; latest whole-body zero calibration fixture",
   "model_path": "current/MicroDinosaur_Current.blend",
   "inventory_excludes_itself": true,
@@ -13,8 +13,8 @@
     },
     {
       "path": ".gitignore",
-      "bytes": 7497,
-      "sha256": "f8d11992e5a2c551fabaad966420bfd7bfb152cc8b4a7655cb8029dd99821f32"
+      "bytes": 7609,
+      "sha256": "e67d7daa3ec509a39359a0026a3bd6c39f7dbc09d1faea1416fa8340f2bd5a07"
     },
     {
       "path": "AGENTS.md",
@@ -23,8 +23,8 @@
     },
     {
       "path": "CURRENT_DESIGN.md",
-      "bytes": 2007,
-      "sha256": "62dabc137dde06e5c845d2ddb9bfdd3f4a95f4f8d3964f7057539d68a804d56e"
+      "bytes": 2146,
+      "sha256": "17510f28dbe0eb7fb58556d4cbb2231c1ca27dfe69e6ac385b9a9b62204d8aac"
     },
     {
       "path": "NOTICE.md",
@@ -33,28 +33,28 @@
     },
     {
       "path": "PROJECT_STATUS.md",
-      "bytes": 2475,
-      "sha256": "0f455682c33a48aabc314f34c2ff514918d6d2fce00da92592a0b67725a70fa0"
+      "bytes": 3384,
+      "sha256": "622ec8bbc153034b06ac59fd486a312867042d9bb5fa562361253d9d74883447"
     },
     {
       "path": "PUBLICATION_CHECKS.json",
-      "bytes": 1187,
-      "sha256": "b99bbbc7e1b7bca8a479dd2f21110ff94fee4ee0350dc302975429eefe1896ed"
+      "bytes": 1387,
+      "sha256": "7234aa1885f1a7b3a4a88aebdf84fc8539d51854365f603e4ddd349183c99e02"
     },
     {
       "path": "README.md",
-      "bytes": 2688,
-      "sha256": "b5426530d593d29d7fd157be3d5d2933137dd5a4b71e0111c7caf59011ffe61e"
+      "bytes": 3245,
+      "sha256": "870c7bd55cd2a7afa6d1bb613710831edb3e948c1eb8b2803613d7a0a8e8f6eb"
     },
     {
       "path": "current/MicroDinosaur_Current.blend",
-      "bytes": 114469133,
-      "sha256": "745f2bdc70ae5a2fdc263e6a40cdd4a8e287477194765c6961e53d885bf097ee"
+      "bytes": 114645272,
+      "sha256": "218745a32ee3d6793b4bd7bd4266eba72a6f1370dd4ace8cd2537f403b8d7294"
     },
     {
       "path": "current/MicroDinosaur_Print.3mf",
-      "bytes": 6488254,
-      "sha256": "8ea3582ccce6e77a3e5f6e476b8f1f6ffdce3b0d5eef0e13b56b129321843972"
+      "bytes": 6492871,
+      "sha256": "6ddcd3cd46e3a647de247570063182569b2f2c8a9308c03b96bf0e767ceba5e8"
     },
     {
       "path": "current/README.md",
@@ -138,8 +138,13 @@
     },
     {
       "path": "current/current_manifest.json",
-      "bytes": 1017,
-      "sha256": "1e4f3ac0545c51c4e60354169efbe60bc3453e92e443ab0f60157f58da8961a8"
+      "bytes": 1019,
+      "sha256": "80ed764785356aeec5a5cacd2d37407a983bd5017ed5e13ea31e4c295ebc364b"
+    },
+    {
+      "path": "current/validation/current_head_vent_position_m2.json",
+      "bytes": 1671,
+      "sha256": "48d01fb55ce3812debaf287b2e3a4bbd599adce0b4dbf7db5b043c7b6bf7468a"
     },
     {
       "path": "current/validation/current_opposed_mount_holes.json",

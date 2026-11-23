@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "published_on": "2026-11-07",
+  "published_on": "2026-11-24",
   "design_stage": "OS-M02",
-  "component_state": "edit_20261102_090559",
+  "component_state": "edit_20261108_220551",
   "current_model": {
     "path": "MicroDinosaur_Current.blend",
-    "sha256": "745f2bdc70ae5a2fdc263e6a40cdd4a8e287477194765c6961e53d885bf097ee",
+    "sha256": "218745a32ee3d6793b4bd7bd4266eba72a6f1370dd4ace8cd2537f403b8d7294",
     "objects": 150,
     "meshes": 124,
     "retained_valid_drivers": 6
   },
   "current_print_project": {
     "path": "MicroDinosaur_Print.3mf",
-    "sha256": "8ea3582ccce6e77a3e5f6e476b8f1f6ffdce3b0d5eef0e13b56b129321843972",
+    "sha256": "6ddcd3cd46e3a647de247570063182569b2f2c8a9308c03b96bf0e767ceba5e8",
     "plate_counts": [
       10,
       5,
@@ -25,10 +25,10 @@
     ],
     "total_parts": 30
   },
-  "validation_report": "validation/current_opposed_mount_holes.json",
+  "validation_report": "validation/current_head_vent_position_m2.json",
   "physical_fit_verified": false,
   "full_motion_verified": false,
   "strength_verified": false,
   "publication_scope": "Latest CAD and matching native print project only; no intermediate assemblies or history assets.",
-  "source_manifest_sha256": "9b50333139ca501d0787577dd92266514869fa16213bc17a51ac302235367cd3"
+  "source_manifest_sha256": "96627ba9416cc838d7b80087f26e328eafeb20cce183d8bbf0130e99845351a9"
 }
