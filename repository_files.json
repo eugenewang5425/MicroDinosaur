@@ -2,7 +2,7 @@
   "schema_version": 4,
   "repository": "eugenewang5425/MicroDinosaur",
   "published_on": "2026-11-08",
-  "scope": "Latest OS-M02 CAD/print, HAT candidate, host software, IMU probes and perception only; latest whole-body zero calibration fixture",
+  "scope": "Latest OS-M02 and its release materials, plus enumerated simulation research records in this branch.",
   "model_path": "current/MicroDinosaur_Current.blend",
   "inventory_excludes_itself": true,
   "files": [
@@ -13,8 +13,8 @@
     },
     {
       "path": ".gitignore",
-      "bytes": 7497,
-      "sha256": "f8d11992e5a2c551fabaad966420bfd7bfb152cc8b4a7655cb8029dd99821f32"
+      "bytes": 7632,
+      "sha256": "c71c0e680ce995e423fa7d9dde7d23d7183809a06d572a810c9e423ab6519135"
     },
     {
       "path": "AGENTS.md",
@@ -515,6 +515,21 @@
       "path": "hardware/imu/zero3w/probe.py",
       "bytes": 5603,
       "sha256": "fc13ec419564c9a11026a38660abfc00ba9a5ab8477c7fe5217bc3c447347004"
+    },
+    {
+      "path": "research/BRANCHES.md",
+      "bytes": 1166,
+      "sha256": "d6ded717e47602bb1d5260f0632c7287be08e2399e4c561e661bfd3ee5d3a7da"
+    },
+    {
+      "path": "research/README.md",
+      "bytes": 1514,
+      "sha256": "06a8fd64fbe7155743a317e59107d448b201dfdf563822fcf9bf81cd6025a641"
+    },
+    {
+      "path": "research/s288_calibration_20261124.md",
+      "bytes": 1582,
+      "sha256": "121fc26416b35816e9b618006ee56aa77a76bfaf8ba645c08670f61cae4dba08"
     },
     {
       "path": "scripts/rebuild_public_manifests.py",

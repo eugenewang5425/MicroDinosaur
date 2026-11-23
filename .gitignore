@@ -155,3 +155,9 @@
 !/current/calibration_fixture/previews/head_vented_installed.png
 !/current/calibration_fixture/previews/two_plate_layout.png
 !/current/calibration_fixture/validation.json
+
+# Enumerated research branch records.
+!/research/
+!/research/BRANCHES.md
+!/research/README.md
+!/research/s288_calibration_20261124.md
