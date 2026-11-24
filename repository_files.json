@@ -13,8 +13,8 @@
     },
     {
       "path": ".gitignore",
-      "bytes": 8676,
-      "sha256": "be2ee228345fa2461367e9704ee3b184e147124fc5aba1275bba3705f5f7071f"
+      "bytes": 8736,
+      "sha256": "1cda5738ccd3a224297e9de5b515f98570f67009e041b6c197e15d03b7e2a4bb"
     },
     {
       "path": "AGENTS.md",
@@ -528,13 +528,13 @@
     },
     {
       "path": "research/demo1_domain_randomization/README.md",
-      "bytes": 10204,
-      "sha256": "84a6db29b0ddf8a230de80487eb3dbd5e9df65410685c10c00a9acf72b6ea730"
+      "bytes": 10511,
+      "sha256": "fc43267fce115f91fcf0d5b32c72dc048024e327f74e7018b22f504d12d4ec50"
     },
     {
       "path": "research/demo1_domain_randomization/campaign_progress.json",
-      "bytes": 27095,
-      "sha256": "3b0191262577484c2c2e5c9ed0ce7a13e9cb77bab007c1e5c4d618124c7d0d67"
+      "bytes": 28595,
+      "sha256": "d7ba9442e8324860754c8b00bf6aec77f565614a12e6007e8494ca3687aa16bb"
     },
     {
       "path": "research/demo1_domain_randomization/continue_training.py",
@@ -555,6 +555,11 @@
       "path": "research/demo1_domain_randomization/probe_contact_overlap.py",
       "bytes": 5541,
       "sha256": "5e48272ea453d7262d6efd263d12207d8f43f59ea349be7b703f334278777f74"
+    },
+    {
+      "path": "research/demo1_domain_randomization/probe_feedback_age.py",
+      "bytes": 3372,
+      "sha256": "0a059919782e2890f22fa603f379b115c827bc67fd85279cd010f067e789d1c1"
     },
     {
       "path": "research/demo1_domain_randomization/probe_release_authority.py",

@@ -958,5 +958,58 @@
         "median_foot_mm": 17.15243852150636
       }
     ]
+  },
+  "feedback_age_probe": {
+    "reference_sha256": "48fb8e3012282cc67c72c29ae302c80fb48e6ccbb107bbb450edf7fbb6208961",
+    "results": [
+      {
+        "gain": 0.0,
+        "orientation": false,
+        "metrics": {
+          "count": 6,
+          "walked": 6,
+          "parked": 0,
+          "joint": 0,
+          "completed_holds": 6,
+          "worst_speed_mm_s": 71.54617403766582,
+          "mean_score": 32.478782827426045
+        },
+        "median_feedback_age_ms": 20.000000000000178,
+        "median_foot_mm": 11.00734764684264,
+        "median_unloaded_s": 0.31000000000000005
+      },
+      {
+        "gain": 0.8,
+        "orientation": false,
+        "metrics": {
+          "count": 6,
+          "walked": 6,
+          "parked": 0,
+          "joint": 0,
+          "completed_holds": 5,
+          "worst_speed_mm_s": 71.54617403766582,
+          "mean_score": -11.53475087897285
+        },
+        "median_feedback_age_ms": 19.99999999999935,
+        "median_foot_mm": 11.505272533818836,
+        "median_unloaded_s": 0.33
+      },
+      {
+        "gain": 0.8,
+        "orientation": true,
+        "metrics": {
+          "count": 6,
+          "walked": 6,
+          "parked": 0,
+          "joint": 0,
+          "completed_holds": 5,
+          "worst_speed_mm_s": 71.54617403766582,
+          "mean_score": -10.93059450526834
+        },
+        "median_feedback_age_ms": 19.99999999999943,
+        "median_foot_mm": 11.474502627845206,
+        "median_unloaded_s": 0.35
+      }
+    ]
   }
 }
