@@ -3,7 +3,7 @@ param(
     [Parameter(Mandatory)][string]$Study,
     [Parameter(Mandatory)][string]$Output,
     [Parameter(Mandatory)][string]$Pilot,
-    [ValidateSet('continue_training.py', 'train_stop.py', 'train_foot_capture.py', 'train_speed_curriculum.py', 'train_ready_to_stop.py')][string]$Trainer = 'continue_training.py',
+    [ValidateSet('continue_training.py', 'train_stop.py', 'train_foot_capture.py', 'train_speed_curriculum.py', 'train_ready_to_stop.py', 'train_paired_phases.py')][string]$Trainer = 'continue_training.py',
     [string]$SourceLock
 )
 

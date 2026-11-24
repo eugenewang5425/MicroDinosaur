@@ -13,8 +13,8 @@
     },
     {
       "path": ".gitignore",
-      "bytes": 8736,
-      "sha256": "1cda5738ccd3a224297e9de5b515f98570f67009e041b6c197e15d03b7e2a4bb"
+      "bytes": 8853,
+      "sha256": "7ded7df13253ecba009a0a5d49fad7ebdfeac08ab98f26a81185aff1342eed35"
     },
     {
       "path": "AGENTS.md",
@@ -528,13 +528,18 @@
     },
     {
       "path": "research/demo1_domain_randomization/README.md",
-      "bytes": 10511,
-      "sha256": "fc43267fce115f91fcf0d5b32c72dc048024e327f74e7018b22f504d12d4ec50"
+      "bytes": 11029,
+      "sha256": "ca9cc9ca601fd22302d41b742741b26a940aa641051c6ef0f9a3cbb0315c0736"
+    },
+    {
+      "path": "research/demo1_domain_randomization/audit_campaign.py",
+      "bytes": 3462,
+      "sha256": "a7e779bc80940aada17c4a7621bcef452df560ecea5940242d26584e770fb5ed"
     },
     {
       "path": "research/demo1_domain_randomization/campaign_progress.json",
-      "bytes": 28595,
-      "sha256": "d7ba9442e8324860754c8b00bf6aec77f565614a12e6007e8494ca3687aa16bb"
+      "bytes": 35850,
+      "sha256": "04bef9934d0123447e1132b3578a81b6418f9bc2f56cb2a855071edc1203c964"
     },
     {
       "path": "research/demo1_domain_randomization/continue_training.py",
@@ -597,6 +602,11 @@
       "sha256": "a09dc54f71e88840e1143b8176ea2db1141d7d8415f4e3f49005e93712505384"
     },
     {
+      "path": "research/demo1_domain_randomization/train_paired_phases.py",
+      "bytes": 2879,
+      "sha256": "b8963bf411adc5e225f69313c9906e9d12089778ae4e786a6dfc9f3f846ce50b"
+    },
+    {
       "path": "research/demo1_domain_randomization/train_ready_to_stop.py",
       "bytes": 5944,
       "sha256": "fa7d2eab643a713b7b180a3f2ec9d77d02a101177445efa872272f9dc2915aa0"
@@ -613,8 +623,8 @@
     },
     {
       "path": "research/demo1_domain_randomization/watch_training.ps1",
-      "bytes": 3111,
-      "sha256": "28e34426e9414d97340edf6df269847dcc9c4cf1672cfccb1e515ec6cdac0bbc"
+      "bytes": 3137,
+      "sha256": "f53afd2fdf1f2ef2d58fc1729243fa5fcd8d5876b6ae48af60ecf959866aa0b0"
     },
     {
       "path": "research/s288_calibration_20261124.md",

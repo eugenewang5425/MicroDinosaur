@@ -1011,5 +1011,233 @@
         "median_unloaded_s": 0.35
       }
     ]
+  },
+  "fresh_audit_4h": {
+    "audit_seed": 18914453,
+    "scope": "Fresh paired audit on frozen development selections; zero command from release through 10 s",
+    "summaries": {
+      "frozen": {
+        "selected_generation": null,
+        "primary": {
+          "count": 10,
+          "walked": 10,
+          "parked": 0,
+          "joint": 0,
+          "completed_holds": 8,
+          "worst_speed_mm_s": 39.579715108399675,
+          "mean_score": -19.17835562351519,
+          "median_parking": {
+            "longest_unloaded_s": 0.48,
+            "foot_shift_mm": 15.660091121680793,
+            "landings": 4.0,
+            "drift_mm": 29.284789174430003,
+            "peak_tilt_deg": 6.808344061554621
+          },
+          "completed_at_most_two_landings": 0
+        },
+        "other_release_phases": {
+          "count": 8,
+          "walked": 8,
+          "parked": 0,
+          "joint": 0,
+          "completed_holds": 4,
+          "worst_speed_mm_s": 1.9755429483766083,
+          "mean_score": -95.56792130104694,
+          "median_parking": {
+            "longest_unloaded_s": 0.5,
+            "foot_shift_mm": 20.35351347028672,
+            "landings": 4.0,
+            "drift_mm": 36.880105424263206,
+            "peak_tilt_deg": 19.392100343708517
+          },
+          "completed_at_most_two_landings": 0
+        }
+      },
+      "overnight_v2": {
+        "selected_generation": 63,
+        "primary": {
+          "count": 10,
+          "walked": 10,
+          "parked": 0,
+          "joint": 0,
+          "completed_holds": 8,
+          "worst_speed_mm_s": 5.697364726974573,
+          "mean_score": -14.491816028627904,
+          "median_parking": {
+            "longest_unloaded_s": 0.4,
+            "foot_shift_mm": 12.3277455752708,
+            "landings": 3.0,
+            "drift_mm": 25.246636469814607,
+            "peak_tilt_deg": 4.717536072840087
+          },
+          "completed_at_most_two_landings": 0
+        },
+        "other_release_phases": {
+          "count": 8,
+          "walked": 5,
+          "parked": 0,
+          "joint": 0,
+          "completed_holds": 6,
+          "worst_speed_mm_s": -35.75971527041926,
+          "mean_score": -27.69885140657592,
+          "median_parking": {
+            "longest_unloaded_s": 0.30000000000000004,
+            "foot_shift_mm": 15.889190765922372,
+            "landings": 3.5,
+            "drift_mm": 20.196692946745053,
+            "peak_tilt_deg": 5.732314641138176
+          },
+          "completed_at_most_two_landings": 0
+        }
+      },
+      "overnight_v3": {
+        "selected_generation": 120,
+        "primary": {
+          "count": 10,
+          "walked": 10,
+          "parked": 0,
+          "joint": 0,
+          "completed_holds": 8,
+          "worst_speed_mm_s": 39.579715108399675,
+          "mean_score": -18.145636498209093,
+          "median_parking": {
+            "longest_unloaded_s": 0.49,
+            "foot_shift_mm": 15.536475465354965,
+            "landings": 4.0,
+            "drift_mm": 27.208217210022227,
+            "peak_tilt_deg": 6.50103204245063
+          },
+          "completed_at_most_two_landings": 0
+        },
+        "other_release_phases": {
+          "count": 8,
+          "walked": 8,
+          "parked": 0,
+          "joint": 0,
+          "completed_holds": 5,
+          "worst_speed_mm_s": 1.9755429483766083,
+          "mean_score": -61.69521773297935,
+          "median_parking": {
+            "longest_unloaded_s": 0.48,
+            "foot_shift_mm": 16.459127510551593,
+            "landings": 3.5,
+            "drift_mm": 25.95775279259101,
+            "peak_tilt_deg": 6.7302661840886735
+          },
+          "completed_at_most_two_landings": 0
+        }
+      },
+      "overnight_v4": {
+        "selected_generation": 135,
+        "primary": {
+          "count": 10,
+          "walked": 10,
+          "parked": 0,
+          "joint": 0,
+          "completed_holds": 8,
+          "worst_speed_mm_s": 39.579715108399675,
+          "mean_score": -15.866794487452978,
+          "median_parking": {
+            "longest_unloaded_s": 0.33,
+            "foot_shift_mm": 13.321908293944738,
+            "landings": 3.0,
+            "drift_mm": 21.70899251584686,
+            "peak_tilt_deg": 5.49689123567399
+          },
+          "completed_at_most_two_landings": 1
+        },
+        "other_release_phases": {
+          "count": 8,
+          "walked": 8,
+          "parked": 0,
+          "joint": 0,
+          "completed_holds": 6,
+          "worst_speed_mm_s": 1.9755429483766083,
+          "mean_score": -25.645993737491004,
+          "median_parking": {
+            "longest_unloaded_s": 0.37,
+            "foot_shift_mm": 11.465639010564368,
+            "landings": 3.5,
+            "drift_mm": 21.646749488292492,
+            "peak_tilt_deg": 5.968453823580171
+          },
+          "completed_at_most_two_landings": 0
+        }
+      },
+      "overnight_v5": {
+        "selected_generation": 0,
+        "primary": {
+          "count": 10,
+          "walked": 10,
+          "parked": 0,
+          "joint": 0,
+          "completed_holds": 8,
+          "worst_speed_mm_s": 39.579715108399675,
+          "mean_score": -14.75423632999732,
+          "median_parking": {
+            "longest_unloaded_s": 0.30000000000000004,
+            "foot_shift_mm": 13.254434982377695,
+            "landings": 3.0,
+            "drift_mm": 22.391383461490488,
+            "peak_tilt_deg": 6.028660087367384
+          },
+          "completed_at_most_two_landings": 2
+        },
+        "other_release_phases": {
+          "count": 8,
+          "walked": 8,
+          "parked": 0,
+          "joint": 0,
+          "completed_holds": 6,
+          "worst_speed_mm_s": 1.9755429483766083,
+          "mean_score": -24.236306098075424,
+          "median_parking": {
+            "longest_unloaded_s": 0.34,
+            "foot_shift_mm": 14.489989417453991,
+            "landings": 3.0,
+            "drift_mm": 21.617693326822987,
+            "peak_tilt_deg": 7.229265971247275
+          },
+          "completed_at_most_two_landings": 0
+        }
+      },
+      "overnight_v6": {
+        "selected_generation": 105,
+        "primary": {
+          "count": 10,
+          "walked": 10,
+          "parked": 0,
+          "joint": 0,
+          "completed_holds": 7,
+          "worst_speed_mm_s": 30.109803287781492,
+          "mean_score": -42.900848609819676,
+          "median_parking": {
+            "longest_unloaded_s": 0.34,
+            "foot_shift_mm": 13.686872703785866,
+            "landings": 3.0,
+            "drift_mm": 24.67892051703607,
+            "peak_tilt_deg": 5.461386634954428
+          },
+          "completed_at_most_two_landings": 2
+        },
+        "other_release_phases": {
+          "count": 8,
+          "walked": 8,
+          "parked": 0,
+          "joint": 0,
+          "completed_holds": 5,
+          "worst_speed_mm_s": 1.1920266926100778,
+          "mean_score": -59.08312264286036,
+          "median_parking": {
+            "longest_unloaded_s": 0.32,
+            "foot_shift_mm": 15.373945360635194,
+            "landings": 3.0,
+            "drift_mm": 26.09261769130566,
+            "peak_tilt_deg": 5.710517656132547
+          },
+          "completed_at_most_two_landings": 1
+        }
+      }
+    }
   }
 }
