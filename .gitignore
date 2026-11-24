@@ -175,3 +175,5 @@
 !/research/demo1_domain_randomization/run_with_source_lock.py
 !/research/demo1_domain_randomization/probe_speed_curriculum.py
 !/research/demo1_domain_randomization/train_speed_curriculum.py
+!/research/demo1_domain_randomization/probe_release_authority.py
+!/research/demo1_domain_randomization/train_ready_to_stop.py

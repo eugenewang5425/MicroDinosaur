@@ -670,5 +670,113 @@
       "worst_speed_mm_s": 62.89118608242752,
       "mean_score": -4.335857788823958
     }
+  },
+  "release_authority": {
+    "scope": "Optimized three actuator updates from exact release states; offline feasibility only",
+    "reference_sha256": "f2fe7f5096b9db8217dc9e63ce24c19fb7872268a682a2ccfa4970bcc26a7798",
+    "replays": 1086,
+    "distinct_targets": 1026,
+    "short_window_passes": 1,
+    "cases": [
+      {
+        "case": 0,
+        "dt_s": 0.005,
+        "replay_force_error_N": 0.0,
+        "replay_foot_error_m": 0.0,
+        "distinct_targets": 171,
+        "distinct_with_overlap": 5,
+        "distinct_short_window_passes": 1
+      },
+      {
+        "case": 1,
+        "dt_s": 0.0025,
+        "replay_force_error_N": 0.0,
+        "replay_foot_error_m": 0.0,
+        "distinct_targets": 171,
+        "distinct_with_overlap": 0,
+        "distinct_short_window_passes": 0
+      },
+      {
+        "case": 2,
+        "dt_s": 0.005,
+        "replay_force_error_N": 0.0,
+        "replay_foot_error_m": 0.0,
+        "distinct_targets": 171,
+        "distinct_with_overlap": 0,
+        "distinct_short_window_passes": 0
+      },
+      {
+        "case": 3,
+        "dt_s": 0.0025,
+        "replay_force_error_N": 0.0,
+        "replay_foot_error_m": 0.0,
+        "distinct_targets": 171,
+        "distinct_with_overlap": 0,
+        "distinct_short_window_passes": 0
+      },
+      {
+        "case": 4,
+        "dt_s": 0.005,
+        "replay_force_error_N": 0.0,
+        "replay_foot_error_m": 0.0,
+        "distinct_targets": 171,
+        "distinct_with_overlap": 0,
+        "distinct_short_window_passes": 0
+      },
+      {
+        "case": 5,
+        "dt_s": 0.0025,
+        "replay_force_error_N": 0.0,
+        "replay_foot_error_m": 0.0,
+        "distinct_targets": 171,
+        "distinct_with_overlap": 0,
+        "distinct_short_window_passes": 0
+      }
+    ],
+    "long_replay": [
+      {
+        "case": 0,
+        "dt_s": 0.005,
+        "three_tick_soles_N": [
+          [
+            9.484269028590838,
+            0.0
+          ],
+          [
+            9.670537760799064,
+            0.0
+          ],
+          [
+            0.5701581165186286,
+            24.999849057591234
+          ]
+        ],
+        "walk": {
+          "complete": true,
+          "forward_mm": 316.15435332416524,
+          "cross_mm": 77.25269598112627,
+          "speed_mm_s": 79.03858833104131,
+          "sustained_alternations": 17,
+          "peak_tilt_deg": 3.1876105474892267,
+          "peak_nonsole_N": 0.0,
+          "stable": true
+        },
+        "parking": {
+          "complete": true,
+          "duration_s": 10.0,
+          "dual": 0.9660678642714571,
+          "longest_unloaded_s": 0.24,
+          "drift_mm": 24.980229127351162,
+          "rms_m_s": 0.02154961375625335,
+          "foot_shift_mm": 16.901294174920782,
+          "stance_width_change_mm": 12.947252475705827,
+          "peak_tilt_deg": 3.5174014131403646,
+          "peak_nonsole_N": 0.0,
+          "landings": 4,
+          "passed": false
+        },
+        "ended": "completed"
+      }
+    ]
   }
 }
