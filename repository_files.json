@@ -13,8 +13,8 @@
     },
     {
       "path": ".gitignore",
-      "bytes": 7823,
-      "sha256": "03571d339621cb45b2c6f7544cbf500f5f7af3ee2236930ebeb895cc43b8bf0f"
+      "bytes": 7939,
+      "sha256": "808acf70660dea2a0ef67b3fdafac6f27a1f651a2111af53ad605bbf3cdca45c"
     },
     {
       "path": "AGENTS.md",
@@ -518,8 +518,8 @@
     },
     {
       "path": "research/BRANCHES.md",
-      "bytes": 1166,
-      "sha256": "d6ded717e47602bb1d5260f0632c7287be08e2399e4c561e661bfd3ee5d3a7da"
+      "bytes": 1396,
+      "sha256": "9419c2f074b7c99a6bf01f9ac60b58dc18b7591bd6af314e9f0f84c058775a36"
     },
     {
       "path": "research/README.md",
@@ -528,8 +528,13 @@
     },
     {
       "path": "research/demo1_domain_randomization/README.md",
-      "bytes": 4729,
-      "sha256": "734a6e2f9d1f0af6e24c3bd34e6fa604f8930f0341bba2c3ec90d1f0f72087e8"
+      "bytes": 5985,
+      "sha256": "2d8d1a7a496f97fc052de7377c28297c169ed7db4dc76d6ddebe49a4a63d7d77"
+    },
+    {
+      "path": "research/demo1_domain_randomization/continue_training.py",
+      "bytes": 15117,
+      "sha256": "9927cfd058922d4bc342f6d2885c8fd8c173d40a70b863074ebcd2e89022f8b4"
     },
     {
       "path": "research/demo1_domain_randomization/pilot_metrics.json",
@@ -538,8 +543,13 @@
     },
     {
       "path": "research/demo1_domain_randomization/train.py",
-      "bytes": 17829,
-      "sha256": "97813b24ff8704cdd76979054250406cce07e804f7cc4821a89b96ecb6a7fc5b"
+      "bytes": 17995,
+      "sha256": "a78405f352b23a9361d569b7e826deb284d1cb0723f5f32ef9395076aa8a52bf"
+    },
+    {
+      "path": "research/demo1_domain_randomization/watch_training.ps1",
+      "bytes": 2514,
+      "sha256": "137ef22ef8c79926526d646f36483ffe7d19bd7f94f464c12372bdc0b982b7ae"
     },
     {
       "path": "research/s288_calibration_20261124.md",

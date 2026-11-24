@@ -84,7 +84,7 @@ class Workbench:
 
         self.load_transfers = load_transfers
 
-    def rollout(self, weights, domain, release, hold, dt=BUS_SLOT, trace=None):
+    def rollout(self, weights, domain, release, hold, dt=BUS_SLOT, trace=None, adjust=None):
         box, model = self.box, self.model
         plant = box.plant
         repeats = round(BUS_SLOT / dt)
@@ -100,6 +100,8 @@ class Workbench:
         env = box.env
         if env.d.eq_active.any():
             raise RuntimeError("The base must be free of equality constraints")
+        if adjust is not None:
+            adjust.reset(env)
 
         actuator_step = mujoco.mj_step
         previous = None
@@ -131,6 +133,8 @@ class Workbench:
                             if active else parking * feedback + .35 * bias * error)
                 proposal[self.legs] = original + np.clip(residual, -LIMIT, LIMIT)
                 proposal = np.clip(proposal, plant.bounds[:, 0], plant.bounds[:, 1])
+            if adjust is not None:
+                proposal = adjust(env, proposal, active)
             held = env.d.ctrl[plant.ai].copy()
             slot = 0
 
