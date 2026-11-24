@@ -13,8 +13,8 @@
     },
     {
       "path": ".gitignore",
-      "bytes": 8174,
-      "sha256": "4580456aaef4f1f61a8c564736a81f8ded4457e9c499f886ed0ec39024212e85"
+      "bytes": 8299,
+      "sha256": "5ae8e15e9e2cd32229fc0b4c1e4f7f636343ebab4a03840fde305f494f223f25"
     },
     {
       "path": "AGENTS.md",
@@ -528,13 +528,13 @@
     },
     {
       "path": "research/demo1_domain_randomization/README.md",
-      "bytes": 7555,
-      "sha256": "8b21ae86bca2646b1602c0f9aeba9129eaafac578ce9891fd7e90c53252f2fc0"
+      "bytes": 8183,
+      "sha256": "dbcf19c9713a4c7ca78c10b7188b20752712e3da8de761c78af53afd8f59c58c"
     },
     {
       "path": "research/demo1_domain_randomization/campaign_progress.json",
-      "bytes": 7491,
-      "sha256": "28cde94e81fa8a35238f6db9e4d11f5c8d4ff6e2fa1a82bc02265bab1ece41fb"
+      "bytes": 16818,
+      "sha256": "66c6563031fd4dcc94acb117d8f68ca1cfc00fe23d3bdc0541eecef607a06b70"
     },
     {
       "path": "research/demo1_domain_randomization/continue_training.py",
@@ -547,9 +547,19 @@
       "sha256": "bbaab27e1ac5bb1312ddd5d4aadfe40d58be9b3c2858b71c4ccab7c581e92605"
     },
     {
+      "path": "research/demo1_domain_randomization/probe_contact_overlap.py",
+      "bytes": 5541,
+      "sha256": "5e48272ea453d7262d6efd263d12207d8f43f59ea349be7b703f334278777f74"
+    },
+    {
       "path": "research/demo1_domain_randomization/probe_support_anchor.py",
       "bytes": 5712,
       "sha256": "670715ba1bdac53e40783e7fc5ad1e905460c975c4bf6d09fc70d7afe13c6cc9"
+    },
+    {
+      "path": "research/demo1_domain_randomization/run_with_source_lock.py",
+      "bytes": 3959,
+      "sha256": "afbfed83737325add8d6c98f61ba343ca790ad49deb5e3e99a1c7aaa5782df9d"
     },
     {
       "path": "research/demo1_domain_randomization/train.py",
@@ -568,8 +578,8 @@
     },
     {
       "path": "research/demo1_domain_randomization/watch_training.ps1",
-      "bytes": 2638,
-      "sha256": "7071c8d8b3a5542f95c0d7ac29c7dee1e0e55c7f1f6af7d2db7bba9a919ef95e"
+      "bytes": 3056,
+      "sha256": "35c1d24628e9f29394c3f2c9827fb71d2248fe784fdfb85b064f52516b5388ae"
     },
     {
       "path": "research/s288_calibration_20261124.md",

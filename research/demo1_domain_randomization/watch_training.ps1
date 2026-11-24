@@ -3,7 +3,8 @@ param(
     [Parameter(Mandatory)][string]$Study,
     [Parameter(Mandatory)][string]$Output,
     [Parameter(Mandatory)][string]$Pilot,
-    [ValidateSet('continue_training.py', 'train_stop.py', 'train_foot_capture.py')][string]$Trainer = 'continue_training.py'
+    [ValidateSet('continue_training.py', 'train_stop.py', 'train_foot_capture.py')][string]$Trainer = 'continue_training.py',
+    [string]$SourceLock
 )
 
 $ErrorActionPreference = 'Stop'
@@ -42,7 +43,13 @@ while (-not (Test-Path -LiteralPath $marker)) {
         $started++
         $lastLaunch = [DateTimeOffset]::Now
         $stamp = Get-Date -Format 'yyyyMMdd_HHmmss'
-        $command = '-u "{0}" --study "{1}" --output "{2}" --pilot "{3}"' -f $trainerPath, $studyRoot, $outputRoot, $pilotFile
+        if ($SourceLock) {
+            $entryWithLock = Join-Path $PSScriptRoot 'run_with_source_lock.py'
+            $locked = (Resolve-Path -LiteralPath $SourceLock).Path
+            $command = '-u "{0}" --entry "{1}" --source-lock "{2}" --study "{3}" --output "{4}" --pilot "{5}"' -f $entryWithLock, $trainerPath, $locked, $studyRoot, $outputRoot, $pilotFile
+        } else {
+            $command = '-u "{0}" --study "{1}" --output "{2}" --pilot "{3}"' -f $trainerPath, $studyRoot, $outputRoot, $pilotFile
+        }
         $launch = @{
             WindowStyle = 'Hidden'
             FilePath = $pythonPath
