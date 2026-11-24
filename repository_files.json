@@ -553,8 +553,8 @@
     },
     {
       "path": "research/demo1_domain_randomization/watch_training.ps1",
-      "bytes": 2601,
-      "sha256": "b97d98777f2139a3dc668a3b086b44a525d3ec4369ea9da989601d404d189cdc"
+      "bytes": 2613,
+      "sha256": "099adae324e0ce9a20d7cacc6675ba457ab63e10475d748a4790fd0f0ee37907"
     },
     {
       "path": "research/s288_calibration_20261124.md",

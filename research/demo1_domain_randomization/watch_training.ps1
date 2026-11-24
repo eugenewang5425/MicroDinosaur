@@ -7,7 +7,7 @@ param(
 )
 
 $ErrorActionPreference = 'Stop'
-$trainer = Join-Path $PSScriptRoot $Trainer
+$trainerPath = Join-Path $PSScriptRoot $Trainer
 $studyRoot = (Resolve-Path -LiteralPath $Study).Path
 $outputRoot = (Resolve-Path -LiteralPath $Output).Path
 $pilotFile = (Resolve-Path -LiteralPath $Pilot).Path
@@ -28,7 +28,7 @@ function Get-ActiveWorker {
     if (Test-Path -LiteralPath $statusFile) {
         $status = Get-Content -LiteralPath $statusFile -Raw | ConvertFrom-Json
         $record = Get-CimInstance -ClassName Win32_Process -Filter "ProcessId = $($status.pid)"
-        if ($record.CommandLine -and $record.CommandLine.Contains($trainer) -and $record.CommandLine.Contains($outputRoot)) {
+        if ($record.CommandLine -and $record.CommandLine.Contains($trainerPath) -and $record.CommandLine.Contains($outputRoot)) {
             return $record
         }
     }
@@ -42,7 +42,7 @@ while (-not (Test-Path -LiteralPath $marker)) {
         $started++
         $lastLaunch = [DateTimeOffset]::Now
         $stamp = Get-Date -Format 'yyyyMMdd_HHmmss'
-        $command = '-u "{0}" --study "{1}" --output "{2}" --pilot "{3}"' -f $trainer, $studyRoot, $outputRoot, $pilotFile
+        $command = '-u "{0}" --study "{1}" --output "{2}" --pilot "{3}"' -f $trainerPath, $studyRoot, $outputRoot, $pilotFile
         $launch = @{
             WindowStyle = 'Hidden'
             FilePath = $pythonPath
