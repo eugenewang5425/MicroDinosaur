@@ -183,3 +183,5 @@
 !/research/demo1_domain_randomization/audit_campaign.py
 !/research/demo1_domain_randomization/train_paired_phases.py
 !/research/demo1_domain_randomization/probe_balance_force.py
+!/research/demo1_domain_randomization/probe_actuator_prefilter.py
+!/research/demo1_domain_randomization/train_actuator_lead.py

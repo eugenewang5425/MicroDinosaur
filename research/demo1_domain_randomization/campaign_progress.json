@@ -1286,5 +1286,254 @@
         "median_unloaded_s": 0.36
       }
     ]
+  },
+  "eight_hour_checkpoint": {
+    "as_of": "2026-11-24T16:04:11+08:00",
+    "runs": {
+      "overnight_v2": {
+        "generation": 393,
+        "episode_count_observed": 8793,
+        "elapsed_min": 477.71,
+        "validated_generation": 390,
+        "primary": {
+          "count": 6,
+          "walked": 6,
+          "parked": 0,
+          "joint": 0,
+          "completed_holds": 5,
+          "worst_speed_mm_s": 82.73843639133963,
+          "mean_score": -4.167346174861177
+        }
+      },
+      "overnight_v3": {
+        "generation": 317,
+        "episode_count_observed": 8045,
+        "elapsed_min": 470.73,
+        "validated_generation": 312,
+        "primary": {
+          "count": 6,
+          "walked": 6,
+          "parked": 0,
+          "joint": 0,
+          "completed_holds": 6,
+          "worst_speed_mm_s": 71.54617403766582,
+          "mean_score": 29.48979110797771
+        }
+      },
+      "overnight_v4": {
+        "generation": 308,
+        "episode_count_observed": 7821,
+        "elapsed_min": 461.58,
+        "validated_generation": 306,
+        "primary": {
+          "count": 6,
+          "walked": 6,
+          "parked": 0,
+          "joint": 0,
+          "completed_holds": 6,
+          "worst_speed_mm_s": 71.54617403766582,
+          "mean_score": 30.41195148904041
+        }
+      },
+      "overnight_v5": {
+        "generation": 285,
+        "episode_count_observed": 7261,
+        "elapsed_min": 425.54,
+        "validated_generation": 282,
+        "primary": {
+          "count": 6,
+          "walked": 6,
+          "parked": 0,
+          "joint": 0,
+          "completed_holds": 6,
+          "worst_speed_mm_s": 71.54617403766582,
+          "mean_score": 32.478782827426045
+        }
+      },
+      "overnight_v6": {
+        "generation": 270,
+        "episode_count_observed": 6852,
+        "elapsed_min": 403.02,
+        "validated_generation": 264,
+        "primary": {
+          "count": 6,
+          "walked": 6,
+          "parked": 0,
+          "joint": 0,
+          "completed_holds": 4,
+          "worst_speed_mm_s": 85.28360280481932,
+          "mean_score": -60.0699040484005
+        }
+      },
+      "overnight_v7": {
+        "generation": 85,
+        "episode_count_observed": 3486,
+        "elapsed_min": 226.37,
+        "validated_generation": 84,
+        "primary": {
+          "count": 6,
+          "walked": 6,
+          "parked": 0,
+          "joint": 0,
+          "completed_holds": 5,
+          "worst_speed_mm_s": 69.51595275626379,
+          "mean_score": -17.43265003770827
+        }
+      }
+    },
+    "short_hold_without_walking": {
+      "generation": 314,
+      "release_s": 2.46,
+      "hold_s": 2.6,
+      "metrics": {
+        "walk": {
+          "complete": true,
+          "forward_mm": 0.023579947194356937,
+          "cross_mm": -4.013158789111993,
+          "speed_mm_s": 0.009585344387949975,
+          "sustained_alternations": 0,
+          "peak_tilt_deg": 1.6782911016779305,
+          "peak_nonsole_N": 0.0,
+          "stable": false
+        },
+        "parking": {
+          "complete": true,
+          "duration_s": 2.6000000000000005,
+          "dual": 0.9923664122137404,
+          "longest_unloaded_s": 0.02,
+          "drift_mm": 7.6958017583127,
+          "rms_m_s": 0.009158195445617108,
+          "foot_shift_mm": 4.8968014822692565,
+          "stance_width_change_mm": 7.022397346877388,
+          "peak_tilt_deg": 0.8756696654365392,
+          "peak_nonsole_N": 0.0,
+          "landings": 0,
+          "passed": true
+        },
+        "ended": "completed"
+      },
+      "combined": false
+    }
+  },
+  "actuator_prefilter_probe": {
+    "scope": "Local simulated actuator response; no real actuator tolerance inferred",
+    "model": [
+      {
+        "axis": "left_hip_roll",
+        "velocity_retention": 0.037695802728994345,
+        "drive_response": 0.14139025030484773,
+        "approximate_lead_ticks": 2.0,
+        "heldout_rmse_deg": 0.10999930850985778,
+        "constant_velocity_rmse_deg": 0.47400779163073903,
+        "no_update_rmse_deg": 0.7167702944884393
+      },
+      {
+        "axis": "left_hip_pitch",
+        "velocity_retention": 0.03287365030075419,
+        "drive_response": 0.14787672527167692,
+        "approximate_lead_ticks": 2.0,
+        "heldout_rmse_deg": 0.10468318608102789,
+        "constant_velocity_rmse_deg": 0.568999322497047,
+        "no_update_rmse_deg": 1.223290872773089
+      },
+      {
+        "axis": "left_knee",
+        "velocity_retention": 0.03857874589296546,
+        "drive_response": 0.14010117996168642,
+        "approximate_lead_ticks": 2.0,
+        "heldout_rmse_deg": 0.1939147860838691,
+        "constant_velocity_rmse_deg": 0.9275493306115487,
+        "no_update_rmse_deg": 2.619256785237597
+      },
+      {
+        "axis": "left_ankle",
+        "velocity_retention": 0.07973471397931199,
+        "drive_response": 0.13383234592981844,
+        "approximate_lead_ticks": 2.0,
+        "heldout_rmse_deg": 0.1433206753734401,
+        "constant_velocity_rmse_deg": 0.472361348827799,
+        "no_update_rmse_deg": 1.2569113263702905
+      },
+      {
+        "axis": "right_hip_roll",
+        "velocity_retention": 0.08393958393583287,
+        "drive_response": 0.13565099771702763,
+        "approximate_lead_ticks": 2.0,
+        "heldout_rmse_deg": 0.09176977569661747,
+        "constant_velocity_rmse_deg": 0.5885935841738376,
+        "no_update_rmse_deg": 0.8487757552681907
+      },
+      {
+        "axis": "right_hip_pitch",
+        "velocity_retention": 0.030487919606047697,
+        "drive_response": 0.14977535769803751,
+        "approximate_lead_ticks": 2.0,
+        "heldout_rmse_deg": 0.1486126213127245,
+        "constant_velocity_rmse_deg": 0.6326457392594905,
+        "no_update_rmse_deg": 1.2106211943572969
+      },
+      {
+        "axis": "right_knee",
+        "velocity_retention": 0.0022722053485877474,
+        "drive_response": 0.14698579459704367,
+        "approximate_lead_ticks": 2.0,
+        "heldout_rmse_deg": 0.18910449142767563,
+        "constant_velocity_rmse_deg": 0.7894098364256895,
+        "no_update_rmse_deg": 2.2358244596442414
+      },
+      {
+        "axis": "right_ankle",
+        "velocity_retention": 0.009602470968275541,
+        "drive_response": 0.14443940812650918,
+        "approximate_lead_ticks": 2.0,
+        "heldout_rmse_deg": 0.11574567991337077,
+        "constant_velocity_rmse_deg": 0.4757063659168604,
+        "no_update_rmse_deg": 1.2328805619258327
+      }
+    ],
+    "evaluations": [
+      {
+        "gain": 0.0,
+        "summary": {
+          "count": 6,
+          "walked": 6,
+          "parked": 0,
+          "joint": 0,
+          "completed_holds": 6,
+          "worst_speed_mm_s": 79.03858833104131,
+          "mean_score": 31.790534270950435
+        },
+        "median_foot_shift_mm": 12.608924274823003,
+        "median_unloaded_s": 0.35
+      },
+      {
+        "gain": 0.35,
+        "summary": {
+          "count": 6,
+          "walked": 6,
+          "parked": 0,
+          "joint": 0,
+          "completed_holds": 6,
+          "worst_speed_mm_s": 79.03858833104131,
+          "mean_score": 31.96049740799758
+        },
+        "median_foot_shift_mm": 11.961944787724661,
+        "median_unloaded_s": 0.33
+      },
+      {
+        "gain": 0.7,
+        "summary": {
+          "count": 6,
+          "walked": 6,
+          "parked": 0,
+          "joint": 0,
+          "completed_holds": 6,
+          "worst_speed_mm_s": 79.03858833104131,
+          "mean_score": 32.00738243953532
+        },
+        "median_foot_shift_mm": 12.03389445716763,
+        "median_unloaded_s": 0.33
+      }
+    ]
   }
 }

@@ -13,8 +13,8 @@
     },
     {
       "path": ".gitignore",
-      "bytes": 8914,
-      "sha256": "83655063705daa1ff06044d83c0cd2abc1bcb17ec45e4ef3a49030c6e704cf8d"
+      "bytes": 9041,
+      "sha256": "f05569c41e1604212104bb1b5b1d3b5c096f031334fd701d99f59ba05d669ab3"
     },
     {
       "path": "AGENTS.md",
@@ -528,8 +528,8 @@
     },
     {
       "path": "research/demo1_domain_randomization/README.md",
-      "bytes": 11458,
-      "sha256": "0bb775b2ff5d5e67f895aa13a3092fa79436ca2d125d718d5e8cc52578d9f724"
+      "bytes": 12179,
+      "sha256": "f2227de59a81dcb9b015cfda1ed18b85c915e3978e4b0d671332c49338326d04"
     },
     {
       "path": "research/demo1_domain_randomization/audit_campaign.py",
@@ -538,8 +538,8 @@
     },
     {
       "path": "research/demo1_domain_randomization/campaign_progress.json",
-      "bytes": 37101,
-      "sha256": "3993a58c983349f1ec0076d97a99ed82f33792f07bad735bdcc1cd7c32f25967"
+      "bytes": 44708,
+      "sha256": "1fdc4801110c86955c493415e93ee8cfc08ae136a36560bef5903c76ead1f621"
     },
     {
       "path": "research/demo1_domain_randomization/continue_training.py",
@@ -550,6 +550,11 @@
       "path": "research/demo1_domain_randomization/pilot_metrics.json",
       "bytes": 44979,
       "sha256": "bbaab27e1ac5bb1312ddd5d4aadfe40d58be9b3c2858b71c4ccab7c581e92605"
+    },
+    {
+      "path": "research/demo1_domain_randomization/probe_actuator_prefilter.py",
+      "bytes": 5084,
+      "sha256": "0e8d430522ac0765b970d3dbf9d45c64fae41b300626cd3cf1a74fafc47f89f3"
     },
     {
       "path": "research/demo1_domain_randomization/probe_anchor_hold.py",
@@ -602,6 +607,11 @@
       "sha256": "a78405f352b23a9361d569b7e826deb284d1cb0723f5f32ef9395076aa8a52bf"
     },
     {
+      "path": "research/demo1_domain_randomization/train_actuator_lead.py",
+      "bytes": 2128,
+      "sha256": "e79b96638f474a7578c9e462122d49047b81dd0635e788729dfe1a09bf77164c"
+    },
+    {
       "path": "research/demo1_domain_randomization/train_foot_capture.py",
       "bytes": 4068,
       "sha256": "a09dc54f71e88840e1143b8176ea2db1141d7d8415f4e3f49005e93712505384"
@@ -628,8 +638,8 @@
     },
     {
       "path": "research/demo1_domain_randomization/watch_training.ps1",
-      "bytes": 3137,
-      "sha256": "f53afd2fdf1f2ef2d58fc1729243fa5fcd8d5876b6ae48af60ecf959866aa0b0"
+      "bytes": 3163,
+      "sha256": "f2065c27b4da9c2739758ab0b638039fb6d3ec63194dca3ce7acc8bfe34e7ca1"
     },
     {
       "path": "research/s288_calibration_20261124.md",
