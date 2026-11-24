@@ -13,8 +13,8 @@
     },
     {
       "path": ".gitignore",
-      "bytes": 9102,
-      "sha256": "ee7069b31ecc8f684018df0bb1fbbf61ae3aa9c752926e2cf68f0a7b6f7bd7f9"
+      "bytes": 9169,
+      "sha256": "7bf81cf879aab74d5ca2bdca373a75e11d2016b6f75be7e8a13c8d9df3222e1e"
     },
     {
       "path": "AGENTS.md",
@@ -528,8 +528,8 @@
     },
     {
       "path": "research/demo1_domain_randomization/README.md",
-      "bytes": 12645,
-      "sha256": "9f0352b94ad632b35221f9ad506afbe4b777f4d7d1addd3c924375b6b21c5424"
+      "bytes": 13072,
+      "sha256": "dd75e1dbf05a7da43f95381e96c02a0fd8d2e787b7ca1d98d5c6569f122d3344"
     },
     {
       "path": "research/demo1_domain_randomization/audit_campaign.py",
@@ -538,8 +538,8 @@
     },
     {
       "path": "research/demo1_domain_randomization/campaign_progress.json",
-      "bytes": 47841,
-      "sha256": "6d19be61bf8fbfc65a43293d03f3de091f29915fe6166ffc77a3201b2941d4bc"
+      "bytes": 52465,
+      "sha256": "1510bc38c2c2f9b86e711ca36b6253d85cc1ae1ea87ea848de8b94746cb98179"
     },
     {
       "path": "research/demo1_domain_randomization/continue_training.py",
@@ -565,6 +565,11 @@
       "path": "research/demo1_domain_randomization/probe_balance_force.py",
       "bytes": 3225,
       "sha256": "b95cc7cd23dd1b8c1aa68a1b10ab023e2bae6e561b3461f9a1262aea273e2365"
+    },
+    {
+      "path": "research/demo1_domain_randomization/probe_body_counterbalance.py",
+      "bytes": 2587,
+      "sha256": "6244f1ab9842a75236d45eac78d62b48234dcd96253a138dedec6b352f76bf6d"
     },
     {
       "path": "research/demo1_domain_randomization/probe_contact_overlap.py",

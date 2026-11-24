@@ -1637,5 +1637,171 @@
         "fully_qualified": 0
       }
     }
+  },
+  "upper_body_counterbalance": {
+    "reference_sha256": "48fb8e3012282cc67c72c29ae302c80fb48e6ccbb107bbb450edf7fbb6208961",
+    "results": [
+      {
+        "gain_rad": 0.0,
+        "summary": {
+          "count": 6,
+          "walked": 6,
+          "parked": 0,
+          "joint": 0,
+          "completed_holds": 6,
+          "worst_speed_mm_s": 72.73025811520522,
+          "mean_score": 33.22176349098233
+        },
+        "median_foot_shift_mm": 9.140306989583959,
+        "median_unloaded_s": 0.30000000000000004
+      },
+      {
+        "gain_rad": 0.1,
+        "summary": {
+          "count": 6,
+          "walked": 6,
+          "parked": 0,
+          "joint": 0,
+          "completed_holds": 6,
+          "worst_speed_mm_s": 72.73025811520522,
+          "mean_score": 32.635217328220854
+        },
+        "median_foot_shift_mm": 8.876487072978087,
+        "median_unloaded_s": 0.33
+      },
+      {
+        "gain_rad": -0.1,
+        "summary": {
+          "count": 6,
+          "walked": 6,
+          "parked": 0,
+          "joint": 0,
+          "completed_holds": 6,
+          "worst_speed_mm_s": 72.73025811520522,
+          "mean_score": 33.29562411717617
+        },
+        "median_foot_shift_mm": 9.19690072779633,
+        "median_unloaded_s": 0.29000000000000004
+      }
+    ]
+  },
+  "twelve_hour_checkpoint": {
+    "as_of": "2026-11-24T20:15:36+08:00",
+    "runs": {
+      "overnight_v2": {
+        "snapshot_generation": 597,
+        "episode_count": 13358,
+        "elapsed_hours": 12.1521,
+        "last_validated_generation": 594,
+        "current_primary": {
+          "count": 6,
+          "walked": 6,
+          "parked": 0,
+          "joint": 0,
+          "completed_holds": 5,
+          "worst_speed_mm_s": 82.73843639133963,
+          "mean_score": -4.167346174861177
+        }
+      },
+      "overnight_v3": {
+        "snapshot_generation": 483,
+        "episode_count": 12261,
+        "elapsed_hours": 12.0363,
+        "last_validated_generation": 480,
+        "current_primary": {
+          "count": 6,
+          "walked": 6,
+          "parked": 0,
+          "joint": 0,
+          "completed_holds": 6,
+          "worst_speed_mm_s": 71.54617403766582,
+          "mean_score": 30.08161689554085
+        }
+      },
+      "overnight_v4": {
+        "snapshot_generation": 474,
+        "episode_count": 12021,
+        "elapsed_hours": 11.8826,
+        "last_validated_generation": 468,
+        "current_primary": {
+          "count": 6,
+          "walked": 6,
+          "parked": 0,
+          "joint": 0,
+          "completed_holds": 6,
+          "worst_speed_mm_s": 71.54617403766582,
+          "mean_score": 30.982156635808906
+        }
+      },
+      "overnight_v5": {
+        "snapshot_generation": 451,
+        "episode_count": 11458,
+        "elapsed_hours": 11.2822,
+        "last_validated_generation": 450,
+        "current_primary": {
+          "count": 6,
+          "walked": 6,
+          "parked": 0,
+          "joint": 0,
+          "completed_holds": 6,
+          "worst_speed_mm_s": 71.54617403766582,
+          "mean_score": 32.478782827426045
+        }
+      },
+      "overnight_v6": {
+        "snapshot_generation": 435,
+        "episode_count": 11040,
+        "elapsed_hours": 10.9066,
+        "last_validated_generation": 432,
+        "current_primary": {
+          "count": 6,
+          "walked": 6,
+          "parked": 0,
+          "joint": 0,
+          "completed_holds": 4,
+          "worst_speed_mm_s": 85.28360280481932,
+          "mean_score": -60.0699040484005
+        }
+      },
+      "overnight_v7": {
+        "snapshot_generation": 180,
+        "episode_count": 7288,
+        "elapsed_hours": 7.9635,
+        "last_validated_generation": 174,
+        "current_primary": {
+          "count": 6,
+          "walked": 6,
+          "parked": 0,
+          "joint": 0,
+          "completed_holds": 5,
+          "worst_speed_mm_s": 69.51595275626379,
+          "mean_score": -17.43265003770827
+        }
+      },
+      "overnight_v9": {
+        "snapshot_generation": 83,
+        "episode_count": 1771,
+        "elapsed_hours": 2.6021,
+        "last_validated_generation": 78,
+        "current_primary": {
+          "count": 6,
+          "walked": 6,
+          "parked": 0,
+          "joint": 0,
+          "completed_holds": 6,
+          "worst_speed_mm_s": 87.735937092651,
+          "mean_score": 24.297697401837695
+        }
+      }
+    },
+    "nominal_course_development": {
+      "count": 2,
+      "walked": 2,
+      "parked": 0,
+      "joint": 0,
+      "completed_holds": 2,
+      "worst_speed_mm_s": 97.96748011173905,
+      "mean_score": 29.107406145282066
+    }
   }
 }
