@@ -55,3 +55,5 @@ python continue_training.py --study <local-demo1-study> --pilot <local-first-pil
 逐级域扰动及使用控制历史的思路参考 [Tan 等人的驱动与延迟建模](https://arxiv.org/abs/1804.10332) 和 [Cassie 的运动技能随机化训练](https://journals.sagepub.com/doi/10.1177/02783649241285161)。
 
 停车配对的早期轨迹显示，六个四秒工况都从单足支撑进入归零，部分缺载持续至 0.8 秒。第三组 [足端几何训练](train_foot_capture.py) 用延迟角度和姿态重建脚底位置，按关节雅可比限制支撑足横移并让摆动脚尽快接重。实际仿真仍由原生关节控制力矩和自由接触决定。分支的 [阶段快照](campaign_progress.json) 记录首批指标。
+
+足端几何首批六例中，首次摆动脚落地均发生在原支撑脚失载后。以相同走路前缀试验主动保护原支撑脚的高度，完整十秒回放由 6/6 降到 2/6，严格停车均为 0/6。该方案作为负对照保留。[支撑对照程序](probe_support_anchor.py) 也可检测行走中降低摆动脚净空的影响。

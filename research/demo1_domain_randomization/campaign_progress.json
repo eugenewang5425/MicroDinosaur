@@ -242,5 +242,29 @@
         }
       ]
     }
+  },
+  "support_anchor_pair": {
+    "source_validation_generation": 0,
+    "source_selected_generation": 0,
+    "reference_report_sha256": "8e36bbc00fe4c28e2129b5102cdca351094b8bab85495506263a8babe7c1217e",
+    "same_walking_prefix": true,
+    "reference": {
+      "count": 6,
+      "walked": 6,
+      "parked": 0,
+      "joint": 0,
+      "completed_holds": 6,
+      "worst_speed_mm_s": 71.54617403766582,
+      "mean_score": 30.836044303325906
+    },
+    "anchor": {
+      "count": 6,
+      "walked": 6,
+      "parked": 0,
+      "joint": 0,
+      "completed_holds": 2,
+      "worst_speed_mm_s": 71.54617403766582,
+      "mean_score": -140.53749764746053
+    }
   }
 }

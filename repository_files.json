@@ -13,8 +13,8 @@
     },
     {
       "path": ".gitignore",
-      "bytes": 8112,
-      "sha256": "a1b579862f206a2108ff72431d67349f0d83e4bfa5f7bb012d79da975c5d1174"
+      "bytes": 8174,
+      "sha256": "4580456aaef4f1f61a8c564736a81f8ded4457e9c499f886ed0ec39024212e85"
     },
     {
       "path": "AGENTS.md",
@@ -528,13 +528,13 @@
     },
     {
       "path": "research/demo1_domain_randomization/README.md",
-      "bytes": 7206,
-      "sha256": "4b0f03721ef9ce680e7a43e7b172eba11eb8d2fcbedf5ca615d228d447c00e27"
+      "bytes": 7555,
+      "sha256": "8b21ae86bca2646b1602c0f9aeba9129eaafac578ce9891fd7e90c53252f2fc0"
     },
     {
       "path": "research/demo1_domain_randomization/campaign_progress.json",
-      "bytes": 6830,
-      "sha256": "e99f3d604034e8a7674385585434416138d1feeb70042e6c975c865762b777ce"
+      "bytes": 7491,
+      "sha256": "28cde94e81fa8a35238f6db9e4d11f5c8d4ff6e2fa1a82bc02265bab1ece41fb"
     },
     {
       "path": "research/demo1_domain_randomization/continue_training.py",
@@ -545,6 +545,11 @@
       "path": "research/demo1_domain_randomization/pilot_metrics.json",
       "bytes": 44979,
       "sha256": "bbaab27e1ac5bb1312ddd5d4aadfe40d58be9b3c2858b71c4ccab7c581e92605"
+    },
+    {
+      "path": "research/demo1_domain_randomization/probe_support_anchor.py",
+      "bytes": 5712,
+      "sha256": "670715ba1bdac53e40783e7fc5ad1e905460c975c4bf6d09fc70d7afe13c6cc9"
     },
     {
       "path": "research/demo1_domain_randomization/train.py",

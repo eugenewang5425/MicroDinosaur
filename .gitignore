@@ -170,3 +170,4 @@
 !/research/demo1_domain_randomization/train_stop.py
 !/research/demo1_domain_randomization/train_foot_capture.py
 !/research/demo1_domain_randomization/campaign_progress.json
+!/research/demo1_domain_randomization/probe_support_anchor.py
