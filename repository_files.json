@@ -13,8 +13,8 @@
     },
     {
       "path": ".gitignore",
-      "bytes": 9041,
-      "sha256": "f05569c41e1604212104bb1b5b1d3b5c096f031334fd701d99f59ba05d669ab3"
+      "bytes": 9102,
+      "sha256": "ee7069b31ecc8f684018df0bb1fbbf61ae3aa9c752926e2cf68f0a7b6f7bd7f9"
     },
     {
       "path": "AGENTS.md",
@@ -528,8 +528,8 @@
     },
     {
       "path": "research/demo1_domain_randomization/README.md",
-      "bytes": 12179,
-      "sha256": "f2227de59a81dcb9b015cfda1ed18b85c915e3978e4b0d671332c49338326d04"
+      "bytes": 12645,
+      "sha256": "9f0352b94ad632b35221f9ad506afbe4b777f4d7d1addd3c924375b6b21c5424"
     },
     {
       "path": "research/demo1_domain_randomization/audit_campaign.py",
@@ -538,8 +538,8 @@
     },
     {
       "path": "research/demo1_domain_randomization/campaign_progress.json",
-      "bytes": 44708,
-      "sha256": "1fdc4801110c86955c493415e93ee8cfc08ae136a36560bef5903c76ead1f621"
+      "bytes": 47841,
+      "sha256": "6d19be61bf8fbfc65a43293d03f3de091f29915fe6166ffc77a3201b2941d4bc"
     },
     {
       "path": "research/demo1_domain_randomization/continue_training.py",
@@ -617,6 +617,11 @@
       "sha256": "a09dc54f71e88840e1143b8176ea2db1141d7d8415f4e3f49005e93712505384"
     },
     {
+      "path": "research/demo1_domain_randomization/train_nominal_first.py",
+      "bytes": 3235,
+      "sha256": "9bb4496219b2a403ab02aa7388d0342290a2a3a6ae82faf0f0595a700d9d2fdb"
+    },
+    {
       "path": "research/demo1_domain_randomization/train_paired_phases.py",
       "bytes": 2879,
       "sha256": "b8963bf411adc5e225f69313c9906e9d12089778ae4e786a6dfc9f3f846ce50b"
@@ -638,8 +643,8 @@
     },
     {
       "path": "research/demo1_domain_randomization/watch_training.ps1",
-      "bytes": 3163,
-      "sha256": "f2065c27b4da9c2739758ab0b638039fb6d3ec63194dca3ce7acc8bfe34e7ca1"
+      "bytes": 3189,
+      "sha256": "7b31e4bee4d958d97a1774d0659ae6838df243eaa0efb825ec6120d105477d73"
     },
     {
       "path": "research/s288_calibration_20261124.md",

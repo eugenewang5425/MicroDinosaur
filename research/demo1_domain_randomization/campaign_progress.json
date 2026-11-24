@@ -1535,5 +1535,107 @@
         "median_unloaded_s": 0.33
       }
     ]
+  },
+  "near_ten_hour_gate_audit": {
+    "scope": "Returns all completed 4.0 + 10s development and validation rows passing stable walking and speed. Duplicates removed within trainer; these are not independent new tests.",
+    "as_of": "2026-11-24T17:37:19+08:00",
+    "runs": {
+      "overnight_v2": {
+        "logged_full_gate_precondition_rows": 1144,
+        "unique_case_and_policy_pairs": 625,
+        "gate_exceedances": {
+          "dual": 624,
+          "longest_unloaded_s": 625,
+          "drift_mm": 422,
+          "rms_m_s": 612,
+          "foot_shift_mm": 620,
+          "stance_width_change_mm": 436,
+          "peak_tilt_deg": 341,
+          "landings": 620
+        },
+        "only_one_gate_off": 0,
+        "fully_qualified": 0
+      },
+      "overnight_v3": {
+        "logged_full_gate_precondition_rows": 1043,
+        "unique_case_and_policy_pairs": 625,
+        "gate_exceedances": {
+          "dual": 625,
+          "longest_unloaded_s": 625,
+          "drift_mm": 364,
+          "rms_m_s": 625,
+          "foot_shift_mm": 625,
+          "stance_width_change_mm": 512,
+          "peak_tilt_deg": 305,
+          "landings": 621
+        },
+        "only_one_gate_off": 0,
+        "fully_qualified": 0
+      },
+      "overnight_v4": {
+        "logged_full_gate_precondition_rows": 980,
+        "unique_case_and_policy_pairs": 649,
+        "gate_exceedances": {
+          "dual": 649,
+          "longest_unloaded_s": 649,
+          "drift_mm": 216,
+          "rms_m_s": 627,
+          "foot_shift_mm": 649,
+          "stance_width_change_mm": 531,
+          "peak_tilt_deg": 279,
+          "landings": 548
+        },
+        "only_one_gate_off": 0,
+        "fully_qualified": 0
+      },
+      "overnight_v5": {
+        "logged_full_gate_precondition_rows": 933,
+        "unique_case_and_policy_pairs": 572,
+        "gate_exceedances": {
+          "dual": 572,
+          "longest_unloaded_s": 572,
+          "rms_m_s": 526,
+          "foot_shift_mm": 572,
+          "stance_width_change_mm": 466,
+          "landings": 462,
+          "drift_mm": 166,
+          "peak_tilt_deg": 229
+        },
+        "only_one_gate_off": 0,
+        "fully_qualified": 0
+      },
+      "overnight_v6": {
+        "logged_full_gate_precondition_rows": 816,
+        "unique_case_and_policy_pairs": 408,
+        "gate_exceedances": {
+          "dual": 407,
+          "longest_unloaded_s": 408,
+          "drift_mm": 212,
+          "rms_m_s": 375,
+          "foot_shift_mm": 404,
+          "stance_width_change_mm": 285,
+          "landings": 370,
+          "peak_tilt_deg": 81
+        },
+        "only_one_gate_off": 0,
+        "fully_qualified": 0
+      },
+      "overnight_v7": {
+        "logged_full_gate_precondition_rows": 334,
+        "unique_case_and_policy_pairs": 219,
+        "gate_exceedances": {
+          "dual": 215,
+          "longest_unloaded_s": 219,
+          "drift_mm": 66,
+          "rms_m_s": 181,
+          "foot_shift_mm": 218,
+          "stance_width_change_mm": 150,
+          "landings": 197,
+          "peak_tilt_deg": 74
+        },
+        "only_one_gate_off": 0,
+        "fully_qualified": 0
+      }
+    }
   }
 }
