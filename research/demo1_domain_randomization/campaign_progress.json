@@ -1239,5 +1239,52 @@
         }
       }
     }
+  },
+  "balance_force_probe": {
+    "reference_sha256": "48fb8e3012282cc67c72c29ae302c80fb48e6ccbb107bbb450edf7fbb6208961",
+    "results": [
+      {
+        "gain": 0.0,
+        "metrics": {
+          "count": 6,
+          "walked": 6,
+          "parked": 0,
+          "joint": 0,
+          "completed_holds": 6,
+          "worst_speed_mm_s": 71.54617403766582,
+          "mean_score": 32.478782827426045
+        },
+        "median_foot_mm": 11.00734764684264,
+        "median_unloaded_s": 0.31000000000000005
+      },
+      {
+        "gain": 0.5,
+        "metrics": {
+          "count": 6,
+          "walked": 6,
+          "parked": 0,
+          "joint": 0,
+          "completed_holds": 6,
+          "worst_speed_mm_s": 71.54617403766582,
+          "mean_score": 31.52702831209567
+        },
+        "median_foot_mm": 10.837323322863675,
+        "median_unloaded_s": 0.35
+      },
+      {
+        "gain": 1.0,
+        "metrics": {
+          "count": 6,
+          "walked": 6,
+          "parked": 0,
+          "joint": 0,
+          "completed_holds": 6,
+          "worst_speed_mm_s": 71.54617403766582,
+          "mean_score": 31.249866862330574
+        },
+        "median_foot_mm": 10.855648000556211,
+        "median_unloaded_s": 0.36
+      }
+    ]
   }
 }

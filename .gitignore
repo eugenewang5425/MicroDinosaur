@@ -182,3 +182,4 @@
 !/research/demo1_domain_randomization/probe_feedback_age.py
 !/research/demo1_domain_randomization/audit_campaign.py
 !/research/demo1_domain_randomization/train_paired_phases.py
+!/research/demo1_domain_randomization/probe_balance_force.py

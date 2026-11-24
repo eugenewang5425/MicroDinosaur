@@ -13,8 +13,8 @@
     },
     {
       "path": ".gitignore",
-      "bytes": 8853,
-      "sha256": "7ded7df13253ecba009a0a5d49fad7ebdfeac08ab98f26a81185aff1342eed35"
+      "bytes": 8914,
+      "sha256": "83655063705daa1ff06044d83c0cd2abc1bcb17ec45e4ef3a49030c6e704cf8d"
     },
     {
       "path": "AGENTS.md",
@@ -528,8 +528,8 @@
     },
     {
       "path": "research/demo1_domain_randomization/README.md",
-      "bytes": 11029,
-      "sha256": "ca9cc9ca601fd22302d41b742741b26a940aa641051c6ef0f9a3cbb0315c0736"
+      "bytes": 11458,
+      "sha256": "0bb775b2ff5d5e67f895aa13a3092fa79436ca2d125d718d5e8cc52578d9f724"
     },
     {
       "path": "research/demo1_domain_randomization/audit_campaign.py",
@@ -538,8 +538,8 @@
     },
     {
       "path": "research/demo1_domain_randomization/campaign_progress.json",
-      "bytes": 35850,
-      "sha256": "04bef9934d0123447e1132b3578a81b6418f9bc2f56cb2a855071edc1203c964"
+      "bytes": 37101,
+      "sha256": "3993a58c983349f1ec0076d97a99ed82f33792f07bad735bdcc1cd7c32f25967"
     },
     {
       "path": "research/demo1_domain_randomization/continue_training.py",
@@ -555,6 +555,11 @@
       "path": "research/demo1_domain_randomization/probe_anchor_hold.py",
       "bytes": 4293,
       "sha256": "5cc8501f9c4ad2a66fea6e398e29e44ec1f1389facc8ec482a413a0234a07c51"
+    },
+    {
+      "path": "research/demo1_domain_randomization/probe_balance_force.py",
+      "bytes": 3225,
+      "sha256": "b95cc7cd23dd1b8c1aa68a1b10ab023e2bae6e561b3461f9a1262aea273e2365"
     },
     {
       "path": "research/demo1_domain_randomization/probe_contact_overlap.py",
