@@ -13,8 +13,8 @@
     },
     {
       "path": ".gitignore",
-      "bytes": 8299,
-      "sha256": "5ae8e15e9e2cd32229fc0b4c1e4f7f636343ebab4a03840fde305f494f223f25"
+      "bytes": 8427,
+      "sha256": "043fad21822fa306b1e70b7591387d91b600ffcd3c7451f9b55d76b2b534cff8"
     },
     {
       "path": "AGENTS.md",
@@ -528,13 +528,13 @@
     },
     {
       "path": "research/demo1_domain_randomization/README.md",
-      "bytes": 8183,
-      "sha256": "dbcf19c9713a4c7ca78c10b7188b20752712e3da8de761c78af53afd8f59c58c"
+      "bytes": 8631,
+      "sha256": "a2d2db6fda4f1748ed84bab2a530f8547b958022afa8a6f3c199b28c96ba8a3e"
     },
     {
       "path": "research/demo1_domain_randomization/campaign_progress.json",
-      "bytes": 16818,
-      "sha256": "66c6563031fd4dcc94acb117d8f68ca1cfc00fe23d3bdc0541eecef607a06b70"
+      "bytes": 19102,
+      "sha256": "778adeaa700dee6049a73ef1116ecb64632699fa6c1e6cca02305b2320b857e0"
     },
     {
       "path": "research/demo1_domain_randomization/continue_training.py",
@@ -550,6 +550,11 @@
       "path": "research/demo1_domain_randomization/probe_contact_overlap.py",
       "bytes": 5541,
       "sha256": "5e48272ea453d7262d6efd263d12207d8f43f59ea349be7b703f334278777f74"
+    },
+    {
+      "path": "research/demo1_domain_randomization/probe_speed_curriculum.py",
+      "bytes": 2195,
+      "sha256": "8a18b3690c7836d432f305f573eb351c63908ad70d300c05e615637250dd0cef"
     },
     {
       "path": "research/demo1_domain_randomization/probe_support_anchor.py",
@@ -572,14 +577,19 @@
       "sha256": "a09dc54f71e88840e1143b8176ea2db1141d7d8415f4e3f49005e93712505384"
     },
     {
+      "path": "research/demo1_domain_randomization/train_speed_curriculum.py",
+      "bytes": 2711,
+      "sha256": "67805500c38ac9b24140a3f5def31c7180bf4520ea5cab69416bc908752b9aa9"
+    },
+    {
       "path": "research/demo1_domain_randomization/train_stop.py",
       "bytes": 8363,
       "sha256": "0a068afdd179d88486c7f1d864731c8fa5faa3c55bb289cfa8a8c3023083ac73"
     },
     {
       "path": "research/demo1_domain_randomization/watch_training.ps1",
-      "bytes": 3056,
-      "sha256": "35c1d24628e9f29394c3f2c9827fb71d2248fe784fdfb85b064f52516b5388ae"
+      "bytes": 3085,
+      "sha256": "494b17e5f82831d2b2aaa044e14ffb1990383e18aa27592112984e00f634eb8c"
     },
     {
       "path": "research/s288_calibration_20261124.md",

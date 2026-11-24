@@ -587,5 +587,88 @@
     "python_source_count": 76,
     "checked_against_original_run_digest": true,
     "completed_contact_probe_after_resume": 24
+  },
+  "approach_speed_probe": {
+    "reference_report_sha256": "f2fe7f5096b9db8217dc9e63ce24c19fb7872268a682a2ccfa4970bcc26a7798",
+    "results": [
+      {
+        "command_peak": 0.2,
+        "evaluation": {
+          "count": 6,
+          "walked": 6,
+          "parked": 0,
+          "joint": 0,
+          "completed_holds": 6,
+          "worst_speed_mm_s": 71.54617403766582,
+          "mean_score": 31.960971543214722
+        },
+        "median_unloaded_s": 0.35,
+        "median_foot_shift_mm": 11.699587586879147
+      },
+      {
+        "command_peak": 0.09,
+        "evaluation": {
+          "count": 6,
+          "walked": 6,
+          "parked": 0,
+          "joint": 0,
+          "completed_holds": 6,
+          "worst_speed_mm_s": 27.10202098492482,
+          "mean_score": -6.2819362338017415
+        },
+        "median_unloaded_s": 0.28,
+        "median_foot_shift_mm": 9.550680826461333
+      },
+      {
+        "command_peak": 0.13,
+        "evaluation": {
+          "count": 6,
+          "walked": 6,
+          "parked": 0,
+          "joint": 0,
+          "completed_holds": 6,
+          "worst_speed_mm_s": 43.76296188286429,
+          "mean_score": -10.006215688046337
+        },
+        "median_unloaded_s": 0.43,
+        "median_foot_shift_mm": 12.176589708583471
+      },
+      {
+        "command_peak": 0.17,
+        "evaluation": {
+          "count": 6,
+          "walked": 6,
+          "parked": 0,
+          "joint": 0,
+          "completed_holds": 5,
+          "worst_speed_mm_s": 66.30026888968942,
+          "mean_score": -15.202808069269693
+        },
+        "median_unloaded_s": 0.36,
+        "median_foot_shift_mm": 11.999600595548308
+      }
+    ]
+  },
+  "speed_curriculum_first_check": {
+    "script_sha256": "67805500c38ac9b24140a3f5def31c7180bf4520ea5cab69416bc908752b9aa9",
+    "generation": 0,
+    "full_speed_validation": {
+      "count": 6,
+      "walked": 6,
+      "parked": 0,
+      "joint": 0,
+      "completed_holds": 6,
+      "worst_speed_mm_s": 71.54617403766582,
+      "mean_score": 32.478782827426045
+    },
+    "release_phase_validation": {
+      "count": 8,
+      "walked": 7,
+      "parked": 0,
+      "joint": 0,
+      "completed_holds": 7,
+      "worst_speed_mm_s": 62.89118608242752,
+      "mean_score": -4.335857788823958
+    }
   }
 }

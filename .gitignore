@@ -173,3 +173,5 @@
 !/research/demo1_domain_randomization/probe_support_anchor.py
 !/research/demo1_domain_randomization/probe_contact_overlap.py
 !/research/demo1_domain_randomization/run_with_source_lock.py
+!/research/demo1_domain_randomization/probe_speed_curriculum.py
+!/research/demo1_domain_randomization/train_speed_curriculum.py

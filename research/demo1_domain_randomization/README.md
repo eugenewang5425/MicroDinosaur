@@ -61,3 +61,5 @@ python continue_training.py --study <local-demo1-study> --pilot <local-first-pil
 固定降低摆动脚净空的六组对照仍均能走完，但完整十秒回放由 6/6 降至 5/6。使用真实仿真接触和位姿的 [早期承重可行性试验](probe_contact_overlap.py) 在六个相同撤令场景扫过三档靠地目标，未找到 60 ms 内的双支撑。它只限定本次控制形式和参数扫描的结果。
 
 长训本地保存与启动哈希一致的 Python 依赖副本。另一条 Demo 1 研究线的源文件更新后，守护脚本可指定 `-SourceLock`，用 [冻结启动器](run_with_source_lock.py) 读取该副本并续接训练。模型与执行策略继续按原有哈希校验。
+
+[进场速度对照](probe_speed_curriculum.py) 保持同一停车候选和六个配对工况。在速度指令峰值 0.09 时，最长无双支撑中位数由原 0.20 工况的 0.35 秒降至 0.28 秒，承重足最大位移中位数由 11.70 mm 降至 9.55 mm。两档速度均为 0/6 严格停车。[续训课程](train_speed_curriculum.py) 先在低速学习，再逐步加入较快进场，开发和复测始终采用原 0.20 指令峰值。
