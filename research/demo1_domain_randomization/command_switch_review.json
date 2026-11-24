@@ -1,0 +1,1451 @@
+{
+  "scope": "Simulation only. Frozen Demo 1 and frozen v5 paired on each model and command.",
+  "policy_hz": 50,
+  "settling_allowance_s": 1.5,
+  "established_stance_s": 10.0,
+  "held_out_seed": 38411179,
+  "replay_count_unit": "Whole-model evaluations including repeated development and validation cases",
+  "legacy_worker_evaluations": {
+    "overnight_v2": 19227,
+    "overnight_v3": 17686,
+    "overnight_v4": 17459,
+    "overnight_v5": 16897,
+    "overnight_v6": 16453,
+    "overnight_v7": 12085,
+    "overnight_v9": 5450
+  },
+  "original_joint": 9,
+  "v5_joint": 7,
+  "frozen_v5_paired_results": [
+    {
+      "severity": "nominal",
+      "dt_s": 0.005,
+      "release_s": 4.0,
+      "original": {
+        "joint": true,
+        "ended": "completed",
+        "walk": {
+          "complete": true,
+          "forward_mm": 316.15435332416524,
+          "cross_mm": 77.25269598112627,
+          "speed_mm_s": 79.03858833104131,
+          "sustained_alternations": 17,
+          "peak_tilt_deg": 3.1876105474892267,
+          "peak_nonsole_N": 0.0,
+          "stable": true
+        },
+        "parking": {
+          "complete": true,
+          "duration_s": 11.5,
+          "dual": 0.9496527777777778,
+          "longest_unloaded_s": 0.56,
+          "drift_mm": 26.148831548461533,
+          "rms_m_s": 0.02400450905763684,
+          "foot_shift_mm": 11.421622797050151,
+          "stance_width_change_mm": 12.87066950558667,
+          "peak_tilt_deg": 6.593779748260347,
+          "peak_nonsole_N": 0.0,
+          "landings": 4,
+          "passed": true,
+          "legacy_passed": false
+        },
+        "established_stance": {
+          "complete": true,
+          "duration_s": 10.0,
+          "dual": 1.0,
+          "longest_unloaded_s": 0.0,
+          "drift_mm": 0.0663326110965699,
+          "rms_m_s": 0.00111319173506175,
+          "foot_shift_mm": 0.3276838167447801,
+          "stance_width_change_mm": 0.6088395659966384,
+          "peak_tilt_deg": 0.3781247785092863,
+          "peak_nonsole_N": 0.0,
+          "landings": 0,
+          "passed": true
+        }
+      },
+      "v5": {
+        "joint": true,
+        "ended": "completed",
+        "walk": {
+          "complete": true,
+          "forward_mm": 316.15435332416524,
+          "cross_mm": 77.25269598112627,
+          "speed_mm_s": 79.03858833104131,
+          "sustained_alternations": 17,
+          "peak_tilt_deg": 3.1876105474892267,
+          "peak_nonsole_N": 0.0,
+          "stable": true,
+          "nominal_speed_ratio": 1.0
+        },
+        "parking": {
+          "complete": true,
+          "duration_s": 11.5,
+          "dual": 0.9739583333333334,
+          "longest_unloaded_s": 0.24,
+          "drift_mm": 23.10656262284332,
+          "rms_m_s": 0.020355043494709936,
+          "foot_shift_mm": 11.127859290740645,
+          "stance_width_change_mm": 13.527690291659358,
+          "peak_tilt_deg": 5.628454131855853,
+          "peak_nonsole_N": 0.0,
+          "landings": 3,
+          "passed": true,
+          "legacy_passed": false
+        },
+        "established_stance": {
+          "complete": true,
+          "duration_s": 10.0,
+          "dual": 1.0,
+          "longest_unloaded_s": 0.0,
+          "drift_mm": 0.9550038372654681,
+          "rms_m_s": 0.0007456417118037296,
+          "foot_shift_mm": 0.9853164279931773,
+          "stance_width_change_mm": 1.8407409588056396,
+          "peak_tilt_deg": 0.9212365449256874,
+          "peak_nonsole_N": 0.0,
+          "landings": 0,
+          "passed": true
+        }
+      },
+      "paired": {
+        "original_eligible": true,
+        "candidate_eligible": true,
+        "speed_ratio": 1.0,
+        "transition_delta": {
+          "landings": -1,
+          "foot_shift_mm": -0.29376350630950654,
+          "drift_mm": -3.042268925618213,
+          "longest_unloaded_s": -0.32000000000000006
+        }
+      }
+    },
+    {
+      "severity": "nominal",
+      "dt_s": 0.0025,
+      "release_s": 4.0,
+      "original": {
+        "joint": true,
+        "ended": "completed",
+        "walk": {
+          "complete": true,
+          "forward_mm": 336.86146793882403,
+          "cross_mm": 76.18104032696003,
+          "speed_mm_s": 84.21536698470601,
+          "sustained_alternations": 16,
+          "peak_tilt_deg": 3.358511519945782,
+          "peak_nonsole_N": 0.0,
+          "stable": true
+        },
+        "parking": {
+          "complete": true,
+          "duration_s": 11.5,
+          "dual": 0.9600694444444444,
+          "longest_unloaded_s": 0.46,
+          "drift_mm": 25.633674289610802,
+          "rms_m_s": 0.02181806455941447,
+          "foot_shift_mm": 9.512466513063268,
+          "stance_width_change_mm": 6.272461901061233,
+          "peak_tilt_deg": 4.460896478038806,
+          "peak_nonsole_N": 0.0,
+          "landings": 3,
+          "passed": true,
+          "legacy_passed": false
+        },
+        "established_stance": {
+          "complete": true,
+          "duration_s": 10.0,
+          "dual": 1.0,
+          "longest_unloaded_s": 0.0,
+          "drift_mm": 0.021737335387248008,
+          "rms_m_s": 0.0003911898441406872,
+          "foot_shift_mm": 0.24358858104864883,
+          "stance_width_change_mm": 0.4525392921735233,
+          "peak_tilt_deg": 0.3711759023224421,
+          "peak_nonsole_N": 0.0,
+          "landings": 0,
+          "passed": true
+        }
+      },
+      "v5": {
+        "joint": true,
+        "ended": "completed",
+        "walk": {
+          "complete": true,
+          "forward_mm": 336.86146793882403,
+          "cross_mm": 76.18104032696003,
+          "speed_mm_s": 84.21536698470601,
+          "sustained_alternations": 16,
+          "peak_tilt_deg": 3.358511519945782,
+          "peak_nonsole_N": 0.0,
+          "stable": true,
+          "nominal_speed_ratio": 1.0
+        },
+        "parking": {
+          "complete": true,
+          "duration_s": 11.5,
+          "dual": 0.9756944444444444,
+          "longest_unloaded_s": 0.28,
+          "drift_mm": 17.700108709512367,
+          "rms_m_s": 0.017360846911177497,
+          "foot_shift_mm": 7.250447082653016,
+          "stance_width_change_mm": 6.929950677804358,
+          "peak_tilt_deg": 3.9668320569266706,
+          "peak_nonsole_N": 0.0,
+          "landings": 2,
+          "passed": true,
+          "legacy_passed": false
+        },
+        "established_stance": {
+          "complete": true,
+          "duration_s": 10.0,
+          "dual": 1.0,
+          "longest_unloaded_s": 0.0,
+          "drift_mm": 0.680851182293957,
+          "rms_m_s": 0.00037517450919121896,
+          "foot_shift_mm": 0.6782685813320988,
+          "stance_width_change_mm": 1.318736312907229,
+          "peak_tilt_deg": 0.9932534933352859,
+          "peak_nonsole_N": 0.0,
+          "landings": 0,
+          "passed": true
+        }
+      },
+      "paired": {
+        "original_eligible": true,
+        "candidate_eligible": true,
+        "speed_ratio": 1.0,
+        "transition_delta": {
+          "landings": -1,
+          "foot_shift_mm": -2.262019430410252,
+          "drift_mm": -7.933565580098435,
+          "longest_unloaded_s": -0.18
+        }
+      }
+    },
+    {
+      "severity": "mild",
+      "dt_s": 0.005,
+      "release_s": 4.0,
+      "original": {
+        "joint": true,
+        "ended": "completed",
+        "walk": {
+          "complete": true,
+          "forward_mm": 328.007865182112,
+          "cross_mm": 18.19911600691605,
+          "speed_mm_s": 82.001966295528,
+          "sustained_alternations": 18,
+          "peak_tilt_deg": 4.472126221936796,
+          "peak_nonsole_N": 0.0,
+          "stable": true,
+          "nominal_speed_ratio": 1.037492799745803
+        },
+        "parking": {
+          "complete": true,
+          "duration_s": 11.5,
+          "dual": 0.9600694444444444,
+          "longest_unloaded_s": 0.42,
+          "drift_mm": 20.17662722271831,
+          "rms_m_s": 0.02378866317677726,
+          "foot_shift_mm": 15.406106042199138,
+          "stance_width_change_mm": 11.195379012512067,
+          "peak_tilt_deg": 6.424060117661055,
+          "peak_nonsole_N": 0.0,
+          "landings": 4,
+          "passed": true,
+          "legacy_passed": false
+        },
+        "established_stance": {
+          "complete": true,
+          "duration_s": 10.0,
+          "dual": 1.0,
+          "longest_unloaded_s": 0.0,
+          "drift_mm": 0.5001262287953568,
+          "rms_m_s": 0.0010436563332644649,
+          "foot_shift_mm": 0.3176843398610599,
+          "stance_width_change_mm": 0.5970584326332462,
+          "peak_tilt_deg": 0.34388410876936415,
+          "peak_nonsole_N": 0.0,
+          "landings": 0,
+          "passed": true
+        }
+      },
+      "v5": {
+        "joint": true,
+        "ended": "completed",
+        "walk": {
+          "complete": true,
+          "forward_mm": 328.007865182112,
+          "cross_mm": 18.19911600691605,
+          "speed_mm_s": 82.001966295528,
+          "sustained_alternations": 18,
+          "peak_tilt_deg": 4.472126221936796,
+          "peak_nonsole_N": 0.0,
+          "stable": true,
+          "nominal_speed_ratio": 1.037492799745803
+        },
+        "parking": {
+          "complete": true,
+          "duration_s": 11.5,
+          "dual": 0.9548611111111112,
+          "longest_unloaded_s": 0.52,
+          "drift_mm": 13.382328175944519,
+          "rms_m_s": 0.02188551730355855,
+          "foot_shift_mm": 13.536499183342395,
+          "stance_width_change_mm": 11.920538712825056,
+          "peak_tilt_deg": 6.632670705034845,
+          "peak_nonsole_N": 0.0,
+          "landings": 5,
+          "passed": true,
+          "legacy_passed": false
+        },
+        "established_stance": {
+          "complete": true,
+          "duration_s": 10.0,
+          "dual": 1.0,
+          "longest_unloaded_s": 0.0,
+          "drift_mm": 3.6224930704152705,
+          "rms_m_s": 0.0019162523462725484,
+          "foot_shift_mm": 1.6821748636834,
+          "stance_width_change_mm": 3.0180486653731133,
+          "peak_tilt_deg": 2.462338622128082,
+          "peak_nonsole_N": 0.0,
+          "landings": 0,
+          "passed": true
+        }
+      },
+      "paired": {
+        "original_eligible": true,
+        "candidate_eligible": true,
+        "speed_ratio": 1.0,
+        "transition_delta": {
+          "landings": 1,
+          "foot_shift_mm": -1.8696068588567432,
+          "drift_mm": -6.794299046773791,
+          "longest_unloaded_s": 0.10000000000000003
+        }
+      }
+    },
+    {
+      "severity": "mild",
+      "dt_s": 0.0025,
+      "release_s": 4.0,
+      "original": {
+        "joint": true,
+        "ended": "completed",
+        "walk": {
+          "complete": true,
+          "forward_mm": 343.9688748585011,
+          "cross_mm": 46.63481335745479,
+          "speed_mm_s": 85.99221871462528,
+          "sustained_alternations": 16,
+          "peak_tilt_deg": 3.0967329414147913,
+          "peak_nonsole_N": 0.0,
+          "stable": true,
+          "nominal_speed_ratio": 1.021098901465833
+        },
+        "parking": {
+          "complete": true,
+          "duration_s": 11.5,
+          "dual": 0.9635416666666666,
+          "longest_unloaded_s": 0.42,
+          "drift_mm": 22.98385881046013,
+          "rms_m_s": 0.022470363946056855,
+          "foot_shift_mm": 13.046772706583509,
+          "stance_width_change_mm": 2.740322161626549,
+          "peak_tilt_deg": 6.287858431621346,
+          "peak_nonsole_N": 0.0,
+          "landings": 4,
+          "passed": true,
+          "legacy_passed": false
+        },
+        "established_stance": {
+          "complete": true,
+          "duration_s": 10.0,
+          "dual": 1.0,
+          "longest_unloaded_s": 0.0,
+          "drift_mm": 0.5192128341360491,
+          "rms_m_s": 0.0011450586988638969,
+          "foot_shift_mm": 0.2475668889831093,
+          "stance_width_change_mm": 0.46376251774185584,
+          "peak_tilt_deg": 0.5581120774078165,
+          "peak_nonsole_N": 0.0,
+          "landings": 0,
+          "passed": true
+        }
+      },
+      "v5": {
+        "joint": true,
+        "ended": "completed",
+        "walk": {
+          "complete": true,
+          "forward_mm": 343.9688748585011,
+          "cross_mm": 46.63481335745479,
+          "speed_mm_s": 85.99221871462528,
+          "sustained_alternations": 16,
+          "peak_tilt_deg": 3.0967329414147913,
+          "peak_nonsole_N": 0.0,
+          "stable": true,
+          "nominal_speed_ratio": 1.021098901465833
+        },
+        "parking": {
+          "complete": true,
+          "duration_s": 11.5,
+          "dual": 0.9809027777777778,
+          "longest_unloaded_s": 0.16,
+          "drift_mm": 13.868273367710788,
+          "rms_m_s": 0.017850519337771525,
+          "foot_shift_mm": 8.759066474662237,
+          "stance_width_change_mm": 3.2663094381576716,
+          "peak_tilt_deg": 4.428014829464701,
+          "peak_nonsole_N": 0.0,
+          "landings": 3,
+          "passed": true,
+          "legacy_passed": false
+        },
+        "established_stance": {
+          "complete": true,
+          "duration_s": 10.0,
+          "dual": 1.0,
+          "longest_unloaded_s": 0.0,
+          "drift_mm": 2.388253750167282,
+          "rms_m_s": 0.0004900079209801065,
+          "foot_shift_mm": 0.8288500989919424,
+          "stance_width_change_mm": 1.4686973728967045,
+          "peak_tilt_deg": 0.867981073158932,
+          "peak_nonsole_N": 0.0,
+          "landings": 0,
+          "passed": true
+        }
+      },
+      "paired": {
+        "original_eligible": true,
+        "candidate_eligible": true,
+        "speed_ratio": 1.0,
+        "transition_delta": {
+          "landings": -1,
+          "foot_shift_mm": -4.2877062319212715,
+          "drift_mm": -9.115585442749342,
+          "longest_unloaded_s": -0.26
+        }
+      }
+    },
+    {
+      "severity": "moderate",
+      "dt_s": 0.005,
+      "release_s": 4.0,
+      "original": {
+        "joint": true,
+        "ended": "completed",
+        "walk": {
+          "complete": true,
+          "forward_mm": 401.2330904664088,
+          "cross_mm": 38.60996959978889,
+          "speed_mm_s": 100.3082726166022,
+          "sustained_alternations": 17,
+          "peak_tilt_deg": 3.395824775028933,
+          "peak_nonsole_N": 0.0,
+          "stable": true,
+          "nominal_speed_ratio": 1.2691050629152938
+        },
+        "parking": {
+          "complete": true,
+          "duration_s": 11.5,
+          "dual": 0.9340277777777778,
+          "longest_unloaded_s": 0.62,
+          "drift_mm": 25.420952369953987,
+          "rms_m_s": 0.025339586623607704,
+          "foot_shift_mm": 13.031892630956445,
+          "stance_width_change_mm": 17.477651401192478,
+          "peak_tilt_deg": 7.045299791632334,
+          "peak_nonsole_N": 0.0,
+          "landings": 5,
+          "passed": true,
+          "legacy_passed": false
+        },
+        "established_stance": {
+          "complete": true,
+          "duration_s": 10.0,
+          "dual": 1.0,
+          "longest_unloaded_s": 0.0,
+          "drift_mm": 0.09121185540328786,
+          "rms_m_s": 0.0007329005578453682,
+          "foot_shift_mm": 0.45395340463148065,
+          "stance_width_change_mm": 0.8865432976569582,
+          "peak_tilt_deg": 0.37932914809680934,
+          "peak_nonsole_N": 0.0,
+          "landings": 0,
+          "passed": true
+        }
+      },
+      "v5": {
+        "joint": false,
+        "ended": "automatic_getup_detected",
+        "walk": {
+          "complete": true,
+          "forward_mm": 401.2330904664088,
+          "cross_mm": 38.60996959978889,
+          "speed_mm_s": 100.3082726166022,
+          "sustained_alternations": 17,
+          "peak_tilt_deg": 3.395824775028933,
+          "peak_nonsole_N": 0.0,
+          "stable": true,
+          "nominal_speed_ratio": 1.2691050629152938
+        },
+        "parking": {
+          "complete": false,
+          "duration_s": 1.6399999999999997,
+          "dual": 0.7469879518072289,
+          "longest_unloaded_s": 0.28,
+          "drift_mm": 53.196012638011425,
+          "rms_m_s": 0.07373842494737397,
+          "foot_shift_mm": 15.012809902763747,
+          "stance_width_change_mm": 16.764723752818803,
+          "peak_tilt_deg": 31.883597583296428,
+          "peak_nonsole_N": 10.81946810942552,
+          "landings": 4,
+          "passed": false,
+          "legacy_passed": false
+        },
+        "established_stance": {
+          "complete": false,
+          "duration_s": 0.13999999999999968,
+          "dual": 1.0,
+          "longest_unloaded_s": 0.0,
+          "drift_mm": 0.8463902246882576,
+          "rms_m_s": 0.006251240375570251,
+          "foot_shift_mm": 0.09190871610091615,
+          "stance_width_change_mm": 0.06684287837879777,
+          "peak_tilt_deg": 30.2426836641575,
+          "peak_nonsole_N": 1.438905211859215,
+          "landings": 0,
+          "passed": false
+        }
+      },
+      "paired": {
+        "original_eligible": true,
+        "candidate_eligible": false,
+        "speed_ratio": 1.0,
+        "transition_delta": {
+          "landings": -1,
+          "foot_shift_mm": 1.9809172718073018,
+          "drift_mm": 27.775060268057437,
+          "longest_unloaded_s": -0.33999999999999997
+        }
+      }
+    },
+    {
+      "severity": "moderate",
+      "dt_s": 0.0025,
+      "release_s": 4.0,
+      "original": {
+        "joint": true,
+        "ended": "completed",
+        "walk": {
+          "complete": true,
+          "forward_mm": 360.9732030816561,
+          "cross_mm": 63.357551602507556,
+          "speed_mm_s": 90.24330077041402,
+          "sustained_alternations": 18,
+          "peak_tilt_deg": 3.389095101581532,
+          "peak_nonsole_N": 0.0,
+          "stable": true,
+          "nominal_speed_ratio": 1.0715775992141996
+        },
+        "parking": {
+          "complete": true,
+          "duration_s": 11.5,
+          "dual": 0.9357638888888888,
+          "longest_unloaded_s": 0.74,
+          "drift_mm": 26.51135383194358,
+          "rms_m_s": 0.025480745902256918,
+          "foot_shift_mm": 10.269867297783584,
+          "stance_width_change_mm": 14.56870517371095,
+          "peak_tilt_deg": 7.147318720783066,
+          "peak_nonsole_N": 0.0,
+          "landings": 5,
+          "passed": true,
+          "legacy_passed": false
+        },
+        "established_stance": {
+          "complete": true,
+          "duration_s": 10.0,
+          "dual": 1.0,
+          "longest_unloaded_s": 0.0,
+          "drift_mm": 0.08146315127137153,
+          "rms_m_s": 0.0003638635338425616,
+          "foot_shift_mm": 0.43547355365857576,
+          "stance_width_change_mm": 0.8512485645834622,
+          "peak_tilt_deg": 0.3740217779462456,
+          "peak_nonsole_N": 0.0,
+          "landings": 0,
+          "passed": true
+        }
+      },
+      "v5": {
+        "joint": true,
+        "ended": "completed",
+        "walk": {
+          "complete": true,
+          "forward_mm": 360.9732030816561,
+          "cross_mm": 63.357551602507556,
+          "speed_mm_s": 90.24330077041402,
+          "sustained_alternations": 18,
+          "peak_tilt_deg": 3.389095101581532,
+          "peak_nonsole_N": 0.0,
+          "stable": true,
+          "nominal_speed_ratio": 1.0715775992141996
+        },
+        "parking": {
+          "complete": true,
+          "duration_s": 11.5,
+          "dual": 0.9600694444444444,
+          "longest_unloaded_s": 0.36,
+          "drift_mm": 23.15497847216668,
+          "rms_m_s": 0.02245477033217082,
+          "foot_shift_mm": 9.056948874682515,
+          "stance_width_change_mm": 15.26807028068232,
+          "peak_tilt_deg": 6.23486903688371,
+          "peak_nonsole_N": 0.0,
+          "landings": 5,
+          "passed": true,
+          "legacy_passed": false
+        },
+        "established_stance": {
+          "complete": true,
+          "duration_s": 10.0,
+          "dual": 1.0,
+          "longest_unloaded_s": 0.0,
+          "drift_mm": 4.443760375615497,
+          "rms_m_s": 0.002262605195428151,
+          "foot_shift_mm": 1.1574314756602675,
+          "stance_width_change_mm": 2.1370612143108563,
+          "peak_tilt_deg": 2.2497543610686743,
+          "peak_nonsole_N": 0.0,
+          "landings": 0,
+          "passed": true
+        }
+      },
+      "paired": {
+        "original_eligible": true,
+        "candidate_eligible": true,
+        "speed_ratio": 1.0,
+        "transition_delta": {
+          "landings": 0,
+          "foot_shift_mm": -1.212918423101069,
+          "drift_mm": -3.3563753597769015,
+          "longest_unloaded_s": -0.38
+        }
+      }
+    },
+    {
+      "severity": "mild",
+      "dt_s": 0.005,
+      "release_s": 3.72,
+      "original": {
+        "joint": true,
+        "ended": "completed",
+        "walk": {
+          "complete": true,
+          "forward_mm": 283.7546341478079,
+          "cross_mm": 19.116310059502133,
+          "speed_mm_s": 76.27812745908814,
+          "sustained_alternations": 17,
+          "peak_tilt_deg": 4.87906669217805,
+          "peak_nonsole_N": 0.0,
+          "stable": true,
+          "nominal_speed_ratio": 0.965074517014507
+        },
+        "parking": {
+          "complete": true,
+          "duration_s": 11.5,
+          "dual": 0.9722222222222222,
+          "longest_unloaded_s": 0.3,
+          "drift_mm": 25.12614054374193,
+          "rms_m_s": 0.01997475798872452,
+          "foot_shift_mm": 8.433309971886933,
+          "stance_width_change_mm": 14.037211814085405,
+          "peak_tilt_deg": 3.532105799596354,
+          "peak_nonsole_N": 0.0,
+          "landings": 2,
+          "passed": true,
+          "legacy_passed": false
+        },
+        "established_stance": {
+          "complete": true,
+          "duration_s": 10.0,
+          "dual": 1.0,
+          "longest_unloaded_s": 0.0,
+          "drift_mm": 0.03911268160136382,
+          "rms_m_s": 0.0010854797792623592,
+          "foot_shift_mm": 0.29194824673461744,
+          "stance_width_change_mm": 0.533611223983238,
+          "peak_tilt_deg": 0.3605067308799998,
+          "peak_nonsole_N": 0.0,
+          "landings": 0,
+          "passed": true
+        }
+      },
+      "v5": {
+        "joint": false,
+        "ended": "completed",
+        "walk": {
+          "complete": true,
+          "forward_mm": 283.7546341478079,
+          "cross_mm": 19.116310059502133,
+          "speed_mm_s": 76.27812745908814,
+          "sustained_alternations": 17,
+          "peak_tilt_deg": 4.87906669217805,
+          "peak_nonsole_N": 0.0,
+          "stable": true,
+          "nominal_speed_ratio": 0.965074517014507
+        },
+        "parking": {
+          "complete": true,
+          "duration_s": 11.5,
+          "dual": 0.9618055555555556,
+          "longest_unloaded_s": 0.44,
+          "drift_mm": 19.34259418189651,
+          "rms_m_s": 0.0205423905991584,
+          "foot_shift_mm": 9.813677714198763,
+          "stance_width_change_mm": 14.747503263332199,
+          "peak_tilt_deg": 7.1508658730311065,
+          "peak_nonsole_N": 0.0,
+          "landings": 3,
+          "passed": false,
+          "legacy_passed": false
+        },
+        "established_stance": {
+          "complete": true,
+          "duration_s": 10.0,
+          "dual": 1.0,
+          "longest_unloaded_s": 0.0,
+          "drift_mm": 13.196603590555906,
+          "rms_m_s": 0.009635113616012353,
+          "foot_shift_mm": 1.4473371342651948,
+          "stance_width_change_mm": 2.2704665541307816,
+          "peak_tilt_deg": 7.079037965881058,
+          "peak_nonsole_N": 0.0,
+          "landings": 0,
+          "passed": false
+        }
+      },
+      "paired": {
+        "original_eligible": true,
+        "candidate_eligible": false,
+        "speed_ratio": 1.0,
+        "transition_delta": {
+          "landings": 1,
+          "foot_shift_mm": 1.3803677423118295,
+          "drift_mm": -5.783546361845421,
+          "longest_unloaded_s": 0.14
+        }
+      }
+    },
+    {
+      "severity": "mild",
+      "dt_s": 0.0025,
+      "release_s": 3.72,
+      "original": {
+        "joint": true,
+        "ended": "completed",
+        "walk": {
+          "complete": true,
+          "forward_mm": 334.41756200518927,
+          "cross_mm": 26.46450005487388,
+          "speed_mm_s": 89.89719408741647,
+          "sustained_alternations": 16,
+          "peak_tilt_deg": 4.750742822169406,
+          "peak_nonsole_N": 0.0,
+          "stable": true,
+          "nominal_speed_ratio": 1.0674678185958901
+        },
+        "parking": {
+          "complete": true,
+          "duration_s": 11.5,
+          "dual": 0.9618055555555556,
+          "longest_unloaded_s": 0.42,
+          "drift_mm": 27.09674376825945,
+          "rms_m_s": 0.02395580015962372,
+          "foot_shift_mm": 10.040985128765678,
+          "stance_width_change_mm": 13.9451264773668,
+          "peak_tilt_deg": 6.291520797799339,
+          "peak_nonsole_N": 0.0,
+          "landings": 3,
+          "passed": true,
+          "legacy_passed": false
+        },
+        "established_stance": {
+          "complete": true,
+          "duration_s": 10.0,
+          "dual": 1.0,
+          "longest_unloaded_s": 0.0,
+          "drift_mm": 0.08293193483729276,
+          "rms_m_s": 0.00038535265454869085,
+          "foot_shift_mm": 0.2777243614886302,
+          "stance_width_change_mm": 0.5193097649700829,
+          "peak_tilt_deg": 0.40297459734665125,
+          "peak_nonsole_N": 0.0,
+          "landings": 0,
+          "passed": true
+        }
+      },
+      "v5": {
+        "joint": true,
+        "ended": "completed",
+        "walk": {
+          "complete": true,
+          "forward_mm": 334.41756200518927,
+          "cross_mm": 26.46450005487388,
+          "speed_mm_s": 89.89719408741647,
+          "sustained_alternations": 16,
+          "peak_tilt_deg": 4.750742822169406,
+          "peak_nonsole_N": 0.0,
+          "stable": true,
+          "nominal_speed_ratio": 1.0674678185958901
+        },
+        "parking": {
+          "complete": true,
+          "duration_s": 11.5,
+          "dual": 0.9739583333333334,
+          "longest_unloaded_s": 0.22,
+          "drift_mm": 23.470211355398,
+          "rms_m_s": 0.020316121560738518,
+          "foot_shift_mm": 8.648807679410693,
+          "stance_width_change_mm": 14.621380606536698,
+          "peak_tilt_deg": 6.126033487687668,
+          "peak_nonsole_N": 0.0,
+          "landings": 3,
+          "passed": true,
+          "legacy_passed": false
+        },
+        "established_stance": {
+          "complete": true,
+          "duration_s": 10.0,
+          "dual": 1.0,
+          "longest_unloaded_s": 0.0,
+          "drift_mm": 1.3846200935168902,
+          "rms_m_s": 0.00044889966960696205,
+          "foot_shift_mm": 0.9854061320159352,
+          "stance_width_change_mm": 1.849151564095347,
+          "peak_tilt_deg": 1.0129560943131224,
+          "peak_nonsole_N": 0.0,
+          "landings": 0,
+          "passed": true
+        }
+      },
+      "paired": {
+        "original_eligible": true,
+        "candidate_eligible": true,
+        "speed_ratio": 1.0,
+        "transition_delta": {
+          "landings": 0,
+          "foot_shift_mm": -1.3921774493549854,
+          "drift_mm": -3.626532412861451,
+          "longest_unloaded_s": -0.19999999999999998
+        }
+      }
+    },
+    {
+      "severity": "moderate",
+      "dt_s": 0.005,
+      "release_s": 4.28,
+      "original": {
+        "joint": false,
+        "ended": "completed",
+        "walk": {
+          "complete": true,
+          "forward_mm": 352.8279210658805,
+          "cross_mm": 84.65319703208407,
+          "speed_mm_s": 82.43643015557956,
+          "sustained_alternations": 19,
+          "peak_tilt_deg": 3.94034426694985,
+          "peak_nonsole_N": 0.0,
+          "stable": false,
+          "nominal_speed_ratio": 1.0429896572836916
+        },
+        "parking": {
+          "complete": true,
+          "duration_s": 11.5,
+          "dual": 0.9236111111111112,
+          "longest_unloaded_s": 0.86,
+          "drift_mm": 29.72150460105803,
+          "rms_m_s": 0.029578293663312334,
+          "foot_shift_mm": 16.31466315029321,
+          "stance_width_change_mm": 11.489179649232115,
+          "peak_tilt_deg": 7.804498121475684,
+          "peak_nonsole_N": 0.0,
+          "landings": 5,
+          "passed": true,
+          "legacy_passed": false
+        },
+        "established_stance": {
+          "complete": true,
+          "duration_s": 10.0,
+          "dual": 1.0,
+          "longest_unloaded_s": 0.0,
+          "drift_mm": 0.07974763208782686,
+          "rms_m_s": 0.0008964200566649546,
+          "foot_shift_mm": 0.6020596192451837,
+          "stance_width_change_mm": 1.1704305377716606,
+          "peak_tilt_deg": 0.2874114138831368,
+          "peak_nonsole_N": 0.0,
+          "landings": 0,
+          "passed": true
+        }
+      },
+      "v5": {
+        "joint": false,
+        "ended": "completed",
+        "walk": {
+          "complete": true,
+          "forward_mm": 352.8279210658805,
+          "cross_mm": 84.65319703208407,
+          "speed_mm_s": 82.43643015557956,
+          "sustained_alternations": 19,
+          "peak_tilt_deg": 3.94034426694985,
+          "peak_nonsole_N": 0.0,
+          "stable": false,
+          "nominal_speed_ratio": 1.0429896572836916
+        },
+        "parking": {
+          "complete": true,
+          "duration_s": 11.5,
+          "dual": 0.9600694444444444,
+          "longest_unloaded_s": 0.38,
+          "drift_mm": 27.599932083056554,
+          "rms_m_s": 0.026237955423863354,
+          "foot_shift_mm": 14.859391974254288,
+          "stance_width_change_mm": 12.250371371262837,
+          "peak_tilt_deg": 6.975958576479949,
+          "peak_nonsole_N": 0.0,
+          "landings": 4,
+          "passed": true,
+          "legacy_passed": false
+        },
+        "established_stance": {
+          "complete": true,
+          "duration_s": 10.0,
+          "dual": 1.0,
+          "longest_unloaded_s": 0.0,
+          "drift_mm": 11.63439989492429,
+          "rms_m_s": 0.012228589106086915,
+          "foot_shift_mm": 1.748985183124227,
+          "stance_width_change_mm": 2.7500719889359813,
+          "peak_tilt_deg": 5.712237510023802,
+          "peak_nonsole_N": 0.0,
+          "landings": 0,
+          "passed": true
+        }
+      },
+      "paired": {
+        "original_eligible": false,
+        "candidate_eligible": false,
+        "speed_ratio": 1.0,
+        "transition_delta": {
+          "landings": -1,
+          "foot_shift_mm": -1.4552711760389219,
+          "drift_mm": -2.121572518001475,
+          "longest_unloaded_s": -0.48
+        }
+      }
+    },
+    {
+      "severity": "moderate",
+      "dt_s": 0.0025,
+      "release_s": 4.28,
+      "original": {
+        "joint": true,
+        "ended": "completed",
+        "walk": {
+          "complete": true,
+          "forward_mm": 356.7708586504951,
+          "cross_mm": 73.49890985626728,
+          "speed_mm_s": 83.35767725478857,
+          "sustained_alternations": 19,
+          "peak_tilt_deg": 3.4715784225644764,
+          "peak_nonsole_N": 0.0,
+          "stable": true,
+          "nominal_speed_ratio": 0.9898155198911239
+        },
+        "parking": {
+          "complete": true,
+          "duration_s": 11.5,
+          "dual": 0.9583333333333334,
+          "longest_unloaded_s": 0.48,
+          "drift_mm": 31.475448709581514,
+          "rms_m_s": 0.025872946644070267,
+          "foot_shift_mm": 11.387365361953766,
+          "stance_width_change_mm": 14.65898014274994,
+          "peak_tilt_deg": 5.789621463491258,
+          "peak_nonsole_N": 0.0,
+          "landings": 3,
+          "passed": true,
+          "legacy_passed": false
+        },
+        "established_stance": {
+          "complete": true,
+          "duration_s": 10.0,
+          "dual": 1.0,
+          "longest_unloaded_s": 0.0,
+          "drift_mm": 0.21383464869398905,
+          "rms_m_s": 0.0005296907968079103,
+          "foot_shift_mm": 0.30586306019659903,
+          "stance_width_change_mm": 0.5849454917966623,
+          "peak_tilt_deg": 0.4736506283371809,
+          "peak_nonsole_N": 0.0,
+          "landings": 0,
+          "passed": true
+        }
+      },
+      "v5": {
+        "joint": true,
+        "ended": "completed",
+        "walk": {
+          "complete": true,
+          "forward_mm": 356.7708586504951,
+          "cross_mm": 73.49890985626728,
+          "speed_mm_s": 83.35767725478857,
+          "sustained_alternations": 19,
+          "peak_tilt_deg": 3.4715784225644764,
+          "peak_nonsole_N": 0.0,
+          "stable": true,
+          "nominal_speed_ratio": 0.9898155198911239
+        },
+        "parking": {
+          "complete": true,
+          "duration_s": 11.5,
+          "dual": 0.9652777777777778,
+          "longest_unloaded_s": 0.4,
+          "drift_mm": 26.418927695068103,
+          "rms_m_s": 0.02199719626388497,
+          "foot_shift_mm": 9.741023007501004,
+          "stance_width_change_mm": 15.368536915709289,
+          "peak_tilt_deg": 5.879495198053172,
+          "peak_nonsole_N": 0.0,
+          "landings": 3,
+          "passed": true,
+          "legacy_passed": false
+        },
+        "established_stance": {
+          "complete": true,
+          "duration_s": 10.0,
+          "dual": 1.0,
+          "longest_unloaded_s": 0.0,
+          "drift_mm": 2.5491691147883153,
+          "rms_m_s": 0.0006261176335245142,
+          "foot_shift_mm": 1.1290506406221736,
+          "stance_width_change_mm": 2.022732887998674,
+          "peak_tilt_deg": 1.237383789927357,
+          "peak_nonsole_N": 0.0,
+          "landings": 0,
+          "passed": true
+        }
+      },
+      "paired": {
+        "original_eligible": true,
+        "candidate_eligible": true,
+        "speed_ratio": 1.0,
+        "transition_delta": {
+          "landings": 0,
+          "foot_shift_mm": -1.6463423544527611,
+          "drift_mm": -5.056521014513411,
+          "longest_unloaded_s": -0.07999999999999996
+        }
+      }
+    }
+  ],
+  "direct_switch_diagnostic": {
+    "forward_peak": 0.2,
+    "changed_at_s": 4.0,
+    "zero_at_s": 6.0,
+    "settled_stance_s": 10.0,
+    "test": "nominal diagnostic; assess observed switching and safe stance",
+    "results": [
+      {
+        "direction": "backward",
+        "dt_s": 0.005,
+        "original_progress_mm": 227.16959896642396,
+        "v5_progress_mm": 227.16959896642396,
+        "complete_command_prefix_matches": true,
+        "original": {
+          "walk": {
+            "complete": true,
+            "forward_mm": 88.98475435774125,
+            "cross_mm": 38.01665180868967,
+            "speed_mm_s": 14.830792392956875,
+            "sustained_alternations": 30,
+            "peak_tilt_deg": 3.1876105474892267,
+            "peak_nonsole_N": 0.0,
+            "stable": true
+          },
+          "parking": {
+            "complete": false,
+            "duration_s": 2.040000000000001,
+            "dual": 0.8058252427184466,
+            "longest_unloaded_s": 0.36,
+            "drift_mm": 44.20898669637126,
+            "rms_m_s": 0.048817257916924886,
+            "foot_shift_mm": 17.9950426476664,
+            "stance_width_change_mm": 10.56347296947506,
+            "peak_tilt_deg": 31.940793683484298,
+            "peak_nonsole_N": 13.576502975605873,
+            "landings": 4,
+            "passed": false,
+            "legacy_passed": false
+          },
+          "ended": "automatic_getup_detected",
+          "established_stance": {
+            "complete": false,
+            "duration_s": 0.5400000000000009,
+            "dual": 1.0,
+            "longest_unloaded_s": 0.0,
+            "drift_mm": 0.2326292995721423,
+            "rms_m_s": 0.00045365769790000325,
+            "foot_shift_mm": 0.1308337891060077,
+            "stance_width_change_mm": 0.046874274895400414,
+            "peak_tilt_deg": 30.025653557098288,
+            "peak_nonsole_N": 1.4518499308382116,
+            "landings": 0,
+            "passed": false
+          }
+        },
+        "v5": {
+          "walk": {
+            "complete": true,
+            "forward_mm": 88.98475435774125,
+            "cross_mm": 38.01665180868967,
+            "speed_mm_s": 14.830792392956875,
+            "sustained_alternations": 30,
+            "peak_tilt_deg": 3.1876105474892267,
+            "peak_nonsole_N": 0.0,
+            "stable": true
+          },
+          "parking": {
+            "complete": false,
+            "duration_s": 1.08,
+            "dual": 0.6909090909090909,
+            "longest_unloaded_s": 0.34,
+            "drift_mm": 42.901812260274305,
+            "rms_m_s": 0.07073912088484959,
+            "foot_shift_mm": 17.524273208421622,
+            "stance_width_change_mm": 9.091196815703306,
+            "peak_tilt_deg": 31.983738281005426,
+            "peak_nonsole_N": 15.66595736995448,
+            "landings": 4,
+            "passed": false,
+            "legacy_passed": false
+          },
+          "ended": "automatic_getup_detected",
+          "established_stance": {
+            "complete": false,
+            "passed": false,
+            "duration_s": 0.0
+          }
+        },
+        "v5_minus_original": {
+          "landings": 0,
+          "foot_shift_mm": -0.4707694392447763,
+          "drift_mm": -1.3071744360969575,
+          "longest_unloaded_s": -0.019999999999999962
+        }
+      },
+      {
+        "direction": "backward",
+        "dt_s": 0.0025,
+        "original_progress_mm": 213.70838990899503,
+        "v5_progress_mm": 213.70838990899503,
+        "complete_command_prefix_matches": true,
+        "original": {
+          "walk": {
+            "complete": true,
+            "forward_mm": 123.15307802982898,
+            "cross_mm": 56.53532148472918,
+            "speed_mm_s": 20.525513004971497,
+            "sustained_alternations": 30,
+            "peak_tilt_deg": 3.358511519945782,
+            "peak_nonsole_N": 0.0,
+            "stable": true
+          },
+          "parking": {
+            "complete": false,
+            "duration_s": 1.1400000000000006,
+            "dual": 0.43103448275862066,
+            "longest_unloaded_s": 0.66,
+            "drift_mm": 40.99821698189728,
+            "rms_m_s": 0.0817452986110447,
+            "foot_shift_mm": 9.8070460506693,
+            "stance_width_change_mm": 13.039848581448979,
+            "peak_tilt_deg": 31.787923436489294,
+            "peak_nonsole_N": 11.351003185933742,
+            "landings": 5,
+            "passed": false,
+            "legacy_passed": false
+          },
+          "ended": "automatic_getup_detected",
+          "established_stance": {
+            "complete": false,
+            "passed": false,
+            "duration_s": 0.0
+          }
+        },
+        "v5": {
+          "walk": {
+            "complete": true,
+            "forward_mm": 123.15307802982898,
+            "cross_mm": 56.53532148472918,
+            "speed_mm_s": 20.525513004971497,
+            "sustained_alternations": 30,
+            "peak_tilt_deg": 3.358511519945782,
+            "peak_nonsole_N": 0.0,
+            "stable": true
+          },
+          "parking": {
+            "complete": false,
+            "duration_s": 1.12,
+            "dual": 0.5614035087719298,
+            "longest_unloaded_s": 0.48,
+            "drift_mm": 40.976892404203596,
+            "rms_m_s": 0.07254180510216317,
+            "foot_shift_mm": 9.293878608916845,
+            "stance_width_change_mm": 11.746663783267831,
+            "peak_tilt_deg": 31.59956867604418,
+            "peak_nonsole_N": 12.470328306257798,
+            "landings": 5,
+            "passed": false,
+            "legacy_passed": false
+          },
+          "ended": "automatic_getup_detected",
+          "established_stance": {
+            "complete": false,
+            "passed": false,
+            "duration_s": 0.0
+          }
+        },
+        "v5_minus_original": {
+          "landings": 0,
+          "foot_shift_mm": -0.5131674417524543,
+          "drift_mm": -0.02132457769368301,
+          "longest_unloaded_s": -0.18000000000000005
+        }
+      },
+      {
+        "direction": "left",
+        "dt_s": 0.005,
+        "original_progress_mm": 110.61150346631996,
+        "v5_progress_mm": 110.61150346631996,
+        "complete_command_prefix_matches": true,
+        "original": {
+          "walk": {
+            "complete": true,
+            "forward_mm": 270.1818616549606,
+            "cross_mm": 187.86419944744623,
+            "speed_mm_s": 45.030310275826764,
+            "sustained_alternations": 27,
+            "peak_tilt_deg": 3.1876105474892267,
+            "peak_nonsole_N": 0.0,
+            "stable": false
+          },
+          "parking": {
+            "complete": true,
+            "duration_s": 11.5,
+            "dual": 0.9409722222222222,
+            "longest_unloaded_s": 0.68,
+            "drift_mm": 23.98900808024861,
+            "rms_m_s": 0.024369965517375927,
+            "foot_shift_mm": 10.216639239359948,
+            "stance_width_change_mm": 15.241517411205802,
+            "peak_tilt_deg": 6.553945551894392,
+            "peak_nonsole_N": 0.0,
+            "landings": 5,
+            "passed": true,
+            "legacy_passed": false
+          },
+          "ended": "completed",
+          "established_stance": {
+            "complete": true,
+            "duration_s": 10.0,
+            "dual": 1.0,
+            "longest_unloaded_s": 0.0,
+            "drift_mm": 0.07442900248457378,
+            "rms_m_s": 0.0009384394237818039,
+            "foot_shift_mm": 0.3767823447116985,
+            "stance_width_change_mm": 0.7072704261801427,
+            "peak_tilt_deg": 0.3775870844010719,
+            "peak_nonsole_N": 0.0,
+            "landings": 0,
+            "passed": true
+          }
+        },
+        "v5": {
+          "walk": {
+            "complete": true,
+            "forward_mm": 270.1818616549606,
+            "cross_mm": 187.86419944744623,
+            "speed_mm_s": 45.030310275826764,
+            "sustained_alternations": 27,
+            "peak_tilt_deg": 3.1876105474892267,
+            "peak_nonsole_N": 0.0,
+            "stable": false
+          },
+          "parking": {
+            "complete": true,
+            "duration_s": 11.5,
+            "dual": 0.9635416666666666,
+            "longest_unloaded_s": 0.42,
+            "drift_mm": 19.02953821202162,
+            "rms_m_s": 0.01891309534700446,
+            "foot_shift_mm": 10.268616882981211,
+            "stance_width_change_mm": 15.900682954528442,
+            "peak_tilt_deg": 5.723437497950157,
+            "peak_nonsole_N": 0.0,
+            "landings": 4,
+            "passed": true,
+            "legacy_passed": false
+          },
+          "ended": "completed",
+          "established_stance": {
+            "complete": true,
+            "duration_s": 10.0,
+            "dual": 1.0,
+            "longest_unloaded_s": 0.0,
+            "drift_mm": 0.6895889150064132,
+            "rms_m_s": 0.00074905607541413,
+            "foot_shift_mm": 0.8504468563065638,
+            "stance_width_change_mm": 1.6407023438609198,
+            "peak_tilt_deg": 0.8837494185981686,
+            "peak_nonsole_N": 0.0,
+            "landings": 0,
+            "passed": true
+          }
+        },
+        "v5_minus_original": {
+          "landings": -1,
+          "foot_shift_mm": 0.05197764362126378,
+          "drift_mm": -4.959469868226989,
+          "longest_unloaded_s": -0.26000000000000006
+        }
+      },
+      {
+        "direction": "left",
+        "dt_s": 0.0025,
+        "original_progress_mm": 121.47416602512254,
+        "v5_progress_mm": 121.47416602512254,
+        "complete_command_prefix_matches": true,
+        "original": {
+          "walk": {
+            "complete": true,
+            "forward_mm": 321.4119956005966,
+            "cross_mm": 197.65520635208256,
+            "speed_mm_s": 53.56866593343276,
+            "sustained_alternations": 26,
+            "peak_tilt_deg": 3.358511519945782,
+            "peak_nonsole_N": 0.0,
+            "stable": false
+          },
+          "parking": {
+            "complete": true,
+            "duration_s": 11.5,
+            "dual": 0.9618055555555556,
+            "longest_unloaded_s": 0.34,
+            "drift_mm": 22.473017588615186,
+            "rms_m_s": 0.019389894328327294,
+            "foot_shift_mm": 8.21158335257614,
+            "stance_width_change_mm": 10.908293433011945,
+            "peak_tilt_deg": 4.715048494277008,
+            "peak_nonsole_N": 0.0,
+            "landings": 3,
+            "passed": true,
+            "legacy_passed": false
+          },
+          "ended": "completed",
+          "established_stance": {
+            "complete": true,
+            "duration_s": 10.0,
+            "dual": 1.0,
+            "longest_unloaded_s": 0.0,
+            "drift_mm": 0.05661943198456712,
+            "rms_m_s": 0.0003868720869243699,
+            "foot_shift_mm": 0.2746217678479872,
+            "stance_width_change_mm": 0.5162783107005992,
+            "peak_tilt_deg": 0.3713150743852894,
+            "peak_nonsole_N": 0.0,
+            "landings": 0,
+            "passed": true
+          }
+        },
+        "v5": {
+          "walk": {
+            "complete": true,
+            "forward_mm": 321.4119956005966,
+            "cross_mm": 197.65520635208256,
+            "speed_mm_s": 53.56866593343276,
+            "sustained_alternations": 26,
+            "peak_tilt_deg": 3.358511519945782,
+            "peak_nonsole_N": 0.0,
+            "stable": false
+          },
+          "parking": {
+            "complete": true,
+            "duration_s": 11.5,
+            "dual": 0.9548611111111112,
+            "longest_unloaded_s": 0.52,
+            "drift_mm": 16.378667461711803,
+            "rms_m_s": 0.01645605713130914,
+            "foot_shift_mm": 6.4604930902255715,
+            "stance_width_change_mm": 11.571196347539074,
+            "peak_tilt_deg": 4.298468193438353,
+            "peak_nonsole_N": 0.0,
+            "landings": 4,
+            "passed": true,
+            "legacy_passed": false
+          },
+          "ended": "completed",
+          "established_stance": {
+            "complete": true,
+            "duration_s": 10.0,
+            "dual": 1.0,
+            "longest_unloaded_s": 0.0,
+            "drift_mm": 2.1797672835022666,
+            "rms_m_s": 0.00048008497456727056,
+            "foot_shift_mm": 0.9315239199105165,
+            "stance_width_change_mm": 1.6685017467156227,
+            "peak_tilt_deg": 0.8380472712660263,
+            "peak_nonsole_N": 0.0,
+            "landings": 0,
+            "passed": true
+          }
+        },
+        "v5_minus_original": {
+          "landings": 1,
+          "foot_shift_mm": -1.7510902623505684,
+          "drift_mm": -6.094350126903382,
+          "longest_unloaded_s": 0.18
+        }
+      }
+    ]
+  },
+  "independent_review": {
+    "model": "gpt-6.2-astra",
+    "reasoning_effort": "high",
+    "requested_model_unavailable": "gpt-6.1-astra",
+    "planning": [
+      "Audit legacy gate on the frozen policy",
+      "Preserve the walking prefix and warm support feedback",
+      "Use established stance after the demonstrated transition",
+      "Keep failed cases in the denominator"
+    ],
+    "implementation_review": [
+      "Checked no future release time is fed into the controller",
+      "Found shared 5 ms speed floor in preliminary implementation",
+      "Confirmed nominal original reaches 100% double support in the established stance"
+    ],
+    "acceptance_review": [
+      "Recomputed v5 nominal and independent development results from event journals",
+      "Confirmed both v5 regressions in the fresh seed replay before speed-floor correction",
+      "Checked older multidirectional examples had zero-command gaps"
+    ],
+    "implemented_correction": "Use a speed floor equal to 80% of the frozen nominal speed at each integration step"
+  }
+}

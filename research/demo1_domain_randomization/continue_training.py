@@ -253,7 +253,8 @@ class Campaign:
                 release_s=release, hold_s=hold, domain=asdict(domain), metrics=result,
                 objective=score(result, release, hold),
                 combined=bool(result["walk"]["stable"] and result["parking"]["passed"]
-                              and result["walk"]["speed_mm_s"] >= SPEED), weights=weights.tolist(),
+                              and result["walk"]["speed_mm_s"] >= result.get("speed_floor_mm_s", SPEED)),
+                weights=weights.tolist(),
             )
             with (self.output / "trials.jsonl").open("a", encoding="utf-8") as file:
                 file.write(json.dumps(row, allow_nan=False) + "\n")

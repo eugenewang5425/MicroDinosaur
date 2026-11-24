@@ -3,8 +3,9 @@ param(
     [Parameter(Mandatory)][string]$Study,
     [Parameter(Mandatory)][string]$Output,
     [Parameter(Mandatory)][string]$Pilot,
-    [ValidateSet('continue_training.py', 'train_stop.py', 'train_foot_capture.py', 'train_speed_curriculum.py', 'train_ready_to_stop.py', 'train_paired_phases.py', 'train_actuator_lead.py', 'train_nominal_first.py')][string]$Trainer = 'continue_training.py',
-    [string]$SourceLock
+    [ValidateSet('continue_training.py', 'train_stop.py', 'train_foot_capture.py', 'train_speed_curriculum.py', 'train_ready_to_stop.py', 'train_paired_phases.py', 'train_actuator_lead.py', 'train_nominal_first.py', 'train_command_switch.py')][string]$Trainer = 'continue_training.py',
+    [string]$SourceLock,
+    [string]$Seed
 )
 
 $ErrorActionPreference = 'Stop'
@@ -19,6 +20,10 @@ $watcherLog = Join-Path $outputRoot 'watcher.log'
 $env:PYTHONDONTWRITEBYTECODE = '1'
 $env:PYTHONUTF8 = '1'
 $env:OMP_NUM_THREADS = '1'
+if ($Trainer -eq 'train_command_switch.py' -and -not $Seed) {
+    throw 'The command-switch trainer requires -Seed.'
+}
+$seedFile = if ($Seed) { (Resolve-Path -LiteralPath $Seed).Path }
 
 function Write-WatcherNote([string]$Message) {
     $line = "{0:o} {1}" -f [DateTimeOffset]::Now, $Message
@@ -49,6 +54,9 @@ while (-not (Test-Path -LiteralPath $marker)) {
             $command = '-u "{0}" --entry "{1}" --source-lock "{2}" --study "{3}" --output "{4}" --pilot "{5}"' -f $entryWithLock, $trainerPath, $locked, $studyRoot, $outputRoot, $pilotFile
         } else {
             $command = '-u "{0}" --study "{1}" --output "{2}" --pilot "{3}"' -f $trainerPath, $studyRoot, $outputRoot, $pilotFile
+        }
+        if ($seedFile) {
+            $command += ' --seed "{0}"' -f $seedFile
         }
         $launch = @{
             WindowStyle = 'Hidden'

@@ -188,3 +188,6 @@
 !/research/demo1_domain_randomization/train_nominal_first.py
 !/research/demo1_domain_randomization/probe_body_counterbalance.py
 !/research/demo1_domain_randomization/watch_campaign.py
+!/research/demo1_domain_randomization/train_command_switch.py
+!/research/demo1_domain_randomization/audit_motion_switches.py
+!/research/demo1_domain_randomization/command_switch_review.json

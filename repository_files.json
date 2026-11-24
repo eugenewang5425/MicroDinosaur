@@ -13,8 +13,8 @@
     },
     {
       "path": ".gitignore",
-      "bytes": 9225,
-      "sha256": "92562108ff6551ec1c6eed4f1b7cc7b0164028cead0862e9721615a4ce035050"
+      "bytes": 9415,
+      "sha256": "7190d88d6896be4894c85de94bdb95f705f447490de5d91935448490f57deade"
     },
     {
       "path": "AGENTS.md",
@@ -528,8 +528,8 @@
     },
     {
       "path": "research/demo1_domain_randomization/README.md",
-      "bytes": 13307,
-      "sha256": "b3e72729727be4a7ce77d23affb8e5dcd4415edaf1d3ce017d4bab51cd4d63d9"
+      "bytes": 14717,
+      "sha256": "96694a0241734408a9efcd2fe8cb657dbeefc1ded6afb58ff92befee11e90058"
     },
     {
       "path": "research/demo1_domain_randomization/audit_campaign.py",
@@ -537,14 +537,24 @@
       "sha256": "a7e779bc80940aada17c4a7621bcef452df560ecea5940242d26584e770fb5ed"
     },
     {
+      "path": "research/demo1_domain_randomization/audit_motion_switches.py",
+      "bytes": 4690,
+      "sha256": "c531dc6f00a84086d4b4fc9e5cd609831addcfd41ee451c30d160e2e4a15bc5d"
+    },
+    {
       "path": "research/demo1_domain_randomization/campaign_progress.json",
       "bytes": 53473,
       "sha256": "987af3fcf4d5ba390b5d8026193bc6672b6dd62cd446a99dce0f4829aaf34f62"
     },
     {
+      "path": "research/demo1_domain_randomization/command_switch_review.json",
+      "bytes": 47550,
+      "sha256": "dc2ba5376bf7806b120665d245b28b40bfa8cd8c37cadefe66821cdfc78087b9"
+    },
+    {
       "path": "research/demo1_domain_randomization/continue_training.py",
-      "bytes": 15117,
-      "sha256": "9927cfd058922d4bc342f6d2885c8fd8c173d40a70b863074ebcd2e89022f8b4"
+      "bytes": 15165,
+      "sha256": "f7b043fef08f2413dbd09852cefd474949d3f5019e639a790d82f294b155ffe6"
     },
     {
       "path": "research/demo1_domain_randomization/pilot_metrics.json",
@@ -617,6 +627,11 @@
       "sha256": "e79b96638f474a7578c9e462122d49047b81dd0635e788729dfe1a09bf77164c"
     },
     {
+      "path": "research/demo1_domain_randomization/train_command_switch.py",
+      "bytes": 10695,
+      "sha256": "5f7e226a61b00c6237f346de724fe291426813d8636f15cb8c481ca6eaf669ff"
+    },
+    {
       "path": "research/demo1_domain_randomization/train_foot_capture.py",
       "bytes": 4068,
       "sha256": "a09dc54f71e88840e1143b8176ea2db1141d7d8415f4e3f49005e93712505384"
@@ -653,8 +668,8 @@
     },
     {
       "path": "research/demo1_domain_randomization/watch_training.ps1",
-      "bytes": 3189,
-      "sha256": "7b31e4bee4d958d97a1774d0659ae6838df243eaa0efb825ec6120d105477d73"
+      "bytes": 3508,
+      "sha256": "c0ea709aa8ee3dbc5a0d323dfe56e5badeedbd7a31ab5e1590b0e4d720f89f85"
     },
     {
       "path": "research/s288_calibration_20261124.md",
