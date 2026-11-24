@@ -49,3 +49,7 @@ python continue_training.py --study <local-demo1-study> --pilot <local-first-pil
 ```
 
 `checkpoint.json` 保存最近完成的一代，`status.json` 给出正在执行的试验和进程，`latest_validation.json` 保存候选与冻结基准的阶段对照。训练参数、依赖指纹和逐次回放保存在本地运行目录。同一代码和数据可从检查点恢复。可用 `watch_training.ps1` 监视意外退出并重启工作进程。在运行目录放置 `STOP` 文件，会在本次回放结束后停止并保留检查点。
+
+首批复测在两个积分步长上观察到前进横移超限。第二组 [停车配对训练](train_stop.py) 冻结行走控制，行走期间更新足端正运动学与支撑速度估计，归零时才激活有界停车残差。冻结候选在相同开发工况先完成评分，未完成回放的样本优先计为失败，完成后按稳定、补步与位移选候选。该组使用独立新运行目录，守护脚本带 `-Trainer train_stop.py`。早期验证包含三组参数、每组两档积分。完整验收还需新的参数样本和撤令相位。
+
+逐级域扰动及使用控制历史的思路参考 [Tan 等人的驱动与延迟建模](https://arxiv.org/abs/1804.10332) 和 [Cassie 的运动技能随机化训练](https://journals.sagepub.com/doi/10.1177/02783649241285161)。

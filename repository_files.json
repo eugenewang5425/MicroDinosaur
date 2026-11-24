@@ -13,8 +13,8 @@
     },
     {
       "path": ".gitignore",
-      "bytes": 7939,
-      "sha256": "808acf70660dea2a0ef67b3fdafac6f27a1f651a2111af53ad605bbf3cdca45c"
+      "bytes": 7991,
+      "sha256": "bbf0b116602462cfe62c02214bb5fda4571f7554920e816672db4d0aba0e4d3e"
     },
     {
       "path": "AGENTS.md",
@@ -528,8 +528,8 @@
     },
     {
       "path": "research/demo1_domain_randomization/README.md",
-      "bytes": 5985,
-      "sha256": "2d8d1a7a496f97fc052de7377c28297c169ed7db4dc76d6ddebe49a4a63d7d77"
+      "bytes": 6781,
+      "sha256": "d060ddef3efb26d8eb00c7740f8163631aa637dd0c23fee774cf251fc1b239ae"
     },
     {
       "path": "research/demo1_domain_randomization/continue_training.py",
@@ -547,9 +547,14 @@
       "sha256": "a78405f352b23a9361d569b7e826deb284d1cb0723f5f32ef9395076aa8a52bf"
     },
     {
+      "path": "research/demo1_domain_randomization/train_stop.py",
+      "bytes": 8363,
+      "sha256": "0a068afdd179d88486c7f1d864731c8fa5faa3c55bb289cfa8a8c3023083ac73"
+    },
+    {
       "path": "research/demo1_domain_randomization/watch_training.ps1",
-      "bytes": 2514,
-      "sha256": "137ef22ef8c79926526d646f36483ffe7d19bd7f94f464c12372bdc0b982b7ae"
+      "bytes": 2601,
+      "sha256": "b97d98777f2139a3dc668a3b086b44a525d3ec4369ea9da989601d404d189cdc"
     },
     {
       "path": "research/s288_calibration_20261124.md",

@@ -2,11 +2,12 @@ param(
     [Parameter(Mandatory)][string]$Python,
     [Parameter(Mandatory)][string]$Study,
     [Parameter(Mandatory)][string]$Output,
-    [Parameter(Mandatory)][string]$Pilot
+    [Parameter(Mandatory)][string]$Pilot,
+    [ValidateSet('continue_training.py', 'train_stop.py')][string]$Trainer = 'continue_training.py'
 )
 
 $ErrorActionPreference = 'Stop'
-$trainer = Join-Path $PSScriptRoot 'continue_training.py'
+$trainer = Join-Path $PSScriptRoot $Trainer
 $studyRoot = (Resolve-Path -LiteralPath $Study).Path
 $outputRoot = (Resolve-Path -LiteralPath $Output).Path
 $pilotFile = (Resolve-Path -LiteralPath $Pilot).Path
