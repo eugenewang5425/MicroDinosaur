@@ -913,5 +913,50 @@
         }
       }
     }
+  },
+  "teacher_feedback_probe": {
+    "fit_case_count": 18,
+    "teacher_sha256": "d093991109c441d4c0a9e50e4cba461f4066d9dbd7c30602022d35098eac16db",
+    "evaluation": [
+      {
+        "gain": 0.0,
+        "metrics": {
+          "count": 6,
+          "walked": 6,
+          "parked": 0,
+          "joint": 0,
+          "completed_holds": 6,
+          "worst_speed_mm_s": 71.54617403766582,
+          "mean_score": 31.960971543214722
+        },
+        "median_foot_mm": 11.699587586879147
+      },
+      {
+        "gain": 0.5,
+        "metrics": {
+          "count": 6,
+          "walked": 6,
+          "parked": 0,
+          "joint": 0,
+          "completed_holds": 6,
+          "worst_speed_mm_s": 71.54617403766582,
+          "mean_score": 29.38165710258448
+        },
+        "median_foot_mm": 14.82043699695652
+      },
+      {
+        "gain": 1.0,
+        "metrics": {
+          "count": 6,
+          "walked": 6,
+          "parked": 0,
+          "joint": 0,
+          "completed_holds": 5,
+          "worst_speed_mm_s": 71.54617403766582,
+          "mean_score": -11.110265887871307
+        },
+        "median_foot_mm": 17.15243852150636
+      }
+    ]
   }
 }

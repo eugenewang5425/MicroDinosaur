@@ -13,8 +13,8 @@
     },
     {
       "path": ".gitignore",
-      "bytes": 8612,
-      "sha256": "3c0979f5052e5a71634ede5098f4187b4c5e4ad91d550fe9487d7b55ee5dd6fe"
+      "bytes": 8676,
+      "sha256": "be2ee228345fa2461367e9704ee3b184e147124fc5aba1275bba3705f5f7071f"
     },
     {
       "path": "AGENTS.md",
@@ -528,13 +528,13 @@
     },
     {
       "path": "research/demo1_domain_randomization/README.md",
-      "bytes": 9881,
-      "sha256": "4140ee988670e61bb246013b9dd1df33ea8c039411b9b850aaf1e3fbc91ab456"
+      "bytes": 10204,
+      "sha256": "84a6db29b0ddf8a230de80487eb3dbd5e9df65410685c10c00a9acf72b6ea730"
     },
     {
       "path": "research/demo1_domain_randomization/campaign_progress.json",
-      "bytes": 25934,
-      "sha256": "fd440397a300f8c8bd8789232ada37115bc9faa878399d83890f9dbc05820606"
+      "bytes": 27095,
+      "sha256": "3b0191262577484c2c2e5c9ed0ce7a13e9cb77bab007c1e5c4d618124c7d0d67"
     },
     {
       "path": "research/demo1_domain_randomization/continue_training.py",
@@ -570,6 +570,11 @@
       "path": "research/demo1_domain_randomization/probe_support_anchor.py",
       "bytes": 5712,
       "sha256": "670715ba1bdac53e40783e7fc5ad1e905460c975c4bf6d09fc70d7afe13c6cc9"
+    },
+    {
+      "path": "research/demo1_domain_randomization/probe_teacher_residual.py",
+      "bytes": 5000,
+      "sha256": "054e09667d615da9fd9a28102d5e10e6f1bc72d1e81fbcd1df4e2fc955903871"
     },
     {
       "path": "research/demo1_domain_randomization/run_with_source_lock.py",

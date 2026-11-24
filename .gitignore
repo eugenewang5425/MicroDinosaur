@@ -178,3 +178,4 @@
 !/research/demo1_domain_randomization/probe_release_authority.py
 !/research/demo1_domain_randomization/train_ready_to_stop.py
 !/research/demo1_domain_randomization/probe_anchor_hold.py
+!/research/demo1_domain_randomization/probe_teacher_residual.py
