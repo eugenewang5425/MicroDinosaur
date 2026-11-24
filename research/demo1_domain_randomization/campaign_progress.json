@@ -778,5 +778,140 @@
         "ended": "completed"
       }
     ]
+  },
+  "separate_release_phase_diagnostic": {
+    "case_count": 36,
+    "scope": "Optimized three actuator updates from exact release states; offline feasibility only",
+    "distinct_targets": 6156,
+    "distinct_with_overlap": 0,
+    "distinct_short_window_passes": 0
+  },
+  "two_foot_anchor_memory": {
+    "cases": [
+      {
+        "gain": 0.0,
+        "validation": {
+          "count": 6,
+          "walked": 6,
+          "parked": 0,
+          "joint": 0,
+          "completed_holds": 6,
+          "worst_speed_mm_s": 71.54617403766582,
+          "mean_score": 32.478782827426045
+        },
+        "median_loaded_foot_shift_mm": 11.00734764684264
+      },
+      {
+        "gain": 0.3,
+        "validation": {
+          "count": 6,
+          "walked": 6,
+          "parked": 0,
+          "joint": 0,
+          "completed_holds": 6,
+          "worst_speed_mm_s": 71.54617403766582,
+          "mean_score": 32.709731061167396
+        },
+        "median_loaded_foot_shift_mm": 10.515874150801482
+      },
+      {
+        "gain": 0.6,
+        "validation": {
+          "count": 6,
+          "walked": 6,
+          "parked": 0,
+          "joint": 0,
+          "completed_holds": 3,
+          "worst_speed_mm_s": 71.54617403766582,
+          "mean_score": -67.42869515434172
+        },
+        "median_loaded_foot_shift_mm": 13.42729788346983
+      }
+    ]
+  },
+  "later_training_checkpoint": {
+    "as_of": "2026-11-24T10:07:36+08:00",
+    "runs": {
+      "overnight_v2": {
+        "generations_observed": 97,
+        "episode_count_observed": 2181,
+        "elapsed_min": 121.12,
+        "latest_validation_generation": 90,
+        "selected_generation": 63,
+        "four_second_validation": {
+          "count": 6,
+          "walked": 6,
+          "parked": 0,
+          "joint": 0,
+          "completed_holds": 6,
+          "worst_speed_mm_s": 83.12462255203785,
+          "mean_score": -3.528939462134041
+        }
+      },
+      "overnight_v3": {
+        "generations_observed": 73,
+        "episode_count_observed": 1873,
+        "elapsed_min": 114.14,
+        "latest_validation_generation": 66,
+        "selected_generation": 63,
+        "four_second_validation": {
+          "count": 6,
+          "walked": 6,
+          "parked": 0,
+          "joint": 0,
+          "completed_holds": 6,
+          "worst_speed_mm_s": 71.54617403766582,
+          "mean_score": 29.13693480402839
+        }
+      },
+      "overnight_v4": {
+        "generations_observed": 66,
+        "episode_count_observed": 1707,
+        "elapsed_min": 104.98,
+        "latest_validation_generation": 60,
+        "selected_generation": 36,
+        "four_second_validation": {
+          "count": 6,
+          "walked": 6,
+          "parked": 0,
+          "joint": 0,
+          "completed_holds": 6,
+          "worst_speed_mm_s": 71.54617403766582,
+          "mean_score": 30.43877740675978
+        }
+      },
+      "overnight_v5": {
+        "generations_observed": 45,
+        "episode_count_observed": 1163,
+        "elapsed_min": 68.96,
+        "latest_validation_generation": 42,
+        "selected_generation": 0,
+        "four_second_validation": {
+          "count": 6,
+          "walked": 6,
+          "parked": 0,
+          "joint": 0,
+          "completed_holds": 6,
+          "worst_speed_mm_s": 71.54617403766582,
+          "mean_score": 32.478782827426045
+        }
+      },
+      "overnight_v6": {
+        "generations_observed": 30,
+        "episode_count_observed": 773,
+        "elapsed_min": 46.43,
+        "latest_validation_generation": 24,
+        "selected_generation": 9,
+        "four_second_validation": {
+          "count": 6,
+          "walked": 6,
+          "parked": 0,
+          "joint": 0,
+          "completed_holds": 6,
+          "worst_speed_mm_s": 71.54617403766582,
+          "mean_score": 24.460971543214722
+        }
+      }
+    }
   }
 }

@@ -177,3 +177,4 @@
 !/research/demo1_domain_randomization/train_speed_curriculum.py
 !/research/demo1_domain_randomization/probe_release_authority.py
 !/research/demo1_domain_randomization/train_ready_to_stop.py
+!/research/demo1_domain_randomization/probe_anchor_hold.py

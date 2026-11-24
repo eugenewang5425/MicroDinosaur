@@ -13,8 +13,8 @@
     },
     {
       "path": ".gitignore",
-      "bytes": 8553,
-      "sha256": "1cd9d4c30bebbe21200e213f093b77be099bf0905c3bf61aa2633d24783f9f3b"
+      "bytes": 8612,
+      "sha256": "3c0979f5052e5a71634ede5098f4187b4c5e4ad91d550fe9487d7b55ee5dd6fe"
     },
     {
       "path": "AGENTS.md",
@@ -528,13 +528,13 @@
     },
     {
       "path": "research/demo1_domain_randomization/README.md",
-      "bytes": 9456,
-      "sha256": "18deb0e376caa9a3f3f555f3382a787637a52ed94f7b4b0c0f42a94a3a283615"
+      "bytes": 9881,
+      "sha256": "4140ee988670e61bb246013b9dd1df33ea8c039411b9b850aaf1e3fbc91ab456"
     },
     {
       "path": "research/demo1_domain_randomization/campaign_progress.json",
-      "bytes": 22090,
-      "sha256": "b9d81b906bc264f07419906eaca3534ee0971138cb9d8f4b01f8c837848b15f5"
+      "bytes": 25934,
+      "sha256": "fd440397a300f8c8bd8789232ada37115bc9faa878399d83890f9dbc05820606"
     },
     {
       "path": "research/demo1_domain_randomization/continue_training.py",
@@ -547,14 +547,19 @@
       "sha256": "bbaab27e1ac5bb1312ddd5d4aadfe40d58be9b3c2858b71c4ccab7c581e92605"
     },
     {
+      "path": "research/demo1_domain_randomization/probe_anchor_hold.py",
+      "bytes": 4293,
+      "sha256": "5cc8501f9c4ad2a66fea6e398e29e44ec1f1389facc8ec482a413a0234a07c51"
+    },
+    {
       "path": "research/demo1_domain_randomization/probe_contact_overlap.py",
       "bytes": 5541,
       "sha256": "5e48272ea453d7262d6efd263d12207d8f43f59ea349be7b703f334278777f74"
     },
     {
       "path": "research/demo1_domain_randomization/probe_release_authority.py",
-      "bytes": 12147,
-      "sha256": "71ded7584ca8c795d958774e62af8b748e238bc109c4bfe64e2cf825e1622388"
+      "bytes": 13181,
+      "sha256": "d926db8d19e1d2f44074a593acfa512f9b7067b321e1cb39cfdd06c59a8a4f22"
     },
     {
       "path": "research/demo1_domain_randomization/probe_speed_curriculum.py",

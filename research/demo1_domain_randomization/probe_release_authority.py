@@ -32,6 +32,10 @@ class ReleaseFixture(FootCapture):
                 mujoco.mj_getState(self.model, env.d, self.initial, STATE)
                 self.held = env.applied.copy()
                 self.first_load = np.asarray(self.box.row["sole_N"])
+                self.packet = {
+                    key: np.array(env.selected[key], copy=True)
+                    for key in ("encoder_q", "encoder_dq", "gyro", "gravity_estimate", "body_orientation_estimated")
+                }
             self.actions.append(target.copy())
         return target
 
@@ -180,6 +184,8 @@ def extend_witnesses(campaign, args, reference, profile):
     source = base.read(args.extend_witness / "report.json")
     if source["reference_sha256"] != base.sha(args.reference):
         raise ValueError("The feasibility witness must use the exact reference rollout")
+    if source.get("phase_bank", False):
+        raise ValueError("Use the matched six-case suite for a scripted witness extension")
     controller = ScriptedRelease(campaign.box, args.study)
     controller.coefficients = profile[base.DIMENSIONS:].reshape(4, 4)
     legs = campaign.box.legs.ravel()
@@ -220,6 +226,7 @@ def main():
     for name in ("study", "output", "pilot", "reference"):
         p.add_argument(f"--{name}", type=Path, required=True)
     p.add_argument("--extend-witness", type=Path)
+    p.add_argument("--phase-bank", action="store_true", help="Collect diagnostic teacher actions on a separate phase seed")
     args = p.parse_args()
     for name in ("study", "output", "pilot", "reference"):
         setattr(args, name, getattr(args, name).resolve())
@@ -234,9 +241,13 @@ def main():
             extend_witnesses(campaign, args, reference, profile)
             campaign.heartbeat("completed")
             return
-        for case, (domain, release, dt, _) in enumerate(base.paired_suite(base.VALIDATION_SEED, (4.,))):
+        if args.phase_bank:
+            suite = base.paired_suite(1496953, (3.60, 3.74, 3.88, 4.00, 4.14, 4.28))
+        else:
+            suite = base.paired_suite(base.VALIDATION_SEED, (4.,))
+        for case, (domain, release, dt, _) in enumerate(suite):
             campaign.check()
-            campaign.heartbeat("capture_release", candidate=case, case=0, case_count=6, dt_s=dt)
+            campaign.heartbeat("capture_release", candidate=case, case=case, case_count=len(suite), dt_s=dt)
             fixture.coefficients = profile[base.DIMENSIONS:].reshape(4, 4)
             trace = args.output / f"source_{case}.npz"
             campaign.box.rollout(profile[:base.DIMENSIONS], domain, release, .12, dt, trace, fixture)
@@ -248,14 +259,19 @@ def main():
                 foot_error = float(abs(f["foot"][k] - raw[1]).max())
             if force_error > 1e-6 or foot_error > 1e-9:
                 raise RuntimeError(f"Exact held-target replay mismatch for case {case}: {force_error:g} N, {foot_error:g} m")
-            campaign.heartbeat("optimize_release", candidate=case, case=case, case_count=6, dt_s=dt)
+            campaign.heartbeat("optimize_release", candidate=case, case=case, case_count=len(suite), dt_s=dt)
             result = search(replay, 16421 + case, args.output / "STOP")
             campaign.count += result["candidates_replayed"]
-            results.append(dict(case=case, dt_s=dt, replay_force_error_N=force_error,
+            if args.phase_bank:
+                np.savez_compressed(args.output / f"teacher_packet_{case}.npz", **fixture.packet,
+                                    old_support=replay.old_foot, release_s=release,
+                                    profile=profile, target_offset_rad=result["offset_rad"])
+            results.append(dict(case=case, dt_s=dt, release_s=release, replay_force_error_N=force_error,
                                 replay_foot_error_m=foot_error, **result))
             base.replace_json(args.output / "report.json", {
                 "scope": "Optimized three actuator updates from exact release states; offline feasibility only",
                 "reference_sha256": base.sha(args.reference),
+                "phase_bank": args.phase_bank,
                 "results": results,
             })
     except base.StopRequested:
