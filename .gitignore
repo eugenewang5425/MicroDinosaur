@@ -187,3 +187,4 @@
 !/research/demo1_domain_randomization/train_actuator_lead.py
 !/research/demo1_domain_randomization/train_nominal_first.py
 !/research/demo1_domain_randomization/probe_body_counterbalance.py
+!/research/demo1_domain_randomization/watch_campaign.py

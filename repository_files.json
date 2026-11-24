@@ -13,8 +13,8 @@
     },
     {
       "path": ".gitignore",
-      "bytes": 9169,
-      "sha256": "7bf81cf879aab74d5ca2bdca373a75e11d2016b6f75be7e8a13c8d9df3222e1e"
+      "bytes": 9225,
+      "sha256": "92562108ff6551ec1c6eed4f1b7cc7b0164028cead0862e9721615a4ce035050"
     },
     {
       "path": "AGENTS.md",
@@ -528,8 +528,8 @@
     },
     {
       "path": "research/demo1_domain_randomization/README.md",
-      "bytes": 13072,
-      "sha256": "dd75e1dbf05a7da43f95381e96c02a0fd8d2e787b7ca1d98d5c6569f122d3344"
+      "bytes": 13307,
+      "sha256": "b3e72729727be4a7ce77d23affb8e5dcd4415edaf1d3ce017d4bab51cd4d63d9"
     },
     {
       "path": "research/demo1_domain_randomization/audit_campaign.py",
@@ -538,8 +538,8 @@
     },
     {
       "path": "research/demo1_domain_randomization/campaign_progress.json",
-      "bytes": 52465,
-      "sha256": "1510bc38c2c2f9b86e711ca36b6253d85cc1ae1ea87ea848de8b94746cb98179"
+      "bytes": 53473,
+      "sha256": "987af3fcf4d5ba390b5d8026193bc6672b6dd62cd446a99dce0f4829aaf34f62"
     },
     {
       "path": "research/demo1_domain_randomization/continue_training.py",
@@ -645,6 +645,11 @@
       "path": "research/demo1_domain_randomization/train_stop.py",
       "bytes": 8363,
       "sha256": "0a068afdd179d88486c7f1d864731c8fa5faa3c55bb289cfa8a8c3023083ac73"
+    },
+    {
+      "path": "research/demo1_domain_randomization/watch_campaign.py",
+      "bytes": 4289,
+      "sha256": "d099903eb97c9220f236338fd6aa2d54a17709efd5d2c96a095bda63afbc9e7c"
     },
     {
       "path": "research/demo1_domain_randomization/watch_training.ps1",

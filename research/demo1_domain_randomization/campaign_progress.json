@@ -1803,5 +1803,47 @@
       "worst_speed_mm_s": 97.96748011173905,
       "mean_score": 29.107406145282066
     }
+  },
+  "fifteen_hour_watchdog_checkpoint": {
+    "attached_runs": {
+      "overnight_v2": {
+        "elapsed_min": 916.37,
+        "episodes": 16702,
+        "generations": 747
+      },
+      "overnight_v3": {
+        "elapsed_min": 909.35,
+        "episodes": 15351,
+        "generations": 605
+      },
+      "overnight_v4": {
+        "elapsed_min": 900.17,
+        "episodes": 15110,
+        "generations": 595
+      },
+      "overnight_v5": {
+        "elapsed_min": 864.12,
+        "episodes": 14541,
+        "generations": 573
+      },
+      "overnight_v6": {
+        "elapsed_min": 841.63,
+        "episodes": 14122,
+        "generations": 557
+      },
+      "overnight_v7": {
+        "elapsed_min": 665.0,
+        "episodes": 10050,
+        "generations": 248
+      },
+      "overnight_v9": {
+        "elapsed_min": 343.35,
+        "episodes": 3895,
+        "generations": 184
+      }
+    },
+    "worker_processes_retained": true,
+    "watcher_rss_mib_before": 914.6,
+    "watcher_rss_mib_after": 19.9
   }
 }
