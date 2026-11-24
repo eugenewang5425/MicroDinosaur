@@ -13,8 +13,8 @@
     },
     {
       "path": ".gitignore",
-      "bytes": 7991,
-      "sha256": "bbf0b116602462cfe62c02214bb5fda4571f7554920e816672db4d0aba0e4d3e"
+      "bytes": 8112,
+      "sha256": "a1b579862f206a2108ff72431d67349f0d83e4bfa5f7bb012d79da975c5d1174"
     },
     {
       "path": "AGENTS.md",
@@ -528,8 +528,13 @@
     },
     {
       "path": "research/demo1_domain_randomization/README.md",
-      "bytes": 6781,
-      "sha256": "d060ddef3efb26d8eb00c7740f8163631aa637dd0c23fee774cf251fc1b239ae"
+      "bytes": 7206,
+      "sha256": "4b0f03721ef9ce680e7a43e7b172eba11eb8d2fcbedf5ca615d228d447c00e27"
+    },
+    {
+      "path": "research/demo1_domain_randomization/campaign_progress.json",
+      "bytes": 6830,
+      "sha256": "e99f3d604034e8a7674385585434416138d1feeb70042e6c975c865762b777ce"
     },
     {
       "path": "research/demo1_domain_randomization/continue_training.py",
@@ -547,14 +552,19 @@
       "sha256": "a78405f352b23a9361d569b7e826deb284d1cb0723f5f32ef9395076aa8a52bf"
     },
     {
+      "path": "research/demo1_domain_randomization/train_foot_capture.py",
+      "bytes": 4068,
+      "sha256": "a09dc54f71e88840e1143b8176ea2db1141d7d8415f4e3f49005e93712505384"
+    },
+    {
       "path": "research/demo1_domain_randomization/train_stop.py",
       "bytes": 8363,
       "sha256": "0a068afdd179d88486c7f1d864731c8fa5faa3c55bb289cfa8a8c3023083ac73"
     },
     {
       "path": "research/demo1_domain_randomization/watch_training.ps1",
-      "bytes": 2613,
-      "sha256": "099adae324e0ce9a20d7cacc6675ba457ab63e10475d748a4790fd0f0ee37907"
+      "bytes": 2638,
+      "sha256": "7071c8d8b3a5542f95c0d7ac29c7dee1e0e55c7f1f6af7d2db7bba9a919ef95e"
     },
     {
       "path": "research/s288_calibration_20261124.md",

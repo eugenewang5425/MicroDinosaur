@@ -168,3 +168,5 @@
 !/research/demo1_domain_randomization/continue_training.py
 !/research/demo1_domain_randomization/watch_training.ps1
 !/research/demo1_domain_randomization/train_stop.py
+!/research/demo1_domain_randomization/train_foot_capture.py
+!/research/demo1_domain_randomization/campaign_progress.json

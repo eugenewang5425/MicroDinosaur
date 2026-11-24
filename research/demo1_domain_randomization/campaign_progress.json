@@ -1,0 +1,246 @@
+{
+  "as_of": "2026-11-24T08:27:34+08:00",
+  "scope": "Early campaign checkpoint; physical and policy acceptance remain separate",
+  "reference_control_hz": 50,
+  "first_review_target_hours": 18,
+  "acceptance": "Complete stable forward for 4s and immediately hold 10s, then 80% reference speed",
+  "runs": {
+    "overnight_v2": {
+      "method": "Joint walking and stopping residual",
+      "script_sha256": "9927cfd058922d4bc342f6d2885c8fd8c173d40a70b863074ebcd2e89022f8b4",
+      "completed_generations_observed": 18,
+      "episode_count_observed": 410,
+      "latest_complete_validation_generation": 12,
+      "selected_generation": 6,
+      "four_second_validation": {
+        "count": 6,
+        "walked": 6,
+        "parked": 0,
+        "joint": 0,
+        "completed_holds": 6,
+        "worst_speed_mm_s": 71.54617403766582,
+        "mean_score": -3.962642047636247
+      },
+      "phase_validation": {
+        "count": 8,
+        "walked": 7,
+        "parked": 0,
+        "joint": 0,
+        "completed_holds": 7,
+        "worst_speed_mm_s": 62.89118608242752,
+        "mean_score": -4.695687831361454
+      },
+      "frozen_four_second_reference": {
+        "count": 6,
+        "walked": 6,
+        "parked": 0,
+        "joint": 0,
+        "completed_holds": 6,
+        "worst_speed_mm_s": 71.54617403766582,
+        "mean_score": -3.962642047636247
+      },
+      "parking_failure_details": [
+        {
+          "case": 0,
+          "dt_s": 0.005,
+          "foot_shift_mm": 11.420666768337929,
+          "landings": 4,
+          "longest_unloaded_s": 0.56
+        },
+        {
+          "case": 1,
+          "dt_s": 0.0025,
+          "foot_shift_mm": 9.512466513063268,
+          "landings": 3,
+          "longest_unloaded_s": 0.46
+        },
+        {
+          "case": 2,
+          "dt_s": 0.005,
+          "foot_shift_mm": 17.433908591631667,
+          "landings": 3,
+          "longest_unloaded_s": 0.5
+        },
+        {
+          "case": 3,
+          "dt_s": 0.0025,
+          "foot_shift_mm": 12.095942200824535,
+          "landings": 3,
+          "longest_unloaded_s": 0.44
+        },
+        {
+          "case": 4,
+          "dt_s": 0.005,
+          "foot_shift_mm": 12.638105860942906,
+          "landings": 4,
+          "longest_unloaded_s": 0.58
+        },
+        {
+          "case": 5,
+          "dt_s": 0.0025,
+          "foot_shift_mm": 12.376501825488193,
+          "landings": 5,
+          "longest_unloaded_s": 0.72
+        }
+      ]
+    },
+    "overnight_v3": {
+      "method": "Fixed walking prefix with support history",
+      "script_sha256": "0a068afdd179d88486c7f1d864731c8fa5faa3c55bb289cfa8a8c3023083ac73",
+      "completed_generations_observed": 8,
+      "episode_count_observed": 236,
+      "latest_complete_validation_generation": 6,
+      "selected_generation": 3,
+      "four_second_validation": {
+        "count": 6,
+        "walked": 6,
+        "parked": 0,
+        "joint": 0,
+        "completed_holds": 6,
+        "worst_speed_mm_s": 71.54617403766582,
+        "mean_score": 29.387798386771877
+      },
+      "phase_validation": {
+        "count": 8,
+        "walked": 7,
+        "parked": 0,
+        "joint": 0,
+        "completed_holds": 8,
+        "worst_speed_mm_s": 62.89118608242752,
+        "mean_score": 18.555903146711884
+      },
+      "frozen_four_second_reference": {
+        "count": 6,
+        "walked": 6,
+        "parked": 0,
+        "joint": 0,
+        "completed_holds": 6,
+        "worst_speed_mm_s": 71.54617403766582,
+        "mean_score": 27.594026236965576
+      },
+      "parking_failure_details": [
+        {
+          "case": 0,
+          "dt_s": 0.005,
+          "foot_shift_mm": 11.78775434080038,
+          "landings": 3,
+          "longest_unloaded_s": 0.28
+        },
+        {
+          "case": 1,
+          "dt_s": 0.0025,
+          "foot_shift_mm": 10.074726054085863,
+          "landings": 3,
+          "longest_unloaded_s": 0.38
+        },
+        {
+          "case": 2,
+          "dt_s": 0.005,
+          "foot_shift_mm": 16.642061403050306,
+          "landings": 3,
+          "longest_unloaded_s": 0.5
+        },
+        {
+          "case": 3,
+          "dt_s": 0.0025,
+          "foot_shift_mm": 12.872593250579476,
+          "landings": 3,
+          "longest_unloaded_s": 0.42
+        },
+        {
+          "case": 4,
+          "dt_s": 0.005,
+          "foot_shift_mm": 14.546400955407927,
+          "landings": 4,
+          "longest_unloaded_s": 0.56
+        },
+        {
+          "case": 5,
+          "dt_s": 0.0025,
+          "foot_shift_mm": 13.233332271442933,
+          "landings": 3,
+          "longest_unloaded_s": 0.46
+        }
+      ]
+    },
+    "overnight_v4": {
+      "method": "Fixed walking prefix with foot-geometry correction",
+      "script_sha256": "a09dc54f71e88840e1143b8176ea2db1141d7d8415f4e3f49005e93712505384",
+      "completed_generations_observed": 2,
+      "episode_count_observed": 68,
+      "latest_complete_validation_generation": 0,
+      "selected_generation": 0,
+      "four_second_validation": {
+        "count": 6,
+        "walked": 6,
+        "parked": 0,
+        "joint": 0,
+        "completed_holds": 6,
+        "worst_speed_mm_s": 71.54617403766582,
+        "mean_score": 30.836044303325906
+      },
+      "phase_validation": {
+        "count": 8,
+        "walked": 7,
+        "parked": 0,
+        "joint": 0,
+        "completed_holds": 8,
+        "worst_speed_mm_s": 62.89118608242752,
+        "mean_score": 19.005377074076982
+      },
+      "frozen_four_second_reference": {
+        "count": 6,
+        "walked": 6,
+        "parked": 0,
+        "joint": 0,
+        "completed_holds": 6,
+        "worst_speed_mm_s": 71.54617403766582,
+        "mean_score": 27.594026236965576
+      },
+      "parking_failure_details": [
+        {
+          "case": 0,
+          "dt_s": 0.005,
+          "foot_shift_mm": 10.826489228169434,
+          "landings": 3,
+          "longest_unloaded_s": 0.28
+        },
+        {
+          "case": 1,
+          "dt_s": 0.0025,
+          "foot_shift_mm": 10.502436140582741,
+          "landings": 2,
+          "longest_unloaded_s": 0.36
+        },
+        {
+          "case": 2,
+          "dt_s": 0.005,
+          "foot_shift_mm": 13.304239510342875,
+          "landings": 3,
+          "longest_unloaded_s": 0.48
+        },
+        {
+          "case": 3,
+          "dt_s": 0.0025,
+          "foot_shift_mm": 12.745733954535343,
+          "landings": 3,
+          "longest_unloaded_s": 0.42
+        },
+        {
+          "case": 4,
+          "dt_s": 0.005,
+          "foot_shift_mm": 14.73651590827021,
+          "landings": 4,
+          "longest_unloaded_s": 0.26
+        },
+        {
+          "case": 5,
+          "dt_s": 0.0025,
+          "foot_shift_mm": 11.66987343555078,
+          "landings": 3,
+          "longest_unloaded_s": 0.46
+        }
+      ]
+    }
+  }
+}

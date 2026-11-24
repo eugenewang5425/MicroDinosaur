@@ -3,7 +3,7 @@ param(
     [Parameter(Mandatory)][string]$Study,
     [Parameter(Mandatory)][string]$Output,
     [Parameter(Mandatory)][string]$Pilot,
-    [ValidateSet('continue_training.py', 'train_stop.py')][string]$Trainer = 'continue_training.py'
+    [ValidateSet('continue_training.py', 'train_stop.py', 'train_foot_capture.py')][string]$Trainer = 'continue_training.py'
 )
 
 $ErrorActionPreference = 'Stop'
